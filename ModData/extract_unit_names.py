@@ -34,5 +34,27 @@ with open(output_file, encoding="utf-8") as f:
 # Create a list of units whose name is present and set to True in enabled_units
 modded_units = [unit for unit in all_units if unit.get("name") in enabled_units and enabled_units[unit["name"]]]
 
+# Add evolve targets that are not already in modded_units
+modded_unit_names = {unit["name"] for unit in modded_units}
+all_units_by_id = {unit["id"]: unit for unit in all_units if "id" in unit}
+all_units_by_name = {unit["name"]: unit for unit in all_units if "name" in unit}
+
+def add_evolve_targets(units, modded_names):
+    added = False
+    for unit in units:
+        evolve_target = unit.get("evolve_target")
+        if evolve_target and evolve_target in all_units_by_id:
+            target_unit = all_units_by_id[evolve_target]
+            target_name = target_unit.get("name")
+            if target_name and target_name not in modded_names:
+                modded_units.append(target_unit)
+                modded_names.add(target_name)
+                added = True
+    return added
+
+# Keep adding evolve targets until no new ones are found (handles chains)
+while add_evolve_targets(modded_units, modded_unit_names):
+    pass
+
 with open(modded_units_output, "w", encoding="utf-8") as f:
     json.dump(modded_units, f, ensure_ascii=False, indent=2)

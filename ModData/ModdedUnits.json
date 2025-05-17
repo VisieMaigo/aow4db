@@ -4745,5 +4745,272 @@
         "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
       }
     ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "displacement"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "pass_through"
+      }
+    ],
+    "mp": 48,
+    "abilities": [
+      {
+        "slug": "melee_charge_strike_(base)_ability_phase_beast"
+      },
+      {
+        "slug": "phase_ability_phase_beast"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_sprint"
+      }
+    ],
+    "description": "An elusive and fast shock unit, capable of teleportation.",
+    "cost": "300<unitprod></unitprod> 200<gold></gold> ",
+    "resid": 4514010633362,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "spirit_weakness_4"
+      }
+    ],
+    "status_resistance": 7,
+    "upkeep": "30<gold></gold> 3<influence></influence> ",
+    "id": "phase_beast",
+    "name": "Phase Beast",
+    "hp": 100,
+    "armor": 5,
+    "resistance": 4,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 4,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "ethereal"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "magic_origin"
+      },
+      {
+        "slug": "shock_unit"
+      },
+      {
+        "slug": "universal_camouflage"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "demolisher"
+      },
+      {
+        "slug": "low_maintenance"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "magic_bolts_ability_thunderbird"
+      },
+      {
+        "slug": "thunderclap_ability_thunderbird"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "champion_thunderclap"
+      },
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "description": "",
+    "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+    "resid": 4312147171471,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "lightning_resistance_6"
+      },
+      {
+        "slug": "blight_weakness_4"
+      }
+    ],
+    "status_resistance": 3,
+    "upkeep": "20<gold></gold> ",
+    "id": "thunderbird",
+    "name": "Thunderbird",
+    "hp": 75,
+    "armor": 2,
+    "resistance": 3,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 3,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "battle_mage_unit"
+      },
+      {
+        "slug": "flying"
+      },
+      {
+        "slug": "large_target"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "control_loss_immunity"
+      },
+      {
+        "slug": "demolisher"
+      },
+      {
+        "slug": "fiery_rebirth"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "status_effect_immunity_burning"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_charge_strike_(base)_ability_phoenix"
+      },
+      {
+        "slug": "overheat_ability_phoenix"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_killing_momentum"
+      }
+    ],
+    "description": "",
+    "cost": "300<unitprod></unitprod> 200<gold></gold> ",
+    "resid": 4312147171473,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "blight_resistance_4"
+      },
+      {
+        "slug": "fire_resistance_6"
+      },
+      {
+        "slug": "frost_weakness_6"
+      }
+    ],
+    "status_resistance": 7,
+    "upkeep": "30<gold></gold> 3<influence></influence> ",
+    "id": "phoenix",
+    "name": "Phoenix",
+    "hp": 130,
+    "armor": 6,
+    "resistance": 6,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 4,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "flying"
+      },
+      {
+        "slug": "large_target"
+      },
+      {
+        "slug": "mythic_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
   }
 ]
