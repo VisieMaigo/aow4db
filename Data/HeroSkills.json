@@ -593,6 +593,45 @@
   "description": "Enemy units in a -hex radius sustain damage. Enter <hyperlink>Defense Mode</hyperlink>."
  },
  {
+  "abilities": [
+   {
+    "slug": "tlf_ascended_frost_nova_ability_tlf_ascended_frost_guardian_hero_skill_normal"
+   }
+  ],
+  "resid": -931243738355722877,
+  "id": "tlf_ascended_frost_guardian_hero_skill_normal",
+  "group_name": "Pantheon Hero Skills",
+  "icon": "tlf_ascended_frost_guardian_hero_skill_normal",
+  "type": "normal",
+  "name": "Ascension: Frost Guardian"
+ },
+ {
+  "abilities": [
+   {
+    "slug": "ascended_herald_of_winter"
+   }
+  ],
+  "resid": -931243738355722890,
+  "id": "tew_ascended_herald_of_winter_hero_skill_normal",
+  "group_name": "Pantheon Hero Skills",
+  "icon": "tew_ascended_herald_of_winter_hero_skill_normal",
+  "type": "normal",
+  "name": "Ascension: Herald of Winter"
+ },
+ {
+  "abilities": [
+   {
+    "slug": "toa_ascended_arcfire_typhoon_ability_ascended_arcfire_mage_hero_skill_normal"
+   }
+  ],
+  "resid": -931243738355723780,
+  "id": "ascended_arcfire_mage_hero_skill_normal",
+  "group_name": "Pantheon Hero Skills",
+  "icon": "ascended_arcfire_mage_hero_skill_normal",
+  "type": "normal",
+  "name": "Ascension: Arcfire Mage"
+ },
+ {
   "group_name": "Dragon Lord - Hero Skill Group",
   "icon": "hs_defensive_swipe",
   "type": "normal",
@@ -10677,6 +10716,19 @@
   "resid": 5111011085187,
   "tree_name": "<classSpellblade></classSpellblade> Spellblade",
   "tree_pos_y": 50.0
+ },
+ {
+  "abilities": [
+   {
+    "slug": "flamesurge_focus"
+   }
+  ],
+  "resid": -931243738355723943,
+  "id": "toa_flamesurge_focus_hero_skill",
+  "group_name": "ToA - Hero Skill Group",
+  "icon": "toa_flamesurge_focus_hero_skill",
+  "type": "normal",
+  "name": "Flamesurge Focus"
  },
  {
   "abilities": [

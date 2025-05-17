@@ -69,6 +69,9 @@
   "slug": "pacified"
  },
  {
+  "slug": "charge_orb"
+ },
+ {
   "slug": "sharpened_conjure_weapon"
  },
  {
@@ -163,6 +166,9 @@
  },
  {
   "slug": "infernal_might"
+ },
+ {
+  "slug": "draconic_fortune"
  },
  {
   "slug": "tyrants_mark"
@@ -283,6 +289,9 @@
  },
  {
   "slug": "star_blades_astral"
+ },
+ {
+  "slug": "draconic_vigor_i"
  },
  {
   "slug": "star_blades_chaos"
@@ -634,6 +643,30 @@
  },
  {
   "slug": "fatigued"
+ },
+ {
+  "slug": "frost_shield"
+ },
+ {
+  "slug": "strength_of_the_great_herd"
+ },
+ {
+  "slug": "arcfire_imbuement"
+ },
+ {
+  "slug": "drowsy"
+ },
+ {
+  "slug": "draconic_vigor_ii"
+ },
+ {
+  "slug": "stalking"
+ },
+ {
+  "slug": "growing_calamity"
+ },
+ {
+  "slug": "tribulation"
  },
  {
   "slug": "mind-controlled"

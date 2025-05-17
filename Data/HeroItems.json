@@ -15680,5 +15680,5452 @@
   ],
   "icon": "cryptblade_item_tier_4",
   "disabled_slots": []
+ },
+ {
+  "resid": -931243738355721914,
+  "id": "ifd_orb_purple_base",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Magical Orb",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_bolts_(base)_ability_ifd_orb_purple_base"
+   },
+   {
+    "slug": "quick_stab_ability_ifd_orb_purple_base"
+   }
+  ],
+  "icon": "ifd_orb_purple_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355721920,
+  "id": "ifd_orb_black_base",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Magical Orb",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_bolts_(base)_ability_ifd_orb_black_base"
+   },
+   {
+    "slug": "quick_stab_ability_ifd_orb_black_base"
+   }
+  ],
+  "icon": "ifd_orb_black_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355721927,
+  "id": "ifd_orb_pink_base",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Magical Orb",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_bolts_(base)_ability_ifd_orb_pink_base"
+   },
+   {
+    "slug": "quick_stab_ability_ifd_orb_pink_base"
+   }
+  ],
+  "icon": "ifd_orb_pink_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355721937,
+  "id": "ifd_orb_ghostfire_base",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Magical Orb",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_bolts_(base)_ability_ifd_orb_ghostfire_base"
+   },
+   {
+    "slug": "quick_stab_ability_ifd_orb_ghostfire_base"
+   }
+  ],
+  "icon": "ifd_orb_ghostfire_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355721939,
+  "id": "ifd_orb_chaos_base",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Magical Orb",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_bolts_(base)_ability_ifd_orb_chaos_base"
+   },
+   {
+    "slug": "quick_stab_ability_ifd_orb_chaos_base"
+   }
+  ],
+  "icon": "ifd_orb_chaos_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355721941,
+  "id": "ifd_orb_cosmic_base",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Magical Orb",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_bolts_(base)_ability_ifd_orb_cosmic_base"
+   },
+   {
+    "slug": "quick_stab_ability_ifd_orb_cosmic_base"
+   }
+  ],
+  "icon": "ifd_orb_cosmic_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355722056,
+  "id": "ifd_crossbow_afflictor_base",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Crossbow",
+  "ability_slugs": [
+   {
+    "slug": "shoot_crossbow_(item_forge)_ability_ifd_crossbow_afflictor_base"
+   },
+   {
+    "slug": "quick_stab_ability_ifd_crossbow_afflictor_base"
+   }
+  ],
+  "icon": "ifd_crossbow_afflictor_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355722098,
+  "id": "ifd_shield_goldseekers_base",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Secondary",
+  "name": "Shield",
+  "ability_slugs": [],
+  "icon": "ifd_shield_goldseekers_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355722103,
+  "id": "ifd_crook_base",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Crook",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_blast_(empty)_ability_ifd_crook_base"
+   },
+   {
+    "slug": "quick_stab_ability_ifd_crook_base"
+   }
+  ],
+  "icon": "ifd_crook_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355722130,
+  "id": "ms_oakwood_longbow_item_tier_ii",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Oakwood Longbow",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "shoot_bow_ability_ms_oakwood_longbow_item_tier_ii"
+   },
+   {
+    "slug": "quick_stab_ability_ms_oakwood_longbow_item_tier_ii"
+   }
+  ],
+  "icon": "ms_oakwood_longbow_item_tier_ii",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355722169,
+  "id": "ms_staff_of_the_blazing_branch_item_tier_iii",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Staff of the Blazing Branch",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_blast_(fire)_ability_ms_staff_of_the_blazing_branch_item_tier_iii"
+   },
+   {
+    "slug": "quick_stab_ability_ms_staff_of_the_blazing_branch_item_tier_iii"
+   },
+   {
+    "slug": "ms_invigorating_flames_ability_ms_staff_of_the_blazing_branch_item_tier_iii"
+   }
+  ],
+  "icon": "ms_staff_of_the_blazing_branch_item_tier_iii",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355722182,
+  "id": "ms_staff_of_winterbark_item_tier_iii",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Staff of Winterbark",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_blast_(frost)_ability_ms_staff_of_winterbark_item_tier_iii"
+   },
+   {
+    "slug": "quick_stab_ability_ms_staff_of_winterbark_item_tier_iii"
+   }
+  ],
+  "icon": "ms_staff_of_winterbark_item_tier_iii",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355722276,
+  "id": "ms_crook_of_the_great_herd_item_tier_iv",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Crook of the Great Herd",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_blast_(blight)_ability_ms_crook_of_the_great_herd_item_tier_iv"
+   },
+   {
+    "slug": "quick_stab_ability_ms_crook_of_the_great_herd_item_tier_iv"
+   },
+   {
+    "slug": "ms_conjure_greater_animal_ability_ms_crook_of_the_great_herd_item_tier_iv"
+   },
+   {
+    "slug": "ms_call_of_the_great_herd_ability_ms_crook_of_the_great_herd_item_tier_iv"
+   },
+   {
+    "slug": "strength_of_the_great_herd"
+   }
+  ],
+  "icon": "ms_crook_of_the_great_herd_item_tier_iv",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355722288,
+  "id": "ms_thiefs_crook_item_tier_iii",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Thief's Crook",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_blast_(death)_ability_ms_thiefs_crook_item_tier_iii"
+   },
+   {
+    "slug": "quick_stab_ability_ms_thiefs_crook_item_tier_iii"
+   },
+   {
+    "slug": "call_thieving_flock"
+   }
+  ],
+  "icon": "ms_thiefs_crook_item_tier_iii",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355722299,
+  "id": "ms_molten_barrier_tier_iii",
+  "name": "Molten Barrier",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Secondary",
+  "ability_slugs": [
+   {
+    "slug": "greater_fire_shield"
+   }
+  ],
+  "icon": "ms_molten_barrier_tier_iii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355722310,
+  "id": "ms_frost_titans_greatbow_item_tier_iv",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Frost Titan's Greatbow",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "greatbow_ability_ms_frost_titans_greatbow_item_tier_iv"
+   },
+   {
+    "slug": "quick_stab_ability_ms_frost_titans_greatbow_item_tier_iv"
+   }
+  ],
+  "icon": "ms_frost_titans_greatbow_item_tier_iv",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355722322,
+  "id": "ms_blade_of_the_study_2h_item_tier_ii",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Blade of the Study",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "melee_charge_strike_(base)_ability_ms_blade_of_the_study_2h_item_tier_ii"
+   },
+   {
+    "slug": "blade_of_the_study^n"
+   }
+  ],
+  "icon": "ms_blade_of_the_study_2h_item_tier_ii",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355722345,
+  "id": "ms_void_stalker_item_tier_iv",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Void Stalker",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "melee_strike_(item_forge_dual)_ability_ms_void_stalker_item_tier_iv"
+   },
+   {
+    "slug": "throw_(base)_ability_ms_void_stalker_item_tier_iv"
+   },
+   {
+    "slug": "ms_shadow_phase_ability_ms_void_stalker_item_tier_iv"
+   }
+  ],
+  "icon": "ms_void_stalker_item_tier_iv",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355722350,
+  "id": "ms_chicken_shield_tier_ii",
+  "name": "Chicken Shield",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Secondary",
+  "ability_slugs": [
+   {
+    "slug": "inspiring_presence"
+   }
+  ],
+  "icon": "ms_chicken_shield_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355722368,
+  "id": "ifd_shade_blade_and_dagger_base",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Sword and Kunai",
+  "ability_slugs": [
+   {
+    "slug": "melee_strike_(item_forge_dual)_ability_ifd_shade_blade_and_dagger_base"
+   },
+   {
+    "slug": "throw_dagger_ability_ifd_shade_blade_and_dagger_base"
+   }
+  ],
+  "icon": "ifd_shade_blade_and_dagger_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355722373,
+  "id": "ifd_shield_liege_guard_base",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Secondary",
+  "name": "Shield",
+  "ability_slugs": [],
+  "icon": "ifd_shield_liege_guard_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355722382,
+  "id": "ifd_trident_base",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Trident",
+  "ability_slugs": [
+   {
+    "slug": "melee_strike_(item_forge_dual)_ability_ifd_trident_base"
+   },
+   {
+    "slug": "throw_(base)_ability_ifd_trident_base"
+   }
+  ],
+  "icon": "ifd_trident_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355722517,
+  "id": "ms_twilight_fang_2h_item_tier_iv",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Twilight Fang",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "melee_charge_strike_(base)_ability_ms_twilight_fang_2h_item_tier_iv"
+   }
+  ],
+  "icon": "ms_twilight_fang_2h_item_tier_iv",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355722529,
+  "id": "ms_edge_of_the_abyss_1h_item_tier_iv",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Edge of the Abyss",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "melee_strike_(base)_ability_ms_edge_of_the_abyss_1h_item_tier_iv"
+   }
+  ],
+  "icon": "ms_edge_of_the_abyss_1h_item_tier_iv",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355722535,
+  "id": "ifd_bow_mystic_base",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Bow",
+  "ability_slugs": [
+   {
+    "slug": "shoot_bow_(item_forge)_ability_ifd_bow_mystic_base"
+   },
+   {
+    "slug": "quick_stab_ability_ifd_bow_mystic_base"
+   }
+  ],
+  "icon": "ifd_bow_mystic_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355722540,
+  "id": "ifd_longbow_feudal_base",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Longbow",
+  "ability_slugs": [
+   {
+    "slug": "shoot_bow_(item_forge)_ability_ifd_longbow_feudal_base"
+   },
+   {
+    "slug": "quick_stab_ability_ifd_longbow_feudal_base"
+   }
+  ],
+  "icon": "ifd_longbow_feudal_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355722550,
+  "id": "ifd_bow_feudal_base",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Bow",
+  "ability_slugs": [
+   {
+    "slug": "shoot_bow_(item_forge)_ability_ifd_bow_feudal_base"
+   },
+   {
+    "slug": "quick_stab_ability_ifd_bow_feudal_base"
+   }
+  ],
+  "icon": "ifd_bow_feudal_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355722913,
+  "id": "tew_scourge_of_ice_mount_item",
+  "ability_slugs": [
+   {
+    "slug": "arctic_walk"
+   },
+   {
+    "slug": "presence_of_winter"
+   },
+   {
+    "slug": "tew_shardstorm_ability_tew_scourge_of_ice_mount_item"
+   }
+  ],
+  "description": "Unit has:<bulletlist><bullet>Very Fast Movement.</bullet><bullet>The Cavalry unit type.</bullet></bulletlist>",
+  "name": "Scourge of Ice Mount",
+  "tier": "Tier IV",
+  "tier_numerals": "IV",
+  "slot": "Mount",
+  "icon": "tew_scourge_of_ice_mount_item",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355723096,
+  "id": "ifd_lance_high_base",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Lance",
+  "ability_slugs": [
+   {
+    "slug": "melee_charge_strike_(item_forge_lance)_ability_ifd_lance_high_base"
+   }
+  ],
+  "icon": "ifd_lance_high_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355723098,
+  "id": "ifd_lance_feudal_base",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Lance",
+  "ability_slugs": [
+   {
+    "slug": "melee_charge_strike_(item_forge_lance)_ability_ifd_lance_feudal_base"
+   }
+  ],
+  "icon": "ifd_lance_feudal_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355724228,
+  "id": "ifd_staff_primal_spider_base",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Staff",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_blast_(empty)_ability_ifd_staff_primal_spider_base"
+   },
+   {
+    "slug": "quick_stab_ability_ifd_staff_primal_spider_base"
+   }
+  ],
+  "icon": "ifd_staff_primal_spider_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355724233,
+  "id": "ifd_staff_primal_serpent_base",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Staff",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_blast_(empty)_ability_ifd_staff_primal_serpent_base"
+   },
+   {
+    "slug": "quick_stab_ability_ifd_staff_primal_serpent_base"
+   }
+  ],
+  "icon": "ifd_staff_primal_serpent_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355724238,
+  "id": "ifd_staff_primal_sabertooth_base",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Staff",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_blast_(empty)_ability_ifd_staff_primal_sabertooth_base"
+   },
+   {
+    "slug": "quick_stab_ability_ifd_staff_primal_sabertooth_base"
+   }
+  ],
+  "icon": "ifd_staff_primal_sabertooth_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355724243,
+  "id": "ifd_staff_primal_mammoth_base",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Staff",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_blast_(empty)_ability_ifd_staff_primal_mammoth_base"
+   },
+   {
+    "slug": "quick_stab_ability_ifd_staff_primal_mammoth_base"
+   }
+  ],
+  "icon": "ifd_staff_primal_mammoth_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355724248,
+  "id": "ifd_staff_primal_crocodile_base",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Staff",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_blast_(empty)_ability_ifd_staff_primal_crocodile_base"
+   },
+   {
+    "slug": "quick_stab_ability_ifd_staff_primal_crocodile_base"
+   }
+  ],
+  "icon": "ifd_staff_primal_crocodile_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355724262,
+  "id": "ifd_staff_primal_wolf_base",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Staff",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_blast_(empty)_ability_ifd_staff_primal_wolf_base"
+   },
+   {
+    "slug": "quick_stab_ability_ifd_staff_primal_wolf_base"
+   }
+  ],
+  "icon": "ifd_staff_primal_wolf_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355724267,
+  "id": "one_handed_golden_golem_sword_base",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Sword",
+  "ability_slugs": [
+   {
+    "slug": "melee_strike_(base)_ability_one_handed_golden_golem_sword_base"
+   }
+  ],
+  "icon": "one_handed_golden_golem_sword_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355724277,
+  "id": "one_handed_inquisitor_sword_base",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Sword",
+  "ability_slugs": [
+   {
+    "slug": "melee_strike_(base)_ability_one_handed_inquisitor_sword_base"
+   }
+  ],
+  "icon": "one_handed_inquisitor_sword_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355724283,
+  "id": "shield_iron_golem_base",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Secondary",
+  "name": "Shield",
+  "ability_slugs": [],
+  "icon": "shield_iron_golem_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355724694,
+  "id": "greataxe_yaka_base",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Greataxe",
+  "ability_slugs": [
+   {
+    "slug": "melee_charge_strike_(item_forge)_ability_greataxe_yaka_base"
+   }
+  ],
+  "icon": "greataxe_yaka_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355724901,
+  "id": "holy_boots_of_faith_running_item_tier_ii",
+  "name": "Holy Boots",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Legs",
+  "ability_slugs": [],
+  "icon": "holy_boots_of_faith_running_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355724935,
+  "id": "transmuters_ring_item_tier_iv",
+  "name": "Transmuter's Ring",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "slot": "Ring",
+  "ability_slugs": [],
+  "icon": "transmuters_ring_item_tier_iv",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355724970,
+  "id": "grovetenders_robes_item_tier_iii",
+  "name": "Grovetender's Robes",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "slot": "Torso",
+  "ability_slugs": [
+   {
+    "slug": "grovetender"
+   }
+  ],
+  "icon": "grovetenders_robes_item_tier_iii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355724974,
+  "id": "glittering_robes_item_tier_ii",
+  "name": "Glittering Robes",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Torso",
+  "ability_slugs": [
+   {
+    "slug": "glittering_robes^p"
+   }
+  ],
+  "icon": "glittering_robes_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355724977,
+  "id": "benevolent_shroud_item_tier_iii",
+  "name": "Benevolent Shroud",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "slot": "Torso",
+  "ability_slugs": [],
+  "icon": "benevolent_shroud_item_tier_iii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355724993,
+  "id": "warding_riftplate_item_tier_iii",
+  "name": "Warding Riftplate",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "slot": "Torso",
+  "ability_slugs": [
+   {
+    "slug": "bolstering_resistance"
+   }
+  ],
+  "icon": "warding_riftplate_item_tier_iii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355724996,
+  "id": "bulwark_of_the_great_foundry_item_tier_iv",
+  "name": "Bulwark of the Great Foundry",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "slot": "Torso",
+  "ability_slugs": [
+   {
+    "slug": "bolstering_defense"
+   },
+   {
+    "slug": "watchful"
+   }
+  ],
+  "icon": "bulwark_of_the_great_foundry_item_tier_iv",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725005,
+  "id": "blue_wizard_hat_item_tier_ii",
+  "name": "Blue Wizard Hat",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Head",
+  "ability_slugs": [
+   {
+    "slug": "spell_channeling"
+   }
+  ],
+  "icon": "blue_wizard_hat_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725008,
+  "id": "wizard_hat_item_tier_ii",
+  "name": "Wizard Hat",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Head",
+  "ability_slugs": [],
+  "icon": "wizard_hat_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725011,
+  "id": "carrion_cage_armor_item_tier_iii",
+  "ability_slugs": [
+   {
+    "slug": "followed_by_scavengers"
+   }
+  ],
+  "description": "\\\"These birds accompany me on my travels, either out of partnership or perhaps in anticipation of my demise.\\\"",
+  "name": "Carrion Cage Armor",
+  "tier": "Tier III",
+  "tier_numerals": "III",
+  "slot": "Torso",
+  "icon": "carrion_cage_armor_item_tier_iii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725039,
+  "id": "strength_potion_item_tier_i",
+  "name": "Strength Potion",
+  "tier_numerals": "I",
+  "tier": "Tier I",
+  "slot": "Miscellaneous",
+  "ability_slugs": [
+   {
+    "slug": "strength_potion_ability_strength_potion_item_tier_i"
+   }
+  ],
+  "icon": "strength_potion_item_tier_i",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725056,
+  "id": "sentinels_leggings_item_tier_iii",
+  "name": "Sentinel's Leggings",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "slot": "Legs",
+  "ability_slugs": [
+   {
+    "slug": "slippery"
+   }
+  ],
+  "icon": "sentinels_leggings_item_tier_iii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725059,
+  "id": "paladins_leggings_item_tier_iii",
+  "name": "Paladin's Leggings",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "slot": "Legs",
+  "ability_slugs": [
+   {
+    "slug": "bolstering_regeneration"
+   }
+  ],
+  "icon": "paladins_leggings_item_tier_iii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725071,
+  "id": "skeletal_soles_item_tier_ii",
+  "ability_slugs": [
+   {
+    "slug": "skeletal_soles_ability_skeletal_soles_item_tier_ii"
+   }
+  ],
+  "description": "\\\"I grabbed the wrong pair of walking shoes last night. My peaceful stroll through the graveyard was ruined as I inadvertently summoned skeletons with each step!\\\"",
+  "name": "Skeletal Soles",
+  "tier": "Tier II",
+  "tier_numerals": "II",
+  "slot": "Legs",
+  "icon": "skeletal_soles_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725178,
+  "id": "zephyr_crown_item_tier_iii",
+  "name": "Zephyr Crown",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "slot": "Head",
+  "ability_slugs": [
+   {
+    "slug": "guiding_wind_aura"
+   }
+  ],
+  "icon": "zephyr_crown_item_tier_iii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725183,
+  "id": "adventurers_backpack_item_tier_ii",
+  "name": "Adventurer's Backpack",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Miscellaneous",
+  "ability_slugs": [
+   {
+    "slug": "adventurers_backpack_haste_berry_potion_adventurers_backpack_item_tier_ii"
+   },
+   {
+    "slug": "feyloaf_rations"
+   }
+  ],
+  "icon": "adventurers_backpack_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725201,
+  "id": "harrier_net_item_tier_i",
+  "name": "Harrier Net",
+  "tier_numerals": "I",
+  "tier": "Tier I",
+  "slot": "Miscellaneous",
+  "ability_slugs": [
+   {
+    "slug": "cast_net_ability_harrier_net_item_tier_i"
+   }
+  ],
+  "icon": "harrier_net_item_tier_i",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725212,
+  "id": "troll_unguent_item_tier_i",
+  "name": "Troll Unguent",
+  "tier_numerals": "I",
+  "tier": "Tier I",
+  "slot": "Miscellaneous",
+  "ability_slugs": [
+   {
+    "slug": "troll_unguent_ability_troll_unguent_item_tier_i"
+   }
+  ],
+  "icon": "troll_unguent_item_tier_i",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725218,
+  "id": "ancestral_mask_item_tier_i",
+  "name": "Ancestral Mask",
+  "tier_numerals": "I",
+  "tier": "Tier I",
+  "slot": "Head",
+  "ability_slugs": [
+   {
+    "slug": "ancestors_blessings"
+   }
+  ],
+  "icon": "ancestral_mask_item_tier_i",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725223,
+  "id": "nomads_cowl_item_tier_ii",
+  "name": "Nomad's Cowl",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Head",
+  "ability_slugs": [
+   {
+    "slug": "attunement_fortune"
+   }
+  ],
+  "icon": "nomads_cowl_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725231,
+  "id": "rogues_hood_item_tier_i",
+  "name": "Rogue's Hood",
+  "tier_numerals": "I",
+  "tier": "Tier I",
+  "slot": "Head",
+  "ability_slugs": [],
+  "icon": "rogues_hood_item_tier_i",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725236,
+  "id": "crocodile_head_piece_item_tier_i",
+  "name": "Crocodile Head Piece",
+  "tier_numerals": "I",
+  "tier": "Tier I",
+  "slot": "Head",
+  "ability_slugs": [],
+  "icon": "crocodile_head_piece_item_tier_i",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725295,
+  "id": "tyrant_crown_item_tier_ii",
+  "name": "Iron Crown of Reverence",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Head",
+  "ability_slugs": [
+   {
+    "slug": "revered_presence"
+   }
+  ],
+  "icon": "tyrant_crown_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725302,
+  "id": "woodland_crown_item_tier_ii",
+  "name": "Woodland Crown",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Head",
+  "ability_slugs": [
+   {
+    "slug": "woodland_crown^n"
+   }
+  ],
+  "icon": "woodland_crown_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725309,
+  "id": "necromancer_crown_item_tier_iii",
+  "name": "Necromancer Crown",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "slot": "Head",
+  "ability_slugs": [
+   {
+    "slug": "necromancer_crown^n"
+   }
+  ],
+  "icon": "necromancer_crown_item_tier_iii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725314,
+  "id": "ice_crown_item_tier_iii",
+  "name": "Ice Chill Crown",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "slot": "Head",
+  "ability_slugs": [
+   {
+    "slug": "chilling_aura"
+   }
+  ],
+  "icon": "ice_crown_item_tier_iii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725318,
+  "id": "aspirants_armor_item_tier_i",
+  "name": "Aspirant's Armor",
+  "tier_numerals": "I",
+  "tier": "Tier I",
+  "slot": "Torso",
+  "ability_slugs": [],
+  "icon": "aspirants_armor_item_tier_i",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725326,
+  "id": "shocking_plate_item_tier_ii",
+  "name": "Shocking Plate",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Torso",
+  "ability_slugs": [
+   {
+    "slug": "shocking_plate^n"
+   }
+  ],
+  "icon": "shocking_plate_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725330,
+  "id": "flame_body_plate_item_tier_ii",
+  "name": "Flame Body Plate",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Torso",
+  "ability_slugs": [
+   {
+    "slug": "flame_body_plate^n"
+   }
+  ],
+  "icon": "flame_body_plate_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725333,
+  "id": "archers_tunic_item_tier_i",
+  "name": "Archer's Tunic",
+  "tier_numerals": "I",
+  "tier": "Tier I",
+  "slot": "Torso",
+  "ability_slugs": [],
+  "icon": "archers_tunic_item_tier_i",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725336,
+  "id": "apprentices_robes_item_tier_i",
+  "name": "Apprentice's Robes",
+  "tier_numerals": "I",
+  "tier": "Tier I",
+  "slot": "Torso",
+  "ability_slugs": [],
+  "icon": "apprentices_robes_item_tier_i",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725407,
+  "id": "adventurers_belt_item_tier_i",
+  "name": "Adventurer's Belt",
+  "tier_numerals": "I",
+  "tier": "Tier I",
+  "slot": "Miscellaneous",
+  "ability_slugs": [
+   {
+    "slug": "adventurers_belt_dispel_ability_adventurers_belt_item_tier_i"
+   },
+   {
+    "slug": "spiritweave_bandages"
+   }
+  ],
+  "icon": "adventurers_belt_item_tier_i",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725410,
+  "id": "boots_of_the_tiger_item_tier_i",
+  "name": "Boots of the Tiger",
+  "tier_numerals": "I",
+  "tier": "Tier I",
+  "slot": "Legs",
+  "ability_slugs": [
+   {
+    "slug": "boots_of_the_tiger_jump_ability_boots_of_the_tiger_item_tier_i"
+   }
+  ],
+  "icon": "boots_of_the_tiger_item_tier_i",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725413,
+  "id": "helm_of_the_stag_item_tier_iii",
+  "name": "Helm of the Stag",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "slot": "Head",
+  "ability_slugs": [],
+  "icon": "helm_of_the_stag_item_tier_iii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725421,
+  "id": "ring_of_fiery_abyss_item_tier_iv",
+  "ability_slugs": [
+   {
+    "slug": "summon_gremlin"
+   }
+  ],
+  "description": "\\\"Empower your demons. Let them be the fiery heralds of your dominion, forging fear and chaos in their wake.\\\" - Kruul Blightlord, Chaos Prince",
+  "name": "Ring of the Fiery Abyss",
+  "tier": "Tier IV",
+  "tier_numerals": "IV",
+  "slot": "Ring",
+  "icon": "ring_of_fiery_abyss_item_tier_iv",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725425,
+  "id": "life_siphon_ring_item_tier_iv",
+  "ability_slugs": [
+   {
+    "slug": "life_siphon"
+   }
+  ],
+  "description": "\\\"See beyond the flesh; in death lies power untold. Embrace the darkness, and let the fallen fuel your ascent.\\\" - Melenis the Lifeless, Undead Stormlord",
+  "name": "Life Siphon Ring",
+  "tier": "Tier IV",
+  "tier_numerals": "IV",
+  "slot": "Ring",
+  "icon": "life_siphon_ring_item_tier_iv",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725428,
+  "id": "crocodile_skin_boots_item_tier_i",
+  "name": "Crocodile Skin Boots",
+  "tier_numerals": "I",
+  "tier": "Tier I",
+  "slot": "Legs",
+  "ability_slugs": [],
+  "icon": "crocodile_skin_boots_item_tier_i",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725503,
+  "id": "storm_crow_idol_item_tier_ii",
+  "name": "Storm Crow Idol",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Miscellaneous",
+  "ability_slugs": [
+   {
+    "slug": "casting_point_bonus"
+   }
+  ],
+  "icon": "storm_crow_idol_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725506,
+  "id": "wanderers_pants_item_tier_i",
+  "name": "Wanderer's Pants",
+  "tier_numerals": "I",
+  "tier": "Tier I",
+  "slot": "Legs",
+  "ability_slugs": [],
+  "icon": "wanderers_pants_item_tier_i",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725509,
+  "id": "quaking_boots_item_tier_iii",
+  "name": "Quaking Boots",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "slot": "Legs",
+  "ability_slugs": [
+   {
+    "slug": "quake_ability_quaking_boots_item_tier_iii"
+   },
+   {
+    "slug": "mountain_walk"
+   }
+  ],
+  "icon": "quaking_boots_item_tier_iii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725512,
+  "id": "fur_lined_leggings_item_tier_i",
+  "name": "Fur Lined Leggings",
+  "tier_numerals": "I",
+  "tier": "Tier I",
+  "slot": "Legs",
+  "ability_slugs": [],
+  "icon": "fur_lined_leggings_item_tier_i",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725515,
+  "id": "expedition_boots_item_tier_ii",
+  "name": "Expedition Boots",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Legs",
+  "ability_slugs": [
+   {
+    "slug": "arctic_walk"
+   }
+  ],
+  "icon": "expedition_boots_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725518,
+  "id": "pestilent_leggings_item_tier_ii",
+  "name": "Pestilent Leggings",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Legs",
+  "ability_slugs": [
+   {
+    "slug": "status_effect_immunity_diseased"
+   },
+   {
+    "slug": "pestilent_leggings^p"
+   }
+  ],
+  "icon": "pestilent_leggings_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725521,
+  "id": "inspiring_kilt_item_tier_ii",
+  "ability_slugs": [
+   {
+    "slug": "inspiring_presence"
+   }
+  ],
+  "description": "\\\"Our leader rose atop the hill and delivered an impassioned speech that filled us with courage. Then the wind blew...\\\"",
+  "name": "Inspiring Kilt",
+  "tier": "Tier II",
+  "tier_numerals": "II",
+  "slot": "Legs",
+  "icon": "inspiring_kilt_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725524,
+  "id": "lucky_loin_cloth_item_tier_i",
+  "ability_slugs": [],
+  "description": "\\\"For best results, do not wash.\\\"",
+  "name": "Lucky Loin Cloth",
+  "tier": "Tier I",
+  "tier_numerals": "I",
+  "slot": "Legs",
+  "icon": "lucky_loin_cloth_item_tier_i",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725527,
+  "id": "nimues_dress_item_tier_iv",
+  "name": "Nimue's Dress",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "slot": "Torso",
+  "ability_slugs": [],
+  "icon": "nimues_dress_item_tier_iv",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725530,
+  "id": "pestilent_plate_item_tier_ii",
+  "name": "Pestilent Plate",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Torso",
+  "ability_slugs": [
+   {
+    "slug": "pestilent_plate^n"
+   }
+  ],
+  "icon": "pestilent_plate_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725533,
+  "id": "expedition_armor_item_tier_ii",
+  "name": "Expedition Armor",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Torso",
+  "ability_slugs": [],
+  "icon": "expedition_armor_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725536,
+  "id": "mentors_robes_item_tier_ii",
+  "name": "Mentor's Robes",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Torso",
+  "ability_slugs": [
+   {
+    "slug": "mentor"
+   }
+  ],
+  "icon": "mentors_robes_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725539,
+  "id": "spikesteel_cuirass_item_tier_ii",
+  "name": "Spikesteel Cuirass",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Torso",
+  "ability_slugs": [
+   {
+    "slug": "spikesteel_cuirass^n"
+   }
+  ],
+  "icon": "spikesteel_cuirass_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725542,
+  "id": "corsair_coat_item_tier_i",
+  "name": "Corsair Coat",
+  "tier_numerals": "I",
+  "tier": "Tier I",
+  "slot": "Torso",
+  "ability_slugs": [],
+  "icon": "corsair_coat_item_tier_i",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725545,
+  "id": "bandit_tunic_item_tier_i",
+  "name": "Bandit's Tunic",
+  "tier_numerals": "I",
+  "tier": "Tier I",
+  "slot": "Torso",
+  "ability_slugs": [],
+  "icon": "bandit_tunic_item_tier_i",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725548,
+  "id": "lithyls_helm_item_tier_iv_unused,_auto_spell_unlinked",
+  "name": "Lithyl's Helm",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "slot": "Head",
+  "ability_slugs": [
+   {
+    "slug": "all-seeing"
+   }
+  ],
+  "icon": "lithyls_helm_item_tier_iv_unused,_auto_spell_unlinked",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725551,
+  "id": "gladiators_helmet_item_tier_iii",
+  "name": "Gladiator's Helmet",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "slot": "Head",
+  "ability_slugs": [
+   {
+    "slug": "inspiring_killer"
+   }
+  ],
+  "icon": "gladiators_helmet_item_tier_iii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725554,
+  "id": "expedition_helmet_item_tier_ii",
+  "name": "Expedition Helmet",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Head",
+  "ability_slugs": [],
+  "icon": "expedition_helmet_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725557,
+  "id": "ravager_helmet_item_tier_ii",
+  "name": "Ravager Helmet",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Head",
+  "ability_slugs": [],
+  "icon": "ravager_helmet_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725560,
+  "id": "corsair_hat_item_tier_i",
+  "name": "Corsair Hat",
+  "tier_numerals": "I",
+  "tier": "Tier I",
+  "slot": "Head",
+  "ability_slugs": [],
+  "icon": "corsair_hat_item_tier_i",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725563,
+  "id": "bandit_hood_item_tier_i",
+  "name": "Bandit's Hood",
+  "tier_numerals": "I",
+  "tier": "Tier I",
+  "slot": "Head",
+  "ability_slugs": [],
+  "icon": "bandit_hood_item_tier_i",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725567,
+  "id": "shield_artica_base",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Secondary",
+  "name": "Shield",
+  "ability_slugs": [],
+  "icon": "shield_artica_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725570,
+  "id": "shield_frost_base",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Secondary",
+  "name": "Shield",
+  "ability_slugs": [],
+  "icon": "shield_frost_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725572,
+  "id": "greataxe_frost_base",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Greataxe",
+  "ability_slugs": [
+   {
+    "slug": "melee_charge_strike_(item_forge)_ability_greataxe_frost_base"
+   }
+  ],
+  "icon": "greataxe_frost_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355725640,
+  "id": "wand_of_waving_item_tier_ii",
+  "name": "Wand of Waving",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Miscellaneous",
+  "ability_slugs": [
+   {
+    "slug": "tidal_wave_ability_wand_of_waving_item_tier_ii"
+   }
+  ],
+  "icon": "wand_of_waving_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725643,
+  "id": "phial_of_zaethyl_item_tier_ii",
+  "name": "Phial of Zaethyl",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Miscellaneous",
+  "ability_slugs": [
+   {
+    "slug": "phial_of_zaethyl_ability_phial_of_zaethyl_item_tier_ii"
+   }
+  ],
+  "icon": "phial_of_zaethyl_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355725646,
+  "id": "blight_in_a_bottle_item_tier_i",
+  "name": "Blight in a Bottle",
+  "tier_numerals": "I",
+  "tier": "Tier I",
+  "slot": "Miscellaneous",
+  "ability_slugs": [
+   {
+    "slug": "blight_in_a_bottle_ability_blight_in_a_bottle_item_tier_i"
+   }
+  ],
+  "icon": "blight_in_a_bottle_item_tier_i",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355726139,
+  "id": "mask_animist_base",
+  "slot": "Head",
+  "name": "Mask",
+  "ability_slugs": [],
+  "icon": "mask_animist_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355726142,
+  "id": "crown_antler_base",
+  "slot": "Head",
+  "name": "Crown",
+  "ability_slugs": [],
+  "icon": "crown_antler_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355726145,
+  "id": "helmet_full_cage_dark_base",
+  "slot": "Head",
+  "name": "Helmet",
+  "ability_slugs": [],
+  "icon": "helmet_full_cage_dark_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355726148,
+  "id": "helmet_full_cage_knight_base",
+  "slot": "Head",
+  "name": "Helmet",
+  "ability_slugs": [],
+  "icon": "helmet_full_cage_knight_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355726164,
+  "id": "staff_wildspeaker_base",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Staff",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_blast_(empty)_ability_staff_wildspeaker_base"
+   },
+   {
+    "slug": "quick_stab_ability_staff_wildspeaker_base"
+   }
+  ],
+  "icon": "staff_wildspeaker_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355726169,
+  "id": "staff_necromancer_base",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Staff",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_blast_(empty)_ability_staff_necromancer_base"
+   },
+   {
+    "slug": "quick_stab_ability_staff_necromancer_base"
+   }
+  ],
+  "icon": "staff_necromancer_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355726360,
+  "id": "black_wolf_mount_item_tier_iii",
+  "ability_slugs": [
+   {
+    "slug": "enfeebling_howl_mount_ability_black_wolf_mount_item_tier_iii"
+   }
+  ],
+  "description": "Unit gains:<bulletlist><bullet>Very Fast Movement.</bullet><bullet>Cavalry unit type.</bullet><bullet>Pack Hunter.</bullet><bullet>2 <defensefrost></defensefrost> <hyperlink>Frost Resistance</hyperlink></bullet></bulletlist>",
+  "name": "Black Wolf Mount",
+  "tier": "Tier III",
+  "tier_numerals": "III",
+  "slot": "Mount",
+  "icon": "black_wolf_mount_item_tier_iii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355726407,
+  "id": "bald_eagle_mount_item_tier_iii",
+  "ability_slugs": [
+   {
+    "slug": "inspiring_presence"
+   },
+   {
+    "slug": "bald_eagle_mount_claw_attack_bald_eagle_mount_item_tier_iii"
+   }
+  ],
+  "description": "Unit has:<bulletlist><bullet>Very Fast Movement.</bullet><bullet>The Cavalry unit type.</bullet><bullet>Flying Movement.</bullet></bulletlist>",
+  "name": "Bald Eagle Mount",
+  "tier": "Tier III",
+  "tier_numerals": "III",
+  "slot": "Mount",
+  "icon": "bald_eagle_mount_item_tier_iii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355726420,
+  "id": "nightmare_pony_mount_item_tier_iii",
+  "ability_slugs": [
+   {
+    "slug": "hopelessness"
+   }
+  ],
+  "description": "Unit has:<bulletlist><bullet>Very Fast Movement</bullet><bullet>The Cavalry unit type</bullet><bullet>Intimidating Aura</bullet><bullet>Vicious Killer</bullet></bulletlist>",
+  "name": "Night Terror",
+  "tier": "Tier III",
+  "tier_numerals": "III",
+  "slot": "Mount",
+  "icon": "nightmare_pony_mount_item_tier_iii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355726446,
+  "id": "armored_boar_mount_item_tier_ii",
+  "ability_slugs": [
+   {
+    "slug": "armored_boar_mount_puncturing_charge_armored_boar_mount_item_tier_ii"
+   },
+   {
+    "slug": "juggernaut"
+   }
+  ],
+  "description": "Unit has:<bulletlist><bullet>Very Fast Movement.</bullet><bullet>The Cavalry unit type.</bullet></bulletlist>",
+  "name": "Armored Boar Mount",
+  "tier": "Tier II",
+  "tier_numerals": "II",
+  "slot": "Mount",
+  "icon": "armored_boar_mount_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355726537,
+  "id": "phoenix_mount_item_tier_iv",
+  "ability_slugs": [
+   {
+    "slug": "overheat_ability_phoenix_mount_item_tier_iv"
+   },
+   {
+    "slug": "fiery_rebirth"
+   }
+  ],
+  "description": "Unit has:<bulletlist><bullet>Very Fast Movement.</bullet><bullet>The Cavalry unit type.</bullet><bullet>Flying Movement.</bullet></bulletlist>",
+  "name": "Phoenix Mount",
+  "tier": "Tier IV",
+  "tier_numerals": "IV",
+  "slot": "Mount",
+  "icon": "phoenix_mount_item_tier_iv",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355726542,
+  "id": "inferno_hound_mount_item_tier_iii",
+  "ability_slugs": [
+   {
+    "slug": "desolate_walk"
+   },
+   {
+    "slug": "inferno_hound_mount_fire_breath_ability_inferno_hound_mount_item_tier_iii"
+   }
+  ],
+  "description": "Unit has:<bulletlist><bullet>Very Fast Movement.</bullet><bullet>The Cavalry unit type.</bullet></bulletlist>",
+  "name": "Inferno Hound Mount",
+  "tier": "Tier III",
+  "tier_numerals": "III",
+  "slot": "Mount",
+  "icon": "inferno_hound_mount_item_tier_iii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355726549,
+  "id": "carrion_bird_mount_item_tier_iii",
+  "ability_slugs": [
+   {
+    "slug": "carrion_feed_ability_carrion_bird_mount_item_tier_iii"
+   }
+  ],
+  "description": "Unit has:<bulletlist><bullet>Very Fast Movement.</bullet><bullet>The Cavalry unit type.</bullet><bullet>Flying Movement.</bullet></bulletlist>",
+  "name": "Carrion Bird Mount",
+  "tier": "Tier III",
+  "tier_numerals": "III",
+  "slot": "Mount",
+  "icon": "carrion_bird_mount_item_tier_iii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355726727,
+  "id": "staff_skald_base",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Staff",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_blast_(empty)_ability_staff_skald_base"
+   },
+   {
+    "slug": "quick_stab_ability_staff_skald_base"
+   }
+  ],
+  "icon": "staff_skald_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355726732,
+  "id": "staff_nymph_base",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Staff",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_blast_(empty)_ability_staff_nymph_base"
+   },
+   {
+    "slug": "quick_stab_ability_staff_nymph_base"
+   }
+  ],
+  "icon": "staff_nymph_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355726742,
+  "id": "staff_chaplain_base",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Staff",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_blast_(empty)_ability_staff_chaplain_base"
+   },
+   {
+    "slug": "quick_stab_ability_staff_chaplain_base"
+   }
+  ],
+  "icon": "staff_chaplain_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355726753,
+  "id": "shield_phantasm_base",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Secondary",
+  "name": "Shield",
+  "ability_slugs": [],
+  "icon": "shield_phantasm_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355726758,
+  "id": "shield_bastion_base",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Secondary",
+  "name": "Shield",
+  "ability_slugs": [],
+  "icon": "shield_bastion_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355726762,
+  "id": "ifd_bow_gladerunner_base",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Bow",
+  "ability_slugs": [
+   {
+    "slug": "shoot_bow_(item_forge)_ability_ifd_bow_gladerunner_base"
+   },
+   {
+    "slug": "quick_stab_ability_ifd_bow_gladerunner_base"
+   }
+  ],
+  "icon": "ifd_bow_gladerunner_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355726782,
+  "id": "stunshot_repeater_crossbow_item_tier_iii",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Stunshot Repeater Crossbow",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "merchant_shops_shoot_repeater_crossbow_ability_stunshot_repeater_crossbow_item_tier_iii"
+   },
+   {
+    "slug": "quick_stab_ability_stunshot_repeater_crossbow_item_tier_iii"
+   }
+  ],
+  "icon": "stunshot_repeater_crossbow_item_tier_iii",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355726787,
+  "id": "shadow_lightning_lance_lance_item_tier_iv",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Shadow and Lightning",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "shadow_lightning_lance_melee_charge_strike_(base)_ability_shadow_lightning_lance_lance_item_tier_iv"
+   }
+  ],
+  "icon": "shadow_lightning_lance_lance_item_tier_iv",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355726796,
+  "id": "crow_staff_item_tier_iii",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Caw Caw Cacklestaff",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_blast_(frost)_ability_crow_staff_item_tier_iii"
+   },
+   {
+    "slug": "quick_stab_ability_crow_staff_item_tier_iii"
+   },
+   {
+    "slug": "call_grimbeak_crows"
+   }
+  ],
+  "icon": "crow_staff_item_tier_iii",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355726830,
+  "id": "gladerunner_bow_item_tier_iii",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Wild Ranger's Bow",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "shoot_bow_ability_gladerunner_bow_item_tier_iii"
+   },
+   {
+    "slug": "quick_stab_ability_gladerunner_bow_item_tier_iii"
+   },
+   {
+    "slug": "trackers_mark_ability_gladerunner_bow_item_tier_iii"
+   }
+  ],
+  "icon": "gladerunner_bow_item_tier_iii",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355726833,
+  "id": "firethorn_scorcher_bow_item_tier_iv",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Firethorn Scorcher",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "shoot_bow_ability_firethorn_scorcher_bow_item_tier_iv"
+   },
+   {
+    "slug": "quick_stab_ability_firethorn_scorcher_bow_item_tier_iv"
+   },
+   {
+    "slug": "explosive_shot_ability_firethorn_scorcher_bow_item_tier_iv"
+   }
+  ],
+  "icon": "firethorn_scorcher_bow_item_tier_iv",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355726868,
+  "id": "bastion_shield_tier_ii",
+  "name": "Bastion Shield",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Secondary",
+  "ability_slugs": [
+   {
+    "slug": "bolstering_defense"
+   },
+   {
+    "slug": "defensive_sweep_ability_bastion_shield_tier_ii"
+   }
+  ],
+  "icon": "bastion_shield_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355726871,
+  "id": "spirit_reflecting_shield_tier_iii",
+  "name": "Shield of Smiting",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Secondary",
+  "ability_slugs": [
+   {
+    "slug": "lesser_spirit_shield"
+   },
+   {
+    "slug": "warded"
+   }
+  ],
+  "icon": "spirit_reflecting_shield_tier_iii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355726880,
+  "id": "bolstering_shield_tier_iv",
+  "name": "Shield of Bolstered Resolve",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Secondary",
+  "ability_slugs": [
+   {
+    "slug": "bolstering_defense"
+   },
+   {
+    "slug": "bolstering_resistance"
+   },
+   {
+    "slug": "bolstering_regeneration"
+   }
+  ],
+  "icon": "bolstering_shield_tier_iv",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355726899,
+  "id": "frost_cleave_axe_2h_item_tier_iv",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Coldsnap Cleaver",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "melee_charge_strike_(base)_ability_frost_cleave_axe_2h_item_tier_iv"
+   },
+   {
+    "slug": "frost_cleave_ability_frost_cleave_axe_2h_item_tier_iv"
+   }
+  ],
+  "icon": "frost_cleave_axe_2h_item_tier_iv",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355726917,
+  "id": "ghostfire_orb_item_tier_iv",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Ghostfire Orb",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_bolts_(ghostfire)_ability_ghostfire_orb_item_tier_iv"
+   },
+   {
+    "slug": "quick_stab_ability_ghostfire_orb_item_tier_iv"
+   }
+  ],
+  "icon": "ghostfire_orb_item_tier_iv",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355726955,
+  "id": "boomstaff_item_tier_iv",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Whizzo's Boomstaff",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "boomstaff_blast_ability_boomstaff_item_tier_iv"
+   },
+   {
+    "slug": "quick_stab_ability_boomstaff_item_tier_iv"
+   }
+  ],
+  "icon": "boomstaff_item_tier_iv",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355726969,
+  "id": "fortunes_favor_item_tier_ii",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Fortune's Favor",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_blast_(spirit)_ability_fortunes_favor_item_tier_ii"
+   },
+   {
+    "slug": "quick_stab_ability_fortunes_favor_item_tier_ii"
+   },
+   {
+    "slug": "wand_of_inversion_ability_fortunes_favor_item_tier_ii"
+   }
+  ],
+  "icon": "fortunes_favor_item_tier_ii",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355726984,
+  "id": "storm_bow_item_tier_iv",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Storm Surger",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "shoot_bow_ability_storm_bow_item_tier_iv"
+   },
+   {
+    "slug": "quick_stab_ability_storm_bow_item_tier_iv"
+   }
+  ],
+  "icon": "storm_bow_item_tier_iv",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355726990,
+  "id": "viper_spear_2h_item_tier_iv",
+  "ability_slugs": [
+   {
+    "slug": "melee_strike_(base)_ability_viper_spear_2h_item_tier_iv"
+   },
+   {
+    "slug": "jump_ability_viper_spear_2h_item_tier_iv"
+   },
+   {
+    "slug": "frenzy"
+   }
+  ],
+  "description": "Grants <hyperlink>First Strike</hyperlink>.",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Ruby Viper's Spear",
+  "tier": "Tier IV",
+  "tier_numerals": "IV",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "icon": "viper_spear_2h_item_tier_iv",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355727009,
+  "id": "frost_hammer_1h_item_tier_iii",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Winter's Wrath",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "melee_strike_(base)_ability_frost_hammer_1h_item_tier_iii"
+   }
+  ],
+  "icon": "frost_hammer_1h_item_tier_iii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727018,
+  "id": "poison_tipped_axe_1h_item_tier_iii",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Pestilent Edge",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "melee_strike_(base)_ability_poison_tipped_axe_1h_item_tier_iii"
+   }
+  ],
+  "icon": "poison_tipped_axe_1h_item_tier_iii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727021,
+  "id": "terrorflame_1h_item_tier_iv",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Terrorflame",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "melee_strike_(base)_ability_terrorflame_1h_item_tier_iv"
+   },
+   {
+    "slug": "terrifying_aura"
+   }
+  ],
+  "icon": "terrorflame_1h_item_tier_iv",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727261,
+  "id": "charm_dragon_golden_base",
+  "slot": "Miscellaneous",
+  "name": "Trinket",
+  "ability_slugs": [],
+  "icon": "charm_dragon_golden_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727264,
+  "id": "necklace_dragon_purple_base",
+  "slot": "Miscellaneous",
+  "name": "Trinket",
+  "ability_slugs": [],
+  "icon": "necklace_dragon_purple_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727268,
+  "id": "ring_dragon_red_base",
+  "slot": "Ring",
+  "name": "Ring",
+  "ability_slugs": [],
+  "icon": "ring_dragon_red_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727271,
+  "id": "ring_dragon_green_base",
+  "slot": "Ring",
+  "name": "Ring",
+  "ability_slugs": [],
+  "icon": "ring_dragon_green_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727447,
+  "id": "trinket_industrious_belt_base",
+  "slot": "Miscellaneous",
+  "name": "Trinket",
+  "ability_slugs": [],
+  "icon": "trinket_industrious_belt_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727449,
+  "id": "trinket_backpack_base",
+  "slot": "Miscellaneous",
+  "name": "Trinket",
+  "ability_slugs": [],
+  "icon": "trinket_backpack_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727582,
+  "id": "pants_reaver_female_base",
+  "slot": "Legs",
+  "name": "Pants",
+  "ability_slugs": [],
+  "icon": "pants_reaver_female_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727585,
+  "id": "coat_reaver_male_base",
+  "slot": "Torso",
+  "name": "Coat",
+  "ability_slugs": [],
+  "icon": "coat_reaver_male_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727588,
+  "id": "coat_reaver_female_base",
+  "slot": "Torso",
+  "name": "Coat",
+  "ability_slugs": [],
+  "icon": "coat_reaver_female_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727645,
+  "id": "pants_high_base",
+  "slot": "Legs",
+  "name": "Pants",
+  "ability_slugs": [],
+  "icon": "pants_high_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727648,
+  "id": "armor_high_base",
+  "slot": "Torso",
+  "name": "Armor",
+  "ability_slugs": [],
+  "icon": "armor_high_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727745,
+  "id": "armor_ranger_male_base",
+  "slot": "Torso",
+  "name": "Armor",
+  "ability_slugs": [],
+  "icon": "armor_ranger_male_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727748,
+  "id": "armor_ranger_female_base",
+  "slot": "Torso",
+  "name": "Armor",
+  "ability_slugs": [],
+  "icon": "armor_ranger_female_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727751,
+  "id": "cowl_healer_base",
+  "slot": "Head",
+  "name": "Hood",
+  "ability_slugs": [],
+  "icon": "cowl_healer_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727754,
+  "id": "cowl_rogue_base",
+  "slot": "Head",
+  "name": "Hood",
+  "ability_slugs": [],
+  "icon": "cowl_rogue_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727757,
+  "id": "cowl_ranger_base",
+  "slot": "Head",
+  "name": "Hood",
+  "ability_slugs": [],
+  "icon": "cowl_ranger_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727760,
+  "id": "helmet_guard_base",
+  "slot": "Head",
+  "name": "Helmet",
+  "ability_slugs": [],
+  "icon": "helmet_guard_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727767,
+  "id": "helmet_berserker_base",
+  "slot": "Head",
+  "name": "Helmet",
+  "ability_slugs": [],
+  "icon": "helmet_berserker_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727770,
+  "id": "overcoat_male_base",
+  "slot": "Torso",
+  "name": "Coat",
+  "ability_slugs": [],
+  "icon": "overcoat_male_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727774,
+  "id": "overcoat_female_base",
+  "slot": "Torso",
+  "name": "Coat",
+  "ability_slugs": [],
+  "icon": "overcoat_female_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727776,
+  "id": "pants_puffy_base",
+  "slot": "Legs",
+  "name": "Pants",
+  "ability_slugs": [],
+  "icon": "pants_puffy_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727780,
+  "id": "pants_reaver_base",
+  "slot": "Legs",
+  "name": "Pants",
+  "ability_slugs": [],
+  "icon": "pants_reaver_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727783,
+  "id": "pants_plate_base",
+  "slot": "Legs",
+  "name": "Pants",
+  "ability_slugs": [],
+  "icon": "pants_plate_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727794,
+  "id": "armor_dark_base",
+  "slot": "Torso",
+  "name": "Armor",
+  "ability_slugs": [],
+  "icon": "armor_dark_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727797,
+  "id": "dress_black_base",
+  "slot": "Torso",
+  "name": "Robe",
+  "ability_slugs": [],
+  "icon": "dress_black_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727824,
+  "id": "dress_white_base",
+  "slot": "Torso",
+  "name": "Robe",
+  "ability_slugs": [],
+  "icon": "dress_white_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727838,
+  "id": "stylish_skirt_item_tier_i",
+  "name": "Stylish Skirt",
+  "tier_numerals": "I",
+  "tier": "Tier I",
+  "slot": "Legs",
+  "ability_slugs": [],
+  "icon": "stylish_skirt_item_tier_i",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727916,
+  "id": "stalkers_cowl_item_tier_ii",
+  "ability_slugs": [],
+  "description": "For <hyperlink>Physical Ranged</hyperlink> attacks, grants:<bulletlist><bullet>+% <hyperlink>Accuracy</hyperlink></bullet><bullet>+% damage when <hyperlink><flank></flank> Flanking</hyperlink>.</bullet></bulletlist>",
+  "name": "Stalker's Cowl",
+  "tier": "Tier II",
+  "tier_numerals": "II",
+  "slot": "Head",
+  "icon": "stalkers_cowl_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727932,
+  "id": "frostfiend_helm_item_tier_iv",
+  "name": "Frostfiend Helm",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "slot": "Head",
+  "ability_slugs": [
+   {
+    "slug": "status_effect_immunity_frozen"
+   },
+   {
+    "slug": "weakening_aura"
+   }
+  ],
+  "icon": "frostfiend_helm_item_tier_iv",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727940,
+  "id": "scoundrels_armor_item_tier_ii",
+  "name": "Scoundrel's Armor",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Torso",
+  "ability_slugs": [
+   {
+    "slug": "slippery"
+   }
+  ],
+  "icon": "scoundrels_armor_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727946,
+  "id": "greater_armor_of_the_rogue_item_tier_iii",
+  "ability_slugs": [],
+  "description": "For <hyperlink>Melee</hyperlink> and <hyperlink>Physical Ranged</hyperlink> attacks, grants:<bulletlist><bullet>+% <hyperlink>Critical Hit</hyperlink> chance.</bullet><bullet>+% damage when <hyperlink><flank></flank> Flanking</hyperlink>.</bullet></bulletlist>",
+  "name": "Greater Armor of the Rogue",
+  "tier": "Tier III",
+  "tier_numerals": "III",
+  "slot": "Torso",
+  "icon": "greater_armor_of_the_rogue_item_tier_iii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727957,
+  "id": "greater_armor_of_the_ranger_item_tier_iii",
+  "name": "Greater Armor of the Ranger",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "slot": "Torso",
+  "ability_slugs": [],
+  "icon": "greater_armor_of_the_ranger_item_tier_iii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727964,
+  "id": "armor_of_the_ranger_item_tier_ii",
+  "name": "Armor of the Ranger",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Torso",
+  "ability_slugs": [],
+  "icon": "armor_of_the_ranger_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727976,
+  "id": "armor_of_the_rogue_item_tier_ii",
+  "ability_slugs": [],
+  "description": "For <hyperlink>Melee</hyperlink> and <hyperlink>Physical Ranged</hyperlink> attacks, grants:<bulletlist><bullet>+% <hyperlink>Critical Hit</hyperlink> chance.</bullet><bullet>+% damage when <hyperlink><flank></flank> Flanking</hyperlink>.</bullet></bulletlist>",
+  "name": "Armor of the Rogue",
+  "tier": "Tier II",
+  "tier_numerals": "II",
+  "slot": "Torso",
+  "icon": "armor_of_the_rogue_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727993,
+  "id": "helm_of_the_berserker_item_tier_iii",
+  "name": "Helm of the Berserker",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "slot": "Head",
+  "ability_slugs": [
+   {
+    "slug": "blinding_rage"
+   }
+  ],
+  "icon": "helm_of_the_berserker_item_tier_iii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355727998,
+  "id": "golden_pantaloons_item_tier_iii",
+  "ability_slugs": [],
+  "description": "\\\"Stain resistant and stylish, these delectable pantaloons are of a quality unseen by the eyes of any <hyperlink>Godir</hyperlink>.\\\"",
+  "name": "Golden Pantaloons",
+  "tier": "Tier III",
+  "tier_numerals": "III",
+  "slot": "Legs",
+  "icon": "golden_pantaloons_item_tier_iii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355728002,
+  "id": "stylish_pants_item_tier_i",
+  "name": "Stylish Pants",
+  "tier_numerals": "I",
+  "tier": "Tier I",
+  "slot": "Legs",
+  "ability_slugs": [],
+  "icon": "stylish_pants_item_tier_i",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355728140,
+  "id": "veterans_breastplate_item_tier_iii",
+  "name": "Veteran's Breastplate",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "slot": "Torso",
+  "ability_slugs": [
+   {
+    "slug": "watchful"
+   }
+  ],
+  "icon": "veterans_breastplate_item_tier_iii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355728152,
+  "id": "armor_of_the_arcane_item_tier_iv",
+  "name": "Arcane Battlemage's Armor",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "slot": "Torso",
+  "ability_slugs": [
+   {
+    "slug": "melee_mage"
+   }
+  ],
+  "icon": "armor_of_the_arcane_item_tier_iv",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355728155,
+  "id": "monks_pants_item_tier_ii",
+  "name": "Monk's Pants",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Legs",
+  "ability_slugs": [
+   {
+    "slug": "move_like_water"
+   }
+  ],
+  "icon": "monks_pants_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355728158,
+  "id": "used_loin_cloth_item_tier_i_treasure",
+  "ability_slugs": [],
+  "description": "\\\"Why would anyone want this?\\\"",
+  "name": "Used Loin Cloth",
+  "tier": "Tier I",
+  "tier_numerals": "I",
+  "slot": "Legs",
+  "icon": "used_loin_cloth_item_tier_i_treasure",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355728163,
+  "id": "yakas_sneakers_item_tier_ii",
+  "ability_slugs": [
+   {
+    "slug": "fiery_wake"
+   }
+  ],
+  "description": "\\\"A pair of Yaka's limited run of 'Yakeezy' sneakers.\\\"",
+  "name": "Yaka's Sneakers",
+  "tier": "Tier II",
+  "tier_numerals": "II",
+  "slot": "Legs",
+  "icon": "yakas_sneakers_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -931243738355728170,
+  "id": "invisibility_cloak_item_tier_ii",
+  "name": "Invisibility Cloak",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Torso",
+  "ability_slugs": [
+   {
+    "slug": "obscured"
+   }
+  ],
+  "icon": "invisibility_cloak_item_tier_ii",
+  "disabled_slots": []
+ },
+ {
+  "resid": -8181465137517950348,
+  "id": "t4_staff_staff_of_seven_springs",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Staff of Seven Springs",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_blast_(empty)_ability_t4_staff_staff_of_seven_springs"
+   },
+   {
+    "slug": "quick_stab_ability_t4_staff_staff_of_seven_springs"
+   }
+  ],
+  "icon": "t4_staff_staff_of_seven_springs",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517950622,
+  "id": "t3_staff_mist_spider_staff",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Mist Spider Staff",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_blast_(empty)_ability_t3_staff_mist_spider_staff"
+   },
+   {
+    "slug": "quick_stab_ability_t3_staff_mist_spider_staff"
+   }
+  ],
+  "icon": "t3_staff_mist_spider_staff",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517950660,
+  "id": "t3_eye_watcher_runt",
+  "ability_slugs": [
+   {
+    "slug": "conjure_watcher_ability_t3_eye_watcher_runt"
+   }
+  ],
+  "description": "<runicfont>Lore</runicfont> Watchers take on a variety of forms across the realms. This one was particularly unfortunate.",
+  "name": "Watcher Runt",
+  "tier": "Tier III",
+  "tier_numerals": "III",
+  "slot": "Miscellaneous",
+  "icon": "t3_eye_watcher_runt",
+  "disabled_slots": []
+ },
+ {
+  "resid": -8181465137517950672,
+  "id": "t3_staff_rift_ripper",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Rift Ripper",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_blast_(empty)_ability_t3_staff_rift_ripper"
+   },
+   {
+    "slug": "quick_stab_ability_t3_staff_rift_ripper"
+   }
+  ],
+  "icon": "t3_staff_rift_ripper",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517950680,
+  "id": "t1_bag_bag_of_bugs",
+  "name": "Bag of Bugs",
+  "tier_numerals": "I",
+  "tier": "Tier I",
+  "slot": "Miscellaneous",
+  "ability_slugs": [
+   {
+    "slug": "full_of_spiders"
+   }
+  ],
+  "icon": "t1_bag_bag_of_bugs",
+  "disabled_slots": []
+ },
+ {
+  "resid": -8181465137517950694,
+  "id": "t4_shield_jealous_guardian",
+  "name": "Jealous Guardian",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Secondary",
+  "ability_slugs": [
+   {
+    "slug": "radiant_transposition_ability_t4_shield_jealous_guardian"
+   }
+  ],
+  "icon": "equipment_item_shield_oathsworn_base",
+  "disabled_slots": []
+ },
+ {
+  "resid": -8181465137517950751,
+  "id": "t2_staff_snakehead_staff",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Snakehead Staff",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_blast_(empty)_ability_t2_staff_snakehead_staff"
+   },
+   {
+    "slug": "quick_stab_ability_t2_staff_snakehead_staff"
+   },
+   {
+    "slug": "dust_gust_ability_t2_staff_snakehead_staff"
+   }
+  ],
+  "icon": "staff_of_the_sand_serpent_item_tier_i",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517950761,
+  "id": "t4_bow_four_calamitous_arrows",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Four Calamitous Arrows",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "shoot_bow_(item_forge)_ability_t4_bow_four_calamitous_arrows"
+   },
+   {
+    "slug": "quick_stab_ability_t4_bow_four_calamitous_arrows"
+   }
+  ],
+  "icon": "oathsworn_bow_2h_item_tier_i",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517950787,
+  "id": "equipment_item_stormbringer_trident_base",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Trident",
+  "ability_slugs": [
+   {
+    "slug": "melee_strike_(item_forge_dual)_ability_equipment_item_stormbringer_trident_base"
+   },
+   {
+    "slug": "throw_(base)_ability_equipment_item_stormbringer_trident_base"
+   }
+  ],
+  "icon": "equipment_item_stormbringer_trident_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517950790,
+  "id": "equipment_item_purple_magelock_base",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Magelock",
+  "ability_slugs": [
+   {
+    "slug": "fire_heavy_magelocks_(item_forge)_ability_equipment_item_purple_magelock_base"
+   },
+   {
+    "slug": "fire_heavy_magelocks_snap_shot_(item_forge)_ability_equipment_item_purple_magelock_base"
+   }
+  ],
+  "icon": "equipment_item_purple_magelock_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517950806,
+  "id": "t4_orb_ambirs_spark",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Ambir's Spark",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_bolts_(base)_ability_t4_orb_ambirs_spark"
+   },
+   {
+    "slug": "quick_stab_ability_t4_orb_ambirs_spark"
+   }
+  ],
+  "icon": "equipment_item_orb_arcfire_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517950818,
+  "id": "t2_greatsword_culling_blade",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Culling Blade",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "melee_charge_strike_(item_forge)_ability_t2_greatsword_culling_blade"
+   }
+  ],
+  "icon": "equipment_item_2h_greatsword_dark_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517950833,
+  "id": "t3_sword_&_crossbow_commanders_sword_and_crossbow",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Commander's Flares and Sword",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "melee_strike_(item_forge_dual)_ability_t3_sword_&_crossbow_commanders_sword_and_crossbow"
+   },
+   {
+    "slug": "shoot_offhand_crossbow_(item_forge)_ability_t3_sword_&_crossbow_commanders_sword_and_crossbow"
+   }
+  ],
+  "icon": "t3_sword_&_crossbow_commanders_sword_and_crossbow",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517950839,
+  "id": "t3_greatsword_empty_skies",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Empty Skies",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "melee_charge_strike_(item_forge)_ability_t3_greatsword_empty_skies"
+   },
+   {
+    "slug": "tidal_wave_ability_(hero_adapted)_t3_greatsword_empty_skies"
+   }
+  ],
+  "icon": "oathsworn_greatsword_2h_item_tier_i",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517950885,
+  "id": "t3_lance_brave_dragonslayers_lance",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Brave Dragonslayer's Lance",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "melee_charge_strike_(item_forge_lance)_ability_t3_lance_brave_dragonslayers_lance"
+   }
+  ],
+  "icon": "t3_lance_brave_dragonslayers_lance",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517950889,
+  "id": "t3_spear_twirling_flame",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Twirling Flame",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "melee_strike_(item_forge_polearm)_ability_t3_spear_twirling_flame"
+   }
+  ],
+  "icon": "t3_spear_twirling_flame",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517950917,
+  "id": "t4_greataxe_penumbral_cleaver",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Penumbral Cleaver",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "melee_charge_strike_(item_forge)_ability_t4_greataxe_penumbral_cleaver"
+   },
+   {
+    "slug": "umbral_wake"
+   },
+   {
+    "slug": "umbral_malady_immunity"
+   }
+  ],
+  "icon": "t4_greataxe_penumbral_cleaver",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517950920,
+  "id": "t3_javelin_flashfire_javelin",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Flashfire Javelin",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "melee_strike_(item_forge_dual)_ability_t3_javelin_flashfire_javelin"
+   },
+   {
+    "slug": "throw_(base)_ability_t3_javelin_flashfire_javelin"
+   }
+  ],
+  "icon": "t3_javelin_flashfire_javelin",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517950978,
+  "id": "t2_spear_blossom_defender",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Blessed Blossom",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "melee_strike_(item_forge_polearm)_ability_t2_spear_blossom_defender"
+   }
+  ],
+  "icon": "t2_spear_blossom_defender",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517950981,
+  "id": "t3_helm_helm_of_starsight",
+  "name": "Helm of Starsight",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "slot": "Head",
+  "ability_slugs": [
+   {
+    "slug": "distraction_immunity"
+   }
+  ],
+  "icon": "t3_helm_helm_of_starsight",
+  "disabled_slots": []
+ },
+ {
+  "resid": -8181465137517950983,
+  "id": "t2_ring_ring_of_focus",
+  "name": "Ring of Focus",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Ring",
+  "ability_slugs": [
+   {
+    "slug": "distraction_immunity"
+   }
+  ],
+  "icon": "t2_ring_ring_of_focus",
+  "disabled_slots": []
+ },
+ {
+  "resid": -8181465137517950992,
+  "id": "t2_shield_lasher_shield",
+  "name": "Lasher Shield",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Secondary",
+  "ability_slugs": [
+   {
+    "slug": "revenge_pull"
+   }
+  ],
+  "icon": "t2_shield_lasher_shield",
+  "disabled_slots": []
+ },
+ {
+  "resid": -8181465137517951033,
+  "id": "t4_ring_ring_of_vengeful_grasp",
+  "name": "Ring of Vengeful Grasp",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "slot": "Ring",
+  "ability_slugs": [
+   {
+    "slug": "revenge_pull"
+   }
+  ],
+  "icon": "t4_ring_ring_of_vengeful_grasp",
+  "disabled_slots": []
+ },
+ {
+  "resid": -8181465137517951047,
+  "id": "t4_bow_monsoon",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Monsoon",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "shoot_bow_(item_forge)_ability_t4_bow_monsoon"
+   },
+   {
+    "slug": "quick_stab_ability_t4_bow_monsoon"
+   }
+  ],
+  "icon": "t4_bow_monsoon",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517951052,
+  "id": "t3_cestus_knuckles_of_the_great_migration",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Knuckles of the Great Migration",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "melee_strike_(item_forge_cestus)_ability_t3_cestus_knuckles_of_the_great_migration"
+   },
+   {
+    "slug": "cestus_leap_ability_t3_cestus_knuckles_of_the_great_migration"
+   },
+   {
+    "slug": "stomp_ability_t3_cestus_knuckles_of_the_great_migration"
+   }
+  ],
+  "icon": "t3_cestus_knuckles_of_the_great_migration",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517951057,
+  "id": "t2_book_book_of_gates",
+  "ability_slugs": [],
+  "description": "<runicfont>Lore</runicfont> \\\"On the Many Passages Between the Worlds and the Planes\\\"",
+  "name": "Book of Gates",
+  "tier": "Tier II",
+  "tier_numerals": "II",
+  "slot": "Miscellaneous",
+  "icon": "t2_book_book_of_gates",
+  "disabled_slots": []
+ },
+ {
+  "resid": -8181465137517951080,
+  "id": "t3_book_song_of_dodourn",
+  "ability_slugs": [
+   {
+    "slug": "summon_pestilence_crocodile_ability_t3_book_song_of_dodourn"
+   }
+  ],
+  "description": "<runicfont>Lore</runicfont> If neither spear nor arrow could stop it, how could a pinch of salt have done it?",
+  "name": "Song of Dodourn",
+  "tier": "Tier III",
+  "tier_numerals": "III",
+  "slot": "Miscellaneous",
+  "icon": "t3_book_song_of_dodourn",
+  "disabled_slots": []
+ },
+ {
+  "resid": -8181465137517951088,
+  "id": "t2_cestus_daybreak_gauntlets",
+  "ability_slugs": [
+   {
+    "slug": "melee_strike_(item_forge_cestus)_ability_t2_cestus_daybreak_gauntlets"
+   },
+   {
+    "slug": "first_strike"
+   }
+  ],
+  "description": "Grants <hyperlink>First Strike</hyperlink>.",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Daybreak Gauntlets",
+  "tier": "Tier II",
+  "tier_numerals": "II",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "icon": "t2_cestus_daybreak_gauntlets",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517951094,
+  "id": "t3_sword_gnashing_saber",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Gnashing Saber",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "melee_strike_(base)_ability_t3_sword_gnashing_saber"
+   },
+   {
+    "slug": "constrictor_pull_ability_t3_sword_gnashing_saber"
+   }
+  ],
+  "icon": "t3_sword_gnashing_saber",
+  "disabled_slots": []
+ },
+ {
+  "resid": -8181465137517951146,
+  "id": "t2_book_revelations_of_sola",
+  "ability_slugs": [
+   {
+    "slug": "revelation_of_sola_ability_t2_book_revelations_of_sola"
+   }
+  ],
+  "description": "<runicfont>Lore</runicfont> Much to her priests' chagrin, Sola's prophecies were terrifying rather than edifying.",
+  "name": "Revelations of Sola",
+  "tier": "Tier II",
+  "tier_numerals": "II",
+  "slot": "Miscellaneous",
+  "icon": "t2_book_revelations_of_sola",
+  "disabled_slots": []
+ },
+ {
+  "resid": -8181465137517951168,
+  "id": "t3_wand_frikkas_flute",
+  "name": "Frikka's Flute",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "slot": "Miscellaneous",
+  "ability_slugs": [
+   {
+    "slug": "lesser_delirium_ability_t3_wand_frikkas_flute"
+   }
+  ],
+  "icon": "t3_wand_frikkas_flute",
+  "disabled_slots": []
+ },
+ {
+  "resid": -8181465137517951196,
+  "id": "t4_axe_karavars_goad",
+  "ability_slugs": [
+   {
+    "slug": "melee_strike_(base)_ability_t4_axe_karavars_goad"
+   },
+   {
+    "slug": "summon_infernal_juggernaut_ability_t4_axe_karavars_goad"
+   }
+  ],
+  "description": "<runicfont>Lore</runicfont> The beast needs only the sight of the hook to know its master's will.",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Karavar's Goad",
+  "tier": "Tier IV",
+  "tier_numerals": "IV",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "icon": "the_avenger_onehander_item_tier_3",
+  "disabled_slots": []
+ },
+ {
+  "resid": -8181465137517951205,
+  "id": "t2_sword_&_crossbow_thiefs_arms",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Thief's Arms",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "melee_strike_(item_forge_dual)_ability_t2_sword_&_crossbow_thiefs_arms"
+   },
+   {
+    "slug": "shoot_offhand_crossbow_(item_forge)_ability_t2_sword_&_crossbow_thiefs_arms"
+   }
+  ],
+  "icon": "equipment_item_crossbow_and_sword_dark",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517951216,
+  "id": "t4_staff_arviks_guide",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Arvik's Guide",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "hero_classes": [
+   {
+    "name": "<classMage></classMage> Mage"
+   },
+   {
+    "name": "<classRitualist></classRitualist> Ritualist"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "magic_hero_blast_(frost)_ability_t4_staff_arviks_guide"
+   },
+   {
+    "slug": "quick_stab_ability_t4_staff_arviks_guide"
+   },
+   {
+    "slug": "summon_mammoth_ability_t4_staff_arviks_guide"
+   }
+  ],
+  "icon": "staff_of_the_glacial_mammoth_item_tier_i",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517951320,
+  "id": "t2_ring_puffing_band",
+  "name": "Puffing Band",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Ring",
+  "ability_slugs": [],
+  "icon": "t2_ring_puffing_band",
+  "disabled_slots": []
+ },
+ {
+  "resid": -8181465137517951333,
+  "id": "t3_ring_ring_of_inner_fire",
+  "name": "Ring of Inner Fire",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "slot": "Ring",
+  "ability_slugs": [],
+  "icon": "t3_ring_ring_of_inner_fire",
+  "disabled_slots": []
+ },
+ {
+  "resid": -8181465137517951351,
+  "id": "t3_ring_ring_of_freedom",
+  "name": "Ring of Freedom",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "slot": "Ring",
+  "ability_slugs": [
+   {
+    "slug": "movement_restriction_immunity"
+   }
+  ],
+  "icon": "t3_ring_ring_of_freedom",
+  "disabled_slots": []
+ },
+ {
+  "resid": -8181465137517951358,
+  "id": "t2_ring_band_of_the_graceful_dancer",
+  "name": "Band of the Graceful Dancer",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "slot": "Ring",
+  "ability_slugs": [
+   {
+    "slug": "inspiring_presence"
+   }
+  ],
+  "icon": "t2_ring_band_of_the_graceful_dancer",
+  "disabled_slots": []
+ },
+ {
+  "resid": -8181465137517951379,
+  "id": "t2_bow_simoom_bow",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Simoom Bow",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "shoot_bow_(item_forge)_ability_t2_bow_simoom_bow"
+   },
+   {
+    "slug": "quick_stab_ability_t2_bow_simoom_bow"
+   }
+  ],
+  "icon": "t2_bow_simoom_bow",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517951380,
+  "id": "t3_greatsword_stone_banisher",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Stone Banisher",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "melee_charge_strike_(item_forge)_ability_t3_greatsword_stone_banisher"
+   },
+   {
+    "slug": "power_cleave_ability_t3_greatsword_stone_banisher"
+   }
+  ],
+  "icon": "equipment_item_2h_pantheon_slayer_sword_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517951437,
+  "id": "t2_magelock_late_commonwealth_magelock",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Late Commonwealth Magelock",
+  "tier_numerals": "II",
+  "tier": "Tier II",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "fire_heavy_magelocks_(item_forge)_ability_t2_magelock_late_commonwealth_magelock"
+   },
+   {
+    "slug": "fire_heavy_magelocks_snap_shot_(item_forge)_ability_t2_magelock_late_commonwealth_magelock"
+   }
+  ],
+  "icon": "t2_magelock_late_commonwealth_magelock",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517951440,
+  "id": "t3_blowpipe_hornet_gun",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Hornet Gun",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "blowgun_(item_forge)_ability_t3_blowpipe_hornet_gun"
+   },
+   {
+    "slug": "disengaging_shot_(item_forge)_ability_t3_blowpipe_hornet_gun"
+   }
+  ],
+  "icon": "t3_blowpipe_hornet_gun",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517951441,
+  "id": "t3_blowpipe_war_pipe",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "War Pipe",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "blowgun_(item_forge)_ability_t3_blowpipe_war_pipe"
+   },
+   {
+    "slug": "disengaging_shot_(item_forge)_ability_t3_blowpipe_war_pipe"
+   }
+  ],
+  "icon": "t3_blowpipe_war_pipe",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517951442,
+  "id": "t4_sword_&_pistol_opportunity_&_calamity",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Opportunity & Calamity",
+  "tier_numerals": "IV",
+  "tier": "Tier IV",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "melee_strike_(item_forge_dual)_ability_t4_sword_&_pistol_opportunity_&_calamity"
+   },
+   {
+    "slug": "pistol_shot_(item_forge)_ability_t4_sword_&_pistol_opportunity_&_calamity"
+   }
+  ],
+  "icon": "t4_sword_&_pistol_opportunity_&_calamity",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517951443,
+  "id": "t3_sword_&_pistol_lightning_&_rain",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Lightning & Rain",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "melee_strike_(item_forge_dual)_ability_t3_sword_&_pistol_lightning_&_rain"
+   },
+   {
+    "slug": "shoot_lightning_ability_t3_sword_&_pistol_lightning_&_rain"
+   }
+  ],
+  "icon": "t3_sword_&_pistol_lightning_&_rain",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517951445,
+  "id": "t4_magelock_umbral_culverin",
+  "ability_slugs": [
+   {
+    "slug": "fire_heavy_magelocks_(item_forge)_ability_t4_magelock_umbral_culverin"
+   },
+   {
+    "slug": "fire_heavy_magelocks_snap_shot_(item_forge)_ability_t4_magelock_umbral_culverin"
+   }
+  ],
+  "description": "<runicfont>Lore</runicfont> A favourite of the wardens of Tharru'Cath, this is a cruel weapon by any measure.",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Umbral Culverin",
+  "tier": "Tier IV",
+  "tier_numerals": "IV",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   }
+  ],
+  "slot": "Primary",
+  "icon": "equipment_item_purple_magelock_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -8181465137517951514,
+  "id": "t3_greataxe_gift_of_the_horned_god",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Gift of the Horned God",
+  "tier_numerals": "III",
+  "tier": "Tier III",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "melee_charge_strike_(base)_ability_t3_greataxe_gift_of_the_horned_god"
+   }
+  ],
+  "icon": "t3_greataxe_gift_of_the_horned_god",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
  }
 ]
