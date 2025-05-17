@@ -3,7 +3,6 @@ var sorting = searchParams.get("sort");
 var currentView = "";
 
 var checkboxTooltip = document.getElementById("tooltipCheckbox");
-var showBetaTooltip = document.getElementById("showBetaCheckbox");
 
 var altHeld = false;
 
@@ -27,13 +26,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }, 2000);
 });
 
-function SwitchToBeta() {
-    updateUserSettings({
-        tooltipselectable: checkboxTooltip.checked,
-        showBeta: showBetaTooltip.checked
-    });
-    location.reload();
-}
 function CheckBoxTooltips() {
     //checkboxTooltip = document.getElementById("tooltipCheckbox");
     let hoverDiv = document.getElementById("hoverDiv");
@@ -46,8 +38,7 @@ function CheckBoxTooltips() {
         removeToolTipListeners(hoverDiv2);
     }
     updateUserSettings({
-        tooltipselectable: checkboxTooltip.checked,
-        showBeta: showBetaTooltip.checked
+        tooltipselectable: checkboxTooltip.checked
     });
 }
 
