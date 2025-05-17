@@ -158,60 +158,24 @@ async function GetAllData(beta) {
     //if (beta) {
     //    filesToFetch = jsonFilePathsBeta;
     //}
-    await fetchJsonFiles(filesToFetch)
+
+    // Only fetch the required files for Units, Unit Abilities, and Items
+    const minimalFilePaths = [
+        "/aow4db/ModData/ModdedUnits.json", // Units
+        "/aow4db/Data/Abilities.json",      // Unit Abilities
+        "/aow4db/Data/HeroItems.json",       // Items
+        "/aow4db/Data/StatusEffects.json", // Status Effects
+        "/aow4db/Data/ExtraToolTips.json" // Extra Tooltips
+    ];
+
+    await fetchJsonFiles(minimalFilePaths)
         .then((dataArray) => {
-            dataArray.forEach((data, index) => {
-                // console.log(`Data from ${jsonFilePaths[index]}:`, data);
-                if (index == 0) {
-                    jsonHeroItems = data;
-                } else if (index == 1) {
-                    jsonHeroSkills = data;
-                } else if (index == 2) {
-                    jsonSiegeProjects = data;
-                } else if (index == 3) {
-                    jsonUnits = data;
-                } else if (index == 4) {
-                    jsonFactionCreation2 = data;
-                } else if (index == 5) {
-                    jsonTomes = data;
-                } else if (index == 6) {
-                    jsonUnitAbilities = data;
-                } else if (index == 7) {
-                    jsonEmpire = data;
-                } else if (index == 8) {
-                    jsonSpells = data;
-                } else if (index == 9) {
-                    jsonStructureUpgrades = data;
-                } else if (index == 10) {
-                    jsonCombatEnchantments = data;
-                } else if (index == 11) {
-                    jsonWorldStructures = data;
-                } else if (index == 12) {
-                    jsonEnchantments = data;
-                } else if (index == 13) {
-                    jsonSpawnTables = data;
-                } else if (index == 14) {
-                    jsonFactionCreation = data;
-                } else if (index == 15) {
-                    jsonHeroAmbitions = data;
-                } else if (index == 16) {
-                    jsonBuilderLookUp = data;
-                } else if (index == 17) {
-                    jsonExtraAscendedInfo = data;
-                } else if (index == 18) {
-                    jsonItemForge = data;
-                } else if (index == 19) {
-                    jsonCosmicHappenings = data;
-                } else if (index == 20) {
-                    jsonBuilderHeroLookUp = data;
-                } else if (index == 21) {
-                    jsonHeroGovernance = data;
-                } else if (index == 22) {
-                    jsonStatusEffects = data;
-                } else if (index == 23) {
-                    jsonExtraTooltips = data;
-                }
-            });
+            // Assign by file order, not by index
+            jsonUnits = dataArray[0];
+            jsonUnitAbilities = dataArray[1];
+            jsonHeroItems = dataArray[2];
+            jsonStatusEffects = dataArray[3];
+            jsonExtraTooltips = dataArray[4];
         })
         .catch((error) => {
             console.error("Error fetching JSON files:", error.message);
