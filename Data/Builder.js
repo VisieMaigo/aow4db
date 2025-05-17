@@ -239,8 +239,6 @@ async function CheckData() {
             checkboxTooltip = document.getElementById("tooltipCheckbox");
             checkboxTooltip.checked = storedSettings.tooltipselectable;
 
-            showBetaTooltip = document.getElementById("showBetaCheckbox");
-            showBetaTooltip.checked = storedSettings.showBeta;
             let hoverDiv = document.getElementById("hoverDiv");
             let hoverDiv2 = document.getElementById("hoverDiv2");
             if (checkboxTooltip.checked === true) {
