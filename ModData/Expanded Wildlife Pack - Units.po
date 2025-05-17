@@ -1,0 +1,207 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+msgid "EXPANDED_WILDLIFE_PACK@BALD_EAGLE@NAME"
+msgstr "Bald Eagle^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@EAGLE@NAME"
+msgstr "Great Eagle^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@YOUNG_EAGLE@NAME"
+msgstr "Young Eagle^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@EAGLE@EVOLVE@NAME"
+msgstr "Eagles"
+
+msgid "EXPANDED_WILDLIFE_PACK@YOUNG_PHOENIX@NAME"
+msgstr "Young Phoenix^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@YOUNG_THUNDERBIRD@NAME"
+msgstr "Young Thunderbird^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@LION@NAME"
+msgstr "Lion^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@LIONESS@NAME"
+msgstr "Lioness^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@LION_CUB@NAME"
+msgstr "Young Lion^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@LION_CUB@EVOLVE@NAME"
+msgstr "Lions"
+
+msgid "EXPANDED_WILDLIFE_PACK@CELESTIAL_LION@NAME"
+msgstr "Celestial Lion^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@CELESTIAL_LION_CUB@NAME"
+msgstr "Young Celestial Lion^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@TIGER@NAME"
+msgstr "Tiger^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@TIGER_CUB@NAME"
+msgstr "Young Tiger^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@WHITE_TIGER@NAME"
+msgstr "White Tiger^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@WHITE_TIGER_CUB@NAME"
+msgstr "Young White Tiger^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@PANTHER@NAME"
+msgstr "Panther^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@PANTHER_CUB@NAME"
+msgstr "Young Panther^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@WHITE_STAG@NAME"
+msgstr "White Stag^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@RED_STAG@NAME"
+msgstr "Red Stag^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@WILD_HORSE@NAME"
+msgstr "Wild Horse^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@ZEBRA@NAME"
+msgstr "Zebra^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@HOUND@NAME"
+msgstr "Hound^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@HOUND_PUP@NAME"
+msgstr "Hound Pup^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@BROWN_WOLF@NAME"
+msgstr "Brown Wolf^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@BROWN_WOLF_ALPHA@NAME"
+msgstr "Brown Wolf Alpha^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@SPIRIT_BEAR@NAME"
+msgstr "Spirit Bear^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@SPIRIT_PANTHER@NAME"
+msgstr "Spirit Panther^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@SPIRIT_STAG@NAME"
+msgstr "Spirit Stag^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@SPIRIT_BOAR@NAME"
+msgstr "Spirit Boar^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@SPIRIT_HORSE@NAME"
+msgstr "Spirit Horse^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@RAPTOR_HATCHLING@NAME"
+msgstr "Raptor Hatchling^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@RAPTOR@NAME"
+msgstr "Raptor^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@RAPTOR_ALPHA@NAME"
+msgstr "Raptor Alpha^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@SWIFTFOOT_RAPTOR_HATCHLING@NAME"
+msgstr "Swiftfoot Raptor Hatchling^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@SWIFTFOOT_RAPTOR@NAME"
+msgstr "Swiftfoot Raptor^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@SWIFTFOOT_RAPTOR_ALPHA@NAME"
+msgstr "Swiftfoot Raptor Alpha^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@PESTILENCE_RAPTOR@NAME"
+msgstr "Pestilence Raptor^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@SPIRIT_RAPTOR@NAME"
+msgstr "Spirit Raptor^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@MAGMA_RAPTOR_HATCHLING@NAME"
+msgstr "Magma Raptor Hatchling^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@MAGMA_RAPTOR@NAME"
+msgstr "Magma Raptor^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@MAGMA_RAPTOR_ALPHA@NAME"
+msgstr "Magma Raptor Alpha^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@MAGMA_SERPENT_HATCHLING@NAME"
+msgstr "Magma Serpent Hatchling^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@MAGMA_SERPENT@NAME"
+msgstr "Magma Serpent^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@FOREST_WYVERN@NAME"
+msgstr "Forest Wyvern^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@YOUNG_FOREST_DRAGON@NAME"
+msgstr "Young Forest Dragon^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@FOREST_DRAGON@NAME"
+msgstr "Forest Dragon^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@ROCK_WYVERN@NAME"
+msgstr "Earth Wyvern^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@YOUNG_ROCK_DRAGON@NAME"
+msgstr "Young Earth Dragon^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@ROCK_DRAGON@NAME"
+msgstr "Earth Dragon^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@YOUNG_PHASE_BEAST@NAME"
+msgstr "Young Phase Beast^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@JADE_TIGER@NAME"
+msgstr "Jade Tiger^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@HORNED_BEAR@NAME"
+msgstr "Horned Bear^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@PEGASUS@NAME"
+msgstr "Pegasus^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@ALBINO_WARG@NAME"
+msgstr "Albino Warg^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@TEMPEST_DRAGON@NAME"
+msgstr "Tempest Dragon^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@STORM_CROCODILE@NAME"
+msgstr "Storm Crocodile^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@MAGMA_CROCODILE@NAME"
+msgstr "Magma Crocodile^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@CAVERNBEAR@NAME"
+msgstr "Cavernbear^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@CRYSTALRUNNER@NAME"
+msgstr "Crystalrunner^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@SPIRIT_RAZORBACK@NAME"
+msgstr "Spirit Razorback^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@ACCURSED_JUGGERNAUT@NAME"
+msgstr "Accursed Juggernaut^n"
+
+msgid "EXPANDED_WILDLIFE_PACK@WHITE_KARAGH@NAME"
+msgstr "White Karagh^n"
+
+#~ msgid "EXPANDED_WILDLIFE_PACK@YOUNG_SWIFTFOOT_RAPTOR@NAME"
+#~ msgstr "Young Swiftfoot Raptor"
+
+#~ msgid "EXPANDED_WILDLIFE_PACK@LION_CUB_MALE@NAME"
+#~ msgstr "Lion Cub ♂"

@@ -366,7 +366,7 @@
             Settings<br />
             Selectable Tooltips: <input type="checkbox" id="tooltipCheckbox" onclick="CheckBoxTooltips()" />
         </div>
-        <div style="color: white; font-size: 15px; position: absolute; right: 10px; top: 5px; z-index: 1">
+        <!-- <div style="color: white; font-size: 15px; position: absolute; right: 10px; top: 5px; z-index: 1">
             Other Database:<br /><br />
             <a class="prett" href="https://minionsart.github.io/aow3db/" target="_blank"
                 ><img
@@ -381,18 +381,13 @@
                     src="/aow4db/Icons/Interface/aowpficon.png"
                     width="35px" />AOW-Planetfall</a
             >
-        </div>
+        </div> -->
         <div class="header-img">
             <div class="hero-text">Age of Wonders 4 Database</div>
 
             <div class="mid-text">
-                <img src="/aow4db/Icons/Interface/giant_kings.png" width="400px" />
-
-                <div class="mid-text" style="display: none">
-                    Switch To Ogre Beta Dataset:<input type="checkbox" id="showBetaCheckbox" onclick="SwitchToBeta()" />
-                    <br />(may have page/image issues)(only changes exported data)
-                </div>
-                <div class="current-version">Updated: 15 APRIL 2025</div>
+                <img src="/aow4db/ModData/expanded_wildlife_pack.png" width="400px" />
+                <!-- <div class="current-version">Updated: 15 APRIL 2025</div> -->
             </div>
             <ul id="menu">
                 <li>
@@ -698,251 +693,6 @@
                         </li>
                     </ul>
                 </li>
-                <li>
-                    <a class="prett" style="color: burlywood"
-                        ><img
-                            style="margin-top: -20px; margin-bottom: -10px"
-                            src="/aow4db/Icons/Interface/TomesIcon.png"
-                            width="40px" />Tomes</a
-                    >
-                    <ul class="menus">
-                        <li>
-                            <a href="/aow4db/HTML/AstralTomes.html?type=tome_of_evocation&"
-                                ><img src="/aow4db/Icons/Text/astral.png" width="20px" /> Astral</a
-                            >
-                        </li>
-                        <li>
-                            <a href="/aow4db/HTML/NatureTomes.html?type=tome_of_roots&"
-                                ><img src="/aow4db/Icons/Text/nature.png" width="20px" /> Nature</a
-                            >
-                        </li>
-                        <li>
-                            <a href="/aow4db/HTML/ShadowTomes.html?type=tome_of_necromancy&"
-                                ><img src="/aow4db/Icons/Text/shadow.png" width="20px" /> Shadow</a
-                            >
-                        </li>
-                        <li>
-                            <a href="/aow4db/HTML/OrderTomes.html?type=tome_of_zeal&"
-                                ><img src="/aow4db/Icons/Text/order.png" width="20px" /> Order</a
-                            >
-                        </li>
-                        <li>
-                            <a href="/aow4db/HTML/ChaosTomes.html?type=tome_of_pyromancy&"
-                                ><img src="/aow4db/Icons/Text/chaos.png" width="20px" /> Chaos</a
-                            >
-                        </li>
-                        <li>
-                            <a href="/aow4db/HTML/MateriumTomes.html?type=tome_of_rock&.html"
-                                ><img src="/aow4db/Icons/Text/materium.png" width="20px" /> Materium</a
-                            >
-                        </li>
-                        <li>
-                            <a href="/aow4db/HTML/DualTomes.html?type=tome_of_evolution&.html"
-                                ><img src="/aow4db/Icons/Interface/dual.png" width="20px" /> Dual</a
-                            >
-                        </li>
-                        <li>
-                            <a href="/aow4db/HTML/GeneralCultureTomes.html?type=general_research&.html"
-                                ><img src="/aow4db/Icons/Text/population.png" width="20px" /> General& Culture</a
-                            >
-                        </li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a class="prett" style="color: burlywood"
-                        ><img
-                            style="margin-top: -20px; margin-bottom: -10px"
-                            src="/aow4db/Icons/Interface/SpellsIcon.png"
-                            width="40px" />Spells</a
-                    >
-                    <ul class="menus">
-                        <li>
-                            <a
-                                href="/aow4db/HTML/TransformationSpells.html?type=Minor%20Race%20Transformations&sort=name:true"
-                                ><img src="/aow4db/Icons/SpellIcons/angelic_transformation.png" width="20px" />
-                                Transformations</a
-                            >
-                        </li>
-                        <li>
-                            <a href="/aow4db/HTML/CombatSpells.html?type=Healing%20Spells&sort=name:true"
-                                ><img src="/aow4db/Icons/Text/tacticalcombatpoints.png" width="20px" /> Combat Spells</a
-                            >
-                        </li>
-                        <li>
-                            <a href="/aow4db/HTML/EnchantmentSpells.html?type=Generic%20Research&sort=name:true"
-                                ><img src="/aow4db/Icons/SpellIcons/adaptive_armor.png" width="20px" /> Enchantments</a
-                            >
-                        </li>
-                        <li>
-                            <a href="/aow4db/HTML/StrategicSpells.html?type=Summon%20Spells&sort=name:true"
-                                ><img src="/aow4db/Icons/Text/strategiccombatpoints.png" width="20px" /> Strategic
-                                Spells</a
-                            >
-                        </li>
-                        <li>
-                            <a href="/aow4db/HTML/SiegeProjects.html?&sort=name:true"
-                                ><img src="/aow4db/Icons/Text/siegehealth.png" width="20px" /> Siege Projects</a
-                            >
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a class="prett" style="color: burlywood"
-                        ><img
-                            style="margin-top: -20px; margin-bottom: -10px"
-                            src="/aow4db/Icons/Interface/StructuresIcon.png"
-                            width="40px" />World Map</a
-                    >
-                    <ul class="menus">
-                        <li>
-                            <a href="/aow4db/HTML/CityTreesNew.html"
-                                ><img src="/aow4db/Icons/UpgradeIcons/throne.png" width="20px" /> City Tree</a
-                            >
-                        </li>
-                        <li>
-                            <a href="/aow4db/HTML/ProvinceImprovements.html?type=Foresters&"
-                                ><img src="/aow4db/Icons/Text/mine.png" width="15px" /> Province Impr.</a
-                            >
-                        </li>
-                        <li>
-                            <a href="/aow4db/HTML/MagicMaterials.html"
-                                ><img src="/aow4db/Icons/WorldStructures/arcanium_ore.png" width="20px" /> Magic
-                                Materials</a
-                            >
-                        </li>
-                        <li>
-                            <a href="/aow4db/HTML/AncientWonders.html?type=Bronze&"
-                                ><img src="/aow4db/Icons/Text/goldWonder.png" width="20px" /> Ancient Wonders</a
-                            >
-                        </li>
-                        <li>
-                            <a href="/aow4db/HTML/Landmarks.html"
-                                ><img src="/aow4db/Icons/Text/landmark.png" width="20px" /> Landmarks</a
-                            >
-                        </li>
-                        <li>
-                            <a href="/aow4db/HTML/CosmicHappenings.html?type=Minor&"
-                                ><img src="/aow4db/Icons/CosmicHappenings/category_icon_Asteroid.png" width="20px" />
-                                Cosmic Happenings</a
-                            >
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a class="prett" style="color: burlywood"
-                        ><img
-                            style="margin-top: -20px; margin-bottom: -10px"
-                            src="/aow4db/Icons/Interface/HeroIcon.png"
-                            width="40px" />Heroes</a
-                    >
-                    <ul class="menus">
-                        <li>
-                            <a href="/aow4db/HTML/HeroEquipment.html?type=Primary%20Weapon&sort=tier:true"
-                                ><img src="/aow4db/Icons/Interface/EquipmentIcon.png" width="20px" />Equipment</a
-                            >
-                        </li>
-                        <li>
-                            <a href="/aow4db/HTML/HeroSkills.html"
-                                ><img src="/aow4db/Icons/UnitIcons/ascended_alchemist.png" width="20px" /> Ascension
-                                Skills</a
-                            >
-                        </li>
-                        <li>
-                            <a href="/aow4db/HTML/HeroAmbitions.html"
-                                ><img src="/aow4db/Icons/AmbitionIcons/challenger.png" width="20px" /> Ambitions</a
-                            >
-                        </li>
-                        <li>
-                            <a href="/aow4db/HTML/HeroGovernance.html"
-                                ><img src="/aow4db/Icons/GovernanceIcons/agricultural_governor.png" width="20px" />
-                                Governance</a
-                            >
-                        </li>
-                        <li>
-                            <a href="/aow4db/HTML/HeroBuilder.html"
-                                ><img src="/aow4db/Icons/UnitIcons/adaptive_armor.png" width="20px" />Skill Trees</a
-                            >
-                        </li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a class="prett" style="color: burlywood"
-                        ><img
-                            style="margin-top: -20px; margin-bottom: -10px"
-                            src="/aow4db/Icons/Interface/EmpireIcon.png"
-                            width="40px" />Empire</a
-                    >
-                    <ul class="menus">
-                        <li>
-                            <a href="/aow4db/HTML/EmpireTree.html"
-                                ><img src="/aow4db/Icons/Interface/EmpireIcon.png" width="20px" /> Empire Tree</a
-                            >
-                        </li>
-                        <li>
-                            <a href="/aow4db/HTML/DestinyTraits.html"
-                                ><img src="/aow4db/Icons/EmpireProgressionIcons/mark_of_the_butcher.png" width="20px" />
-                                Destiny Traits</a
-                            >
-                        </li>
-                        <li>
-                            <a href="/aow4db/HTML/FactionCreation.html"
-                                ><img src="/aow4db/Icons/FactionCreation/adaptable.png" width="20px" />Faction Traits</a
-                            >
-                        </li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a class="prett" style="color: burlywood"
-                        ><img
-                            style="margin-top: -20px; margin-bottom: -10px"
-                            src="/aow4db/Icons/Interface/ability_icon_fire.png"
-                            width="40px" />Abilities</a
-                    >
-                    <ul class="menus">
-                        <li>
-                            <a href="/aow4db/HTML/Abilities.html"
-                                ><img src="/aow4db/Icons/UnitIcons/acid_spray_scrap_hermit.png" width="20px" />Active
-                                Abilities</a
-                            >
-                        </li>
-                        <li>
-                            <a href="/aow4db/HTML/Passives.html"
-                                ><img src="/aow4db/Icons/UnitIcons/accursed_body.png" width="20px" />Passives</a
-                            >
-                        </li>
-                        <li>
-                            <a href="/aow4db/HTML/StatusEffects.html"
-                                ><img src="/aow4db/Icons/UnitIcons/wet.png" width="20px" />Status Effects</a
-                            >
-                        </li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a class="prett" style="color: burlywood"
-                        ><img
-                            style="margin-top: -20px; margin-bottom: -10px"
-                            src="/aow4db/Icons/Interface/Info.png"
-                            width="40px" />Faction/Hero Planners</a
-                    >
-                    <ul class="menus">
-                        <li>
-                            <a href="/aow4db/HTML/FactionCreator.html"
-                                ><img src="/aow4db/Icons/FactionCreation/fabled_hunters.png" width="20px" />Faction
-                                Builder</a
-                            >
-                        </li>
-                        <li>
-                            <a href="/aow4db/HTML/HeroBuilder.html"
-                                ><img src="/aow4db/Icons/UnitIcons/adaptive_armor.png" width="20px" />Hero Builder</a
-                            >
-                        </li>
-                    </ul>
-                </li>
-
                 <li>
                     <a class="prett" style="color: coral" href="/aow4db/HTML/Search.html"
                         ><img

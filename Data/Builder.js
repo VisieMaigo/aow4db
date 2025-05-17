@@ -114,7 +114,7 @@ async function GetAllData(beta) {
         "/aow4db/Data/HeroItems.json",
         "/aow4db/Data/HeroSkills.json",
         "/aow4db/Data/SiegeProjects.json",
-        "/aow4db/Data/Units.json",
+        "/aow4db/ModData/ModdedUnits.json", // Changed from Data/Units.json to ModData/ModdedUnits.json
         "/aow4db/Data/Traits.json",
         "/aow4db/Data/Tomes.json",
         "/aow4db/Data/Abilities.json",

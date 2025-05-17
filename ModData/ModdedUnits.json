@@ -1,0 +1,4749 @@
+[
+  {
+    "primary_passives": [
+      {
+        "slug": "crystal_reflection"
+      },
+      {
+        "slug": "low_maintenance"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_charge_strike_(base)_ability_crystalrunner"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_sprint"
+      }
+    ],
+    "description": "",
+    "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+    "resid": -931243738355722465,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "lightning_resistance_2"
+      },
+      {
+        "slug": "fire_resistance_2"
+      },
+      {
+        "slug": "blight_weakness_4"
+      }
+    ],
+    "status_resistance": 0,
+    "upkeep": "12<gold></gold> ",
+    "id": "crystalrunner",
+    "name": "Crystalrunner",
+    "hp": 70,
+    "armor": 2,
+    "resistance": 2,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 2,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "elemental"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "magic_origin"
+      },
+      {
+        "slug": "shock_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "excavation"
+      },
+      {
+        "slug": "low_maintenance"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_cavernbear"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_brawler"
+      }
+    ],
+    "description": "",
+    "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+    "resid": -931243738355722467,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [],
+    "status_resistance": 0,
+    "upkeep": "12<gold></gold> ",
+    "id": "cavernbear",
+    "name": "Cavernbear",
+    "hp": 70,
+    "armor": 2,
+    "resistance": 1,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 2,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "cave_walk"
+      },
+      {
+        "slug": "fighter_unit"
+      },
+      {
+        "slug": "land_movement"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "demolisher"
+      },
+      {
+        "slug": "fiery_wake"
+      },
+      {
+        "slug": "flame_body"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "status_effect_immunity_burning"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_magma_crocodile"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_brawler"
+      }
+    ],
+    "description": "",
+    "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+    "resid": -931243738355722614,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "fire_resistance_6"
+      },
+      {
+        "slug": "frost_weakness_4"
+      }
+    ],
+    "status_resistance": 3,
+    "upkeep": "20<gold></gold> ",
+    "id": "magma_crocodile",
+    "name": "Magma Crocodile",
+    "hp": 90,
+    "armor": 3,
+    "resistance": 3,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 3,
+    "secondary_passives": [
+      {
+        "slug": "amphibious"
+      },
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "fighter_unit"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "large_target"
+      },
+      {
+        "slug": "lava_walk"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "pass_through"
+      },
+      {
+        "slug": "quill_hide"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "ewp_quillshot_unit_property_ability_spirit_razorback"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "champion_quillshot"
+      },
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_eagle_eye"
+      }
+    ],
+    "description": "",
+    "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+    "resid": -931243738355722616,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "spirit_weakness_4"
+      }
+    ],
+    "status_resistance": 3,
+    "upkeep": "20<gold></gold> ",
+    "id": "spirit_razorback",
+    "name": "Spirit Razorback",
+    "hp": 80,
+    "armor": 5,
+    "resistance": 3,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 3,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "ethereal"
+      },
+      {
+        "slug": "forest_walk"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "magic_origin"
+      },
+      {
+        "slug": "ranged_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "demolisher"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "statically_charged"
+      },
+      {
+        "slug": "status_effect_immunity_electrified"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_storm_crocodile"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_brawler"
+      }
+    ],
+    "description": "",
+    "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+    "resid": -931243738355722728,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "lightning_resistance_4"
+      },
+      {
+        "slug": "frost_weakness_2"
+      }
+    ],
+    "status_resistance": 3,
+    "upkeep": "20<gold></gold> ",
+    "id": "storm_crocodile",
+    "name": "Storm Crocodile",
+    "hp": 90,
+    "armor": 3,
+    "resistance": 3,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 3,
+    "secondary_passives": [
+      {
+        "slug": "amphibious"
+      },
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "fighter_unit"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "large_target"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "control_loss_immunity"
+      },
+      {
+        "slug": "demolisher"
+      },
+      {
+        "slug": "draconic_rage"
+      },
+      {
+        "slug": "statically_charged"
+      },
+      {
+        "slug": "wind_barrier"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "magic_spike_ability_tempest_dragon"
+      },
+      {
+        "slug": "ewp_thundering_storm_ability_tempest_dragon"
+      },
+      {
+        "slug": "magic_rebuke_ability_tempest_dragon"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_killing_momentum"
+      }
+    ],
+    "description": "",
+    "cost": "400<unitprod></unitprod> 400<gold></gold> ",
+    "resid": -931243738355722769,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "lightning_resistance_10"
+      },
+      {
+        "slug": "frost_weakness_4"
+      }
+    ],
+    "status_resistance": 11,
+    "upkeep": "60<gold></gold> 7<influence></influence> ",
+    "id": "tempest_dragon",
+    "name": "Tempest Dragon",
+    "hp": 150,
+    "armor": 6,
+    "resistance": 7,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 5,
+    "secondary_passives": [
+      {
+        "slug": "cannot_be_displaced"
+      },
+      {
+        "slug": "dragon"
+      },
+      {
+        "slug": "flying"
+      },
+      {
+        "slug": "large_target"
+      },
+      {
+        "slug": "magic_origin"
+      },
+      {
+        "slug": "mythic_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "control_loss_immunity"
+      },
+      {
+        "slug": "inspiring_killer"
+      },
+      {
+        "slug": "low_maintenance"
+      }
+    ],
+    "mp": 48,
+    "abilities": [
+      {
+        "slug": "melee_charge_strike_(base)_ability_pegasus"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_sprint"
+      }
+    ],
+    "description": "",
+    "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+    "resid": -931243738355722815,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "spirit_resistance_2"
+      },
+      {
+        "slug": "blight_weakness_4"
+      },
+      {
+        "slug": "frost_weakness_4"
+      }
+    ],
+    "status_resistance": 3,
+    "upkeep": "20<gold></gold> ",
+    "id": "pegasus",
+    "name": "Pegasus",
+    "hp": 90,
+    "armor": 3,
+    "resistance": 3,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 3,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "celestial"
+      },
+      {
+        "slug": "flying"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "shock_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "demolisher"
+      },
+      {
+        "slug": "inner_grace"
+      },
+      {
+        "slug": "low_maintenance"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_horned_bear"
+      },
+      {
+        "slug": "ewp_swipe_ability_horned_bear"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_brawler"
+      }
+    ],
+    "description": "",
+    "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+    "resid": -931243738355722817,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [],
+    "status_resistance": 3,
+    "upkeep": "20<gold></gold> ",
+    "id": "horned_bear",
+    "name": "Horned Bear",
+    "hp": 100,
+    "armor": 3,
+    "resistance": 3,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 3,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "fighter_unit"
+      },
+      {
+        "slug": "forest_walk"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "large_target"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "pack_hunter"
+      }
+    ],
+    "mp": 48,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_albino_warg"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_brawler"
+      }
+    ],
+    "description": "",
+    "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+    "resid": -931243738355722819,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [],
+    "status_resistance": 0,
+    "upkeep": "12<gold></gold> ",
+    "id": "albino_warg",
+    "name": "Albino Warg",
+    "hp": 70,
+    "armor": 2,
+    "resistance": 2,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 2,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "fighter_unit"
+      },
+      {
+        "slug": "forest_walk"
+      },
+      {
+        "slug": "land_movement"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "low_maintenance"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_jade_tiger"
+      },
+      {
+        "slug": "defense_mode_turn_to_stone"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_brawler"
+      }
+    ],
+    "description": "",
+    "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+    "resid": -931243738355722821,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "blight_resistance_4"
+      },
+      {
+        "slug": "spirit_weakness_2"
+      }
+    ],
+    "status_resistance": 3,
+    "upkeep": "20<gold></gold> ",
+    "id": "jade_tiger",
+    "name": "Jade Tiger",
+    "hp": 100,
+    "armor": 5,
+    "resistance": 3,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 3,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "elemental"
+      },
+      {
+        "slug": "fighter_unit"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "magic_origin"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "fiery_wake"
+      },
+      {
+        "slug": "flame_body"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "slippery"
+      },
+      {
+        "slug": "status_effect_immunity_burning"
+      },
+      {
+        "slug": "swift"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_magma_serpent"
+      },
+      {
+        "slug": "ewp_lava_spit_ability_magma_serpent"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_critical"
+      }
+    ],
+    "description": "",
+    "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+    "resid": -931243738355724152,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "fire_resistance_6"
+      },
+      {
+        "slug": "frost_weakness_4"
+      }
+    ],
+    "status_resistance": 3,
+    "upkeep": "20<gold></gold> ",
+    "id": "magma_serpent",
+    "name": "Magma Serpent",
+    "hp": 90,
+    "armor": 3,
+    "resistance": 3,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 3,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "lava_walk"
+      },
+      {
+        "slug": "skirmisher_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "evolutionary_drive"
+      },
+      {
+        "slug": "fiery_wake"
+      },
+      {
+        "slug": "flame_body"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "slippery"
+      },
+      {
+        "slug": "status_effect_immunity_burning"
+      },
+      {
+        "slug": "swift"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_magma_serpent_hatchling"
+      },
+      {
+        "slug": "ewp_lava_spit_ability_magma_serpent_hatchling"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_critical"
+      }
+    ],
+    "description": "",
+    "cost": "80<unitprod></unitprod> 60<gold></gold> ",
+    "resid": -931243738355724159,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "fire_resistance_6"
+      },
+      {
+        "slug": "frost_weakness_4"
+      }
+    ],
+    "status_resistance": 0,
+    "upkeep": "8<gold></gold> ",
+    "id": "magma_serpent_hatchling",
+    "name": "Magma Serpent Hatchling",
+    "hp": 60,
+    "armor": 0,
+    "resistance": 1,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 1,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "evolve"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "lava_walk"
+      },
+      {
+        "slug": "skirmisher_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "evolve_target": "magma_serpent"
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "displacement"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "pass_through"
+      }
+    ],
+    "mp": 48,
+    "abilities": [
+      {
+        "slug": "melee_charge_strike_(base)_ability_young_phase_beast"
+      },
+      {
+        "slug": "phase_ability_young_phase_beast"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_sprint"
+      }
+    ],
+    "description": "",
+    "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+    "resid": -931243738355724170,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "spirit_weakness_4"
+      }
+    ],
+    "status_resistance": 0,
+    "upkeep": "12<gold></gold> ",
+    "id": "young_phase_beast",
+    "name": "Young Phase Beast",
+    "hp": 60,
+    "armor": 3,
+    "resistance": 2,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 2,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "ethereal"
+      },
+      {
+        "slug": "evolve"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "magic_origin"
+      },
+      {
+        "slug": "shock_unit"
+      },
+      {
+        "slug": "universal_camouflage"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "evolve_target": "phase_beast"
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "evolutionary_drive"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "pack_hunter"
+      },
+      {
+        "slug": "pass_through"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_spirit_raptor"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "primal_bite"
+      },
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_brawler"
+      }
+    ],
+    "description": "",
+    "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+    "resid": -931243738355724176,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "spirit_weakness_4"
+      }
+    ],
+    "status_resistance": 3,
+    "upkeep": "20<gold></gold> ",
+    "id": "spirit_raptor",
+    "name": "Spirit Raptor",
+    "hp": 80,
+    "armor": 5,
+    "resistance": 3,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 3,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "ethereal"
+      },
+      {
+        "slug": "fighter_unit"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "magic_origin"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "low_maintenance"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_charge_strike_(base)_ability_red_stag"
+      },
+      {
+        "slug": "consume_flora_ability_red_stag"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_sprint"
+      }
+    ],
+    "description": "",
+    "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+    "resid": -931243738355724178,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [],
+    "status_resistance": 0,
+    "upkeep": "12<gold></gold> ",
+    "id": "red_stag",
+    "name": "Red Stag",
+    "hp": 70,
+    "armor": 2,
+    "resistance": 1,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 2,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "forest_walk"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "shock_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "demolisher"
+      },
+      {
+        "slug": "draconic_rage"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "slippery"
+      },
+      {
+        "slug": "swift"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_earth_wyvern"
+      },
+      {
+        "slug": "wyvern_burst_ability_earth_wyvern"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_critical"
+      }
+    ],
+    "description": "",
+    "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+    "resid": -931243738355724304,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "blight_resistance_4"
+      },
+      {
+        "slug": "spirit_weakness_2"
+      }
+    ],
+    "status_resistance": 3,
+    "upkeep": "20<gold></gold> ",
+    "id": "earth_wyvern",
+    "name": "Earth Wyvern",
+    "hp": 90,
+    "armor": 3,
+    "resistance": 3,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 3,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "dragon"
+      },
+      {
+        "slug": "flying"
+      },
+      {
+        "slug": "large_target"
+      },
+      {
+        "slug": "skirmisher_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "draconic_rage"
+      },
+      {
+        "slug": "high_maintenance"
+      },
+      {
+        "slug": "intimidating_aura"
+      },
+      {
+        "slug": "truesight"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_young_earth_dragon"
+      },
+      {
+        "slug": "tail_swipe_ability_young_earth_dragon"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_brawler"
+      }
+    ],
+    "description": "",
+    "cost": "240<unitprod></unitprod> 160<gold></gold> ",
+    "resid": -931243738355724348,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "blight_resistance_4"
+      },
+      {
+        "slug": "spirit_weakness_2"
+      }
+    ],
+    "status_resistance": 3,
+    "upkeep": "20<gold></gold> ",
+    "id": "young_earth_dragon",
+    "name": "Young Earth Dragon",
+    "hp": 100,
+    "armor": 3,
+    "resistance": 3,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 3,
+    "secondary_passives": [
+      {
+        "slug": "dragon"
+      },
+      {
+        "slug": "evolve"
+      },
+      {
+        "slug": "fighter_unit"
+      },
+      {
+        "slug": "flying"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "evolve_target": "earth_dragon"
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "control_loss_immunity"
+      },
+      {
+        "slug": "demolisher"
+      },
+      {
+        "slug": "draconic_rage"
+      },
+      {
+        "slug": "earth_aura"
+      },
+      {
+        "slug": "fearless"
+      },
+      {
+        "slug": "high_maintenance"
+      },
+      {
+        "slug": "juggernaut"
+      },
+      {
+        "slug": "siege_breaker"
+      },
+      {
+        "slug": "terrifying_aura"
+      },
+      {
+        "slug": "truesight"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_earth_dragon"
+      },
+      {
+        "slug": "ewp_gilding_breath_dragon_ability_earth_dragon"
+      },
+      {
+        "slug": "tail_swipe_ability_earth_dragon"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_killing_momentum"
+      }
+    ],
+    "description": "",
+    "cost": "400<unitprod></unitprod> 400<gold></gold> ",
+    "resid": -931243738355724350,
+    "medal_rewards_3": [
+      {
+        "slug": "spit_rock"
+      },
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "blight_resistance_10"
+      },
+      {
+        "slug": "spirit_weakness_4"
+      }
+    ],
+    "status_resistance": 11,
+    "upkeep": "60<gold></gold> 7<influence></influence> ",
+    "id": "earth_dragon",
+    "name": "Earth Dragon",
+    "hp": 160,
+    "armor": 8,
+    "resistance": 7,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 5,
+    "secondary_passives": [
+      {
+        "slug": "cannot_be_displaced"
+      },
+      {
+        "slug": "dragon"
+      },
+      {
+        "slug": "flying"
+      },
+      {
+        "slug": "large_target"
+      },
+      {
+        "slug": "mythic_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "draconic_rage"
+      },
+      {
+        "slug": "high_maintenance"
+      },
+      {
+        "slug": "intimidating_aura"
+      },
+      {
+        "slug": "truesight"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_young_forest_dragon"
+      },
+      {
+        "slug": "tail_swipe_ability_young_forest_dragon"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_brawler"
+      }
+    ],
+    "description": "",
+    "cost": "240<unitprod></unitprod> 160<gold></gold> ",
+    "resid": -931243738355724438,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "blight_resistance_4"
+      },
+      {
+        "slug": "fire_weakness_1"
+      },
+      {
+        "slug": "frost_weakness_1"
+      }
+    ],
+    "status_resistance": 3,
+    "upkeep": "20<gold></gold> ",
+    "id": "young_forest_dragon",
+    "name": "Young Forest Dragon",
+    "hp": 100,
+    "armor": 3,
+    "resistance": 3,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 3,
+    "secondary_passives": [
+      {
+        "slug": "dragon"
+      },
+      {
+        "slug": "evolve"
+      },
+      {
+        "slug": "fighter_unit"
+      },
+      {
+        "slug": "flying"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "evolve_target": "forest_dragon"
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "control_loss_immunity"
+      },
+      {
+        "slug": "demolisher"
+      },
+      {
+        "slug": "draconic_rage"
+      },
+      {
+        "slug": "drowsing_aura"
+      },
+      {
+        "slug": "fearless"
+      },
+      {
+        "slug": "high_maintenance"
+      },
+      {
+        "slug": "juggernaut"
+      },
+      {
+        "slug": "siege_breaker"
+      },
+      {
+        "slug": "terrifying_aura"
+      },
+      {
+        "slug": "truesight"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_forest_dragon"
+      },
+      {
+        "slug": "ewp_drowsing_breath_dragon_ability_forest_dragon"
+      },
+      {
+        "slug": "tail_swipe_ability_forest_dragon"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_killing_momentum"
+      }
+    ],
+    "description": "",
+    "cost": "400<unitprod></unitprod> 400<gold></gold> ",
+    "resid": -931243738355724440,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "blight_resistance_10"
+      },
+      {
+        "slug": "fire_weakness_2"
+      },
+      {
+        "slug": "frost_weakness_2"
+      }
+    ],
+    "status_resistance": 11,
+    "upkeep": "60<gold></gold> 7<influence></influence> ",
+    "id": "forest_dragon",
+    "name": "Forest Dragon",
+    "hp": 160,
+    "armor": 8,
+    "resistance": 7,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 5,
+    "secondary_passives": [
+      {
+        "slug": "cannot_be_displaced"
+      },
+      {
+        "slug": "dragon"
+      },
+      {
+        "slug": "flying"
+      },
+      {
+        "slug": "large_target"
+      },
+      {
+        "slug": "mythic_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "demolisher"
+      },
+      {
+        "slug": "draconic_rage"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "slippery"
+      },
+      {
+        "slug": "swift"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_forest_wyvern"
+      },
+      {
+        "slug": "wyvern_burst_ability_forest_wyvern"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_critical"
+      }
+    ],
+    "description": "",
+    "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+    "resid": -931243738355724448,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "blight_resistance_4"
+      },
+      {
+        "slug": "fire_weakness_1"
+      },
+      {
+        "slug": "frost_weakness_1"
+      }
+    ],
+    "status_resistance": 3,
+    "upkeep": "20<gold></gold> ",
+    "id": "forest_wyvern",
+    "name": "Forest Wyvern",
+    "hp": 90,
+    "armor": 3,
+    "resistance": 3,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 3,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "dragon"
+      },
+      {
+        "slug": "flying"
+      },
+      {
+        "slug": "large_target"
+      },
+      {
+        "slug": "skirmisher_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "control_loss_immunity"
+      },
+      {
+        "slug": "inspiring_killer"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "pack_hunter"
+      },
+      {
+        "slug": "slippery"
+      },
+      {
+        "slug": "swift"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_young_celestial_lion"
+      },
+      {
+        "slug": "ewp_tiny_pounce_(spirit)_ability_young_celestial_lion"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_critical"
+      }
+    ],
+    "description": "",
+    "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+    "resid": -931243738355724566,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "spirit_resistance_2"
+      },
+      {
+        "slug": "blight_weakness_4"
+      },
+      {
+        "slug": "frost_weakness_4"
+      }
+    ],
+    "status_resistance": 0,
+    "upkeep": "12<gold></gold> ",
+    "id": "young_celestial_lion",
+    "name": "Young Celestial Lion",
+    "hp": 70,
+    "armor": 2,
+    "resistance": 2,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 2,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "celestial"
+      },
+      {
+        "slug": "evolve"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "skirmisher_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "evolve_target": "celestial_lion"
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "control_loss_immunity"
+      },
+      {
+        "slug": "demolisher"
+      },
+      {
+        "slug": "inspiring_killer"
+      },
+      {
+        "slug": "king_of_beasts"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "shield_defense"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_celestial_lion"
+      },
+      {
+        "slug": "ewp_celestial_roar_ability_celestial_lion"
+      },
+      {
+        "slug": "defense_mode_shield_wall"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "champion_celestial_roar"
+      },
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_exalted_defense"
+      }
+    ],
+    "description": "",
+    "cost": "300<unitprod></unitprod> 200<gold></gold> ",
+    "resid": -931243738355724569,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "spirit_resistance_2"
+      },
+      {
+        "slug": "blight_weakness_4"
+      },
+      {
+        "slug": "frost_weakness_4"
+      }
+    ],
+    "status_resistance": 7,
+    "upkeep": "30<gold></gold> 3<influence></influence> ",
+    "id": "celestial_lion",
+    "name": "Celestial Lion",
+    "hp": 110,
+    "armor": 7,
+    "resistance": 4,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 4,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "celestial"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "large_target"
+      },
+      {
+        "slug": "shield_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "frenzy"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "pack_hunter"
+      }
+    ],
+    "mp": 48,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_brown_wolf_alpha"
+      },
+      {
+        "slug": "ewp_despairing_howl_ability_brown_wolf_alpha"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_brawler"
+      }
+    ],
+    "description": "",
+    "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+    "resid": -931243738355724671,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [],
+    "status_resistance": 3,
+    "upkeep": "20<gold></gold> ",
+    "id": "brown_wolf_alpha",
+    "name": "Brown Wolf Alpha",
+    "hp": 90,
+    "armor": 3,
+    "resistance": 3,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 3,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "fighter_unit"
+      },
+      {
+        "slug": "forest_walk"
+      },
+      {
+        "slug": "land_movement"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "demolisher"
+      },
+      {
+        "slug": "evolutionary_drive"
+      },
+      {
+        "slug": "frenzy"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "pack_hunter"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_raptor_alpha"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "primal_bite"
+      },
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_brawler"
+      }
+    ],
+    "description": "",
+    "cost": "300<unitprod></unitprod> 200<mana></mana> ",
+    "resid": -931243738355724761,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [],
+    "status_resistance": 3,
+    "upkeep": "20<gold></gold> ",
+    "id": "raptor_alpha",
+    "name": "Raptor Alpha",
+    "hp": 90,
+    "armor": 3,
+    "resistance": 3,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 3,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "fighter_unit"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "large_target"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "demolisher"
+      },
+      {
+        "slug": "evolutionary_drive"
+      },
+      {
+        "slug": "frenzy"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "pack_hunter"
+      },
+      {
+        "slug": "slippery"
+      }
+    ],
+    "mp": 48,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_swiftfoot_raptor_alpha"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "primal_bite"
+      },
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_brawler"
+      }
+    ],
+    "description": "",
+    "cost": "300<unitprod></unitprod> 200<mana></mana> ",
+    "resid": -931243738355724765,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [],
+    "status_resistance": 3,
+    "upkeep": "20<gold></gold> ",
+    "id": "swiftfoot_raptor_alpha",
+    "name": "Swiftfoot Raptor Alpha",
+    "hp": 85,
+    "armor": 3,
+    "resistance": 3,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 3,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "fighter_unit"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "large_target"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "demolisher"
+      },
+      {
+        "slug": "evolutionary_drive"
+      },
+      {
+        "slug": "fiery_wake"
+      },
+      {
+        "slug": "flame_body"
+      },
+      {
+        "slug": "frenzy"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "pack_hunter"
+      },
+      {
+        "slug": "status_effect_immunity_burning"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_magma_raptor_alpha"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "primal_bite"
+      },
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_brawler"
+      }
+    ],
+    "description": "",
+    "cost": "300<unitprod></unitprod> 200<mana></mana> ",
+    "resid": -931243738355724768,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "fire_resistance_6"
+      },
+      {
+        "slug": "frost_weakness_4"
+      }
+    ],
+    "status_resistance": 7,
+    "upkeep": "30<gold></gold> 3<influence></influence> ",
+    "id": "magma_raptor_alpha",
+    "name": "Magma Raptor Alpha",
+    "hp": 110,
+    "armor": 4,
+    "resistance": 4,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 4,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "fighter_unit"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "large_target"
+      },
+      {
+        "slug": "lava_walk"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "evolutionary_drive"
+      },
+      {
+        "slug": "fiery_wake"
+      },
+      {
+        "slug": "flame_body"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "pack_hunter"
+      },
+      {
+        "slug": "status_effect_immunity_burning"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_magma_raptor"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "primal_bite"
+      },
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_brawler"
+      }
+    ],
+    "description": "",
+    "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+    "resid": -931243738355724816,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "fire_resistance_6"
+      },
+      {
+        "slug": "frost_weakness_4"
+      }
+    ],
+    "status_resistance": 3,
+    "upkeep": "20<gold></gold> ",
+    "id": "magma_raptor",
+    "name": "Magma Raptor",
+    "hp": 90,
+    "armor": 3,
+    "resistance": 3,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 3,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "fighter_unit"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "lava_walk"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "evolutionary_drive"
+      },
+      {
+        "slug": "fiery_wake"
+      },
+      {
+        "slug": "flame_body"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "pack_hunter"
+      },
+      {
+        "slug": "status_effect_immunity_burning"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_magma_raptor_hatchling"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_brawler"
+      }
+    ],
+    "description": "",
+    "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+    "resid": -931243738355724818,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "fire_resistance_6"
+      },
+      {
+        "slug": "frost_weakness_4"
+      }
+    ],
+    "status_resistance": 0,
+    "upkeep": "12<gold></gold> ",
+    "id": "magma_raptor_hatchling",
+    "name": "Magma Raptor Hatchling",
+    "hp": 70,
+    "armor": 1,
+    "resistance": 2,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 2,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "evolve"
+      },
+      {
+        "slug": "fighter_unit"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "lava_walk"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "evolve_target": "magma_raptor_alpha"
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "aura_of_disease"
+      },
+      {
+        "slug": "demolisher"
+      },
+      {
+        "slug": "evolutionary_drive"
+      },
+      {
+        "slug": "heartless"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "pack_hunter"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_pestilence_raptor"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "primal_bite"
+      },
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_brawler"
+      }
+    ],
+    "description": "",
+    "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+    "resid": -931243738355724856,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "blight_resistance_2"
+      },
+      {
+        "slug": "frost_resistance_2"
+      },
+      {
+        "slug": "fire_weakness_4"
+      },
+      {
+        "slug": "spirit_weakness_4"
+      }
+    ],
+    "status_resistance": 3,
+    "upkeep": "20<gold></gold> ",
+    "id": "pestilence_raptor",
+    "name": "Pestilence Raptor",
+    "hp": 90,
+    "armor": 3,
+    "resistance": 3,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 3,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "fighter_unit"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "large_target"
+      },
+      {
+        "slug": "undead"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "evolutionary_drive"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "pack_hunter"
+      },
+      {
+        "slug": "slippery"
+      }
+    ],
+    "mp": 48,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_swiftfoot_raptor"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "primal_bite"
+      },
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_brawler"
+      }
+    ],
+    "description": "",
+    "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+    "resid": -931243738355724858,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [],
+    "status_resistance": 0,
+    "upkeep": "12<gold></gold> ",
+    "id": "swiftfoot_raptor",
+    "name": "Swiftfoot Raptor",
+    "hp": 65,
+    "armor": 2,
+    "resistance": 1,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 2,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "fighter_unit"
+      },
+      {
+        "slug": "land_movement"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "evolutionary_drive"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "pack_hunter"
+      },
+      {
+        "slug": "slippery"
+      }
+    ],
+    "mp": 48,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_swiftfoot_raptor_hatchling"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_brawler"
+      }
+    ],
+    "description": "",
+    "cost": "80<unitprod></unitprod> 60<gold></gold> ",
+    "resid": -931243738355724860,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [],
+    "status_resistance": 0,
+    "upkeep": "8<gold></gold> ",
+    "id": "swiftfoot_raptor_hatchling",
+    "name": "Swiftfoot Raptor Hatchling",
+    "hp": 55,
+    "armor": 1,
+    "resistance": 0,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 1,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "evolve"
+      },
+      {
+        "slug": "fighter_unit"
+      },
+      {
+        "slug": "land_movement"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "evolve_target": "swiftfoot_raptor_alpha"
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "evolutionary_drive"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "pack_hunter"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_raptor"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "primal_bite"
+      },
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_brawler"
+      }
+    ],
+    "description": "",
+    "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+    "resid": -931243738355724862,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [],
+    "status_resistance": 0,
+    "upkeep": "12<gold></gold> ",
+    "id": "raptor",
+    "name": "Raptor",
+    "hp": 70,
+    "armor": 2,
+    "resistance": 1,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 2,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "fighter_unit"
+      },
+      {
+        "slug": "land_movement"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "evolutionary_drive"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "pack_hunter"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_raptor_hatchling"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_brawler"
+      }
+    ],
+    "description": "",
+    "cost": "80<unitprod></unitprod> 60<gold></gold> ",
+    "resid": -931243738355724864,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [],
+    "status_resistance": 0,
+    "upkeep": "8<gold></gold> ",
+    "id": "raptor_hatchling",
+    "name": "Raptor Hatchling",
+    "hp": 60,
+    "armor": 1,
+    "resistance": 0,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 1,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "evolve"
+      },
+      {
+        "slug": "fighter_unit"
+      },
+      {
+        "slug": "land_movement"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "evolve_target": "raptor_alpha"
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "pass_through"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_charge_strike_(base)_ability_spirit_boar"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_sprint"
+      }
+    ],
+    "description": "",
+    "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+    "resid": -931243738355724884,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "spirit_weakness_4"
+      }
+    ],
+    "status_resistance": 0,
+    "upkeep": "12<gold></gold> ",
+    "id": "spirit_boar",
+    "name": "Spirit Boar",
+    "hp": 60,
+    "armor": 4,
+    "resistance": 2,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 2,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "ethereal"
+      },
+      {
+        "slug": "forest_walk"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "magic_origin"
+      },
+      {
+        "slug": "shock_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "flanker"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "pass_through"
+      },
+      {
+        "slug": "slippery"
+      },
+      {
+        "slug": "swift"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_spirit_panther"
+      },
+      {
+        "slug": "ewp_pounce_(spirit)_ability_spirit_panther"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "stalkers_prowl"
+      },
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_critical"
+      }
+    ],
+    "description": "",
+    "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+    "resid": -931243738355725583,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "spirit_weakness_4"
+      }
+    ],
+    "status_resistance": 3,
+    "upkeep": "20<gold></gold> ",
+    "id": "spirit_panther",
+    "name": "Spirit Panther",
+    "hp": 80,
+    "armor": 5,
+    "resistance": 3,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 3,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "ethereal"
+      },
+      {
+        "slug": "forest_camouflage"
+      },
+      {
+        "slug": "forest_walk"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "magic_origin"
+      },
+      {
+        "slug": "skirmisher_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "pass_through"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_charge_strike_(base)_ability_spirit_stag"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_sprint"
+      }
+    ],
+    "description": "",
+    "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+    "resid": -931243738355725585,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "spirit_weakness_4"
+      }
+    ],
+    "status_resistance": 3,
+    "upkeep": "20<gold></gold> ",
+    "id": "spirit_stag",
+    "name": "Spirit Stag",
+    "hp": 80,
+    "armor": 5,
+    "resistance": 3,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 3,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "ethereal"
+      },
+      {
+        "slug": "forest_walk"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "magic_origin"
+      },
+      {
+        "slug": "shock_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "demolisher"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "pass_through"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_spirit_bear"
+      },
+      {
+        "slug": "ewp_swipe_ability_spirit_bear"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_brawler"
+      }
+    ],
+    "description": "",
+    "cost": "330<unitprod></unitprod> 250<gold></gold> ",
+    "resid": -931243738355725620,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "spirit_weakness_4"
+      }
+    ],
+    "status_resistance": 7,
+    "upkeep": "30<gold></gold> 3<influence></influence> ",
+    "id": "spirit_bear",
+    "name": "Spirit Bear",
+    "hp": 110,
+    "armor": 6,
+    "resistance": 4,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 4,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "ethereal"
+      },
+      {
+        "slug": "fighter_unit"
+      },
+      {
+        "slug": "forest_walk"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "large_target"
+      },
+      {
+        "slug": "magic_origin"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "slippery"
+      },
+      {
+        "slug": "swift"
+      },
+      {
+        "slug": "vicious_killer"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_young_white_tiger"
+      },
+      {
+        "slug": "ewp_tiny_pounce_ability_young_white_tiger"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_critical"
+      }
+    ],
+    "description": "",
+    "cost": "60<unitprod></unitprod> 50<gold></gold> ",
+    "resid": -931243738355725631,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [],
+    "status_resistance": 0,
+    "upkeep": "8<gold></gold> ",
+    "id": "young_white_tiger",
+    "name": "Young White Tiger",
+    "hp": 65,
+    "armor": 1,
+    "resistance": 1,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 1,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "evolve"
+      },
+      {
+        "slug": "forest_walk"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "skirmisher_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "evolve_target": "white_tiger"
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "slippery"
+      },
+      {
+        "slug": "swift"
+      },
+      {
+        "slug": "vicious_killer"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_white_tiger"
+      },
+      {
+        "slug": "ewp_pounce_ability_white_tiger"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "stalkers_prowl"
+      },
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_critical"
+      }
+    ],
+    "description": "",
+    "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+    "resid": -931243738355725633,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [],
+    "status_resistance": 3,
+    "upkeep": "20<gold></gold> ",
+    "id": "white_tiger",
+    "name": "White Tiger",
+    "hp": 95,
+    "armor": 3,
+    "resistance": 3,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 3,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "forest_walk"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "skirmisher_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "low_maintenance"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "magic_bolts_ability_young_thunderbird"
+      },
+      {
+        "slug": "ewp_lesser_thunderclap_ability_young_thunderbird"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "description": "",
+    "cost": "60<unitprod></unitprod> 50<gold></gold> ",
+    "resid": -931243738355725666,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "lightning_resistance_6"
+      },
+      {
+        "slug": "blight_weakness_4"
+      }
+    ],
+    "status_resistance": 0,
+    "upkeep": "8<gold></gold> ",
+    "id": "young_thunderbird",
+    "name": "Young Thunderbird",
+    "hp": 55,
+    "armor": 0,
+    "resistance": 1,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 1,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "battle_mage_unit"
+      },
+      {
+        "slug": "evolve"
+      },
+      {
+        "slug": "flying"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "evolve_target": "thunderbird"
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "lesser_fiery_rebirth"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "status_effect_immunity_burning"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_charge_strike_(base)_ability_young_phoenix"
+      },
+      {
+        "slug": "ewp_lesser_overheat_ability_young_phoenix"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_sprint"
+      }
+    ],
+    "description": "",
+    "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+    "resid": -931243738355725676,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [
+      {
+        "slug": "blight_resistance_4"
+      },
+      {
+        "slug": "fire_resistance_6"
+      },
+      {
+        "slug": "frost_weakness_6"
+      }
+    ],
+    "status_resistance": 0,
+    "upkeep": "12<gold></gold> ",
+    "id": "young_phoenix",
+    "name": "Young Phoenix",
+    "hp": 70,
+    "armor": 3,
+    "resistance": 3,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 2,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "evolve"
+      },
+      {
+        "slug": "flying"
+      },
+      {
+        "slug": "shock_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "evolve_target": "phoenix"
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "farsight"
+      },
+      {
+        "slug": "low_maintenance"
+      }
+    ],
+    "mp": 48,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_young_eagle"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_brawler"
+      }
+    ],
+    "description": "",
+    "cost": "60<unitprod></unitprod> 50<gold></gold> ",
+    "resid": -931243738355725678,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [],
+    "status_resistance": 0,
+    "upkeep": "8<gold></gold> ",
+    "id": "young_eagle",
+    "name": "Young Eagle",
+    "hp": 60,
+    "armor": 1,
+    "resistance": 0,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 1,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "evolve"
+      },
+      {
+        "slug": "fighter_unit"
+      },
+      {
+        "slug": "flying"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "evolve_target": "bald_eagle"
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "slippery"
+      },
+      {
+        "slug": "swift"
+      },
+      {
+        "slug": "vicious_killer"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_young_tiger"
+      },
+      {
+        "slug": "ewp_tiny_pounce_ability_young_tiger"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_critical"
+      }
+    ],
+    "description": "",
+    "cost": "60<unitprod></unitprod> 50<gold></gold> ",
+    "resid": -931243738355725701,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [],
+    "status_resistance": 0,
+    "upkeep": "8<gold></gold> ",
+    "id": "young_tiger",
+    "name": "Young Tiger",
+    "hp": 60,
+    "armor": 1,
+    "resistance": 1,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 1,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "evolve"
+      },
+      {
+        "slug": "forest_camouflage"
+      },
+      {
+        "slug": "forest_walk"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "skirmisher_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "evolve_target": "tiger"
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "pack_hunter"
+      },
+      {
+        "slug": "slippery"
+      },
+      {
+        "slug": "swift"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_young_lion"
+      },
+      {
+        "slug": "ewp_tiny_pounce_ability_young_lion"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_critical"
+      }
+    ],
+    "description": "",
+    "cost": "60<unitprod></unitprod> 50<gold></gold> ",
+    "resid": -931243738355725723,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [],
+    "status_resistance": 0,
+    "upkeep": "8<gold></gold> ",
+    "id": "young_lion",
+    "name": "Young Lion",
+    "hp": 60,
+    "armor": 1,
+    "resistance": 1,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 1,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "evolve"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "skirmisher_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "evolve_target": "lion"
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "pack_hunter"
+      }
+    ],
+    "mp": 48,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_brown_wolf"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "despairing_howl"
+      },
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_brawler"
+      }
+    ],
+    "description": "",
+    "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+    "resid": -931243738355725954,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [],
+    "status_resistance": 0,
+    "upkeep": "12<gold></gold> ",
+    "id": "brown_wolf",
+    "name": "Brown Wolf",
+    "hp": 70,
+    "armor": 2,
+    "resistance": 2,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 2,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "fighter_unit"
+      },
+      {
+        "slug": "forest_walk"
+      },
+      {
+        "slug": "land_movement"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "pack_hunter"
+      },
+      {
+        "slug": "slippery"
+      },
+      {
+        "slug": "swift"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_lioness"
+      },
+      {
+        "slug": "ewp_pounce_ability_lioness"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "stalkers_prowl"
+      },
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_critical"
+      }
+    ],
+    "description": "",
+    "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+    "resid": -931243738355726002,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [],
+    "status_resistance": 0,
+    "upkeep": "12<gold></gold> ",
+    "id": "lioness",
+    "name": "Lioness",
+    "hp": 70,
+    "armor": 2,
+    "resistance": 2,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 2,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "skirmisher_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "low_maintenance"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_charge_strike_(base)_ability_white_stag"
+      },
+      {
+        "slug": "consume_flora_ability_white_stag"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_sprint"
+      }
+    ],
+    "description": "",
+    "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+    "resid": -931243738355726008,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [],
+    "status_resistance": 0,
+    "upkeep": "12<gold></gold> ",
+    "id": "white_stag",
+    "name": "White Stag",
+    "hp": 70,
+    "armor": 2,
+    "resistance": 1,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 2,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "forest_walk"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "shock_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "flanker"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "slippery"
+      },
+      {
+        "slug": "swift"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_panther"
+      },
+      {
+        "slug": "ewp_pounce_ability_panther"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "stalkers_prowl"
+      },
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_critical"
+      }
+    ],
+    "description": "",
+    "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+    "resid": -931243738355726013,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [],
+    "status_resistance": 0,
+    "upkeep": "12<gold></gold> ",
+    "id": "panther",
+    "name": "Panther",
+    "hp": 70,
+    "armor": 2,
+    "resistance": 2,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 2,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "forest_camouflage"
+      },
+      {
+        "slug": "forest_walk"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "skirmisher_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "slippery"
+      },
+      {
+        "slug": "swift"
+      },
+      {
+        "slug": "vicious_killer"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_tiger"
+      },
+      {
+        "slug": "ewp_pounce_ability_tiger"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "stalkers_prowl"
+      },
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_critical"
+      }
+    ],
+    "description": "",
+    "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+    "resid": -931243738355726015,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [],
+    "status_resistance": 3,
+    "upkeep": "20<gold></gold> ",
+    "id": "tiger",
+    "name": "Tiger",
+    "hp": 90,
+    "armor": 3,
+    "resistance": 3,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 3,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "forest_camouflage"
+      },
+      {
+        "slug": "forest_walk"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "skirmisher_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "king_of_beasts"
+      },
+      {
+        "slug": "low_maintenance"
+      },
+      {
+        "slug": "shield_defense"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_lion"
+      },
+      {
+        "slug": "ewp_lions_roar_ability_lion"
+      },
+      {
+        "slug": "defense_mode_shield_wall"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "champion_lions_roar"
+      },
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_exalted_defense"
+      }
+    ],
+    "description": "",
+    "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+    "resid": -931243738355726018,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [],
+    "status_resistance": 3,
+    "upkeep": "20<gold></gold> ",
+    "id": "lion",
+    "name": "Lion",
+    "hp": 90,
+    "armor": 6,
+    "resistance": 3,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 3,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "shield_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "low_maintenance"
+      }
+    ],
+    "mp": 48,
+    "abilities": [
+      {
+        "slug": "melee_charge_strike_(base)_ability_wild_horse"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_sprint"
+      }
+    ],
+    "description": "",
+    "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+    "resid": -931243738355726032,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [],
+    "status_resistance": 0,
+    "upkeep": "12<gold></gold> ",
+    "id": "wild_horse",
+    "name": "Wild Horse",
+    "hp": 80,
+    "armor": 2,
+    "resistance": 1,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 2,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "grassland_walk"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "shock_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "demolisher"
+      },
+      {
+        "slug": "farsight"
+      },
+      {
+        "slug": "inspiring_presence"
+      },
+      {
+        "slug": "low_maintenance"
+      }
+    ],
+    "mp": 48,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_bald_eagle"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_brawler"
+      }
+    ],
+    "description": "",
+    "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+    "resid": -931243738355726125,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [],
+    "status_resistance": 3,
+    "upkeep": "20<gold></gold> ",
+    "id": "bald_eagle",
+    "name": "Bald Eagle",
+    "hp": 90,
+    "armor": 3,
+    "resistance": 2,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 3,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "fighter_unit"
+      },
+      {
+        "slug": "flying"
+      },
+      {
+        "slug": "large_target"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "low_maintenance"
+      }
+    ],
+    "mp": 40,
+    "abilities": [
+      {
+        "slug": "melee_charge_strike_(base)_ability_zebra"
+      },
+      {
+        "slug": "consume_flora_ability_zebra"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_sprint"
+      }
+    ],
+    "description": "",
+    "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+    "resid": -931243738355726130,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [],
+    "status_resistance": 0,
+    "upkeep": "12<gold></gold> ",
+    "id": "zebra",
+    "name": "Zebra",
+    "hp": 70,
+    "armor": 2,
+    "resistance": 1,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 2,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "grassland_walk"
+      },
+      {
+        "slug": "land_movement"
+      },
+      {
+        "slug": "shock_unit"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  },
+  {
+    "primary_passives": [
+      {
+        "slug": "demolisher"
+      },
+      {
+        "slug": "farsight"
+      },
+      {
+        "slug": "inspiring_killer"
+      },
+      {
+        "slug": "low_maintenance"
+      }
+    ],
+    "mp": 48,
+    "abilities": [
+      {
+        "slug": "melee_strike_(base)_ability_great_eagle"
+      },
+      {
+        "slug": "defense_mode"
+      }
+    ],
+    "medal_rewards_5": [
+      {
+        "slug": "_10_hp__"
+      },
+      {
+        "slug": "champion_medal_brawler"
+      }
+    ],
+    "description": "",
+    "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+    "resid": -931243738355726134,
+    "medal_rewards_3": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "resistances": [],
+    "status_resistance": 3,
+    "upkeep": "20<gold></gold> ",
+    "id": "great_eagle",
+    "name": "Great Eagle",
+    "hp": 90,
+    "armor": 3,
+    "resistance": 2,
+    "medal_rewards_2": [
+      {
+        "slug": "_10_hp__"
+      }
+    ],
+    "tier": 3,
+    "secondary_passives": [
+      {
+        "slug": "animal"
+      },
+      {
+        "slug": "fighter_unit"
+      },
+      {
+        "slug": "flying"
+      },
+      {
+        "slug": "large_target"
+      }
+    ],
+    "medal_rewards_4": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ],
+    "medal_rewards_6": [
+      {
+        "slug": "_10_hp___br___1_defense___br___1_resistance___br___10%_damage"
+      }
+    ]
+  }
+]
