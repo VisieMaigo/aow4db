@@ -438,13 +438,13 @@ function searchUnits(keyword) {
     output = document.getElementById("searchOutput");
     result = document.getElementById("searchResult");
 
-    var listspells = returnSpellList(fields[0]);
-    var listSiegeProj = returnSiegeProj(fields[0]);
-    var listskills = returnSkillList(fields[0]);
-    var listTraits = returnTraitsList(fields[0]);
-    var listStructures = returnStructure(fields[0]);
-    var listWorldStructures = returnWorldStructure(fields[0]);
-    var listEmpireTree = returnEmpireTreeList(fields[0]);
+    // var listspells = returnSpellList(fields[0]);
+    // var listSiegeProj = returnSiegeProj(fields[0]);
+    // var listskills = returnSkillList(fields[0]);
+    // var listTraits = returnTraitsList(fields[0]);
+    // var listStructures = returnStructure(fields[0]);
+    // var listWorldStructures = returnWorldStructure(fields[0]);
+    // var listEmpireTree = returnEmpireTreeList(fields[0]);
     var listEquip = returnEquipList(fields[0]);
 
     var buttonHolder = document.getElementById("buttonHolder");
