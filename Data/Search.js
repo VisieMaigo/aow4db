@@ -459,32 +459,32 @@ function searchUnits(keyword) {
     });
     SetButtonsAndDivs(depricatedCheckList, "buttonHolder", "searchUnit", undefined, undefined, undefined);
 
-    if (listspells.length > 0) {
-        SetCollapsibleButtonsAndDivs("Spells", listspells, "searchSpell");
-    }
-    if (listSiegeProj.length > 0) {
-        SetCollapsibleButtonsAndDivs("Siege Projects", listSiegeProj, "searchSiege");
-    }
+    // if (listspells.length > 0) {
+    //     SetCollapsibleButtonsAndDivs("Spells", listspells, "searchSpell");
+    // }
+    // if (listSiegeProj.length > 0) {
+    //     SetCollapsibleButtonsAndDivs("Siege Projects", listSiegeProj, "searchSiege");
+    // }
 
-    if (listStructures.length > 0) {
-        SetCollapsibleButtonsAndDivs("Structures", listStructures, "searchStruct");
-    }
-    if (listWorldStructures.length > 0) {
-        SetCollapsibleButtonsAndDivs("World Structures", listWorldStructures, "searchWorldStruct");
-    }
-    if (listskills.length > 0) {
-        SetCollapsibleButtonsAndDivs("Hero Skills", listskills, "searchSkill");
-    }
+    // if (listStructures.length > 0) {
+    //     SetCollapsibleButtonsAndDivs("Structures", listStructures, "searchStruct");
+    // }
+    // if (listWorldStructures.length > 0) {
+    //     SetCollapsibleButtonsAndDivs("World Structures", listWorldStructures, "searchWorldStruct");
+    // }
+    // if (listskills.length > 0) {
+    //     SetCollapsibleButtonsAndDivs("Hero Skills", listskills, "searchSkill");
+    // }
     if (listEquip.length > 0) {
         SetCollapsibleButtonsAndDivs("Hero Equipment", listEquip, "searchItem");
     }
 
-    if (listEmpireTree.length > 0) {
-        SetCollapsibleButtonsAndDivs("Empire Tree", listEmpireTree, "searchEmpire");
-    }
-    if (listTraits.length > 0) {
-        SetCollapsibleButtonsAndDivs("Faction Traits", listTraits, "searchTraits");
-    }
+    // if (listEmpireTree.length > 0) {
+    //     SetCollapsibleButtonsAndDivs("Empire Tree", listEmpireTree, "searchEmpire");
+    // }
+    // if (listTraits.length > 0) {
+    //     SetCollapsibleButtonsAndDivs("Faction Traits", listTraits, "searchTraits");
+    // }
 
     SetLevelUpStuff();
 }
