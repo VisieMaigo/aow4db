@@ -309,7 +309,7 @@
   "icon": "fearless"
  },
  {
-  "description": "A Fey unit with:<bulletlist><bullet>+4 <defensespirit></defensespirit> <hyperlink>Spirit Resistance</hyperlink></bullet><bullet>-4 <defenseblight></defenseblight> <hyperlink>Blight Resistance</hyperlink></bullet><bullet>Stalker's Prowl</bullet><bullet>The ability to ignore:<bulletlist></bullet><bullet>Vision penalties from Misty.</bullet><bullet>Accuracy penalties from Clinging Mist.</bullet></bulletlist>",
+  "description": "A Fey unit with:<bulletlist><bullet>+4 <defensespirit></defensespirit> <hyperlink>Spirit Resistance</hyperlink></bullet><bullet>-4 <defenseblight></defenseblight> <hyperlink>Blight Resistance</hyperlink></bullet><bullet>Fey Guile</bullet><bullet>The ability to ignore:<bulletlist></bullet><bullet>Vision penalties from Misty.</bullet><bullet>Accuracy penalties from Clinging Mist.</bullet></bulletlist>",
   "name": "Fey",
   "slug": "fey",
   "icon": "fey"
@@ -20534,6 +20534,12 @@
   "icon": "melee_strike_(base)_ability_sabertooth"
  },
  {
+  "description": "Enemy units in a 1-hex cone:<bulletlist><bullet>Sustain damage.</bullet><bullet>Gain Bleeding for 3 <turn></turn> Turns.</bullet>",
+  "name": "Jade Spirit Slash",
+  "slug": "jade_spirit_slash",
+  "icon": "jade_spirit_slash"
+ },
+ {
   "modifiers": [
    {
     "description": "Base 90% chance of inflicting Frozen for 1 <turn></turn> Turn. If unsuccessful inflicts Slowed.",
@@ -38702,6 +38708,128 @@
   "icon": "melee_strike_(base)_ability_sabertooth"
  },
  {
+  "notes": [],
+  "description": "Strikes target enemy unit.",
+  "name": "Melee Strike",
+  "slug": "melee_strike_(item_forge_polearm)_ability_ifd_halberd_pyre_templar_base",
+  "damage": "14<damagephysical></damagephysical> ",
+  "requisites": [
+   {
+    "requisite": "Melee"
+   },
+   {
+    "requisite": "Base"
+   }
+  ],
+  "accuracy": "100%",
+  "actionPoints": "<repeatingaction></repeatingaction>",
+  "range": "1",
+  "icon": "melee_strike_(base)_ability_sabertooth"
+ },
+ {
+  "modifiers": [
+   {
+    "description": "Gain a stack of Bolstered Defense when landing a hit.",
+    "name": "Bolstering Strike",
+    "count": 1
+   },
+   {
+    "description": "+40% damage to Cavalry and Large Target units.",
+    "name": "Polearm",
+    "count": 1
+   },
+   {
+    "description": "Base 60% chance of inflicting Electrified for 3 <turn></turn> Turns.",
+    "name": "Electrified",
+    "count": 1
+   },
+   {
+    "description": "Deal 30% of the damage to a random unit within 3 hexes.",
+    "name": "Area Damage - Chain",
+    "count": 1
+   }
+  ],
+  "description": "Strikes target enemy unit.",
+  "name": "Melee Strike",
+  "slug": "melee_strike_(base)_ability_(combo)_ms_glaive_of_the_obsidian_tortoise_polearm_tier_iv",
+  "damage": "11<damagephysical></damagephysical> 11<damagelightning></damagelightning> ",
+  "requisites": [
+   {
+    "requisite": "Melee"
+   },
+   {
+    "requisite": "Base"
+   }
+  ],
+  "accuracy": "100%",
+  "actionPoints": "<repeatingaction></repeatingaction>",
+  "range": "1",
+  "notes": [],
+  "icon": "melee_strike_(base)_ability_sabertooth"
+ },
+ {
+  "description": "When this unit attacks an enemy, it gains a stack of Bolstered Defense.",
+  "name": "Bolstering Strike",
+  "slug": "bolstering_strike",
+  "icon": "bolstering_strike"
+ },
+ {
+  "modifiers": [
+   {
+    "description": "+40% damage to Cavalry and Large Target units.",
+    "name": "Polearm",
+    "count": 1
+   },
+   {
+    "description": "Base 60% chance of inflicting Immobilized for 1 <turn></turn> Turn.",
+    "name": "Immobilized",
+    "count": 1
+   },
+   {
+    "description": "Third attack in a turn deals 12<damageSpirit></damageSpirit> <hyperlink>Spirit Damage</hyperlink> to the target and adjacent enemies",
+    "name": "Combo",
+    "count": 1
+   }
+  ],
+  "description": "Strikes target enemy unit.",
+  "name": "Melee Strike",
+  "slug": "melee_strike_(base)_ability_ms_glaive_of_the_jade_serpent_polearm_tier_iv",
+  "damage": "12<damagephysical></damagephysical> 12<damagespirit></damagespirit> ",
+  "requisites": [
+   {
+    "requisite": "Melee"
+   },
+   {
+    "requisite": "Base"
+   }
+  ],
+  "accuracy": "100%",
+  "actionPoints": "<repeatingaction></repeatingaction>",
+  "range": "1",
+  "notes": [],
+  "icon": "melee_strike_(base)_ability_sabertooth"
+ },
+ {
+  "notes": [
+   {
+    "note": "Cooldown: 2 <turn></turn>"
+   }
+  ],
+  "description": "Jumps to target location.",
+  "name": "Leap",
+  "slug": "cestus_leap_ability_ms_glaive_of_the_jade_serpent_polearm_tier_iv",
+  "damage": "",
+  "requisites": [
+   {
+    "requisite": "Movement"
+   }
+  ],
+  "accuracy": "Always Hits",
+  "actionPoints": "<freeaction></freeaction>",
+  "range": "2",
+  "icon": "cestus_leap_ability_martial_cestus_item_tier_1"
+ },
+ {
   "modifiers": [],
   "description": "Unleashes a magical bolt at target enemy.",
   "name": "Fire Bolts",
@@ -41911,7 +42039,7 @@
   ],
   "description": "Strikes target enemy unit.",
   "name": "Melee Strike",
-  "slug": "melee_strike_(base)_ability_viper_spear_2h_item_tier_iv",
+  "slug": "melee_strike_(base)_ability_ms_viper_spear_polearm_tier_iv",
   "damage": "12<damagephysical></damagephysical> 12<damageblight></damageblight> ",
   "requisites": [
    {
@@ -41935,7 +42063,7 @@
   ],
   "description": "Jumps to target location.",
   "name": "Jump",
-  "slug": "jump_ability_viper_spear_2h_item_tier_iv",
+  "slug": "jump_ability_ms_viper_spear_polearm_tier_iv",
   "damage": "",
   "requisites": [
    {

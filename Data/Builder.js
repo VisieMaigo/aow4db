@@ -4308,7 +4308,14 @@ function addLevelUpInfo(units, a, holder) {
             levelup.append(test);
         } else {
             levelText = "<bullet>" + lookupSlug(units.medal_rewards_5[i].slug) + "</bullet>";
-            levelup.append(NewLevelUpEntry(levelText));
+            let test = NewLevelUpEntry(levelText);
+            let desc = lookupSlugDescription(units.medal_rewards_5[i].slug);
+            if (desc && desc !== "Couldn't find this") {
+            let spanText = document.createElement("span");
+            spanText.innerHTML = desc;
+            addTooltipListeners(test, spanText);
+            }
+            levelup.append(test);
         }
     }
     if (evolveTarget != undefined) {

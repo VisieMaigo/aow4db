@@ -1,13 +1,15 @@
 # ModData Update Instructions: Expanded Wildlife Pack Units
 
 To update the database with new or changed units from the Expanded Wildlife Pack mod, follow these steps:
+## 1. Run the DUMPUNITS cheat
+- Copy the updated Abilites and Units json files from "Documents\Paradox Interactive\Age of Wonders 4\JSONDump" into the repo's Data folder
 
-## 1. Replace the Units.po File
+## 2. Replace the Units.po File
 - Copy the latest `Expanded Wildlife Pack - Units.po` file from the mod into the `ModData` directory, replacing the existing file.
 
-## 2. Run the Python Script
+## 3. Run the Python Script
 - Open a terminal in the project root directory.
-- Run the following command to extract and update the unit data:
+- Run the following command from the repo root to extract and update the unit data:
   
   ```
   python ModData/extract_unit_names.py
@@ -16,7 +18,7 @@ To update the database with new or changed units from the Expanded Wildlife Pack
   - Parse the `.po` file and update `Expanded Wildlife Pack - Unit Names.json`.
   - Filter the main unit database and create `ModdedUnits.json` with only the enabled units from the pack.
 
-## 3. Add Unit Preview Images
+## 4. Add Unit Preview Images
 - For each new or updated unit, add a preview image in `.avif` format.
 - Place the image in the appropriate directory (e.g., `PreviewsAvif/`).
 - The file name must be all lower case, with spaces replaced by underscores (`_`).
