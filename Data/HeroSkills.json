@@ -11051,44 +11051,6 @@
   "description": "The hero gains:<bulletlist><bullet>Slippery</bullet><bullet>Swift</bullet><bullet>Universal Camouflage</bullet></bulletlist>"
  },
  {
-  "resid": -931243738355721648,
-  "excluded_skills": [
-   {
-    "resid": -931243738355721650
-   }
-  ],
-  "id": "ahc_weakening_poison_hero_skill",
-  "group_name": "AHC - Assassin - Hero Skill Group",
-  "icon": "ahc_weakening_poison_hero_skill",
-  "type": "normal",
-  "name": "Weakening Poison",
-  "description": "<hyperlink>Melee</hyperlink> and <hyperlink>Physical Ranged</hyperlink> attacks now inflict Weakened.<br></br>Effects <hyperlink>are increased</hyperlink> for Single Shot attacks.",
-  "required_skills": [
-   {
-    "resid": -931243738355721724
-   }
-  ]
- },
- {
-  "resid": -931243738355721650,
-  "excluded_skills": [
-   {
-    "resid": -931243738355721648
-   }
-  ],
-  "id": "ahc_venomous_poison_hero_skill",
-  "group_name": "AHC - Assassin - Hero Skill Group",
-  "icon": "ahc_venomous_poison_hero_skill",
-  "type": "normal",
-  "name": "Venomous Poison",
-  "description": "<hyperlink>Melee</hyperlink> and <hyperlink>Physical Ranged</hyperlink> attacks now inflict Poisoned.<br></br>Effects <hyperlink>are increased</hyperlink> for Single Shot attacks.",
-  "required_skills": [
-   {
-    "resid": -931243738355721724
-   }
-  ]
- },
- {
   "group_name": "AHC - Assassin - Hero Skill Group",
   "icon": "ahc_sapping_strike_hero_skill",
   "type": "normal",
