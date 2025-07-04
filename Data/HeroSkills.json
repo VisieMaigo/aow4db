@@ -11402,15 +11402,6 @@
   ]
  },
  {
-  "resid": -931243738355721722,
-  "id": "ahc_blood_trail_hero_skill_unused",
-  "group_name": "AHC - Assassin - Hero Skill Group",
-  "icon": "hs_ranger_blood_trail",
-  "type": "normal",
-  "name": "Blood Trail",
-  "description": "<hyperlink><flank></flank> Flanking</hyperlink> attacks now inflict Bleeding and Marked.<br></br>Effects <hyperlink>are increased</hyperlink> for Single Shot attacks."
- },
- {
   "group_name": "AHC - Assassin - Hero Skill Group",
   "icon": "hs_ranger_versatile_skirmisher",
   "type": "normal",
