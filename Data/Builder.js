@@ -165,7 +165,9 @@ async function GetAllData(beta) {
         "/aow4db/Data/Abilities.json",      // Unit Abilities
         "/aow4db/Data/HeroItems.json",       // Items
         "/aow4db/Data/StatusEffects.json", // Status Effects
-        "/aow4db/Data/ExtraToolTips.json" // Extra Tooltips
+        "/aow4db/Data/ExtraToolTips.json", // Extra Tooltips
+        "/aow4db/Data/HeroSkills.json", // Hero Skills
+        "/aow4db/Data/BuilderLookupHero.json" // Hero Lookup
     ];
 
     await fetchJsonFiles(minimalFilePaths)
@@ -176,6 +178,8 @@ async function GetAllData(beta) {
             jsonHeroItems = dataArray[2];
             jsonStatusEffects = dataArray[3];
             jsonExtraTooltips = dataArray[4];
+            jsonHeroSkills = dataArray[5];
+            jsonBuilderHeroLookUp = dataArray[6];
         })
         .catch((error) => {
             console.error("Error fetching JSON files:", error.message);
