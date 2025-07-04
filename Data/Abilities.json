@@ -26114,6 +26114,185 @@
   "icon": "flamesurge_focus"
  },
  {
+  "description": "Grants:<bulletlist><bullet>At the start of combat, 3 random enemies are inflicted with one of the following status effects: Bleeding, Poisoned, Slowed, Status Vulnerability, or Weakened.</bullet><bullet>+2 <siegehealthdamage></siegehealthdamage><hyperlink>Fortification Damage</hyperlink>.</bullet></bulletlist>",
+  "name": "Sabotage",
+  "slug": "sabotage",
+  "icon": "siege_breaker"
+ },
+ {
+  "description": "At the end of the turn, steal 1 random positive status effect from up to 2 adjacent enemies.",
+  "name": "Thieving Aura",
+  "slug": "thieving_aura",
+  "icon": "thieving_aura"
+ },
+ {
+  "modifiers": [],
+  "description": "Shadow step and deal damage to target unit.",
+  "name": "Shadow Strike",
+  "slug": "ahc_shadow_strike_ability_ahc_shadow_strike_hero_skill",
+  "damage": "22<damagephysical></damagephysical> ",
+  "requisites": [
+   {
+    "requisite": "Base"
+   },
+   {
+    "requisite": "Melee"
+   },
+   {
+    "requisite": "Movement"
+   },
+   {
+    "requisite": "Teleport"
+   },
+   {
+    "requisite": "Single Shot"
+   }
+  ],
+  "accuracy": "Always Hits",
+  "actionPoints": "<leaveoneaction></leaveoneaction>",
+  "range": "4",
+  "notes": [
+   {
+    "note": "Cooldown: 1 <turn></turn>"
+   }
+  ],
+  "icon": "ahc_shadow_strike_ability_ahc_shadow_strike_hero_skill"
+ },
+ {
+  "modifiers": [
+   {
+    "description": "Inflicts Poisoned for 3 <turn></turn> Turns.",
+    "name": "Poisoned",
+    "count": 1
+   }
+  ],
+  "description": "Deal damage to target unit without triggering retaliation.",
+  "name": "Assassin's Strike",
+  "slug": "ahc_assassins_strike_ability_ahc_assassins_strike_hero_skill",
+  "damage": "18<damagephysical></damagephysical> ",
+  "requisites": [
+   {
+    "requisite": "Melee"
+   },
+   {
+    "requisite": "Base"
+   },
+   {
+    "requisite": "Single Shot"
+   }
+  ],
+  "accuracy": "100%",
+  "actionPoints": "<leaveoneaction></leaveoneaction>",
+  "range": "1",
+  "notes": [
+   {
+    "note": "Cooldown: 1 <turn></turn>"
+   }
+  ],
+  "icon": "melee_strike_(base)_ability_sabertooth"
+ },
+ {
+  "modifiers": [],
+  "description": "Deal damage to target unit then shadow step back 3 hexes.",
+  "name": "Disengaging Strike",
+  "slug": "ahc_disengaging_strike_ability_ahc_disengaging_strike_hero_skill",
+  "damage": "22<damagephysical></damagephysical> ",
+  "requisites": [
+   {
+    "requisite": "Melee"
+   },
+   {
+    "requisite": "Base"
+   },
+   {
+    "requisite": "Single Shot"
+   }
+  ],
+  "accuracy": "100%",
+  "actionPoints": "<leaveoneaction></leaveoneaction>",
+  "range": "1",
+  "notes": [
+   {
+    "note": "Cooldown: 1 <turn></turn>"
+   }
+  ],
+  "icon": "melee_strike_(base)_ability_sabertooth"
+ },
+ {
+  "notes": [
+   {
+    "note": "Cooldown: 2 <turn></turn>"
+   }
+  ],
+  "description": "Slight chance of instantly killing an injured target. This chance increases the lower the target's <hp></hp> Hit Points are.",
+  "name": "Assassinate",
+  "slug": "ahc_assassinate_ability_ahc_assassinate_hero_skill",
+  "damage": "",
+  "requisites": [],
+  "accuracy": "Always Hits",
+  "actionPoints": "<freeaction></freeaction>",
+  "range": "1",
+  "icon": "hs_warrior_execute_ability_hs_death_knight_execute"
+ },
+ {
+  "description": "Killing an enemy unit grants:<bulletlist><bullet>2 stacks of Regeneration.</bullet><bullet>Hastened</bullet><bullet>1 hex of movement.</bullet></bulletlist>",
+  "name": "Killing Rush",
+  "slug": "killing_rush",
+  "icon": "killing_rush"
+ },
+ {
+  "notes": [
+   {
+    "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
+   },
+   {
+    "note": "Can only be used once per battle."
+   }
+  ],
+  "description": "Attacks deal +50% damage until the end of the current turn.",
+  "name": "Go For The Kill",
+  "slug": "hs_ranger_go_for_the_kill_ability_ahc_go_for_the_kill_hero_skill",
+  "damage": "",
+  "requisites": [
+   {
+    "requisite": "Support"
+   }
+  ],
+  "accuracy": "Always Hits",
+  "actionPoints": "<freeaction></freeaction>",
+  "range": "0",
+  "icon": "hs_ranger_go_for_the_kill_ability_hs_ranger_go_for_the_kill"
+ },
+ {
+  "description": "<hyperlink>Melee</hyperlink> attacks now do more damage as the target loses health, up to +50%.",
+  "name": "Fatal Strikes",
+  "slug": "fatal_strikes",
+  "icon": "fatal_strikes"
+ },
+ {
+  "notes": [
+   {
+    "note": "Cooldown: 2 <turn></turn>"
+   }
+  ],
+  "description": "Makes the caster teleport to target hex.",
+  "name": "Shadow Step",
+  "slug": "ahc_shadow_step_ability_ahc_shadow_step_hero_skill",
+  "damage": "",
+  "requisites": [
+   {
+    "requisite": "Movement"
+   },
+   {
+    "requisite": "Teleport"
+   }
+  ],
+  "accuracy": "Always Hits",
+  "actionPoints": "<freeaction></freeaction>",
+  "range": "3",
+  "icon": "ahc_shadow_step_ability_ahc_shadow_step_hero_skill"
+ },
+ {
   "description": "While army leader, all non-hero units in the army gain:<bulletlist><bullet>Killing a unit deals 10 <damageFrost></damageFrost> <hyperlink>Frost Damage</hyperlink> to up to 2 other enemy units within 2 hexes.</bullet></bulletlist>",
   "name": "Grand Cascading Rune",
   "slug": "grand_cascading_rune",
@@ -28089,7 +28268,7 @@
     "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
    }
   ],
-  "icon": "fire_heavy_magelocks_snap_shot_(item_forge)_ability_the_magekiller_tier_iv"
+  "icon": "ahc_shadow_strike_hero_skill"
  },
  {
   "modifiers": [],
@@ -33322,7 +33501,7 @@
     "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
    }
   ],
-  "icon": "fire_heavy_magelocks_snap_shot_(item_forge)_ability_the_magekiller_tier_iv"
+  "icon": "ahc_shadow_strike_hero_skill"
  },
  {
   "notes": [
@@ -37491,7 +37670,7 @@
     "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
    }
   ],
-  "icon": "fire_heavy_magelocks_snap_shot_(item_forge)_ability_the_magekiller_tier_iv"
+  "icon": "ahc_shadow_strike_hero_skill"
  },
  {
   "modifiers": [],
@@ -42186,6 +42365,213 @@
   "icon": "slippery"
  },
  {
+  "description": "The first time this unit's total <hyperlink><hp></hp> Hit Points</hyperlink> reaches 50% or lower, it conjures Shrub obstacles in a 1-hex radius around itself.<br></br><br></br>Cannot be used in Water battles.",
+  "name": "Verdant Cushion",
+  "slug": "verdant_cushion",
+  "icon": "verdant_cushion"
+ },
+ {
+  "modifiers": [
+   {
+    "description": "Base 30% chance of inflicting Frozen for 1 <turn></turn> Turn. If unsuccessful inflicts Slowed.",
+    "name": "Frozen",
+    "count": 1
+   },
+   {
+    "description": "Removes 1 stack of Electrified to deal +4 <damageLightning></damageLightning> <hyperlink>Lightning Damage</hyperlink> per stack removed.",
+    "name": "Lightning Whip",
+    "count": 1
+   }
+  ],
+  "description": "Unleashes a magical bolt at target enemy.",
+  "name": "Rift Bolts",
+  "slug": "magic_hero_bolts_(base)_ability_t3_orb_rift_orb",
+  "damage": "8<damagelightning></damagelightning> 8<damagefrost></damagefrost> ",
+  "requisites": [
+   {
+    "requisite": "Magic"
+   },
+   {
+    "requisite": "Base"
+   }
+  ],
+  "accuracy": "90%",
+  "actionPoints": "<repeatingaction></repeatingaction>",
+  "range": "4",
+  "notes": [
+   {
+    "note": "Affected by <hyperlink>Line of Sight</hyperlink> rules."
+   },
+   {
+    "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
+   }
+  ],
+  "icon": "magic_bolts_ability_pyremoth"
+ },
+ {
+  "notes": [],
+  "description": "Single Melee Strike.",
+  "name": "Quick Stab",
+  "slug": "quick_stab_ability_t3_orb_rift_orb",
+  "damage": "16<damagephysical></damagephysical> ",
+  "requisites": [
+   {
+    "requisite": "Melee"
+   },
+   {
+    "requisite": "Single Shot"
+   }
+  ],
+  "accuracy": "100%",
+  "actionPoints": "<singleuseaction></singleuseaction>",
+  "range": "1",
+  "icon": "quick_stab_ability_peacebringer_harmony"
+ },
+ {
+  "modifiers": [],
+  "description": "Unleashes a magical bolt at target enemy.",
+  "name": "Fire Bolts",
+  "slug": "magic_hero_bolts_(base)_ability_equipment_item_rift_orb_base",
+  "damage": "12<damagefire></damagefire> ",
+  "requisites": [
+   {
+    "requisite": "Magic"
+   },
+   {
+    "requisite": "Base"
+   }
+  ],
+  "accuracy": "90%",
+  "actionPoints": "<repeatingaction></repeatingaction>",
+  "range": "4",
+  "notes": [
+   {
+    "note": "Affected by <hyperlink>Line of Sight</hyperlink> rules."
+   },
+   {
+    "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
+   }
+  ],
+  "icon": "magic_bolts_ability_pyremoth"
+ },
+ {
+  "notes": [],
+  "description": "Single Melee Strike.",
+  "name": "Quick Stab",
+  "slug": "quick_stab_ability_equipment_item_rift_orb_base",
+  "damage": "16<damagephysical></damagephysical> ",
+  "requisites": [
+   {
+    "requisite": "Melee"
+   },
+   {
+    "requisite": "Single Shot"
+   }
+  ],
+  "accuracy": "100%",
+  "actionPoints": "<singleuseaction></singleuseaction>",
+  "range": "1",
+  "icon": "quick_stab_ability_peacebringer_harmony"
+ },
+ {
+  "modifiers": [],
+  "description": "Unleashes a magical bolt at target enemy.",
+  "name": "Fire Bolts",
+  "slug": "magic_hero_bolts_(base)_ability_equipment_item_fey_orb_base",
+  "damage": "12<damagefire></damagefire> ",
+  "requisites": [
+   {
+    "requisite": "Magic"
+   },
+   {
+    "requisite": "Base"
+   }
+  ],
+  "accuracy": "90%",
+  "actionPoints": "<repeatingaction></repeatingaction>",
+  "range": "4",
+  "notes": [
+   {
+    "note": "Affected by <hyperlink>Line of Sight</hyperlink> rules."
+   },
+   {
+    "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
+   }
+  ],
+  "icon": "magic_bolts_ability_pyremoth"
+ },
+ {
+  "notes": [],
+  "description": "Single Melee Strike.",
+  "name": "Quick Stab",
+  "slug": "quick_stab_ability_equipment_item_fey_orb_base",
+  "damage": "16<damagephysical></damagephysical> ",
+  "requisites": [
+   {
+    "requisite": "Melee"
+   },
+   {
+    "requisite": "Single Shot"
+   }
+  ],
+  "accuracy": "100%",
+  "actionPoints": "<singleuseaction></singleuseaction>",
+  "range": "1",
+  "icon": "quick_stab_ability_peacebringer_harmony"
+ },
+ {
+  "modifiers": [
+   {
+    "description": "Attacks will spin their target 120 degrees widdershins.",
+    "name": "Round and Round",
+    "count": 1
+   }
+  ],
+  "description": "Unleashes a magical bolt at target enemy.",
+  "name": "Feyfire Bolts",
+  "slug": "magic_hero_bolts_(base)_ability_t1_orb_feyfire_orb",
+  "damage": "6<damageblight></damageblight> 6<damagelightning></damagelightning> ",
+  "requisites": [
+   {
+    "requisite": "Magic"
+   },
+   {
+    "requisite": "Base"
+   }
+  ],
+  "accuracy": "90%",
+  "actionPoints": "<repeatingaction></repeatingaction>",
+  "range": "4",
+  "notes": [
+   {
+    "note": "Affected by <hyperlink>Line of Sight</hyperlink> rules."
+   },
+   {
+    "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
+   }
+  ],
+  "icon": "magic_bolts_ability_pyremoth"
+ },
+ {
+  "notes": [],
+  "description": "Single Melee Strike.",
+  "name": "Quick Stab",
+  "slug": "quick_stab_ability_t1_orb_feyfire_orb",
+  "damage": "16<damagephysical></damagephysical> ",
+  "requisites": [
+   {
+    "requisite": "Melee"
+   },
+   {
+    "requisite": "Single Shot"
+   }
+  ],
+  "accuracy": "100%",
+  "actionPoints": "<singleuseaction></singleuseaction>",
+  "range": "1",
+  "icon": "quick_stab_ability_peacebringer_harmony"
+ },
+ {
   "modifiers": [],
   "description": "Single magical attack at target unit.",
   "name": "Cosmic Blast",
@@ -42359,7 +42745,7 @@
   "icon": "quick_stab_ability_peacebringer_harmony"
  },
  {
-  "description": "The first time this unit's total <hyperlink><hp></hp> Hit Points</hyperlink> reaches 50% or lower, it summons a Tier I bug.<br></br>Does not function in water battles.",
+  "description": "The first time this unit's total <hyperlink><hp></hp> Hit Points</hyperlink> reaches 50% or lower, it summons a Tier I bug.<br></br><br></br>Cannot be used in Water battles.",
   "name": "Full of Spiders",
   "slug": "full_of_spiders",
   "icon": "full_of_spiders"
@@ -42520,54 +42906,6 @@
   "icon": "quick_stab_ability_peacebringer_harmony"
  },
  {
-  "notes": [],
-  "description": "Strikes target enemy unit.",
-  "name": "Melee Strike",
-  "slug": "melee_strike_(item_forge_dual)_ability_equipment_item_stormbringer_trident_base",
-  "damage": "12<damagephysical></damagephysical> ",
-  "requisites": [
-   {
-    "requisite": "Melee"
-   },
-   {
-    "requisite": "Base"
-   }
-  ],
-  "accuracy": "100%",
-  "actionPoints": "<repeatingaction></repeatingaction>",
-  "range": "1",
-  "icon": "melee_strike_(base)_ability_sabertooth"
- },
- {
-  "notes": [
-   {
-    "note": "Affected by <hyperlink>Line of Sight</hyperlink> rules."
-   },
-   {
-    "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
-   }
-  ],
-  "description": "Throws a projectile at target unit.",
-  "name": "Throw",
-  "slug": "throw_(base)_ability_equipment_item_stormbringer_trident_base",
-  "damage": "16<damagephysical></damagephysical> ",
-  "requisites": [
-   {
-    "requisite": "Physical Ranged"
-   },
-   {
-    "requisite": "Base"
-   },
-   {
-    "requisite": "Single Shot"
-   }
-  ],
-  "accuracy": "90%",
-  "actionPoints": "<singleuseaction></singleuseaction>",
-  "range": "4",
-  "icon": "fey_trick_ability_mistling"
- },
- {
   "modifiers": [
    {
     "description": "Ignore 50% of the target's <defense></defense> <hyperlink>Defense</hyperlink>.",
@@ -42647,7 +42985,7 @@
     "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
    }
   ],
-  "icon": "fire_heavy_magelocks_snap_shot_(item_forge)_ability_the_magekiller_tier_iv"
+  "icon": "ahc_shadow_strike_hero_skill"
  },
  {
   "modifiers": [
@@ -42960,7 +43298,7 @@
     "count": 1
    },
    {
-    "description": "Creates <hyperlink>Arcfire</hyperlink> on the target.",
+    "description": "The first attack creates <hyperlink>Arcfire</hyperlink> on the target.",
     "name": "Light Arcfire",
     "count": 1
    }
@@ -42991,7 +43329,7 @@
     "count": 1
    },
    {
-    "description": "Creates <hyperlink>Arcfire</hyperlink> on the target.",
+    "description": "The first attack creates <hyperlink>Arcfire</hyperlink> on the target.",
     "name": "Light Arcfire",
     "count": 1
    }
@@ -43754,7 +44092,7 @@
     "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
    }
   ],
-  "icon": "fire_heavy_magelocks_snap_shot_(item_forge)_ability_the_magekiller_tier_iv"
+  "icon": "ahc_shadow_strike_hero_skill"
  },
  {
   "modifiers": [
@@ -43829,7 +44167,7 @@
     "count": 1
    },
    {
-    "description": "Grants an ally unit within 2 hexes of the caster a stack of Strengthened.",
+    "description": "Grants an ally unit within 2 hexes of the caster 1 stack of Strengthened.",
     "name": "Contagious Frenzy",
     "count": 1
    }
@@ -44141,7 +44479,7 @@
     "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
    }
   ],
-  "icon": "fire_heavy_magelocks_snap_shot_(item_forge)_ability_the_magekiller_tier_iv"
+  "icon": "ahc_shadow_strike_hero_skill"
  },
  {
   "modifiers": [
@@ -45261,6 +45599,12 @@
   "name": "Fatigued",
   "slug": "fatigued",
   "icon": "steeled"
+ },
+ {
+  "description": "<bulletlist><bullet>Unit takes +10% damage from <hyperlink>Melee</hyperlink> attacks by units with Mark of the Assassin.</bullet><bullet>Stacks up to 5 times.</bullet></bulletlist><br></br>Can only affect Hero units.",
+  "name": "Assassin's Mark",
+  "slug": "assassins_mark",
+  "icon": "assassins_mark"
  },
  {
   "description": "When a <hyperlink>Melee</hyperlink> attack hits, the attacker sustains 6 <damageFrost></damageFrost> <hyperlink>Frost Damage</hyperlink>.",
