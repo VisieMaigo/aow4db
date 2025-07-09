@@ -15871,6 +15871,139 @@
   "disabled_slots": []
  },
  {
+  "resid": -931243738355721304,
+  "id": "ahc_shadow_cestus_tier_i",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Shadow Cestus",
+  "tier_numerals": "I",
+  "tier": "Tier I",
+  "hero_classes": [
+   {
+    "name": "<classSpellblade></classSpellblade> Spellblade"
+   },
+   {
+    "name": "<classDeathknight></classDeathknight> Death Knight"
+   },
+   {
+    "name": "<classDefender></classDefender> Defender"
+   },
+   {
+    "name": "<classWarrior></classWarrior> Warrior"
+   },
+   {
+    "name": "<classAHCAssassin></classAHCAssassin> Assassin"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "melee_strike_(base)_ability_(combo)_ahc_shadow_cestus_tier_i"
+   },
+   {
+    "slug": "cestus_leap_ability_ahc_shadow_cestus_tier_i"
+   }
+  ],
+  "icon": "ahc_shadow_cestus_tier_i",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355721315,
+  "id": "ahc_sword_and_kunai_base",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   },
+   {
+    "name": "<classAHCAssassin></classAHCAssassin> Assassin"
+   }
+  ],
+  "slot": "Primary",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Sword and Kunai",
+  "ability_slugs": [
+   {
+    "slug": "melee_strike_(item_forge_dual)_ability_ahc_sword_and_kunai_base"
+   },
+   {
+    "slug": "throw_dagger_ability_ahc_sword_and_kunai_base"
+   }
+  ],
+  "icon": "ahc_sword_and_kunai_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
+  "resid": -931243738355721326,
+  "id": "ahc_sword_and_kunai_tier_i",
+  "hero_types": [
+   {
+    "name": "Champion"
+   },
+   {
+    "name": "Wizard King"
+   }
+  ],
+  "name": "Sword and Kunai",
+  "tier_numerals": "I",
+  "tier": "Tier I",
+  "hero_classes": [
+   {
+    "name": "<classRanger></classRanger> Ranger"
+   },
+   {
+    "name": "<classAHCAssassin></classAHCAssassin> Assassin"
+   }
+  ],
+  "slot": "Primary",
+  "ability_slugs": [
+   {
+    "slug": "melee_strike_(base)_ability_ahc_sword_and_kunai_tier_i"
+   },
+   {
+    "slug": "throw_dagger_ability_ahc_sword_and_kunai_tier_i"
+   },
+   {
+    "slug": "assassins_dagger_ability_ahc_sword_and_kunai_tier_i"
+   }
+  ],
+  "icon": "ahc_sword_and_kunai_base",
+  "disabled_slots": [
+   {
+    "slot_name": "Secondary"
+   },
+   {
+    "slot_name": "Mount"
+   }
+  ]
+ },
+ {
   "resid": -931243738355721830,
   "id": "ifd_halberd_pyre_templar_base",
   "hero_classes": [

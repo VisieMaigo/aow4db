@@ -10732,9 +10732,60 @@
  },
  {
   "group_name": "AHC - Assassin - Hero Skill Group",
+  "icon": "ahc_shadow_clone_hero_skill",
+  "type": "normal",
+  "abilities": [
+   {
+    "slug": "ahc_shadow_clone_ability_ahc_shadow_clone_hero_skill"
+   }
+  ],
+  "resid": -931243738355721262,
+  "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+  "name": "Shadow Clone",
+  "tree_pos_x": 600.0,
+  "tree_pos_y": 650.0,
+  "id": "ahc_shadow_clone_hero_skill",
+  "required_skills": [
+   {
+    "resid": -931243738355721735
+   },
+   {
+    "resid": -931243738355721277
+   }
+  ]
+ },
+ {
+  "group_name": "AHC - Assassin - Hero Skill Group",
+  "icon": "ahc_shadow_embrace_hero_skill",
+  "type": "normal",
+  "abilities": [
+   {
+    "slug": "shadow_embrace"
+   }
+  ],
+  "resid": -931243738355721277,
+  "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+  "name": "Shadow Embrace",
+  "tree_pos_x": 700.0,
+  "tree_pos_y": 550.0,
+  "id": "ahc_shadow_embrace_hero_skill",
+  "required_skills": [
+   {
+    "resid": -931243738355721720
+   },
+   {
+    "resid": -931243738355721736
+   },
+   {
+    "resid": -931243738355721734
+   }
+  ]
+ },
+ {
+  "group_name": "AHC - Assassin - Hero Skill Group",
   "icon": "ahc_whispers_of_panic_hero_skill",
   "type": "normal",
-  "name": "Whispers of Panic",
+  "name": "Panic Bloom",
   "tree_pos_x": 150.0,
   "id": "ahc_whispers_of_panic_hero_skill",
   "excluded_skills": [
@@ -10745,7 +10796,7 @@
   "resid": -931243738355721357,
   "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
   "tree_pos_y": 450.0,
-  "description": "Grants:<bulletlist><bullet>Vicious Killer</bullet><bullet>Whispers of Panic</bullet></bulletlist>",
+  "description": "Grants:<bulletlist><bullet>Vicious Killer</bullet><bullet>Panic Bloom</bullet></bulletlist>",
   "required_skills": [
    {
     "resid": -931243738355721504
@@ -10895,7 +10946,7 @@
   "tree_pos_x": 600.0,
   "tree_pos_y": 150.0,
   "id": "ahc_mark_of_the_assassin_hero_skill",
-  "description": "Grants:<bulletlist><bullet>Mark of the Assassin</bullet><bullet><hyperlink>Ranged Weapon</hyperlink> attacks inflict 1 stack of Assassin's Mark for <turn></turn> Turns.</bullet></bulletlist><br></br>Effects <hyperlink>are increased</hyperlink> for Single Shot attacks.",
+  "description": "Grants:<bulletlist><bullet>Mark of the Assassin</bullet><bullet><hyperlink>Ranged Weapon</hyperlink> attacks have a base 90% chance of inflicting Assassin's Mark for 3 <turn></turn> Turns.</bullet></bulletlist><br></br>Effects <hyperlink>are increased</hyperlink> for Single Shot attacks.",
   "required_skills": [
    {
     "resid": -931243738355721724
@@ -10982,7 +11033,7 @@
   "resid": -931243738355721574,
   "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
   "tree_pos_y": 150.0,
-  "description": "Assassin's Strike now always counts as a <hyperlink><flank></flank> Flanking</hyperlink> attack.",
+  "description": "Surprise Strike now always counts as a <hyperlink><flank></flank> Flanking</hyperlink> attack.",
   "required_skills": [
    {
     "resid": -931243738355721673
@@ -11065,7 +11116,7 @@
   "resid": -931243738355721665,
   "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
   "tree_pos_y": 150.0,
-  "description": "Assassin's Strike now causes the target unit to lose 1 <hyperlink>Action Point</hyperlink>.",
+  "description": "Surprise Strike now causes the target unit to lose 1 <hyperlink>Action Point</hyperlink>.",
   "required_skills": [
    {
     "resid": -931243738355721673
@@ -11074,11 +11125,11 @@
  },
  {
   "group_name": "AHC - Assassin - Hero Skill Group",
-  "icon": "hs_ranger_snapshot",
+  "icon": "ahc_surprise_strike_hero_skill",
   "type": "normal",
-  "name": "Assassin's Strike",
+  "name": "Surprise Strike",
   "tree_pos_x": 250.0,
-  "id": "ahc_assassins_strike_hero_skill",
+  "id": "ahc_surprise_strike_hero_skill",
   "excluded_skills": [
    {
     "resid": -931243738355721710
@@ -11089,7 +11140,7 @@
   ],
   "abilities": [
    {
-    "slug": "ahc_assassins_strike_ability_ahc_assassins_strike_hero_skill"
+    "slug": "ahc_surprise_strike_ability_ahc_surprise_strike_hero_skill"
    }
   ],
   "resid": -931243738355721673,
@@ -11098,7 +11149,7 @@
  },
  {
   "group_name": "AHC - Assassin - Hero Skill Group",
-  "icon": "ahc_shadow_strike_hero_skill",
+  "icon": "ahc_disengaging_strike_hero_skill",
   "type": "normal",
   "name": "Disengaging Strike",
   "tree_pos_x": 50.0,

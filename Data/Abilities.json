@@ -26114,6 +26114,32 @@
   "icon": "flamesurge_focus"
  },
  {
+  "notes": [
+   {
+    "note": "Can only be used once per battle."
+   }
+  ],
+  "description": "Summon a Shadow Clone of the caster. This summon lasts for the duration of the battle.",
+  "name": "Shadow Clone",
+  "slug": "ahc_shadow_clone_ability_ahc_shadow_clone_hero_skill",
+  "damage": "",
+  "requisites": [
+   {
+    "requisite": "Summoning"
+   }
+  ],
+  "accuracy": "Always Hits",
+  "actionPoints": "<singleuseaction></singleuseaction>",
+  "range": "1",
+  "icon": "ahc_shadow_clone_ability_ahc_shadow_clone_hero_skill"
+ },
+ {
+  "description": "Grants:<bulletlist><bullet>+1 <defense></defense> <hyperlink>Defense</hyperlink></bullet><bullet>Shadow Step now gains +3 extra range.</bullet><bullet>At the end of its turn, if this unit is Obscured or in a <hyperlink>Mist</hyperlink> cloud, it gains Regeneration.</bullet></bulletlist>",
+  "name": "Shadow Embrace",
+  "slug": "shadow_embrace",
+  "icon": "shadow_embrace"
+ },
+ {
   "description": "Grants:<bulletlist><bullet>At the start of combat, 3 random enemies are inflicted with one of the following status effects: Bleeding, Poisoned, Slowed, Status Vulnerability, or Weakened.</bullet><bullet>+2 <siegehealthdamage></siegehealthdamage><hyperlink>Fortification Damage</hyperlink>.</bullet></bulletlist>",
   "name": "Sabotage",
   "slug": "sabotage",
@@ -26159,17 +26185,15 @@
   "icon": "ahc_shadow_strike_ability_ahc_shadow_strike_hero_skill"
  },
  {
-  "modifiers": [
+  "notes": [
    {
-    "description": "Inflicts Poisoned for 3 <turn></turn> Turns.",
-    "name": "Poisoned",
-    "count": 1
+    "note": "Cooldown: 1 <turn></turn>"
    }
   ],
-  "description": "Deal damage to target unit without triggering retaliation.",
-  "name": "Assassin's Strike",
-  "slug": "ahc_assassins_strike_ability_ahc_assassins_strike_hero_skill",
-  "damage": "18<damagephysical></damagephysical> ",
+  "description": "Deal damage to target unit without triggering <hyperlink>Retaliation Attacks</hyperlink>.",
+  "name": "Surprise Strike",
+  "slug": "ahc_surprise_strike_ability_ahc_surprise_strike_hero_skill",
+  "damage": "16<damagephysical></damagephysical> ",
   "requisites": [
    {
     "requisite": "Melee"
@@ -26182,14 +26206,9 @@
    }
   ],
   "accuracy": "100%",
-  "actionPoints": "<leaveoneaction></leaveoneaction>",
+  "actionPoints": "<freeaction></freeaction>",
   "range": "1",
-  "notes": [
-   {
-    "note": "Cooldown: 1 <turn></turn>"
-   }
-  ],
-  "icon": "melee_strike_(base)_ability_sabertooth"
+  "icon": "ahc_surprise_strike_ability_ahc_surprise_strike_hero_skill"
  },
  {
   "modifiers": [],
@@ -26216,7 +26235,7 @@
     "note": "Cooldown: 1 <turn></turn>"
    }
   ],
-  "icon": "melee_strike_(base)_ability_sabertooth"
+  "icon": "ahc_disengaging_strike_ability_ahc_disengaging_strike_hero_skill"
  },
  {
   "notes": [
@@ -26235,7 +26254,7 @@
   "icon": "hs_warrior_execute_ability_hs_death_knight_execute"
  },
  {
-  "description": "Killing an enemy unit grants:<bulletlist><bullet>2 stacks of Regeneration.</bullet><bullet>Hastened</bullet><bullet>1 hex of movement.</bullet></bulletlist>",
+  "description": "Killing an enemy unit grants:<bulletlist><bullet>1 stack of Killing Rush for 2 <turn></turn> <hyperlink>Turns</hyperlink>.</bullet><bullet>Hastened for 3 <turn></turn> <hyperlink>Turns</hyperlink>.</bullet></bulletlist>",
   "name": "Killing Rush",
   "slug": "killing_rush",
   "icon": "killing_rush"
@@ -28268,7 +28287,7 @@
     "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
    }
   ],
-  "icon": "ahc_shadow_strike_hero_skill"
+  "icon": "fire_heavy_magelocks_snap_shot_(item_forge)_ability_the_magekiller_tier_iv"
  },
  {
   "modifiers": [],
@@ -33501,7 +33520,7 @@
     "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
    }
   ],
-  "icon": "ahc_shadow_strike_hero_skill"
+  "icon": "fire_heavy_magelocks_snap_shot_(item_forge)_ability_the_magekiller_tier_iv"
  },
  {
   "notes": [
@@ -37670,7 +37689,7 @@
     "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
    }
   ],
-  "icon": "ahc_shadow_strike_hero_skill"
+  "icon": "fire_heavy_magelocks_snap_shot_(item_forge)_ability_the_magekiller_tier_iv"
  },
  {
   "modifiers": [],
@@ -38885,6 +38904,171 @@
    }
   ],
   "icon": "melee_strike_(base)_ability_sabertooth"
+ },
+ {
+  "notes": [],
+  "description": "Strikes target enemy unit.",
+  "name": "Melee Strike",
+  "slug": "melee_strike_(base)_ability_(combo)_ahc_shadow_cestus_tier_i",
+  "damage": "10<damagephysical></damagephysical> ",
+  "requisites": [
+   {
+    "requisite": "Melee"
+   },
+   {
+    "requisite": "Base"
+   }
+  ],
+  "accuracy": "100%",
+  "actionPoints": "<repeatingaction></repeatingaction>",
+  "range": "1",
+  "icon": "melee_strike_(base)_ability_sabertooth"
+ },
+ {
+  "notes": [
+   {
+    "note": "Cooldown: 2 <turn></turn>"
+   }
+  ],
+  "description": "Jumps to target location.",
+  "name": "Leap",
+  "slug": "cestus_leap_ability_ahc_shadow_cestus_tier_i",
+  "damage": "",
+  "requisites": [
+   {
+    "requisite": "Movement"
+   }
+  ],
+  "accuracy": "Always Hits",
+  "actionPoints": "<freeaction></freeaction>",
+  "range": "2",
+  "icon": "cestus_leap_ability_martial_cestus_item_tier_1"
+ },
+ {
+  "notes": [],
+  "description": "Strikes target enemy unit.",
+  "name": "Melee Strike",
+  "slug": "melee_strike_(item_forge_dual)_ability_ahc_sword_and_kunai_base",
+  "damage": "12<damagephysical></damagephysical> ",
+  "requisites": [
+   {
+    "requisite": "Melee"
+   },
+   {
+    "requisite": "Base"
+   }
+  ],
+  "accuracy": "100%",
+  "actionPoints": "<repeatingaction></repeatingaction>",
+  "range": "1",
+  "icon": "melee_strike_(base)_ability_sabertooth"
+ },
+ {
+  "notes": [
+   {
+    "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
+   }
+  ],
+  "description": "Deals damage to target unit.",
+  "name": "Dagger Throw",
+  "slug": "throw_dagger_ability_ahc_sword_and_kunai_base",
+  "damage": "22<damagephysical></damagephysical> ",
+  "requisites": [
+   {
+    "requisite": "Physical Ranged"
+   },
+   {
+    "requisite": "Base"
+   },
+   {
+    "requisite": "Single Shot"
+   }
+  ],
+  "accuracy": "Always Hits",
+  "actionPoints": "<singleuseaction></singleuseaction>",
+  "range": "4",
+  "icon": "throw_dagger_ability_empowered_shatterblades_tier_ii"
+ },
+ {
+  "modifiers": [],
+  "description": "Strikes target enemy unit.",
+  "name": "Melee Strike",
+  "slug": "melee_strike_(base)_ability_ahc_sword_and_kunai_tier_i",
+  "damage": "14<damagephysical></damagephysical> ",
+  "requisites": [
+   {
+    "requisite": "Melee"
+   },
+   {
+    "requisite": "Base"
+   }
+  ],
+  "accuracy": "100%",
+  "actionPoints": "<repeatingaction></repeatingaction>",
+  "range": "1",
+  "notes": [],
+  "icon": "melee_strike_(base)_ability_sabertooth"
+ },
+ {
+  "notes": [
+   {
+    "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
+   }
+  ],
+  "description": "Deals damage to target unit.",
+  "name": "Dagger Throw",
+  "slug": "throw_dagger_ability_ahc_sword_and_kunai_tier_i",
+  "damage": "22<damagephysical></damagephysical> ",
+  "requisites": [
+   {
+    "requisite": "Physical Ranged"
+   },
+   {
+    "requisite": "Base"
+   },
+   {
+    "requisite": "Single Shot"
+   }
+  ],
+  "accuracy": "Always Hits",
+  "actionPoints": "<singleuseaction></singleuseaction>",
+  "range": "4",
+  "icon": "throw_dagger_ability_empowered_shatterblades_tier_ii"
+ },
+ {
+  "modifiers": [
+   {
+    "description": "Unit deals +25% damage when <hyperlink><flank></flank> Flanking</hyperlink>.",
+    "name": "Flanker",
+    "count": 1
+   },
+   {
+    "description": "Deals +30% damage to <hyperlink>Hero</hyperlink> units. ",
+    "name": "Assassin's Dagger^n",
+    "count": 1
+   }
+  ],
+  "description": "Single Melee Strike.",
+  "name": "Assassin's Strike",
+  "slug": "assassins_dagger_ability_ahc_sword_and_kunai_tier_i",
+  "damage": "22<damagephysical></damagephysical> ",
+  "requisites": [
+   {
+    "requisite": "Melee"
+   },
+   {
+    "requisite": "Single Shot"
+   }
+  ],
+  "accuracy": "100%",
+  "actionPoints": "<singleuseaction></singleuseaction>",
+  "range": "1",
+  "notes": [
+   {
+    "note": "Cooldown: 2 <turn></turn>"
+   }
+  ],
+  "icon": "assassins_dagger_ability_assassins_dagger_item_tier_2"
  },
  {
   "notes": [],
@@ -42985,7 +43169,7 @@
     "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
    }
   ],
-  "icon": "ahc_shadow_strike_hero_skill"
+  "icon": "fire_heavy_magelocks_snap_shot_(item_forge)_ability_the_magekiller_tier_iv"
  },
  {
   "modifiers": [
@@ -44092,7 +44276,7 @@
     "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
    }
   ],
-  "icon": "ahc_shadow_strike_hero_skill"
+  "icon": "fire_heavy_magelocks_snap_shot_(item_forge)_ability_the_magekiller_tier_iv"
  },
  {
   "modifiers": [
@@ -44479,7 +44663,7 @@
     "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
    }
   ],
-  "icon": "ahc_shadow_strike_hero_skill"
+  "icon": "fire_heavy_magelocks_snap_shot_(item_forge)_ability_the_magekiller_tier_iv"
  },
  {
   "modifiers": [
