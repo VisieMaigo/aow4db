@@ -26114,36 +26114,16 @@
   "icon": "flamesurge_focus"
  },
  {
-  "notes": [
-   {
-    "note": "Can only be used once per battle."
-   }
-  ],
-  "description": "Summon a Shadow Clone of the caster. This summon lasts for the duration of the battle.",
-  "name": "Shadow Clone",
-  "slug": "ahc_shadow_clone_ability_ahc_shadow_clone_hero_skill",
-  "damage": "",
-  "requisites": [
-   {
-    "requisite": "Summoning"
-   }
-  ],
-  "accuracy": "Always Hits",
-  "actionPoints": "<singleuseaction></singleuseaction>",
-  "range": "1",
-  "icon": "ahc_shadow_clone_ability_ahc_shadow_clone_hero_skill"
+  "description": "Killing an enemy unit grants:<bulletlist><bullet>Shadow Form for 2 <turn></turn> <hyperlink>Turns</hyperlink>.</bullet><bullet>1 stack of Evasion for 3 <turn></turn> <hyperlink>Turns</hyperlink>.</bullet></bulletlist>",
+  "name": "Shadow Form",
+  "slug": "shadow_form",
+  "icon": "shadow_form"
  },
  {
   "description": "Grants:<bulletlist><bullet>+1 <defense></defense> <hyperlink>Defense</hyperlink></bullet><bullet>Shadow Step now gains +3 extra range.</bullet><bullet>At the end of its turn, if this unit is Obscured or in a <hyperlink>Mist</hyperlink> cloud, it gains Regeneration.</bullet></bulletlist>",
   "name": "Shadow Embrace",
   "slug": "shadow_embrace",
   "icon": "shadow_embrace"
- },
- {
-  "description": "Grants:<bulletlist><bullet>At the start of combat, 3 random enemies are inflicted with one of the following status effects: Bleeding, Poisoned, Slowed, Status Vulnerability, or Weakened.</bullet><bullet>+2 <siegehealthdamage></siegehealthdamage><hyperlink>Fortification Damage</hyperlink>.</bullet></bulletlist>",
-  "name": "Sabotage",
-  "slug": "sabotage",
-  "icon": "siege_breaker"
  },
  {
   "description": "At the end of the turn, steal 1 random positive status effect from up to 2 adjacent enemies.",
@@ -26156,7 +26136,7 @@
   "description": "Shadow step and deal damage to target unit.",
   "name": "Shadow Strike",
   "slug": "ahc_shadow_strike_ability_ahc_shadow_strike_hero_skill",
-  "damage": "22<damagephysical></damagephysical> ",
+  "damage": "18<damagephysical></damagephysical> ",
   "requisites": [
    {
     "requisite": "Base"
@@ -26215,7 +26195,7 @@
   "description": "Deal damage to target unit then shadow step back 3 hexes.",
   "name": "Disengaging Strike",
   "slug": "ahc_disengaging_strike_ability_ahc_disengaging_strike_hero_skill",
-  "damage": "22<damagephysical></damagephysical> ",
+  "damage": "18<damagephysical></damagephysical> ",
   "requisites": [
    {
     "requisite": "Melee"
@@ -26258,6 +26238,12 @@
   "name": "Killing Rush",
   "slug": "killing_rush",
   "icon": "killing_rush"
+ },
+ {
+  "description": "Killing an enemy unit resets all ability cooldowns. Can only trigger once per turn.",
+  "name": "Assassin's Promise",
+  "slug": "assassins_promise",
+  "icon": "assassins_promise"
  },
  {
   "notes": [

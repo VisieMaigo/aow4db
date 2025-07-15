@@ -10732,19 +10732,43 @@
  },
  {
   "group_name": "AHC - Assassin - Hero Skill Group",
-  "icon": "ahc_shadow_clone_hero_skill",
+  "icon": "ahc_displacement_hero_skill",
   "type": "normal",
   "abilities": [
    {
-    "slug": "ahc_shadow_clone_ability_ahc_shadow_clone_hero_skill"
+    "slug": "displacement"
    }
   ],
-  "resid": -931243738355721262,
+  "resid": -931243738355721192,
   "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
-  "name": "Shadow Clone",
+  "name": "Displacement",
+  "tree_pos_x": 800.0,
+  "tree_pos_y": 450.0,
+  "id": "ahc_displacement_hero_skill",
+  "required_skills": [
+   {
+    "resid": -931243738355721734
+   },
+   {
+    "resid": -931243738355721719
+   }
+  ]
+ },
+ {
+  "group_name": "AHC - Assassin - Hero Skill Group",
+  "icon": "ahc_shadow_form_hero_skill",
+  "type": "normal",
+  "abilities": [
+   {
+    "slug": "shadow_form"
+   }
+  ],
+  "resid": -931243738355721228,
+  "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+  "name": "Shadow Form",
   "tree_pos_x": 600.0,
   "tree_pos_y": 650.0,
-  "id": "ahc_shadow_clone_hero_skill",
+  "id": "ahc_shadow_form_hero_skill",
   "required_skills": [
    {
     "resid": -931243738355721735
@@ -10777,17 +10801,17 @@
     "resid": -931243738355721736
    },
    {
-    "resid": -931243738355721734
+    "resid": -931243738355721192
    }
   ]
  },
  {
   "group_name": "AHC - Assassin - Hero Skill Group",
-  "icon": "ahc_whispers_of_panic_hero_skill",
+  "icon": "ahc_panic_bloom_hero_skill",
   "type": "normal",
   "name": "Panic Bloom",
   "tree_pos_x": 150.0,
-  "id": "ahc_whispers_of_panic_hero_skill",
+  "id": "ahc_panic_bloom_hero_skill",
   "excluded_skills": [
    {
     "resid": -931243738355721714
@@ -10811,33 +10835,6 @@
  },
  {
   "group_name": "AHC - Assassin - Hero Skill Group",
-  "icon": "ahc_sabotage_hero_skill",
-  "type": "normal",
-  "abilities": [
-   {
-    "slug": "sabotage"
-   }
-  ],
-  "resid": -931243738355721398,
-  "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
-  "name": "Sabotage",
-  "tree_pos_x": 800.0,
-  "tree_pos_y": 250.0,
-  "id": "ahc_sabotage_hero_skill",
-  "required_skills": [
-   {
-    "resid": -931243738355721632
-   },
-   {
-    "resid": -931243738355721752
-   },
-   {
-    "resid": -931243738355721747
-   }
-  ]
- },
- {
-  "group_name": "AHC - Assassin - Hero Skill Group",
   "icon": "ahc_thieving_aura_hero_skill",
   "type": "normal",
   "abilities": [
@@ -10849,14 +10846,17 @@
   "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
   "name": "Thieving Aura",
   "tree_pos_x": 800.0,
-  "tree_pos_y": 350.0,
+  "tree_pos_y": 250.0,
   "id": "ahc_thieving_aura_hero_skill",
   "required_skills": [
    {
-    "resid": -931243738355721737
+    "resid": -931243738355721632
    },
    {
-    "resid": -931243738355721398
+    "resid": -931243738355721752
+   },
+   {
+    "resid": -931243738355721747
    }
   ]
  },
@@ -11237,13 +11237,17 @@
   "group_name": "AHC - Assassin - Hero Skill Group",
   "icon": "hs_ranger_kill_shot",
   "type": "normal",
+  "abilities": [
+   {
+    "slug": "assassins_promise"
+   }
+  ],
   "resid": -931243738355721715,
   "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
   "name": "Assassin's Promise",
   "tree_pos_x": 200.0,
   "tree_pos_y": 350.0,
   "id": "ahc_assassins_promise_hero_skill",
-  "description": "Killing an enemy unit resets all ability cooldowns. Can only trigger once per turn.",
   "required_skills": [
    {
     "resid": -931243738355721713
@@ -11353,18 +11357,15 @@
   "resid": -931243738355721719,
   "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
   "name": "Knockback Retaliations",
-  "tree_pos_x": 700.0,
+  "tree_pos_x": 800.0,
   "tree_pos_y": 350.0,
   "id": "ahc_knockback_retaliations_hero_skill",
   "required_skills": [
    {
-    "resid": -931243738355721723
-   },
-   {
     "resid": -931243738355721737
    },
    {
-    "resid": -931243738355721398
+    "resid": -931243738355721423
    }
   ]
  },
@@ -11387,7 +11388,7 @@
     "resid": -931243738355721740
    },
    {
-    "resid": -931243738355721719
+    "resid": -931243738355721734
    }
   ]
  },
@@ -11456,7 +11457,7 @@
  },
  {
   "group_name": "AHC - Assassin - Hero Skill Group",
-  "icon": "hs_ranger_slip_away",
+  "icon": "ahc_shadowed_escape_hero_skill",
   "type": "normal",
   "abilities": [
    {
@@ -11466,12 +11467,15 @@
   "resid": -931243738355721734,
   "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
   "name": "Shadowed Escape",
-  "tree_pos_x": 800.0,
-  "tree_pos_y": 450.0,
+  "tree_pos_x": 700.0,
+  "tree_pos_y": 350.0,
   "id": "ahc_shadowed_escape_hero_skill",
   "required_skills": [
    {
-    "resid": -931243738355721719
+    "resid": -931243738355721723
+   },
+   {
+    "resid": -931243738355721737
    },
    {
     "resid": -931243738355721423
@@ -11517,10 +11521,10 @@
     "resid": -931243738355721721
    },
    {
-    "resid": -931243738355721719
+    "resid": -931243738355721734
    },
    {
-    "resid": -931243738355721423
+    "resid": -931243738355721719
    }
   ]
  },
@@ -11598,7 +11602,7 @@
   "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
   "name": "Grim Executioner",
   "tree_pos_x": 500.0,
-  "tree_pos_y": 350.0,
+  "tree_pos_y": 349.0,
   "id": "ahc_grim_executioner_hero_skill",
   "description": "When this unit kills another, it gains 3 Fortune.",
   "required_skills": [
