@@ -1,0 +1,1017 @@
+[
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_displacement_hero_skill",
+    "type": "normal",
+    "abilities": [
+      {
+        "slug": "displacement"
+      }
+    ],
+    "resid": -931243738355721192,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "name": "Displacement",
+    "tree_pos_x": 800.0,
+    "tree_pos_y": 450.0,
+    "id": "ahc_displacement_hero_skill",
+    "required_skills": [
+      {
+        "resid": -931243738355721734
+      },
+      {
+        "resid": -931243738355721719
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_shadow_form_hero_skill",
+    "type": "normal",
+    "abilities": [
+      {
+        "slug": "shadow_form"
+      }
+    ],
+    "resid": -931243738355721228,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "name": "Shadow Form",
+    "tree_pos_x": 600.0,
+    "tree_pos_y": 650.0,
+    "id": "ahc_shadow_form_hero_skill",
+    "required_skills": [
+      {
+        "resid": -931243738355721735
+      },
+      {
+        "resid": -931243738355721277
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_shadow_embrace_hero_skill",
+    "type": "normal",
+    "abilities": [
+      {
+        "slug": "shadow_embrace"
+      }
+    ],
+    "resid": -931243738355721277,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "name": "Shadow Embrace",
+    "tree_pos_x": 700.0,
+    "tree_pos_y": 550.0,
+    "id": "ahc_shadow_embrace_hero_skill",
+    "required_skills": [
+      {
+        "resid": -931243738355721720
+      },
+      {
+        "resid": -931243738355721736
+      },
+      {
+        "resid": -931243738355721192
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_panic_bloom_hero_skill",
+    "type": "normal",
+    "name": "Panic Bloom",
+    "tree_pos_x": 150.0,
+    "id": "ahc_panic_bloom_hero_skill",
+    "excluded_skills": [
+      {
+        "resid": -931243738355721714
+      }
+    ],
+    "resid": -931243738355721357,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "tree_pos_y": 450.0,
+    "description": "Grants:<bulletlist><bullet>Vicious Killer</bullet><bullet>Panic Bloom</bullet></bulletlist>",
+    "required_skills": [
+      {
+        "resid": -931243738355721504
+      },
+      {
+        "resid": -931243738355721715
+      },
+      {
+        "resid": -931243738355721509
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_thieving_aura_hero_skill",
+    "type": "normal",
+    "abilities": [
+      {
+        "slug": "thieving_aura"
+      }
+    ],
+    "resid": -931243738355721423,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "name": "Thieving Aura",
+    "tree_pos_x": 800.0,
+    "tree_pos_y": 250.0,
+    "id": "ahc_thieving_aura_hero_skill",
+    "required_skills": [
+      {
+        "resid": -931243738355721632
+      },
+      {
+        "resid": -931243738355721752
+      },
+      {
+        "resid": -931243738355721747
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_isolation_killer_hero_skill",
+    "type": "normal",
+    "name": "Isolation Killer",
+    "tree_pos_x": 400.0,
+    "id": "ahc_isolation_killer_hero_skill",
+    "excluded_skills": [
+      {
+        "resid": -931243738355721509
+      }
+    ],
+    "resid": -931243738355721464,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "tree_pos_y": 350.0,
+    "description": "<hyperlink>Melee</hyperlink> and <hyperlink>Physical Ranged</hyperlink> attacks deal an extra 4 <damagePhysical></damagePhysical> <hyperlink>Physical Damage</hyperlink>. This damage bonus is negated if another enemy is adjacent to the target.<br></br>Effects <hyperlink>are increased</hyperlink> for Single Shot attacks.",
+    "required_skills": [
+      {
+        "resid": -931243738355721569
+      },
+      {
+        "resid": -931243738355721739
+      },
+      {
+        "resid": -931243738355721801
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_rain_of_poison_blades_hero_skill",
+    "type": "normal",
+    "resid": -931243738355721504,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "name": "Rain of Poison Blades",
+    "tree_pos_x": 100.0,
+    "tree_pos_y": 350.0,
+    "id": "ahc_rain_of_poison_blades_hero_skill",
+    "description": "The third <hyperlink>Melee</hyperlink> attack in a turn deals 12 <damageBlight></damageBlight> <hyperlink>Blight Damage</hyperlink> and inflicts Poisoned to the target and adjacent enemies.",
+    "required_skills": [
+      {
+        "resid": -931243738355721713
+      },
+      {
+        "resid": -931243738355721560
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_hero_killer_hero_skill",
+    "type": "normal",
+    "name": "Hero Killer",
+    "tree_pos_x": 300.0,
+    "id": "ahc_hero_killer_hero_skill",
+    "excluded_skills": [
+      {
+        "resid": -931243738355721464
+      }
+    ],
+    "resid": -931243738355721509,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "tree_pos_y": 350.0,
+    "description": "Grants:<bulletlist><bullet>Mark of the Assassin</bullet><bullet>Hero Slayer</bullet></bulletlist>",
+    "required_skills": [
+      {
+        "resid": -931243738355721713
+      },
+      {
+        "resid": -931243738355721569
+      },
+      {
+        "resid": -931243738355721739
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_mark_of_the_assassin_hero_skill",
+    "type": "normal",
+    "resid": -931243738355721521,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "name": "Mark of the Assassin",
+    "tree_pos_x": 600.0,
+    "tree_pos_y": 150.0,
+    "id": "ahc_mark_of_the_assassin_hero_skill",
+    "description": "Grants:<bulletlist><bullet>Mark of the Assassin</bullet><bullet><hyperlink>Ranged Weapon</hyperlink> attacks have a base 90% chance of inflicting Assassin's Mark for 3 <turn></turn> Turns.</bullet></bulletlist><br></br>Effects <hyperlink>are increased</hyperlink> for Single Shot attacks.",
+    "required_skills": [
+      {
+        "resid": -931243738355721724
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_rending_strike_hero_skill",
+    "type": "normal",
+    "name": "Rending Strike",
+    "tree_pos_x": 150.0,
+    "id": "ahc_rending_strike_hero_skill",
+    "excluded_skills": [
+      {
+        "resid": -931243738355721603
+      }
+    ],
+    "resid": -931243738355721554,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "tree_pos_y": 150.0,
+    "description": "Disengaging Strike and Shadow Strike now:<bulletlist><bullet>Inflicts 2 stacks of Sundered Defense.</bullet><bullet>Removes 1 positive status effect.</bullet></bulletlist>",
+    "required_skills": [
+      {
+        "resid": -931243738355721710
+      },
+      {
+        "resid": -931243738355721628
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_exploiting_strikes_hero_skill",
+    "type": "normal",
+    "resid": -931243738355721560,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "name": "Exploiting Strikes",
+    "tree_pos_x": 100.0,
+    "tree_pos_y": 250.0,
+    "id": "ahc_exploiting_strikes_hero_skill",
+    "description": "<hyperlink>Melee</hyperlink> attacks now do +1 <damagePhysical></damagePhysical> <hyperlink>Physical Damage</hyperlink> per negative status effect on the target (maximum +5).<br></br>Effects <hyperlink>are increased</hyperlink> for Single Shot attacks.",
+    "required_skills": [
+      {
+        "resid": -931243738355721603
+      },
+      {
+        "resid": -931243738355721554
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_backstab_hero_skill",
+    "type": "normal",
+    "resid": -931243738355721569,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "name": "Backstab",
+    "tree_pos_x": 300.0,
+    "tree_pos_y": 250.0,
+    "id": "ahc_backstab_hero_skill",
+    "description": "<hyperlink>Melee</hyperlink> attacks deal an extra 3 <damagePhysical></damagePhysical> <hyperlink>Physical Damage</hyperlink> when <hyperlink><flank></flank> Flanking</hyperlink>.<br></br>Effects <hyperlink>are increased</hyperlink> for Single Shot attacks.",
+    "required_skills": [
+      {
+        "resid": -931243738355721574
+      },
+      {
+        "resid": -931243738355721665
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_flanking_strike_hero_skill",
+    "type": "normal",
+    "name": "Flanking Strike",
+    "tree_pos_x": 250.0,
+    "id": "ahc_flanking_strike_hero_skill",
+    "excluded_skills": [
+      {
+        "resid": -931243738355721665
+      }
+    ],
+    "resid": -931243738355721574,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "tree_pos_y": 150.0,
+    "description": "Surprise Strike now always counts as a <hyperlink><flank></flank> Flanking</hyperlink> attack.",
+    "required_skills": [
+      {
+        "resid": -931243738355721673
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_phantom_strike_hero_skill",
+    "type": "normal",
+    "name": "Phantom Strike",
+    "tree_pos_x": 50.0,
+    "id": "ahc_phantom_strike_hero_skill",
+    "excluded_skills": [
+      {
+        "resid": -931243738355721554
+      }
+    ],
+    "resid": -931243738355721603,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "tree_pos_y": 150.0,
+    "description": "Disengaging Strike and Shadow Strike now:<bulletlist><bullet>Inflicts 2 stacks of Weakened.</bullet><bullet>Grants the caster 2 stacks of Evasion.</bullet></bulletlist>",
+    "required_skills": [
+      {
+        "resid": -931243738355721710
+      },
+      {
+        "resid": -931243738355721628
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_shadow_strike_hero_skill",
+    "type": "normal",
+    "name": "Shadow Strike",
+    "tree_pos_x": 150.0,
+    "id": "ahc_shadow_strike_hero_skill",
+    "excluded_skills": [
+      {
+        "resid": -931243738355721710
+      },
+      {
+        "resid": -931243738355721673
+      }
+    ],
+    "abilities": [
+      {
+        "slug": "ahc_shadow_strike_ability_ahc_shadow_strike_hero_skill"
+      }
+    ],
+    "resid": -931243738355721628,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "tree_pos_y": 50.0
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_assassin_training",
+    "type": "normal",
+    "resid": -931243738355721632,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "name": "Assassin Training",
+    "tree_pos_x": 700.0,
+    "tree_pos_y": 150.0,
+    "id": "ahc_assassin_training",
+    "description": "The hero gains:<bulletlist><bullet>Slippery</bullet><bullet>Swift</bullet><bullet>Universal Camouflage</bullet></bulletlist>"
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_sapping_strike_hero_skill",
+    "type": "normal",
+    "name": "Sapping Strike",
+    "tree_pos_x": 350.0,
+    "id": "ahc_sapping_strike_hero_skill",
+    "excluded_skills": [
+      {
+        "resid": -931243738355721574
+      }
+    ],
+    "resid": -931243738355721665,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "tree_pos_y": 150.0,
+    "description": "Surprise Strike now causes the target unit to lose 1 <hyperlink>Action Point</hyperlink>.",
+    "required_skills": [
+      {
+        "resid": -931243738355721673
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_surprise_strike_hero_skill",
+    "type": "normal",
+    "name": "Surprise Strike",
+    "tree_pos_x": 250.0,
+    "id": "ahc_surprise_strike_hero_skill",
+    "excluded_skills": [
+      {
+        "resid": -931243738355721710
+      },
+      {
+        "resid": -931243738355721628
+      }
+    ],
+    "abilities": [
+      {
+        "slug": "ahc_surprise_strike_ability_ahc_surprise_strike_hero_skill"
+      }
+    ],
+    "resid": -931243738355721673,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "tree_pos_y": 50.0
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_disengaging_strike_hero_skill",
+    "type": "normal",
+    "name": "Disengaging Strike",
+    "tree_pos_x": 50.0,
+    "id": "ahc_disengaging_strike_hero_skill",
+    "excluded_skills": [
+      {
+        "resid": -931243738355721628
+      },
+      {
+        "resid": -931243738355721673
+      }
+    ],
+    "abilities": [
+      {
+        "slug": "ahc_disengaging_strike_ability_ahc_disengaging_strike_hero_skill"
+      }
+    ],
+    "resid": -931243738355721710,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "tree_pos_y": 50.0
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "hs_death_knight_execute",
+    "type": "normal",
+    "abilities": [
+      {
+        "slug": "ahc_assassinate_ability_ahc_assassinate_hero_skill"
+      }
+    ],
+    "resid": -931243738355721713,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "name": "Assassinate",
+    "tree_pos_x": 200.0,
+    "tree_pos_y": 250.0,
+    "id": "ahc_assassinate_hero_skill",
+    "required_skills": [
+      {
+        "resid": -931243738355721603
+      },
+      {
+        "resid": -931243738355721554
+      },
+      {
+        "resid": -931243738355721574
+      },
+      {
+        "resid": -931243738355721665
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_killing_rush_hero_skill",
+    "type": "normal",
+    "name": "Killing Rush",
+    "tree_pos_x": 250.0,
+    "id": "ahc_killing_rush_hero_skill",
+    "excluded_skills": [
+      {
+        "resid": -931243738355721357
+      }
+    ],
+    "abilities": [
+      {
+        "slug": "killing_rush"
+      }
+    ],
+    "resid": -931243738355721714,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "tree_pos_y": 450.0,
+    "required_skills": [
+      {
+        "resid": -931243738355721504
+      },
+      {
+        "resid": -931243738355721715
+      },
+      {
+        "resid": -931243738355721509
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "hs_ranger_kill_shot",
+    "type": "normal",
+    "abilities": [
+      {
+        "slug": "assassins_promise"
+      }
+    ],
+    "resid": -931243738355721715,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "name": "Assassin's Promise",
+    "tree_pos_x": 200.0,
+    "tree_pos_y": 350.0,
+    "id": "ahc_assassins_promise_hero_skill",
+    "required_skills": [
+      {
+        "resid": -931243738355721713
+      },
+      {
+        "resid": -931243738355721560
+      },
+      {
+        "resid": -931243738355721569
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "hs_ranger_go_for_the_kill",
+    "type": "normal",
+    "abilities": [
+      {
+        "slug": "hs_ranger_go_for_the_kill_ability_ahc_go_for_the_kill_hero_skill"
+      }
+    ],
+    "resid": -931243738355721716,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "name": "Go For The Kill",
+    "tree_pos_x": 200.0,
+    "tree_pos_y": 650.0,
+    "id": "ahc_go_for_the_kill_hero_skill",
+    "required_skills": [
+      {
+        "resid": -931243738355721717
+      },
+      {
+        "resid": -931243738355721718
+      },
+      {
+        "resid": -931243738355721735
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "hs_ranger_opening_strikes",
+    "type": "normal",
+    "name": "Opening Strikes",
+    "tree_pos_x": 150.0,
+    "id": "ahc_opening_strikes_hero_skill",
+    "excluded_skills": [
+      {
+        "resid": -931243738355721718
+      }
+    ],
+    "abilities": [
+      {
+        "slug": "opening_strikes"
+      }
+    ],
+    "resid": -931243738355721717,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "tree_pos_y": 550.0,
+    "required_skills": [
+      {
+        "resid": -931243738355721357
+      },
+      {
+        "resid": -931243738355721714
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "hs_ranger_fatal_strikes",
+    "type": "normal",
+    "name": "Fatal Strikes",
+    "tree_pos_x": 250.0,
+    "id": "ahc_fatal_strikes_hero_skill",
+    "excluded_skills": [
+      {
+        "resid": -931243738355721717
+      }
+    ],
+    "abilities": [
+      {
+        "slug": "fatal_strikes"
+      }
+    ],
+    "resid": -931243738355721718,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "tree_pos_y": 550.0,
+    "required_skills": [
+      {
+        "resid": -931243738355721357
+      },
+      {
+        "resid": -931243738355721714
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "knockback_retaliations",
+    "type": "normal",
+    "abilities": [
+      {
+        "slug": "knockback_retaliations"
+      }
+    ],
+    "resid": -931243738355721719,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "name": "Knockback Retaliations",
+    "tree_pos_x": 800.0,
+    "tree_pos_y": 350.0,
+    "id": "ahc_knockback_retaliations_hero_skill",
+    "required_skills": [
+      {
+        "resid": -931243738355721737
+      },
+      {
+        "resid": -931243738355721423
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "hs_ranger_exploit_weakness",
+    "type": "normal",
+    "resid": -931243738355721720,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "name": "Exploit Weakness",
+    "tree_pos_x": 600.0,
+    "tree_pos_y": 450.0,
+    "id": "ahc_exploit_weakness_hero_skill",
+    "description": "The hero now does +20% damage to units with a negative status effect.",
+    "required_skills": [
+      {
+        "resid": -931243738355721721
+      },
+      {
+        "resid": -931243738355721740
+      },
+      {
+        "resid": -931243738355721734
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "hs_ranger_evasive_strikes",
+    "type": "normal",
+    "resid": -931243738355721721,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "name": "Evasive Strikes",
+    "tree_pos_x": 600.0,
+    "tree_pos_y": 350.0,
+    "id": "ahc_evasive_strikes_hero_skill",
+    "description": "<hyperlink>Melee</hyperlink> attacks no longer trigger retaliations.",
+    "required_skills": [
+      {
+        "resid": -931243738355721801
+      },
+      {
+        "resid": -931243738355721723
+      },
+      {
+        "resid": -931243738355721737
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "hs_ranger_versatile_skirmisher",
+    "type": "normal",
+    "name": "Versatile Skirmisher",
+    "tree_pos_x": 600.0,
+    "id": "ahc_versatile_skirmisher_hero_skill",
+    "excluded_skills": [
+      {
+        "resid": -931243738355721801
+      }
+    ],
+    "resid": -931243738355721723,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "tree_pos_y": 250.0,
+    "description": "<bulletlist><bullet><hyperlink>Melee</hyperlink> attacks grant Prepared Shot for 2<turn></turn> <hyperlink>Turn</hyperlink>.</bullet><bullet><hyperlink>Physical Ranged</hyperlink> attacks grant Prepared Strike for 2<turn></turn> <hyperlink>Turn</hyperlink>.</bullet></bulletlist>",
+    "required_skills": [
+      {
+        "resid": -931243738355721521
+      },
+      {
+        "resid": -931243738355721802
+      },
+      {
+        "resid": -931243738355721632
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "hs_ranger_flanking_skirmisher",
+    "type": "normal",
+    "resid": -931243738355721724,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "name": "Flanking Skirmisher",
+    "tree_pos_x": 600.0,
+    "tree_pos_y": 50.0,
+    "id": "ahc_flanking_skirmisher_hero_skill",
+    "description": "<hyperlink><flank></flank> Flanking</hyperlink> attacks now deal +20% more damage."
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_shadowed_escape_hero_skill",
+    "type": "normal",
+    "abilities": [
+      {
+        "slug": "shadowed_escape"
+      }
+    ],
+    "resid": -931243738355721734,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "name": "Shadowed Escape",
+    "tree_pos_x": 700.0,
+    "tree_pos_y": 350.0,
+    "id": "ahc_shadowed_escape_hero_skill",
+    "required_skills": [
+      {
+        "resid": -931243738355721723
+      },
+      {
+        "resid": -931243738355721737
+      },
+      {
+        "resid": -931243738355721423
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_assassin_expertise_hero_skill",
+    "type": "normal",
+    "resid": -931243738355721735,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "name": "Assassin Expertise",
+    "tree_pos_x": 500.0,
+    "tree_pos_y": 550.0,
+    "id": "ahc_assassin_expertise_hero_skill",
+    "description": "The hero gains:<bulletlist><bullet><hyperlink>Melee</hyperlink> and <hyperlink>Physical Ranged</hyperlink> attacks deal +10% damage</bullet><bullet>+10% <hyperlink>Critical Hit</hyperlink> chance</bullet><bullet>+10% <hyperlink>Evasion</hyperlink></bullet></bulletlist>",
+    "required_skills": [
+      {
+        "resid": -931243738355721738
+      },
+      {
+        "resid": -931243738355721800
+      },
+      {
+        "resid": -931243738355721720
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "hs_ranger_defense_ii",
+    "type": "normal",
+    "resid": -931243738355721736,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "name": "Defense",
+    "tree_pos_x": 700.0,
+    "tree_pos_y": 450.0,
+    "id": "ahc_defense_ii_hero_skill",
+    "description": "<bulletlist><bullet>+1 <defense></defense> <hyperlink>Defense</hyperlink></bullet><bullet>+10% <hyperlink>Evasion</hyperlink></bullet></bulletlist>",
+    "required_skills": [
+      {
+        "resid": -931243738355721721
+      },
+      {
+        "resid": -931243738355721734
+      },
+      {
+        "resid": -931243738355721719
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "hs_ranger_defense_i",
+    "type": "normal",
+    "resid": -931243738355721737,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "name": "Defense",
+    "tree_pos_x": 700.0,
+    "tree_pos_y": 250.0,
+    "id": "ahc_defense_i_hero_skill",
+    "description": "<bulletlist><bullet>+1 <defense></defense> <hyperlink>Defense</hyperlink></bullet><bullet>+10% <hyperlink>Evasion</hyperlink></bullet></bulletlist>",
+    "required_skills": [
+      {
+        "resid": -931243738355721521
+      },
+      {
+        "resid": -931243738355721632
+      },
+      {
+        "resid": -931243738355721752
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_assassin_ii_hero_skill",
+    "type": "normal",
+    "resid": -931243738355721738,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "name": "Assassin II",
+    "tree_pos_x": 400.0,
+    "tree_pos_y": 450.0,
+    "id": "ahc_assassin_ii_hero_skill",
+    "description": "<hyperlink>Melee</hyperlink> and <hyperlink>Physical Ranged</hyperlink> attacks now deal +10% damage.",
+    "required_skills": [
+      {
+        "resid": -931243738355721464
+      },
+      {
+        "resid": -931243738355721509
+      },
+      {
+        "resid": -931243738355721740
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_assassin_i_hero_skill",
+    "type": "normal",
+    "resid": -931243738355721739,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "name": "Assassin I",
+    "tree_pos_x": 400.0,
+    "tree_pos_y": 250.0,
+    "id": "ahc_assassin_i_hero_skill",
+    "description": "<hyperlink>Melee</hyperlink> and <hyperlink>Physical Ranged</hyperlink> attacks now deal +10% damage.",
+    "required_skills": [
+      {
+        "resid": -931243738355721665
+      },
+      {
+        "resid": -931243738355721802
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "hs_death_knight_grim_executioner",
+    "type": "normal",
+    "resid": -931243738355721740,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "name": "Grim Executioner",
+    "tree_pos_x": 500.0,
+    "tree_pos_y": 349.0,
+    "id": "ahc_grim_executioner_hero_skill",
+    "description": "When this unit kills another, it gains 3 Fortune.",
+    "required_skills": [
+      {
+        "resid": -931243738355721739
+      },
+      {
+        "resid": -931243738355721801
+      },
+      {
+        "resid": -931243738355721723
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_shadowed_refuge_hero_skill",
+    "type": "normal",
+    "name": "Shadowed Refuge",
+    "tree_pos_x": 900.0,
+    "id": "ahc_shadowed_refuge_hero_skill",
+    "excluded_skills": [
+      {
+        "resid": -931243738355721752
+      }
+    ],
+    "resid": -931243738355721747,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "tree_pos_y": 150.0,
+    "description": "Shadow Step now:<bulletlist><bullet>Heals the caster for 15 <hyperlink><temphp></temphp> Temporary Hit Points</hyperlink>.</bullet></bulletlist>",
+    "required_skills": [
+      {
+        "resid": -931243738355721765
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_blinding_darkness_hero_skill",
+    "type": "normal",
+    "name": "Blinding Darkness",
+    "tree_pos_x": 800.0,
+    "id": "ahc_blinding_darkness_hero_skill",
+    "excluded_skills": [
+      {
+        "resid": -931243738355721747
+      }
+    ],
+    "resid": -931243738355721752,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "tree_pos_y": 150.0,
+    "description": "Shadow Step now:<bulletlist><bullet>Has a base 90% chance to inflict Blind on adjacent enemies at the target hex.</bullet></bulletlist>",
+    "required_skills": [
+      {
+        "resid": -931243738355721765
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "ahc_shadow_step_hero_skill",
+    "type": "normal",
+    "abilities": [
+      {
+        "slug": "ahc_shadow_step_ability_ahc_shadow_step_hero_skill"
+      }
+    ],
+    "resid": -931243738355721765,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "name": "Shadow Step",
+    "tree_pos_x": 850.0,
+    "tree_pos_y": 50.0,
+    "id": "ahc_shadow_step_hero_skill"
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "critical_second_wind",
+    "type": "normal",
+    "abilities": [
+      {
+        "slug": "critical_second_wind"
+      }
+    ],
+    "resid": -931243738355721800,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "name": "Critical Second Wind",
+    "tree_pos_x": 500.0,
+    "tree_pos_y": 450.0,
+    "id": "ahc_critical_second_wind_hero_skill",
+    "required_skills": [
+      {
+        "resid": -931243738355721464
+      },
+      {
+        "resid": -931243738355721740
+      },
+      {
+        "resid": -931243738355721721
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "critical_skirmisher",
+    "type": "normal",
+    "name": "Critical Skirmisher",
+    "tree_pos_x": 500.0,
+    "id": "ahc_critical_skirmisher_hero_skill",
+    "excluded_skills": [
+      {
+        "resid": -931243738355721723
+      }
+    ],
+    "abilities": [
+      {
+        "slug": "critical_skirmisher"
+      }
+    ],
+    "resid": -931243738355721801,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "tree_pos_y": 250.0,
+    "required_skills": [
+      {
+        "resid": -931243738355721802
+      },
+      {
+        "resid": -931243738355721521
+      }
+    ]
+  },
+  {
+    "group_name": "AHC - Assassin - Hero Skill Group",
+    "icon": "hs_death_knight_keen_edge",
+    "type": "normal",
+    "resid": -931243738355721802,
+    "tree_name": "<classAHCAssassin></classAHCAssassin> Assassin",
+    "name": "Keen Edge",
+    "tree_pos_x": 500.0,
+    "tree_pos_y": 150.0,
+    "id": "ahc_keen_edge_hero_skill",
+    "description": "+20% Critical Chance."
+  }
+]
