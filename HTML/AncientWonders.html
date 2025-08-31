@@ -1,6 +1,17 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-CC3NE8PT7K"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "G-CC3NE8PT7K");
+        </script>
         <link rel="shortcut icon" type="image/x-icon" href="/aow4db/favicon.ico" />
         <link rel="stylesheet" type="text/css" href="/aow4db/Style/style.css" />
         <meta charset="UTF-8" />
@@ -10,7 +21,7 @@
         <script src="/aow4db/Data/Search.js"></script>
         <script>
             var bronzeArray = ["ancient_cave", "castle_ruins", "crystal_forest", "hidden_wellspring"];
-            var silverArray = ["lost_tomb", "magma_forge", "secret_temple", "lava_prison"];
+            var silverArray = ["lost_tomb", "magma_forge", "secret_temple", "lava_prison","archon_observatory"];
             var goldArray = ["golden_ziggurat", "lost_wizard_tower", "world_tree", "vaultsphere", "giants_throne"];
 
             function HandlePage() {
@@ -25,10 +36,7 @@
     </head>
 
     <body>
-        <div id="header"></div>
-
         <div class="textblocktitle">Ancient Wonders</div>
-
         <div class="w3-container">
             <div class="w3-bar w3-black" id="buttonHolder">
                 <button

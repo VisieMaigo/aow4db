@@ -222,7 +222,7 @@ classDeathKnight,
 classRitualist,
 classMage,
 classDefender,
-classSpellblade {
+classSpellblade,classRanger,classWarlock,classBattlesaint {
     max-width: 20px;
     top: 7px;
     position: relative;
@@ -252,6 +252,15 @@ classSpellblade {
 classDefender {
     content: url(/aow4db/Icons/Text/defender.png);
 }
+classRanger {
+    content: url(/aow4db/Icons/Text/ranger.png);
+}
+classWarlock {
+    content: url(/aow4db/Icons/Text/warlock.png);
+}
+classBattlesaint {
+    content: url(/aow4db/Icons/Text/battlesaint.png);
+}
 
 /* //////////////////////////////////////classes */
 
@@ -261,7 +270,7 @@ ELDRITCHREALMS,
 WAYSOFWAR,
 HERALDOFGLORY,
 PRIMALFURY,
-EMPIRESANDASHES {
+EMPIRESANDASHES,ARCHONPROPHECY {
     max-width: 20px;
     top: 7px;
     position: relative;
@@ -294,6 +303,9 @@ ELDRITCHREALMS {
 
 WAYSOFWAR {
     content: url(/aow4db/Icons/Text/waysofwar.png);
+}
+ARCHONPROPHECY {
+    content: url(/aow4db/Icons/Text/ArchonProphecy.png);
 }
 
 /* ///////////////////////////////DLC TAGS */
@@ -630,12 +642,23 @@ reputation8 {
     position: relative;
 }
 
+reputation7 {
+    max-height: 20px;
+    top: 3px;
+    content: url(/aow4db/Icons/Text/mostlyGood.png);
+    position: relative;
+}
 reputation6,
-reputation7,
 goodact {
     max-height: 20px;
     top: 3px;
     content: url(/aow4db/Icons/Text/good.png);
+    position: relative;
+}
+reputation5 {
+    max-height: 20px;
+    top: 3px;
+    content: url(/aow4db/Icons/Text/slightlyGood.png);
     position: relative;
 }
 
@@ -848,6 +871,37 @@ attunement {
     max-width: 20px;
     top: 5px;
     content: url(/aow4db/Icons/Text/attunement.png);
+    position: relative;
+}
+monarchy {
+    max-width: 20px;
+    top: 5px;
+    content: url(/aow4db/Icons/Text/monarchy.png);
+    position: relative;
+}
+aristocracy {
+    max-width: 20px;
+    top: 5px;
+    content: url(/aow4db/Icons/Text/aristocracy.png);
+    position: relative;
+}
+
+harmony {
+    max-width: 20px;
+    top: 5px;
+    content: url(/aow4db/Icons/Text/harmony.png);
+    position: relative;
+}
+strife {
+    max-width: 20px;
+    top: 5px;
+    content: url(/aow4db/Icons/Text/strife.png);
+    position: relative;
+}
+righteousness {
+    max-width: 20px;
+    top: 5px;
+    content: url(/aow4db/Icons/Text/righteousness.png);
     position: relative;
 }
 

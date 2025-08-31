@@ -1,17 +1,30 @@
 var searchParams = new URLSearchParams(window.location.search);
 const searchKeyword = searchParams.get("u");
 
+var ListOfSubcultureHolders = ["Architect", "Primal", "Mystic", "Oathsworn", "Feudal"];
+
+var ListOfSubsocietyHolders = ["Vision of Promise", "Vision of Ruin", "Vision of Destiny"];
+
+
 var currentOrigin = "";
 var currentTome = "";
 
 var currentForm = "";
 var currentFormTraitList = [];
 var currentCulture = "";
+
+// society
 var currentSociety1 = "";
 var currentSociety2 = "";
+var currentSubSociety1 = "";
+var currentSubSociety2 = "";
+
 var currentSubType = "";
 var currentClass = "";
 var currentAscension = "";
+
+// sub culture
+var currentSubCulture = "";
 
 var currentAffinityTotal = "";
 
@@ -19,11 +32,7 @@ var currentHighlights = "";
 
 var extraOrder, extraChaos, extraNature, extraMaterium, extraShadow, extraAstral;
 
-var listOfFirstChoice = ["mindbreaker", "fleshweaver", "madcaster"];
-var listOfSecondChoiceMindbreaker = ["enthraller", "mind_devourer"];
-var listOfSecondChoiceFleshweaver = ["puppeteer", "fleshsculptor"];
-
-var listOfSecondChoiceMadcaster = ["cosmic_caster", "havoc_caster"];
+var buildTags = ["Roleplay", "Theme", "PVP", "Casual"];
 
 var listOfPantheonTraits = [
     "talented_collectors",
@@ -42,82 +51,6 @@ var listOfPantheonTraits = [
 
 var currentTomeList = [];
 var currentSignatureSkills = [];
-
-function ChangeShieldCol() {
-    var shieldElement = document.getElementById("shield");
-    tintImage(shieldElement, getRandomColor(), "myCanvas");
-    //degrees = Math.random() * 360;
-    //shieldElement.setAttribute("style", "filter: hue-rotate(" + degrees + "deg)");
-}
-
-function getRandomColor() {
-    const letters = "0123456789ABCDEF";
-    let color = "#";
-    for (let i = 0; i < 6; i++) {
-        color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
-}
-
-// Function to tint a greyscale image with a given color
-function tintImage(image, color, canvasID) {
-    const canvas = document.getElementById(canvasID);
-    const ctx = canvas.getContext("2d", { willReadFrequently: true });
-
-    // Draw the greyscale image on the canvas
-    // Clear the canvas
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
-
-    // Get the image data from the canvas
-    const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
-    const data = imageData.data;
-
-    // Extract the RGB components of the color
-    const r = parseInt(color.slice(1, 3), 16);
-    const g = parseInt(color.slice(3, 5), 16);
-    const b = parseInt(color.slice(5, 7), 16);
-
-    // Loop through each pixel and apply the color tint
-    for (let i = 0; i < data.length; i += 4) {
-        // The greyscale value is the same for R, G, and B
-        const greyscaleValue = data[i];
-
-        // Apply the color tint
-        data[i] = r * (greyscaleValue / 255);
-        data[i + 1] = g * (greyscaleValue / 255);
-        data[i + 2] = b * (greyscaleValue / 255);
-    }
-
-    // Put the tinted image data back on the canvas
-    ctx.putImageData(imageData, 0, 0);
-
-    if (canvasID == "myCanvas") {
-        const canvas = document.getElementById("shieldColor");
-        canvas.style.backgroundColor = color;
-    } else {
-        const canvas = document.getElementById("symbolColor");
-        canvas.style.backgroundColor = color;
-    }
-}
-
-function ChangeSymbolCol() {
-    var shieldElement = document.getElementById("symbol");
-    tintImage(shieldElement, getRandomColor(), "myCanvas2");
-}
-
-function GetRandomSymbol() {
-    // var symbolElement = document.getElementById("symbol");
-    // var numb = Math.floor(Math.random() * 138);
-    // if (numb < 10 && numb > 0) {
-    //     numb = "0" + numb.toString();
-    // }
-    // if (numb === 0) {
-    //     numb += 1;
-    //     numb = "0" + numb.toString();
-    // }
-    // symbolElement.setAttribute("src", "/aow4db/Icons/Symbols/SigilIcons_" + numb + ".gif");
-}
 
 function AddExtra(type, add) {
     if (type === "order") {
@@ -156,6 +89,8 @@ function addOrSubtract(extraAffinity, add) {
 }
 
 function SetRandomStart(overwriteParameter) {
+    
+  
     if (searchKeyword != undefined && !overwriteParameter) {
         // console.log("Found" + searchKeyword);
         RebuildFromParam(searchKeyword);
@@ -179,6 +114,9 @@ function SetRandomStart(overwriteParameter) {
         listofChoice.push("Society2");
         listofChoice.push("Class");
         listofChoice.push("SubType");
+          listofChoice.push("SubCulture");
+          listofChoice.push("SubSociety1");
+          listofChoice.push("SubSociety2");
 
         var j = "";
         for (j = 0; j < listofChoice.length; j++) {
@@ -246,6 +184,22 @@ function SetRandomStart(overwriteParameter) {
                     currentSignatureSkills = [];
                     currentSignatureSkills.push(currentSig);
 
+                    break;
+                    
+                case "SubCulture":
+                    if(origin != ""){
+                        currentSubCulture = randomEntry;
+                    }
+                    break;
+                case "SubSociety1":
+                     if(origin != ""){
+                        currentSubSociety1 = randomEntry;
+                    }
+                    break;
+                     case "SubSociety2":
+                     if(origin != ""){
+                        currentSubSociety2 = randomEntry;
+                    }
                     break;
             }
 
@@ -413,15 +367,74 @@ function selectOrigin(origin, type) {
             break;
         case "Culture":
             currentCulture = origin;
+               if (!ListOfSubcultureHolders.includes(origin.name)) {
+                currentSubCulture = "";
+            } else {
+                let newBit;
+                // load default class
+                for (let index = 0; index < jsonFactionCreation.length; index++) {
+                    if(jsonFactionCreation[index].type == "SubCulture" && jsonFactionCreation[index].requirement == origin.name){
+                           newBit = jsonFactionCreation[index];
+                            continue;
+                        }
+                    }
+                   
+                         
+                    
+                
+                console.log(newBit.name);
+                currentSubCulture = newBit;
+            }
+             selectOrigin(currentSubCulture, "SubCulture");
+            // subculture
             break;
         case "Form":
             currentForm = origin;
             break;
         case "Society1":
             currentSociety1 = origin;
+         
+            if (!ListOfSubsocietyHolders.includes(origin.name)) {
+                currentSubSociety1 = "";
+            } else {
+                let newBit;
+                // load default class
+                for (let index = 0; index < jsonFactionCreation.length; index++) {
+                    if(jsonFactionCreation[index].type == "SubSociety" && jsonFactionCreation[index].requirement == origin.name){
+                           newBit = jsonFactionCreation[index];
+                            continue;
+                        }
+                    }
+                   
+                         
+                    
+                
+                console.log(newBit.name);
+                 currentSubSociety1 = newBit;
+            }
+               selectOrigin(currentSubSociety1, "SubSociety1");
             break;
         case "Society2":
             currentSociety2 = origin;
+             if (!ListOfSubsocietyHolders.includes(origin.name)) {
+                currentSubSociety2 = "";
+            } else {
+                let newBit;
+                // load default class
+                for (let index = 0; index < jsonFactionCreation.length; index++) {
+                    if(jsonFactionCreation[index].type == "SubSociety" && jsonFactionCreation[index].requirement == origin.name){
+                           newBit = jsonFactionCreation[index];
+                            continue;
+                        }
+                    }
+                   
+                         
+                    
+                
+                console.log(newBit.name);
+                 currentSubSociety2 = newBit;
+            }
+              selectOrigin(currentSubSociety2, "SubSociety2");
             break;
         case "SubType":
             currentSubType = origin;
@@ -435,6 +448,16 @@ function selectOrigin(origin, type) {
 
             //  ClearSkillPath();
             // selectSkillPath(origin);
+            break;
+        case "SubCulture":
+currentSubCulture = origin;
+            break;
+            
+        case "SubSociety1":
+            currentSubSociety1 = origin;
+            break;
+                case "SubSociety2":
+            currentSubSociety2 = origin;
             break;
     }
 
@@ -474,6 +497,7 @@ function ClearAscensionSkill() {
     currentAscension = "";
 }
 
+/*
 function SetSkillPathOptions(evt) {
     // if there are 4 already selected, return;
 
@@ -531,7 +555,7 @@ function SetSkillPathOptions(evt) {
 
         SetSkillPathInfo(originButtonNew, origin);
     }
-}
+}*/
 
 function SetTomePathOptions(evt) {
     const rect = evt.target.getBoundingClientRect();
@@ -607,31 +631,6 @@ function selectTomePath(origin, fromLoad) {
     toggleOriginButtons();
 }
 
-// Function to handle the selection of an origin
-/*function selectSkillPath(origin) {
-    TurnOffTooltip();
-    var originButton = document.getElementById("originButtonSignature");
-
-    originButton.textContent = "";
-    if (origin != undefined) {
-        currentSignatureSkills.push(origin);
-    }
-
-    if (currentSignatureSkills.length == 0) {
-        originButton.textContent = "+";
-    }
-    // console.log(currentSignatureSkills + " origin " + origin);
-
-    for (var i = 0; i < currentSignatureSkills.length; i++) {
-        SetSkillPathInfoSmall(originButton, currentSignatureSkills[i]);
-    }
-
-    RecalculateStats(true);
-    // swap current known origin
-    // draw all tomes
-
-    toggleOriginButtons();
-}*/
 
 function SetSkillPathInfoSmall(buttonHolder, origin) {
     const image = document.createElement("img");
@@ -679,7 +678,7 @@ function SetSkillPathInfoSmall(buttonHolder, origin) {
 
     // newDivButton.append(spa);
 
-    addTooltipListeners(newDivButton, spa);
+    addTooltipListeners(image, spa);
 }
 function SetTomePathInfoSmall(buttonHolder, origin) {
     const image = document.createElement("img");
@@ -736,24 +735,6 @@ function SetTomePathInfoSmall(buttonHolder, origin) {
 
     addTooltipListeners(newDivButton, spa);
 }
-
-/*function ClearSkillPath(test) {
-    var originButton = document.getElementById("originButtonSignature");
-    originButton.textContent = "+";
-
-    if (test != undefined) {
-        currentSignatureSkills = [];
-    }
-
-    //currentTomeList.push(currentTome);
-    // selectSkillPath();
-
-    RecalculateStats(false);
-    // swap current known origin
-    // draw all tomes
-
-    toggleOriginButtons();
-}*/
 
 function RemoveLastSkill() {
     currentSignatureSkills.pop();
@@ -907,7 +888,7 @@ function SetSkillPathInfo(button, origin) {
 
     //  newDivButton.append(spa);
 
-    addTooltipListeners(newDivButton, spa);
+    addTooltipListeners(image, spa);
 }
 
 function SetupButtons(evt, type) {
@@ -954,6 +935,18 @@ function SetupButtons(evt, type) {
             list = GetAllSubTypes();
 
             break;
+              case "SubCulture":
+            list = GetAllSubCultureSetups();
+
+            break;
+              case "SubSociety1":
+            list = GetAllSubProphecySetups(1);
+
+            break;
+              case "SubSociety2":
+            list = GetAllSubProphecySetups(2);
+
+            break;
         case "Class":
             list = GetAllClasses();
 
@@ -980,13 +973,13 @@ function SetupButtons(evt, type) {
         case "TomePath":
             list = GetNextSetOfTomes();
             break;
-        case "Signature":
+      /*  case "Signature":
             list = GetAllSignatureSkills();
             if (currentSignatureSkills.length == 4) {
                 console.log("more than 4");
                 return;
             }
-            break;
+            break;*/
     }
 
     // console.log(currentChoice);
@@ -1112,11 +1105,8 @@ function GetCurrentChoiceList() {
     return listOfAllChoices;
 }
 
-function RecalculateStats(fromload) {
-    var list = GetCurrentChoiceList();
-
+function GetAffinityTotalFromList(list, tomeList, subType, subCulture, subSociety1, subSociety2) {
     var input = "";
-
     for (i = 0; i < list.length; i++) {
         if (list[i] != "") {
             if ("affinity" in list[i]) {
@@ -1127,7 +1117,6 @@ function RecalculateStats(fromload) {
                     for (let index = 0; index < list[i].affinities.length; index++) {
                         if (list[i].affinities[index].name.indexOf("Affinity") != -1) {
                             var bittoadd = clearSocietyAffinities(list[i].affinities[index].name);
-                            //  console.log(list[i].affinities[0].name);
                             input += bittoadd + ",";
 
                             input = ClearAffinityExtraTags(input);
@@ -1143,47 +1132,39 @@ function RecalculateStats(fromload) {
         }
     }
 
-    for (i = 0; i < currentTomeList.length; i++) {
-        if (list[i] != "") {
-            if ("affinity" in currentTomeList[i]) {
-                input += currentTomeList[i].affinity + ",";
+    for (i = 0; i < tomeList.length; i++) {
+        if (tomeList[i] != "") {
+            if ("affinity" in tomeList[i]) {
+                input += tomeList[i].affinity + ",";
             }
-            if ("affinities" in currentTomeList[i]) {
-                var bittoadd = duplicateTags(currentTomeList[i].affinities);
+            if ("affinities" in tomeList[i]) {
+                var bittoadd = duplicateTags(tomeList[i].affinities);
                 input += bittoadd + ",";
                 input = ClearAffinityExtraTags(input);
             }
         }
     }
-    if (currentSubType != "") {
-        if ("affinity" in currentSubType) {
-            input += currentSubType.affinity + ",";
+    if (subType && subType != "") {
+        if ("affinity" in subType) {
+            input += subType.affinity + ",";
         }
     }
-
-    /*  for (i = 0; i < currentSignatureSkills.length; i++) {
-        if (list[i] != "") {
-            if ("hero_property" in currentSignatureSkills[i]) {
-                var bittoadd = transformString(currentSignatureSkills[i].hero_property);
-                input += bittoadd + ",";
-                input = ClearAffinityExtraTags(input);
-            }
+    
+    if (subCulture && subCulture != "") {
+        if ("affinity" in subCulture) {
+            input += subCulture.affinity + ",";
         }
-    }*/
-
-    // add all extra input tags
-    document.getElementById("extraOrder").innerHTML = "<empireorderBig></empireorderBig>" + extraOrder;
-    document.getElementById("extraOrder").style = "text-align:center";
-    document.getElementById("extraChaos").innerHTML = "<empirechaosBig></empirechaosBig>" + extraChaos;
-    document.getElementById("extraChaos").style = "text-align:center";
-    document.getElementById("extraNature").innerHTML = "<empirenatureBig></empirenatureBig>" + extraNature;
-    document.getElementById("extraNature").style = "text-align:center";
-    document.getElementById("extraMaterium").innerHTML = "<empirematterBig></empirematterBig>" + extraMaterium;
-    document.getElementById("extraMaterium").style = "text-align:center";
-    document.getElementById("extraShadow").innerHTML = "<empireshadowBig></empireshadowBig>" + extraShadow;
-    document.getElementById("extraShadow").style = "text-align:center";
-    document.getElementById("extraAstral").innerHTML = "<empirearcanaBig></empirearcanaBig>" + extraAstral;
-    document.getElementById("extraAstral").style = "text-align:center";
+    }
+      if (subSociety1 && subSociety1 != "") {
+        if ("affinity" in subSociety1) {
+            input += subSociety1.affinity + ",";
+        }
+    }
+      if (subSociety2 && subSociety2 != "") {
+        if ("affinity" in subSociety2) {
+            input += subSociety2.affinity + ",";
+        }
+    }
 
     for (let i = 0; i < extraOrder; i++) {
         input += "<empireorder></empireorder>,";
@@ -1207,8 +1188,6 @@ function RecalculateStats(fromload) {
     }
 
     input = input.slice(0, -1);
-
-    // console.log(input);
 
     // Split the input string into an array of words
     const words = input.split(",").map((word) => word.trim());
@@ -1237,9 +1216,30 @@ function RecalculateStats(fromload) {
         })
         .join(", ");
 
-    const affinitySummary = document.getElementById("currentAffinity");
-
     result = result.replaceAll(",", "");
+    return result;
+}
+
+function RecalculateStats(fromload) {
+    var list = GetCurrentChoiceList();
+
+    var result = GetAffinityTotalFromList(list, currentTomeList, currentSubType, currentSubCulture, currentSubSociety1, currentSubSociety2);
+
+    // add all extra input tags
+    document.getElementById("extraOrder").innerHTML = "<empireorderBig></empireorderBig>" + extraOrder;
+    document.getElementById("extraOrder").style = "text-align:center";
+    document.getElementById("extraChaos").innerHTML = "<empirechaosBig></empirechaosBig>" + extraChaos;
+    document.getElementById("extraChaos").style = "text-align:center";
+    document.getElementById("extraNature").innerHTML = "<empirenatureBig></empirenatureBig>" + extraNature;
+    document.getElementById("extraNature").style = "text-align:center";
+    document.getElementById("extraMaterium").innerHTML = "<empirematterBig></empirematterBig>" + extraMaterium;
+    document.getElementById("extraMaterium").style = "text-align:center";
+    document.getElementById("extraShadow").innerHTML = "<empireshadowBig></empireshadowBig>" + extraShadow;
+    document.getElementById("extraShadow").style = "text-align:center";
+    document.getElementById("extraAstral").innerHTML = "<empirearcanaBig></empirearcanaBig>" + extraAstral;
+    document.getElementById("extraAstral").style = "text-align:center";
+
+    const affinitySummary = document.getElementById("currentAffinity");
 
     currentAffinityTotal = result;
 
@@ -1320,199 +1320,230 @@ function duplicateTags(inputString) {
 
 function SetButtonInfo(button, origin, type, color) {
     button.innerHTML = "";
-    if (type == "SubType" && currentOrigin.name != "Dragon Lord" && currentOrigin.name != "Giant King") {
-        // console.log("setting button for non-dragonlord");
-        return;
-    }
-    const image = document.createElement("img");
-    image.setAttribute("width", "40");
-    image.setAttribute("height", "40");
 
-    if (type === "Tome") {
-        image.src = "/aow4db/Icons/TomeIcons/" + origin.id + ".png"; // Set the image source to your image file
-    } else if (type === "FormTrait") {
-        image.setAttribute("width", "22");
-        image.setAttribute("height", "22");
-        if (origin.id.startsWith("_")) {
-            var iconLink = origin.id;
+    if (type === "SubType" && !["Dragon Lord", "Giant King"].includes(currentOrigin.name)) return;
+    
+     if (type === "SubCulture" && !ListOfSubcultureHolders.includes(currentCulture.name)) return;
+    
+      if (type === "SubSociety1" && !ListOfSubsocietyHolders.includes(currentSociety1.name)) return;
+    
+      if (type === "SubSociety2" && !ListOfSubsocietyHolders.includes(currentSociety2.name)) return;
+    
+   
 
-            iconLink = iconLink.split("_").slice(1).join("_");
-            image.src = "/aow4db/Icons/FactionCreation/" + iconLink + ".png";
-        } else {
-            image.src = "/aow4db/Icons/FactionCreation/" + origin.id + ".png"; // Set the image source to your image file
-        }
-    } else if (
-        type === "Culture" ||
-        type === "Origin" ||
-        type === "Society1" ||
-        type === "Society2" ||
-        type === "Form"
-    ) {
-        if (origin.id.startsWith("_")) {
-            var iconLink = origin.id;
-            iconLink = iconLink.split("_").slice(1).join("_");
-            image.src = "/aow4db/Icons/FactionCreation/" + iconLink + ".png";
-        } else {
-            image.src = "/aow4db/Icons/FactionCreation/" + origin.id + ".png"; // Set the image source to your image file
-        }
-    } else if (type === "SubType") {
-        image.src = "/aow4db/Icons/FactionCreation/" + origin.id + ".png"; // Set the image source to your image file
-    } else if (type === "Class") {
-        image.src = "/aow4db/Icons/Text/" + origin.icon + ".png"; // Set the image source to your image file
-    } else if (type === "Signature" || type == "Ascension") {
-        image.src = "/aow4db/Icons/UnitIcons/" + origin.icon + ".png";
-    } else if (type === "Symbol") {
-        if (origin < 10 && origin > 0) {
-            origin = "0" + origin.toString();
-        }
-        if (origin === 0) {
-            origin += 138;
-        }
-        image.src = "/aow4db/Icons/Symbols/SigilIcons_" + origin + ".gif"; // Set the image source to your image file
-    }
-    if (type != "Symbol") {
-        // Create a span element to hold the button text
-        const buttonText = document.createElement("span");
+    const image = createImage(type, origin);
+    const isSymbol = type === "Symbol";
 
-        if ("point_cost" in origin && type === "FormTrait") {
-            buttonText.innerHTML += origin.point_cost + ": ";
-        }
-
-        // add class check here
-        if (type == "Loadout") {
-            buttonText.innerHTML += origin.name;
-        } else {
-            buttonText.innerHTML += " " + origin.name;
-        }
-
-        var affinity = "";
-        if ("affinity" in origin) {
-            affinity = ClearAffinityExtraTags(origin.affinity);
-            affinity = affinity.replaceAll(",", "");
-            buttonText.innerHTML += " " + affinity;
-        }
-
-        if ("affinities" in origin) {
-            if (type == "Tome") {
-                affinity = ClearAffinityExtraTags(duplicateTags(origin.affinities));
-                affinity = affinity.replaceAll(",", "");
-                buttonText.innerHTML += " " + affinity;
-            }
-            if (type.indexOf("Society") != -1) {
-                for (let index = 0; index < origin.affinities.length; index++) {
-                    if (origin.affinities[index].name.indexOf("Affinity") != -1) {
-                        var newaffinity = origin.affinities[index].name;
-
-                        newaffinity = clearSocietyAffinities(newaffinity);
-
-                        //  affinity = newaffinity.replaceAll(",", "");
-                        buttonText.innerHTML += " " + newaffinity;
-                    }
-                }
-            }
-        }
-
-        if ("DLC" in origin) {
-            // let DLCTAG = document.createElement("div");
-            // DLCTAG.style = "    position: absolute;right: 39px;top: 54px;";
-            let dlcTag = origin.DLC.replaceAll(" ", "");
-            buttonText.innerHTML += " <" + dlcTag + "></" + dlcTag + ">";
-            // button.appendChild(DLCTAG);
-        }
-
-        if (listOfPantheonTraits.includes(origin.id)) {
-            buttonText.innerHTML += " <pantheon></pantheon>";
-        }
-
-        if (type == "Signature") {
-            if ("hero_property" in origin) {
-                const affinityText = document.createElement("div");
-                affinityText.style = " position: absolute;left: 0;";
-
-                affinity = transformString(origin.hero_property);
-                affinity = affinity.replaceAll(",", "");
-                affinityText.innerHTML += affinity;
-                button.append(affinityText);
-            }
-        }
-
-        // Append the image and button text to the button element
-        button.appendChild(image);
-        button.appendChild(buttonText);
+    if (!isSymbol) {
+        const buttonText = createButtonText(origin, type);
+        button.append(image, buttonText);
     } else {
         button.appendChild(image);
         return;
     }
 
-    // create mouseover
-    spa = document.createElement("SPAN");
-    spa.setAttribute("style", "margin-left:113px");
-
-    spa.innerHTML =
-        '<p style="color: #d7c297;>' + '<span style="font-size=20px;"> ' + origin.name.toUpperCase() + "</p>";
-    if (type === "Origin" || type === "Culture" || type === "Form" || type === "Society1" || type === "Society2") {
-        //spa.innerHTML += origin.description;
-
-        if ("effect_descriptions" in origin) {
-            spa.innerHTML += '<br><br><span class="mod_name">EFFECTS: </span><bulletlist>';
-            var k = "";
-            for (k in origin.effect_descriptions) {
-                spa.innerHTML += "<bullet>" + origin.effect_descriptions[k].name + "</bullet>";
-            }
-            spa.innerHTML += "</bulletlist>";
-        }
-
-        if ("description" in origin) {
-            spa.innerHTML += origin.description;
-        }
-
-        if ("starting_bonuses" in origin) {
-            spa.innerHTML += '<br><br><span class="mod_name">STARTING BONUS: </span><bulletlist>';
-            var k = "";
-            for (k in origin.starting_bonuses) {
-                if ("structure_upgrade_slug" in origin.starting_bonuses[k]) {
-                    spa.innerHTML += "<bullet>" + origin.starting_bonuses[k].structure_upgrade_slug + "</bullet>";
-                }
-                if ("empire_progression_slug" in origin.starting_bonuses[k]) {
-                    spa.innerHTML += "<bullet>" + origin.starting_bonuses[k].empire_progression_slug + "</bullet>";
-                }
-                if ("description" in origin.starting_bonuses[k]) {
-                    spa.innerHTML += "<bullet>" + origin.starting_bonuses[k].description + "</bullet>";
-                }
-            }
-            spa.innerHTML += "</bulletlist>";
-        }
-
-        if ("incompatible_society_traits" in origin) {
-            spa.innerHTML += '<br><br><span class="mod_name">INCOMPATIBLE WITH: </span><bulletlist>';
-            var k = "";
-            for (k in origin.incompatible_society_traits) {
-                spa.innerHTML += "<bullet>" + origin.incompatible_society_traits[k].name + "</bullet>";
-            }
-            spa.innerHTML += "</bulletlist>";
-        }
-
-        if ("incompatible" in origin) {
-            spa.innerHTML += '<br><br><span class="mod_name">INCOMPATIBLE WITH: </span><bulletlist>';
-            var k = "";
-            for (k in origin.incompatible) {
-                spa.innerHTML += "<bullet>" + origin.incompatible[k].name + "</bullet>";
-            }
-            spa.innerHTML += "</bulletlist>";
-        }
-    } else if (type === "Tome") {
-        SetTomePreview(spa, origin);
-    } else if (type === "FormTrait") {
-        SetFullPreview(spa, origin);
-    } else if (type === "Signature" || type == "Ascension") {
-        SetSkillPreview(spa, origin);
-    } else if ((type = "Loadout")) {
-        SetLoadoutPreview(spa, origin);
-    }
-    addTooltipListeners(button, spa);
-
-    // button.append(spa);
+    const tooltip = createTooltip(origin, type);
+    addTooltipListeners(image, tooltip);
 }
+
+function createImage(type, origin) {
+    const image = document.createElement("img");
+
+    const setImage = (src, width = 40, height = 40) => {
+        image.setAttribute("src", src);
+        image.setAttribute("width", width);
+        image.setAttribute("height", height);
+    };
+
+    switch (type) {
+        case "Tome":
+            setImage(`/aow4db/Icons/TomeIcons/${origin.id}.png`);
+            break;
+               case "Society1":
+        case "Society2":
+        case "FormTrait":
+            
+            setImage('/aow4db/Icons/TraitIcons/' + origin.icon + '.png');
+            break;
+        case "Culture":
+        case "Origin":
+        case "Form":
+              case "SubCulture":
+               
+        case "SubType":
+            setImage(getFactionIconPath(origin.id));
+            break;
+        case "Class":
+            setImage(`/aow4db/Icons/Text/${origin.icon}.png`);
+            break;
+        case "Signature":
+        case "Ascension":
+            setImage(`/aow4db/Icons/UnitIcons/${origin.icon}.png`);
+            break;
+        case "Symbol":
+            let symbolId = parseInt(origin, 10);
+            if (symbolId < 10 && symbolId > 0) symbolId = "0" + symbolId;
+            if (symbolId === 0) symbolId = 138;
+            setImage(`/aow4db/Icons/Symbols/SigilIcons_${symbolId}.gif`);
+            break;
+    }
+
+    return image;
+}
+
+
+
+function getFactionIconPath(id) {
+    const cleanId = id.startsWith("_") ? id.split("_").slice(1).join("_") : id;
+    return `/aow4db/Icons/TraitIcons/${cleanId}.png`;
+}
+
+function findOriginLoc(origin, type) {
+    var newOrigin = origin;
+    switch (type) {
+        case "Origin":
+        case "Culture":
+        case "Form":
+            // not translated
+            newOrigin = jsonFactionCreationLocalized.find((entry) => entry.id === origin.id);
+            break;
+
+        case "Tome":
+            newOrigin = jsonTomesLocalized.find((entry) => entry.resid === origin.resid);
+            newOrigin = jsonTomesLocalized.find((entry) => entry.resid === origin.resid);
+            break;
+
+        case "FormTrait":
+        case "Society1":
+        case "Society2":
+            newOrigin = jsonFactionCreation2Localized.find((entry) => entry.icon === origin.icon);
+
+            break;
+
+        case "Ascension":
+            newOrigin = jsonHeroSkillsLocalized.find((entry) => entry.resid === origin.resid);
+            break;
+        case "Signature":
+        case "Loadout":
+            break;
+    }
+    return newOrigin;
+}
+function createButtonText(origin, type) {
+    const span = document.createElement("span");
+
+    var originLoc = findOriginLoc(origin, type);
+
+    if ("point_cost" in origin && type === "FormTrait") {
+        span.innerHTML += `${origin.point_cost}: `;
+    }
+    
+    if(type == "SubSociety1" || type == "SubSociety2"){
+          span.innerHTML +=  origin.name.split(":")[1];
+    } else{
+          span.innerHTML += type === "Loadout" ? origin.name : ` ${originLoc.name}`;
+    }
+
+  
+    
+
+    if ("affinity" in origin) {
+        span.innerHTML += ` ${ClearAffinityExtraTags(origin.affinity).replaceAll(",", "")}`;
+    }
+
+    if ("affinities" in origin) {
+        if (type === "Tome") {
+            span.innerHTML += ` ${ClearAffinityExtraTags(duplicateTags(origin.affinities)).replaceAll(",", "")}`;
+        } else if (type.includes("Society")) {
+            for (const affinity of origin.affinities) {
+                if (affinity.name.includes("Affinity")) {
+                    span.innerHTML += ` ${clearSocietyAffinities(affinity.name)}`;
+                }
+            }
+        }
+    }
+
+    if ("DLC" in origin) {
+        const tag = origin.DLC.replaceAll(" ", "");
+        span.innerHTML += ` <${tag}></${tag}>`;
+    }
+
+    if (listOfPantheonTraits.includes(origin.id)) {
+        span.innerHTML += " <pantheon></pantheon>";
+    }
+
+    if (type === "Signature" && "hero_property" in origin) {
+        const affinityText = document.createElement("div");
+        affinityText.style = "position: absolute; left: 0;";
+        affinityText.innerHTML = transformString(origin.hero_property).replaceAll(",", "");
+        span.appendChild(affinityText);
+    }
+
+    return span;
+}
+function createTooltip(origin, type) {
+    const tooltip = document.createElement("span");
+    tooltip.style = "margin-left:113px";
+    tooltip.innerHTML = `<p style="color: #d7c297;"><span style="font-size:20px;"> ${origin.name.toUpperCase()}</p>`;
+
+    var originLoc = findOriginLoc(origin, type);
+    switch (type) {
+        case "Origin":
+        case "Culture":
+        case "Form":
+        case "Society1":
+        case "Society2":
+            if (origin.effect_descriptions) {
+                tooltip.innerHTML += `<br><br><span class="mod_name">EFFECTS: </span><bulletlist>`;
+                for (const e of originLoc.effect_descriptions) {
+                    tooltip.innerHTML += `<bullet>${e.name}</bullet>`;
+                }
+                tooltip.innerHTML += "</bulletlist>";
+            }
+
+            if (origin.description) tooltip.innerHTML += originLoc.description;
+
+            if (originLoc.starting_bonuses) {
+                tooltip.innerHTML += `<br><br><span class="mod_name">STARTING BONUS: </span><bulletlist>`;
+                for (const b of originLoc.starting_bonuses) {
+                    if (b.structure_upgrade_slug) tooltip.innerHTML += `<bullet>${b.structure_upgrade_slug}</bullet>`;
+                    if (b.empire_progression_slug) tooltip.innerHTML += `<bullet>${b.empire_progression_slug}</bullet>`;
+                    if (b.description) tooltip.innerHTML += `<bullet>${b.description}</bullet>`;
+                }
+                tooltip.innerHTML += "</bulletlist>";
+            }
+
+            if (origin.incompatible_society_traits || origin.incompatible) {
+                tooltip.innerHTML += `<br><br><span class="mod_name">INCOMPATIBLE WITH: </span><bulletlist>`;
+                const incompatibles = originLoc.incompatible_society_traits || originLoc.incompatible;
+                for (const i of incompatibles) {
+                    tooltip.innerHTML += `<bullet>${i.name}</bullet>`;
+                }
+                tooltip.innerHTML += "</bulletlist>";
+            }
+            break;
+
+        case "Tome":
+            SetTomePreview(tooltip, originLoc);
+            break;
+
+        case "FormTrait":
+            SetFullPreview(tooltip, originLoc);
+            break;
+
+        case "Signature":
+        case "Ascension":
+            SetSkillPreview(tooltip, originLoc);
+            break;
+
+        case "Loadout":
+            SetLoadoutPreview(tooltip, originLoc);
+            break;
+    }
+
+    return tooltip;
+}
+
 function SetSkillPreview(span, origin) {
     span.innerHTML =
         '<p style="color: #d7c297;>' + '<span style="font-size=20px;">' + origin.name.toUpperCase() + "</p>";
@@ -1805,10 +1836,28 @@ function SetTomePreview(span, origin) {
 function SetFullPreview(span, origin) {
     span.innerHTML =
         '<p style="color: #d7c297;>' + '<span style="font-size=20px;">' + origin.name.toUpperCase() + "</p>";
+    
+    // if("biography_description" in origin){
+       
+    //     span.innerHTML += "<br>" + origin.biography_description + "<br>";
+       
+   // }
+     if("lore_description" in origin){
+       
+         span.innerHTML += "" + origin.lore_description + "<br>";
+       
+    }
 
-    span.innerHTML += "<bulletlist>";
+    span.innerHTML +=  '<br><p style="color: #d7c297;>' + '<span style="font-size=20px;">' + "<bulletlist>EFFECTS: " + "</span></p>";
     for (i = 0; i < origin.effect_descriptions.length; i++) {
         span.innerHTML += "<bullet>" + origin.effect_descriptions[i].name + "</bullet>";
+    }
+   
+    if("incompatible_society_traits" in origin){
+        span.innerHTML += "<br>Incompatible with:" ;
+         for (i = 0; i < origin.incompatible_society_traits.length; i++) {
+         span.innerHTML += "<bullet>" + origin.incompatible_society_traits[i].name + "</bullet>";
+         }
     }
     span.innerHTML += "</bulletlist>";
 }
@@ -1816,17 +1865,23 @@ function SetFullPreview(span, origin) {
 function GetAllStartingTomes() {
     var listOfAllTier1Tomes = [];
 
-    for (i = 0; i < jsonTomes.length; i++) {
+    for (let i = 0; i < jsonTomes.length; i++) {
         if (jsonTomes[i].tier === 1) {
             listOfAllTier1Tomes.push(jsonTomes[i]);
         }
     }
+     
+    // if beta, add new tomes just for now
+    
+   
+   
     // alert(listOfAllTier1Tomes);
     return listOfAllTier1Tomes;
 }
 
 function CollectAllPartsForOverview(fromload) {
     document.getElementById("hiddentooltips").innerHTML = "";
+    document.getElementById("mainoverview").innerHTML = "";
     // get all spells
 
     var listOfAllCurrentSpellsSlugs = [];
@@ -1870,39 +1925,55 @@ function CollectAllPartsForOverview(fromload) {
 
                 if (ExtraTomelist[index].skills[i].type == "<hyperlink>Empire Bonus</hyperlink>") {
                     listOfAllCurrentPassivesSlugs.push(ExtraTomelist[index].skills[i], ExtraTomelist[index]);
+                  
                 }
             }
         }
         if ("initial_upgrades" in ExtraTomelist[index]) {
-            for (let j = 0; j < ExtraTomelist[index].initial_upgrades.length; j++) {
-                listOfAllCurrentSPISlugs.push(
-                    ExtraTomelist[index].initial_upgrades[j].upgrade_slug,
-                    ExtraTomelist[index]
-                );
-            }
+    // Deduplicate by 'upgrade_slug'
+    const uniqueUpgrades = [];
+
+    const seenSlugs = new Set();
+
+    for (let j = 0; j < ExtraTomelist[index].initial_upgrades.length; j++) {
+        const upgrade = ExtraTomelist[index].initial_upgrades[j];
+        if (!seenSlugs.has(upgrade.upgrade_slug)) {
+            seenSlugs.add(upgrade.upgrade_slug);
+            uniqueUpgrades.push(upgrade);
         }
-        if ("hero_skills" in ExtraTomelist[index]) {
+    }
+
+    // Now push only upgrades not already in the list
+    for (let i = 0; i < uniqueUpgrades.length; i++) {
+        const upgrade = uniqueUpgrades[i];
+
+        if (!isInArray(listOfAllCurrentSPISlugs, upgrade.upgrade_slug, ExtraTomelist[index])) {
+            listOfAllCurrentSPISlugs.push(upgrade.upgrade_slug, ExtraTomelist[index]);
+        }
+    }
+}
+        /*if ("hero_skills" in ExtraTomelist[index]) {
             for (let l = 0; l < ExtraTomelist[index].hero_skills.length; l++) {
                 if (!isInArray(listOfAllCurrentHeroSkillsSlugs, ExtraTomelist[index].hero_skills[l])) {
                     listOfAllCurrentHeroSkillsSlugs.push(ExtraTomelist[index].hero_skills[l], ExtraTomelist[index]);
                 }
             }
-        }
+        }*/
         if ("passives" in ExtraTomelist[index]) {
             for (let q = 0; q < ExtraTomelist[index].passives.length; q++) {
                 listOfAllCurrentPassivesSlugs.push(ExtraTomelist[index].passives[q], ExtraTomelist[index]);
             }
         }
+          console.log(listOfAllCurrentPassivesSlugs);
     }
-
-    ShowCombatSpellsOverview(listOfAllCurrentSpellsSlugs);
-
+    ShowPassivesOverview(listOfAllCurrentPassivesSlugs);
     ShowUnitsOverview(listOfAllCurrentUnitSlugs);
+    ShowCombatSpellsOverview(listOfAllCurrentSpellsSlugs);
 
     ShowUpgradesOverview(listOfAllCurrentUpgradeSlugs);
     ShowSPIOverview(listOfAllCurrentSPISlugs);
     // ShowHeroSkillsOverview(listOfAllCurrentHeroSkillsSlugs);
-    ShowPassivesOverview(listOfAllCurrentPassivesSlugs);
+
     ShowSiegeProjectsOverview(listOfAllCurrentSiegeProjectsSlugs);
     var parentDiv = document.getElementById("mainoverview");
 
@@ -1980,33 +2051,39 @@ function CreateHolders(string) {
     return subtHolder;
 }
 function ShowCombatSpellsOverview(list) {
-    var combatSpellHolder = document.getElementById("overviewCombatSpellsHolder");
-    var transformHolder = document.getElementById("overviewTransformationsHolder");
+    const container = document.getElementById("mainoverview");
+    //==container.innerHTML = ""; // clear existing content
 
-    var enchantHolder = document.getElementById("overviewEnchantmentsHolder");
-    var summonHolder = document.getElementById("overviewSummonHolder");
-    var otherHolder = document.getElementById("overviewOtherSpellHolder");
-    summonHolder.innerHTML = "Summons:<br>";
-    enchantHolder.innerHTML = "Enchantments:<br>";
-    combatSpellHolder.innerHTML = "Combat Spells:<br>";
-    transformHolder.innerHTML = "Transformations:<br>";
-    otherHolder.innerHTML = "Misc Spells:<br>";
+    const spellGroups = {};
 
-    for (let index = 0; index < list.length; index += 2) {
-        // combat spells:
-        if (list[index].type.indexOf("casttactical") != -1) {
-            combatSpellHolder.append(CreateSpellIcon(list[index], list[index + 1]));
-        } else if (list[index].type.indexOf("Enchantment") != -1) {
-            enchantHolder.append(CreateSpellIcon(list[index], list[index + 1]));
-        } else if (list[index].type.indexOf("Transformation") != -1) {
-            transformHolder.append(CreateSpellIcon(list[index], list[index + 1]));
-        } else if (list[index].type.indexOf("Summon Spell") != -1) {
-            summonHolder.append(CreateSpellIcon(list[index], list[index + 1]));
-        } else {
-            otherHolder.append(CreateSpellIcon(list[index], list[index + 1]));
+    // Group spells by type
+    for (let i = 0; i < list.length; i += 2) {
+        const spell = list[i];
+        const description = list[i + 1];
+        const type = spell.type;
+
+        if (!spellGroups[type]) {
+            spellGroups[type] = [];
         }
+        spellGroups[type].push([spell, description]);
+    }
 
-        // strategic spells:
+    // Create sections dynamically
+    for (const [type, spells] of Object.entries(spellGroups)) {
+        const section = document.createElement("div");
+        section.classList.add("column");
+
+        // Create a human-friendly section title
+        const heading = document.createElement("div");
+        heading.innerHTML = type.replaceAll("<hyperlink>", ""); // helper function
+        section.appendChild(heading);
+
+        // Add each spell icon
+        spells.forEach(([spell, description]) => {
+            section.appendChild(CreateSpellIcon(spell, description));
+        });
+
+        container.appendChild(section);
     }
 }
 
@@ -2042,9 +2119,13 @@ function CreateSpellIcon(listEntry, colorEntry) {
     text.innerHTML = " " + listEntry.name;
     tier.innerHTML = romanize(listEntry.tier) + " ";
     //tier.setAttribute("style", " top: 50%;left: 50%;");
+    
+    // get spell already
+     var spellData = jsonSpellsLocalized.find((entry) => entry.id == listEntry.spell_slug);
+    
 
     var smallIcon = document.createElement("img");
-    smallIcon.setAttribute("src", "/aow4db/Icons/SpellIcons/" + listEntry.spell_slug + ".png");
+    smallIcon.setAttribute("src", "/aow4db/Icons/SpellIcons/" + spellData.icon + ".png");
     smallIcon.setAttribute("width", "20px");
     spell.appendChild(tier);
     spell.appendChild(smallIcon);
@@ -2058,7 +2139,7 @@ function CreateSpellIcon(listEntry, colorEntry) {
 
     newSpan.innerHTML = "<p>From: " + colorEntry.name + "<br></p>";
     span.prepend(newSpan);
-    addTooltipListeners(spell, span);
+    addTooltipListeners(smallIcon, span);
     return spell;
 }
 
@@ -2098,11 +2179,7 @@ function CreateUnitIcon(listEntry, colorEntry) {
     var text = document.createElement("div");
     text.innerHTML =
         romanize(listEntry.tier) + " " + getUnitTypeTag(listEntry.secondary_passives) + " " + listEntry.name;
-    //var smallIcon = document.createElement("img");
-    // smallIcon.setAttribute("src", "/aow4db/Icons/SpellIcons/" + listEntry.id + ".png");
-    // smallIcon.setAttribute("width", "20px");
-    // spell.appendChild(smallIcon);
-    // var iDiv = spell_card_template.content.cloneNode(true);
+   
 
     // document.getElementById("hiddentooltips").appendChild(iDiv);
     var allAbilities = document.createElement("span");
@@ -2147,39 +2224,53 @@ function CreateUnitIcon(listEntry, colorEntry) {
 }
 
 function ShowUnitsOverview(list) {
-    var unitsoverviewHolder = document.getElementById("overviewUnitsHolder");
-    // clear the div
-    unitsoverviewHolder.innerHTML = "";
+    var container = document.getElementById("mainoverview");
 
-    unitsoverviewHolder.innerHTML = "Units:<br>";
+    const section = document.createElement("div");
+    section.classList.add("column");
 
+    // Create a human-friendly section title
+    const heading = document.createElement("div");
+    heading.innerHTML = "<br>" + "Units:<br>"; // helper function
+    section.appendChild(heading);
     for (let i = 0; i < jsonUnits.length; i++) {
         if (currentCulture.name.indexOf(jsonUnits[i].culture_name) != -1 && jsonUnits[i].id != "") {
             if ("sub_culture_name" in jsonUnits[i]) {
-                if (currentCulture.name.indexOf(jsonUnits[i].sub_culture_name) != -1) {
-                    unitsoverviewHolder.append(CreateUnitIcon(jsonUnits[i], null));
+                if (currentSubCulture.name.indexOf(jsonUnits[i].sub_culture_name) != -1) {
+                    section.append(CreateUnitIcon(jsonUnits[i], null));
                 }
             } else {
-                unitsoverviewHolder.append(CreateUnitIcon(jsonUnits[i], null));
+                section.append(CreateUnitIcon(jsonUnits[i], null));
             }
         }
         //     CreateUnitIcon()
         for (let index = 0; index < list.length; index += 2) {
             if (jsonUnits[i].id == list[index].unit_slug) {
-                unitsoverviewHolder.append(CreateUnitIcon(jsonUnits[i], list[index + 1]));
+                section.append(CreateUnitIcon(jsonUnits[i], list[index + 1]));
             }
         }
     }
+
+    container.appendChild(section);
+    // clear the div
+    //  unitsoverviewHolder.innerHTML = "";
+
+    //   unitsoverviewHolder.innerHTML += "Units:<br>";
 }
 
 function ShowUpgradesOverview(list) {
-    var upradesoverviewHolder = document.getElementById("overviewUpgradesHolder");
-    // clear the div
+    var container = document.getElementById("mainoverview");
 
-    upradesoverviewHolder.innerHTML = "";
+    const section = document.createElement("div");
+    section.classList.add("column");
+
+    // Create a human-friendly section title
+    const heading = document.createElement("div");
     if (list.length > 0) {
-        upradesoverviewHolder.innerHTML = "City Structures:<br>";
+        heading.innerHTML = "City Structures:<br>"; // helper function
     }
+
+    section.appendChild(heading);
     for (let index = 0; index < list.length; index += 2) {
         for (let i = 0; i < jsonStructureUpgrades.length; i++) {
             if (jsonStructureUpgrades[i].id == list[index].upgrade_slug) {
@@ -2194,7 +2285,7 @@ function ShowUpgradesOverview(list) {
                 smallIcon.setAttribute("width", "20px");
                 spell.appendChild(smallIcon);
                 spell.appendChild(text);
-                upradesoverviewHolder.append(spell);
+                section.append(spell);
                 var iDiv = structure_card_template.content.cloneNode(true);
 
                 document.getElementById("hiddentooltips").appendChild(iDiv);
@@ -2209,6 +2300,8 @@ function ShowUpgradesOverview(list) {
             }
         }
     }
+
+    container.appendChild(section);
 }
 
 function ShowHeroSkillsOverview(list) {
@@ -2280,14 +2373,18 @@ function ShowHeroSkillsOverview(list) {
 }
 
 function ShowPassivesOverview(list) {
-    var upradesoverviewHolder = document.getElementById("overviewPassivesHolder");
-    // clear the div
+    var container = document.getElementById("mainoverview");
 
-    upradesoverviewHolder.innerHTML = "";
+    const section = document.createElement("div");
+    section.classList.add("column");
+
+    // Create a human-friendly section title
+    const heading = document.createElement("div");
     if (list.length > 0) {
-        upradesoverviewHolder.innerHTML = "Passives:<br>";
+        heading.innerHTML = "Passives:<br>";
     }
 
+    section.appendChild(heading);
     for (let index = 0; index < list.length; index += 2) {
         var spell = document.createElement("button");
         var Color = GetColors(list[index + 1].affinities);
@@ -2300,7 +2397,7 @@ function ShowPassivesOverview(list) {
         // smallIcon.setAttribute("width", "20px");
         //    spell.appendChild(smallIcon);
         spell.appendChild(text);
-        upradesoverviewHolder.append(spell);
+        section.append(spell);
         var spa = document.createElement("SPAN");
         spa.innerHTML = list[index].type + "<br>";
         spa.innerHTML += list[index].description;
@@ -2312,63 +2409,92 @@ function ShowPassivesOverview(list) {
         }
         addTooltipListeners(spell, spa);
     }
+
+    container.appendChild(section);
 }
 
 function ShowSPIOverview(list) {
-    var upradesoverviewHolder = document.getElementById("overviewSPIHolder");
-    // clear the div
-    upradesoverviewHolder.innerHTML = "";
+    var container = document.getElementById("mainoverview");
+
+    const section = document.createElement("div");
+    section.classList.add("column");
+
+    const heading = document.createElement("div");
     if (list.length > 0) {
-        upradesoverviewHolder.innerHTML = "Special Province Impr.:<br>";
+        heading.innerHTML = "Special Province Impr.:<br>";
     }
 
-    for (let index = 0; index < list.length; index += 2) {
-        for (let i = 0; i < jsonStructureUpgrades.length; i++) {
-            if (jsonStructureUpgrades[i].id == list[index]) {
-                var spell = document.createElement("button");
+    section.appendChild(heading);
 
-                var Color = GetColors(list[index + 1].affinities);
+    const seenStructureIds = new Set();
+
+    for (let index = 0; index < list.length; index += 2) {
+        const structureId = list[index];
+
+        // Skip if already added
+        if (seenStructureIds.has(structureId)) {
+            continue;
+        }
+
+        seenStructureIds.add(structureId);
+
+        for (let i = 0; i < jsonStructureUpgrades.length; i++) {
+            if (jsonStructureUpgrades[i].id == structureId) {
+                const spell = document.createElement("button");
+
+                const Color = GetColors(list[index + 1].affinities);
                 applyTextColor(spell, Color);
                 spell.className = "overview_list_entry";
-                var text = document.createElement("div");
+
+                const text = document.createElement("div");
                 text.innerHTML = jsonStructureUpgrades[i].name;
-                var smallIcon = document.createElement("img");
-                smallIcon.setAttribute("src", "/aow4db/Icons/UpgradeIcons/" + jsonStructureUpgrades[i].id + ".png");
+
+                const smallIcon = document.createElement("img");
+                smallIcon.setAttribute("src", "/aow4db/Icons/UpgradeIcons/" + jsonStructureUpgrades[i].icon + ".png");
                 smallIcon.setAttribute("width", "20px");
+
                 spell.appendChild(smallIcon);
                 spell.appendChild(text);
-                upradesoverviewHolder.append(spell);
+                section.append(spell);
 
-                var name = GetStructureName(list[index]);
+                const name = GetStructureName(structureId);
+                const spa = document.createElement("SPAN");
 
-                var spa = document.createElement("SPAN");
                 spa.innerHTML =
                     '<span style="color: #deb887 ;text-transform: uppercase">' +
                     name +
                     "</span>" +
-                    GetStructureDescription(list[index]);
+                    GetStructureDescription(structureId);
 
-                //  div.appendChild(spa);
-
-                var newSpan = document.createElement("span");
+                const newSpan = document.createElement("span");
                 if (list[index + 1] != null) {
                     newSpan.innerHTML = "<p>From: " + list[index + 1].name + "<br></p>";
                     spa.prepend(newSpan);
                 }
+
                 addTooltipListeners(spell, spa);
+                break; // Done with this structureId
             }
         }
     }
+
+    container.appendChild(section);
 }
 
+
 function ShowSiegeProjectsOverview(list) {
-    var upradesoverviewHolder = document.getElementById("overviewSiegeHolder");
-    // clear the div
-    upradesoverviewHolder.innerHTML = "";
+    var container = document.getElementById("mainoverview");
+
+    const section = document.createElement("div");
+    section.classList.add("column");
+
+    // Create a human-friendly section title
+    const heading = document.createElement("div");
     if (list.length > 0) {
-        upradesoverviewHolder.innerHTML = "Siege Projects:<br>";
+        heading.innerHTML = "Siege Projects:<br>";
     }
 
+    section.appendChild(heading);
     for (let index = 0; index < list.length; index += 2) {
         var slug = "";
         for (let i = 0; i < jsonSiegeProjects.length; i++) {
@@ -2391,7 +2517,7 @@ function ShowSiegeProjectsOverview(list) {
                 smallIcon.setAttribute("width", "20px");
                 spell.appendChild(smallIcon);
                 spell.appendChild(text);
-                upradesoverviewHolder.append(spell);
+                section.append(spell);
 
                 var name = GetSiegeProjectName(slug);
 
@@ -2415,149 +2541,8 @@ function ShowSiegeProjectsOverview(list) {
             }
         }
     }
-}
 
-function GetAllSignatureSkills() {
-    var listOfNextSignatures = [];
-
-    for (i = 0; i < jsonHeroSkills.length; i++) {
-        // all signature skills
-        if (jsonHeroSkills[i].type === "signature") {
-            switch (currentOrigin.id) {
-                case "eldritch_sovereign":
-                    // starting type
-                    if (currentSignatureSkills.length == 0) {
-                        if ("DLC" in jsonHeroSkills[i]) {
-                            if (
-                                jsonHeroSkills[i].DLC.indexOf("ELDRITCHREALMS") != -1 &&
-                                listOfFirstChoice.includes(jsonHeroSkills[i].id)
-                            ) {
-                                if (!isInArray(currentSignatureSkills, jsonHeroSkills[i])) {
-                                    listOfNextSignatures.push(jsonHeroSkills[i]);
-                                }
-                            }
-                        }
-                    }
-                    // forgotten tome
-                    if (currentSignatureSkills.length == 1) {
-                        if ("DLC" in jsonHeroSkills[i]) {
-                            if (
-                                jsonHeroSkills[i].DLC.indexOf("ELDRITCHREALMS") != -1 &&
-                                jsonHeroSkills[i].name.indexOf("Forgotten Tome") != -1
-                            ) {
-                                if (!isInArray(currentSignatureSkills, jsonHeroSkills[i])) {
-                                    listOfNextSignatures.push(jsonHeroSkills[i]);
-                                }
-                            }
-                        }
-                    }
-                    // major type
-                    if (currentSignatureSkills.length == 2) {
-                        if ("DLC" in jsonHeroSkills[i]) {
-                            if (jsonHeroSkills[i].DLC.indexOf("ELDRITCHREALMS") != -1) {
-                                if (currentSignatureSkills[0].id == "fleshweaver") {
-                                    if (listOfSecondChoiceFleshweaver.includes(jsonHeroSkills[i].id)) {
-                                        if (!isInArray(currentSignatureSkills, jsonHeroSkills[i])) {
-                                            listOfNextSignatures.push(jsonHeroSkills[i]);
-                                        }
-                                    }
-                                }
-                                if (currentSignatureSkills[0].id == "madcaster") {
-                                    if (listOfSecondChoiceMadcaster.includes(jsonHeroSkills[i].id)) {
-                                        if (!isInArray(currentSignatureSkills, jsonHeroSkills[i])) {
-                                            listOfNextSignatures.push(jsonHeroSkills[i]);
-                                        }
-                                    }
-                                }
-                                if (currentSignatureSkills[0].id == "mindbreaker") {
-                                    if (listOfSecondChoiceMindbreaker.includes(jsonHeroSkills[i].id)) {
-                                        if (!isInArray(currentSignatureSkills, jsonHeroSkills[i])) {
-                                            listOfNextSignatures.push(jsonHeroSkills[i]);
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    // forgotten tome
-                    if (currentSignatureSkills.length == 3) {
-                        if ("DLC" in jsonHeroSkills[i]) {
-                            if (
-                                jsonHeroSkills[i].DLC.indexOf("ELDRITCHREALMS") != -1 &&
-                                jsonHeroSkills[i].name.indexOf("Forgotten Tome") != -1
-                            ) {
-                                if (!isInArray(currentSignatureSkills, jsonHeroSkills[i])) {
-                                    listOfNextSignatures.push(jsonHeroSkills[i]);
-                                }
-                            }
-                        }
-                    }
-                    break;
-                case "dragon_lord":
-                    // choose normal skill first
-                    if (currentSignatureSkills.length == 1) {
-                        if (!("DLC" in jsonHeroSkills[i])) {
-                            if (!isInArray(currentSignatureSkills, jsonHeroSkills[i])) {
-                                listOfNextSignatures.push(jsonHeroSkills[i]);
-                            }
-                        }
-                    }
-                    // choose aspect next
-                    if (currentSignatureSkills.length == 0) {
-                        if ("DLC" in jsonHeroSkills[i]) {
-                            if (
-                                jsonHeroSkills[i].DLC.indexOf("DRAGONLORDS") != -1 &&
-                                jsonHeroSkills[i].name.indexOf("Aspect") != -1
-                            ) {
-                                if (!isInArray(currentSignatureSkills, jsonHeroSkills[i])) {
-                                    addUniqueEntry(currentSignatureSkills, listOfNextSignatures, jsonHeroSkills[i]);
-                                    //listOfNextSignatures.push(jsonHeroSkills[i]);
-                                }
-                            }
-                        }
-                    }
-                    // choose normal skill
-                    if (currentSignatureSkills.length == 3) {
-                        if (!("DLC" in jsonHeroSkills[i])) {
-                            if (!isInArray(currentSignatureSkills, jsonHeroSkills[i])) {
-                                listOfNextSignatures.push(jsonHeroSkills[i]);
-                            }
-                        }
-                    }
-                    // choose transformation
-                    if (currentSignatureSkills.length == 2) {
-                        if ("DLC" in jsonHeroSkills[i]) {
-                            if (
-                                jsonHeroSkills[i].DLC.indexOf("DRAGONLORDS") != -1 &&
-                                jsonHeroSkills[i].name.indexOf("Transformation") != -1
-                            ) {
-                                if (!isInArray(currentSignatureSkills, jsonHeroSkills[i])) {
-                                    addUniqueEntry(currentSignatureSkills, listOfNextSignatures, jsonHeroSkills[i]);
-                                    //listOfNextSignatures.push(jsonHeroSkills[i]);
-                                }
-                            }
-                        }
-                    }
-                    break;
-                case "wizard_king":
-                    if (!("DLC" in jsonHeroSkills[i])) {
-                        if (!isInArray(currentSignatureSkills, jsonHeroSkills[i])) {
-                            listOfNextSignatures.push(jsonHeroSkills[i]);
-                        }
-                    }
-                    break;
-                case "champion":
-                    if (!("DLC" in jsonHeroSkills[i])) {
-                        if (!isInArray(currentSignatureSkills, jsonHeroSkills[i])) {
-                            listOfNextSignatures.push(jsonHeroSkills[i]);
-                        }
-                    }
-
-                    break;
-            }
-        }
-    }
-    return listOfNextSignatures;
+    container.appendChild(section);
 }
 
 function checkIfT5(jsonEntries) {
@@ -2784,6 +2769,49 @@ function GetAllSubTypes() {
     listOfAllSubTypes.sort((a, b) => a.id - b.id);
     return listOfAllSubTypes;
 }
+
+function GetAllSubCultureSetups(){
+     var listOfAllSubCultTypes = [];
+
+    // list of subcultures for architect
+    
+       for (i = 0; i < jsonFactionCreation.length; i++) {
+        if (jsonFactionCreation[i].type === "SubCulture") {
+            if (jsonFactionCreation[i].requirement == currentCulture.name) {
+                listOfAllSubCultTypes.push(jsonFactionCreation[i]);
+            }
+        }
+    }
+  
+    listOfAllSubCultTypes.sort((a, b) => a.id - b.id);
+    return listOfAllSubCultTypes;
+    
+}
+
+function GetAllSubProphecySetups(entry){
+     var listOfAllSubTypes = [];
+
+    // list of subcultures for architect
+    
+       for (i = 0; i < jsonFactionCreation.length; i++) {
+        if (jsonFactionCreation[i].type === "SubSociety") {
+            if(entry == 1){
+                 if (jsonFactionCreation[i].requirement == currentSociety1.name ) {
+                listOfAllSubTypes.push(jsonFactionCreation[i]);
+            }
+            }
+           if(entry == 2){
+                   if (jsonFactionCreation[i].requirement == currentSociety2.name ) {
+                listOfAllSubTypes.push(jsonFactionCreation[i]);
+            }
+           
+        }
+    }
+        }
+    listOfAllSubTypes.sort((a, b) => a.id - b.id);
+    return listOfAllSubTypes;
+    
+}
 function GetAllClasses() {
     var listofallClasses = [];
 
@@ -2844,6 +2872,40 @@ function GetRandomEntry(type) {
 
             randomOrigin = list[Math.floor(Math.random() * list.length)];
             if (currentOrigin.name != "Dragon Lord" && currentOrigin.name != "Giant King") {
+                randomOrigin = "";
+            }
+            // while (incompatibleCheck("Loadout", randomOrigin) === true) {
+            //   randomOrigin = list[Math.floor(Math.random() * list.length)];
+            //}
+            break;
+             case "SubCulture":
+            var list = GetAllSubCultureSetups(currentOrigin);
+
+            randomOrigin = list[Math.floor(Math.random() * list.length)];
+            if (!ListOfSubcultureHolders.includes(currentCulture.name)) {
+                randomOrigin = "";
+            }
+            // while (incompatibleCheck("Loadout", randomOrigin) === true) {
+            //   randomOrigin = list[Math.floor(Math.random() * list.length)];
+            //}
+            break;
+            
+                case "SubSociety1":
+            var list = GetAllSubProphecySetups(1);
+
+            randomOrigin = list[Math.floor(Math.random() * list.length)];
+            if (!ListOfSubsocietyHolders.includes(currentSociety1.name)) {
+                randomOrigin = "";
+            }
+            // while (incompatibleCheck("Loadout", randomOrigin) === true) {
+            //   randomOrigin = list[Math.floor(Math.random() * list.length)];
+            //}
+            break;
+                 case "SubSociety2":
+            var list = GetAllSubProphecySetups(2);
+
+            randomOrigin = list[Math.floor(Math.random() * list.length)];
+            if (!ListOfSubsocietyHolders.includes(currentSociety2.name)) {
                 randomOrigin = "";
             }
             // while (incompatibleCheck("Loadout", randomOrigin) === true) {
@@ -2916,10 +2978,10 @@ function incompatibleCheck(type, origin) {
 
     if ("incompatible_society_traits" in origin) {
         if (type === "Society1") {
-            var i = "";
+            let i = "";
             // also check from culture here
             //  currentCul = GetCultureFromID(currentCulture);
-
+           
             for (i in origin.incompatible_society_traits) {
                 if (currentSociety2 != "") {
                     if (
@@ -2934,6 +2996,7 @@ function incompatibleCheck(type, origin) {
         }
         if (type === "Society2") {
             var i = "";
+          
             for (i in origin.incompatible) {
                 if (currentSociety1 != "") {
                     if (
@@ -2947,6 +3010,21 @@ function incompatibleCheck(type, origin) {
             }
         }
     }
+    
+     if(currentSociety1 != ""){
+             // only one vision
+            if(currentSociety1.name.indexOf("Vision of") != -1 && origin.name.indexOf("Vision of") != -1){
+                incompatibleWithSetup = true;
+            }
+     }
+    
+     if(currentSociety2 != ""){
+             // only one vision
+            if(currentSociety2.name.indexOf("Vision of") != -1 && origin.name.indexOf("Vision of") != -1){
+                incompatibleWithSetup = true;
+            }
+     }
+        
 
     if (currentSociety1.name === origin.name) {
         incompatibleWithSetup = true;
@@ -2954,103 +3032,6 @@ function incompatibleCheck(type, origin) {
         incompatibleWithSetup = true;
     }
 
-    /**if (type === "Loadout") {
-        // example: Champion:Wizard, Primal-sylvan_wolf:Dark
-        var splitOrigins = origin.requirement.split(",");
-
-        if (splitOrigins.length > 1) {
-            // this has cultures and maybe champion + wizard
-
-            // check first split
-            let multiSetupOrigin = splitOrigins[0].split(":");
-
-            // this is champion or wizard
-            if (multiSetupOrigin.length > 1) {
-                // wizard
-                // console.log(splitOrigins + " " + origin.name);
-                if (multiSetupOrigin[1].indexOf(currentOrigin.name) != -1) {
-                    incompatibleWithSetup = false;
-                } else {
-                    incompatibleWithSetup = true;
-                }
-            } else {
-                // culture checks
-                var multiSetup = splitOrigins[1].split(":");
-
-                if (!multiSetup.includes(currentCulture.name)) {
-                    incompatibleWithSetup = true;
-                }
-
-                if (currentCulture.name.indexOf("Mystic") != -1) {
-                    for (let index = 0; index < multiSetup.length; index++) {
-                        if (multiSetup[index].indexOf("Mystic") != -1) {
-                            // get sub culture
-                            incompatibleWithSetup = false;
-                        }
-                    }
-                }
-
-                if (currentCulture.name.indexOf("Oathsworn") != -1) {
-                    for (let index = 0; index < multiSetup.length; index++) {
-                        // check subs
-                        var subculture = multiSetup[index].split("-");
-                        if (subculture.length > 1) {
-                            if (subculture[1].indexOf("strife") != -1 || currentCulture.name.indexOf("Strife") != -1) {
-                                // get sub culture
-                                incompatibleWithSetup = false;
-                            } else if (
-                                subculture[1].indexOf("harmony") != -1 ||
-                                currentCulture.name.indexOf("Harmony") != -1
-                            ) {
-                                // get sub culture
-                                incompatibleWithSetup = false;
-                            } else if (
-                                subculture[1].indexOf("righteousness") != -1 ||
-                                currentCulture.name.indexOf("Righteousness") != -1
-                            ) {
-                                // get sub culture
-                                incompatibleWithSetup = false;
-                            }
-                        } else {
-                            if (multiSetup[index].indexOf("Oathsworn") != -1) {
-                                // get sub culture
-                                incompatibleWithSetup = false;
-                            }
-                        }
-                    }
-                }
-
-                // check if its primal culture
-                if (currentCulture.name.indexOf("Primal") != -1) {
-                    for (let index = 0; index < multiSetup.length; index++) {
-                        if (multiSetup[index].indexOf("Primal") != -1) {
-                            // get sub culture
-                            incompatibleWithSetup = false;
-                        }
-                    }
-                }
-
-                // if not champion
-                if (splitOrigins[0].indexOf(currentOrigin.name) === -1) {
-                    // console.log(splitOrigins);
-                    // console.log(currentCulture.name + " " + splitOrigins[1]);
-                    incompatibleWithSetup = true;
-                }
-            }
-        } else {
-            // console.log(currentOrigin.name + " " + splitOrigins[0]);
-            //if only 1 split here, its dragon or  eldritch
-
-            // else its dragon, eldritch, if not same as currentorigin, return
-            //console.log(currentOrigin.name + " " + splitOrigins[0] + " " + origin.name);
-
-            if (splitOrigins[0].indexOf(currentOrigin.name) != -1) {
-                incompatibleWithSetup = false;
-            } else {
-                incompatibleWithSetup = true;
-            }
-        }
-    }*/
     // add class incompatiblity?
     if (type === "Class") {
         if (origin.name == "Ranger") {
@@ -3145,37 +3126,48 @@ function updateSelectedOptions(origin) {
 // }
 
 function checkCompatibilityTraits(entry) {
-    var canBeAdded = true;
-    if (entry.group_name === "ADAPTATION") {
-        var hasAdaptionGroup = currentFormTraitList.some((item) => item.group_name === "ADAPTATION");
-        //console.log(hasAdaptionGroup);
-        // already has adaption or already has primal culture
-        if (hasAdaptionGroup || currentCulture.name.indexOf("Primal") != -1) {
-            canBeAdded = false;
-        }
-    } else if (entry.group_name === "MOUNT") {
-        var hasAdaptionGroup = currentFormTraitList.some((item) => item.group_name === "MOUNT");
-        //console.log(hasAdaptionGroup);
-        // already has adaption or already has primal culture
-        if (hasAdaptionGroup) {
-            canBeAdded = false;
-        }
-    } else if (entry.group_name === "DAMAGE_RETALIATION") {
-        var hasAdaptionGroup = currentFormTraitList.some((item) => item.group_name === "DAMAGE_RETALIATION");
-        //console.log(hasAdaptionGroup);
-        // already has adaption or already has primal culture
-        if (hasAdaptionGroup) {
-            canBeAdded = false;
-        }
-    } else if (entry.group_name === "TACTICS") {
-        var hasAdaptionGroup = currentFormTraitList.some((item) => item.group_name === "TACTICS");
-        //console.log(hasAdaptionGroup);
-        // already has adaption or already has primal culture
-        if (hasAdaptionGroup) {
-            canBeAdded = false;
+    const exclusiveGroups = ["Adaptations", "Mounts", "DAMAGE_RETALIATION", "TACTICS", "Flaws"];
+
+    // Check if only one of each exclusive group can exist
+    if (exclusiveGroups.includes(entry.group_name)) {
+        const hasSameGroup = currentFormTraitList.some(item => item.group_name === entry.group_name);
+
+        const isBlockedByPrimal = entry.group_name === "Adaptations" && currentCulture.name.includes("Primal");
+
+        if (hasSameGroup || isBlockedByPrimal) {
+            return false;
         }
     }
-    return canBeAdded;
+
+    // Normalize to array of names
+    const currentTraitNames = currentFormTraitList.map(item => item.name);
+
+    // --- Forward check: entry conflicts with something already selected
+    if (Array.isArray(entry.incompatible_society_traits)) {
+        const incompatibleNames = entry.incompatible_society_traits.map(i => 
+            typeof i === "string" ? i : i.name
+        );
+
+        const hasIncompatible = incompatibleNames.some(name => currentTraitNames.includes(name));
+        if (hasIncompatible) {
+            return false;
+        }
+    }
+
+    // --- Reverse check: something already selected conflicts with entry
+    for (const trait of currentFormTraitList) {
+        if (Array.isArray(trait.incompatible_society_traits)) {
+            const incompatibleNames = trait.incompatible_society_traits.map(i =>
+                typeof i === "string" ? i : i.name
+            );
+
+            if (incompatibleNames.includes(entry.name)) {
+                return false;
+            }
+        }
+    }
+
+    return true;
 }
 
 function toggleArrayEntry(array, entry) {
@@ -3200,7 +3192,7 @@ function LookUpTableData(lookUpId) {
     }
 }
 
-function GetQuickLink() {
+function GenerateQuickLink() {
     var code = "";
     // 0
 
@@ -3220,15 +3212,34 @@ function GetQuickLink() {
     // 1
     var number = decimalToHex(LookUpTableData(currentSociety1.id));
     code += "," + number;
+    
+    // attach subsociety1 to it
+      if(currentSubSociety1 != ""){
+         var extraNummer = decimalToHex(LookUpTableData(currentSubSociety1.id));
+         code += ":" + extraNummer;
+    }
+    
+    
     //2
     var number = decimalToHex(LookUpTableData(currentSociety2.id));
     code += "," + number;
+    
+     // attach subsociety2 to it
+      if(currentSubSociety2 != ""){
+         var extraNummer = decimalToHex(LookUpTableData(currentSubSociety2.id));
+         code += ":" + extraNummer;
+    }
     //3
     var number = decimalToHex(LookUpTableData(currentForm.id));
     code += "," + number;
     //4
     var number = decimalToHex(LookUpTableData(currentCulture.id));
     code += "," + number;
+    // attach subculture to it
+    if(currentSubCulture != ""){
+         var extraNummer = decimalToHex(LookUpTableData(currentSubCulture.id));
+         code += ":" + extraNummer;
+    }
     //5
     var number = decimalToHex(LookUpTableData(currentOrigin.id));
     code += "," + number;
@@ -3287,17 +3298,23 @@ function GetQuickLink() {
     if (name == "Ruler Name") {
         code += "," + "n";
     } else {
-        var modName = name.replace(" ", "%20");
+        var modName = name.replaceAll(" ", "%20");
         code += "," + modName;
     }
     if (raceName == "Race Name") {
         code += ":" + "r";
     } else {
-        var modRaceName = raceName.replace(" ", "%20");
+        var modRaceName = raceName.replaceAll(" ", "%20");
         code += ":" + modRaceName;
     }
 
     // console.log("hex code: " + code);
+
+    return code;
+}
+
+function GetQuickLink() {
+    var code = GenerateQuickLink();
 
     var linkField = document.getElementById("shareLink");
 
@@ -3341,7 +3358,8 @@ function reversLookUp(code) {
 
     // 1 = currentsociety1
     var lookUp = splitcode[1];
-    var numbernew = jsonBuilderLookUp[hexToDecimal(lookUp)].id;
+     var currentSocietySplit = lookUp.split(":");
+    var numbernew = jsonBuilderLookUp[hexToDecimal(currentSocietySplit[0])].id;
 
     for (let index = 0; index < jsonFactionCreation2.length; index++) {
         if (jsonFactionCreation2[index].id === numbernew) {
@@ -3351,11 +3369,29 @@ function reversLookUp(code) {
     currentSociety1 = newBit;
     var originButton = document.getElementById("originButtonSociety1");
     SetButtonInfo(originButton, currentSociety1, "Society1");
+    
+    // sub society1
+    if(currentSocietySplit[1] != undefined){
+        // sub society here
+       
+         var subsoc1 = jsonBuilderLookUp[hexToDecimal(currentSocietySplit[1])].id;
+        
+         for (let index = 0; index < jsonFactionCreation.length; index++) {
+        if (jsonFactionCreation[index].id === subsoc1) {
+            var newBit = jsonFactionCreation[index];
+        }
+              currentSubSociety1 = newBit;
+    var originButton = document.getElementById("originButtonSubSociety1");
+    SetButtonInfo(originButton, currentSubSociety1, "SubSociety1");
+    }
+   
+        
+    }
 
     // 2 = currentsociety2
     var lookUp2 = splitcode[2];
-
-    var numbernew = jsonBuilderLookUp[hexToDecimal(lookUp2)].id;
+  var currentSocietySplit2 = lookUp2.split(":");
+    var numbernew = jsonBuilderLookUp[hexToDecimal(currentSocietySplit2[0])].id;
 
     for (let index = 0; index < jsonFactionCreation2.length; index++) {
         if (jsonFactionCreation2[index].id === numbernew) {
@@ -3365,6 +3401,24 @@ function reversLookUp(code) {
     currentSociety2 = newBit;
     var originButton = document.getElementById("originButtonSociety2");
     SetButtonInfo(originButton, currentSociety2, "Society2");
+    
+     // sub society
+    if(currentSocietySplit[1] != undefined){
+        // sub society here
+       
+         var subsoc1 = jsonBuilderLookUp[hexToDecimal(currentSocietySplit[1])].id;
+        
+         for (let index = 0; index < jsonFactionCreation.length; index++) {
+        if (jsonFactionCreation[index].id === subsoc1) {
+            var newBit = jsonFactionCreation[index];
+        }
+              currentSubSociety2 = newBit;
+    var originButton = document.getElementById("originButtonSubSociety2");
+    SetButtonInfo(originButton, currentSubSociety2, "SubSociety2");
+    }
+   
+        
+    }
 
     // 3 = form
     var lookUp = splitcode[3];
@@ -3382,17 +3436,57 @@ function reversLookUp(code) {
 
     // 4 = culture
     var lookUp = splitcode[4];
-
-    var numbernew = jsonBuilderLookUp[hexToDecimal(lookUp)].id;
+    // check for subculture 
+    var currentCultureSplit = lookUp.split(":");
+    var numbernew = jsonBuilderLookUp[hexToDecimal(currentCultureSplit[0])].id;
 
     for (let index = 0; index < jsonFactionCreation.length; index++) {
         if (jsonFactionCreation[index].id === numbernew) {
             var newBit = jsonFactionCreation[index];
         }
     }
+    
+   
     currentCulture = newBit;
+    
+     // backwards compatible
+    if(newBit.type == "SubCulture"){
+       
+        currentSubCulture = newBit;
+       
+        
+        
+        for (let index = 0; index < jsonFactionCreation.length; index++) {
+        if (jsonFactionCreation[index].name === currentSubCulture.requirement) {
+            var newBit = jsonFactionCreation[index];
+        }
+    }
+        currentCulture = newBit;
+        
+          var originButton = document.getElementById("originButtonSubCulture");
+    SetButtonInfo(originButton, currentSubCulture, "SubCulture");
+    }
+    
     var originButton = document.getElementById("originButtonCulture");
     SetButtonInfo(originButton, currentCulture, "Culture");
+    
+    // subculture
+    if(currentCultureSplit[1] != undefined){
+        // subculture here
+       console.log("here");
+         var subcultureNo = jsonBuilderLookUp[hexToDecimal(currentCultureSplit[1])].id;
+        
+         for (let index = 0; index < jsonFactionCreation.length; index++) {
+        if (jsonFactionCreation[index].id === subcultureNo) {
+            var newBit = jsonFactionCreation[index];
+        }
+              currentSubCulture = newBit;
+    var originButton = document.getElementById("originButtonSubCulture");
+    SetButtonInfo(originButton, currentSubCulture, "SubCulture");
+    }
+   
+        
+    }
 
     // 5 = origin
     var lookUp = splitcode[5];
@@ -3539,5 +3633,60 @@ function hexToDecimal(hex) {
 }
 
 function RebuildFromParam(code) {
+    console.log(code);
     reversLookUp(code);
+    spinner.style.display = "block"; // Show the spinner
+    fetch(
+        "https://script.google.com/macros/s/AKfycbz5r36EOFcrtfu2Y3CN8DdgDkJDiq6NHf7Y6JEv1IkngOG4we3F5uFU6o5aYFSnm5M4/exec",
+        {
+            method: "POST",
+            body: new URLSearchParams({
+                action: "incrementView",
+                buildId: window.location.href.split("?")[0] + "?u=" + code.replaceAll(" ", "%20")
+            })
+        }
+    )
+        .then((res) => res.json()) // Parse the JSON from response
+        .then((builds) => {
+            if (builds[0] != undefined) {
+                FillInBuildDetails(builds[0]);
+            }
+        })
+        .finally(() => {
+            spinner.style.display = "none"; // Hide spinner after fetch is done
+        });
+
+    if (window.location.href.indexOf("&edit")) {
+        // save current url for overwriting
+        document.getElementById("oldURL").innerHTML = window.location.href.split("?")[0] + "?u=" + code;
+        // show edit button
+        var editButton = document.getElementById("overwriteButton");
+        editButton.style.display = "block";
+        //   alert("Editing");
+    }
+
+    // check if build code is here
+
+    // if (build.editKey === getOrCreateUserEditKey()) {
+}
+
+function FillInBuildDetails(build) {
+    console.log(build);
+    var nameBuild = document.getElementById("buildName");
+    nameBuild.value = build.BuildName;
+    var notesBlock = document.getElementById("notesDisplay");
+    console.log(build.Notes);
+    var convertedNotes = convertBracketsToHTML(build.Notes);
+    console.log(convertedNotes);
+    convertedNotes = convertNamesToHTML(convertedNotes);
+    console.log(convertedNotes);
+    notesBlock.innerHTML = convertedNotes;
+    if (build.Tags != "") {
+        const tagArray = new Set(build.Tags.split(",").map((tag) => tag.trim()));
+        updateTagList(tagArray);
+    }
+
+    rawNotes = build.Notes;
+
+    // const tagArray = Array.from(selectedTags);
 }

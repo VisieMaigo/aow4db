@@ -143,6 +143,39 @@ a:hover {
     text-decoration: underline;
 }
 
+#topButtonContainer {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url(/aow4db/Icons/9slicetooltip%20-%20Copy.png);
+    z-index: 999;
+    /* keeps it above other elements */
+}
+
+.spinner {
+    border: 6px solid #00f5cf;
+    border-top: 6px solid #0a363f;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#myCenteredButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
 #menu {
     background: black;
     border-image: url(/aow4db/Icons/9slicetooltip.png);
@@ -150,7 +183,7 @@ a:hover {
     border-style: solid;
     height: 35px;
     min-width: 1200px;
-    margin-top: -20px;
+    margin-top: -32px;
 }
 
 #menu ul,
@@ -498,9 +531,12 @@ p {
     height: 250px;
     float: right;
     background-size: contain;
-    mask-image: url(/aow4db/Icons/Interface/CosmicHappeningPortal.png); /* The image with alpha channel that will act as a mask */
-    mask-size: cover; /* Adjust the mask size to fit the element */
-    -webkit-mask-image: url(/aow4db/Icons/Interface/CosmicHappeningPortal.png); /* Ensures compatibility with WebKit browsers */
+    mask-image: url(/aow4db/Icons/Interface/CosmicHappeningPortal.png);
+    /* The image with alpha channel that will act as a mask */
+    mask-size: cover;
+    /* Adjust the mask size to fit the element */
+    -webkit-mask-image: url(/aow4db/Icons/Interface/CosmicHappeningPortal.png);
+    /* Ensures compatibility with WebKit browsers */
     -webkit-mask-size: cover;
 }
 
@@ -693,12 +729,12 @@ tab {
     border-style: solid;
     border-image: url(/aow4db/Icons/Interface/parchment2.png);
     border-image-slice: 2 fill;
-
+}
     .initialBonusHeaderText,
     .initialBonusCastingPoints {
         margin: 0 auto;
     }
-}
+
 
 .tome_card {
     color: white;
@@ -731,6 +767,14 @@ tab {
     margin-right: auto;
 }
 
+.generic-center {
+    height: auto;
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+}
+
 .unit_elite_skill {
     overflow: hidden;
     width: 328px;
@@ -760,12 +804,14 @@ tab {
     overflow: hidden;
     width: 100%;
     height: auto;
-    margin: 1px;
+    margin: 10px;
+    padding: 2px;
     display: flex;
     border-style: solid;
     border-width: 5px;
     border-image: url(/aow4db/Icons/9slicetooltip.png);
-    border-image-slice: 10 10 10 10 fill;
+    border-image-slice: 10 10 10 10;
+    background-color: #0e0f0e;
 }
 
 .list_abilityslotfilter {
@@ -995,9 +1041,9 @@ tab {
 
 .spellStatsHighLighter {
     margin-top: -15px;
-    padding-bottom: 12px;
-
-    padding-top: 7px;
+    margin-bottom: -20px;
+    padding-bottom: 8px;
+    padding-top: 10px;
     position: relative;
     border-top: 1px solid rgb(47 134 162 / 20%);
     border-bottom: 1px solid rgb(11 13 2 / 20%);
@@ -1226,6 +1272,23 @@ hr {
     border-image-slice: 10 10 10 10;
 }
 
+.dlc-toggle {
+    background-color: #4b1d63;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    height: 30px;
+    border-width: 5px;
+    border-style: solid;
+    border-image: url(/aow4db/Icons/9slicetooltip.png);
+    border-image-slice: 10 10 10 10;
+}
+.dlc-toggle.enabled {
+    background-color: #210a2a;
+    color: #dd69fc;
+}
+
 .button-random:active {
     background-color: black;
 }
@@ -1441,6 +1504,7 @@ HelpText {
     color: grey;
     font-size: 14px;
 }
+
 yellowText {
     color: gold;
     font-size: 14px;
@@ -1514,6 +1578,7 @@ silver {
     transform: rotate(45deg);
     background: linear-gradient(126deg, green 100%, #947c08);
 }
+
 .DRAGONLORDStriangle {
     position: absolute;
     top: -19px;
@@ -1559,6 +1624,21 @@ silver {
     background: linear-gradient(126deg, purple 50%, #65aadf);
 }
 
+.ARCHONPROPHECYtriangle {
+    position: absolute;
+
+    z-index: 0;
+    top: -22px;
+    right: -28px;
+    width: 30px;
+    height: 30px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: #f5f100;
+    transform: rotate(45deg);
+    background: linear-gradient(126deg, #1adff2 50%, #65aadf);
+}
+
 .header-img::after {
     content: "";
     height: 150px;
@@ -1574,11 +1654,12 @@ silver {
     position: absolute;
     z-index: -1;
 }
+
 .mid-text {
     text-align: center;
     position: relative;
 
-    font-size: 14px;
+    font-size: 17px;
     top: -30%;
     margin: -15px;
     text-shadow: 2px 2px 5px black;
@@ -1589,12 +1670,13 @@ silver {
         2px 2px 5px black,
         -2px -2px 5px black,
         1px 1px 0 #000;
-    color: whitesmoke;
+    color: #ffee64;
     opacity: 2;
 }
 
 .hero-text {
     text-align: center;
+    width: fit-content;
     position: relative;
     font-family: "Decorative", sans-serif;
     font-size: 35px;
@@ -1614,13 +1696,14 @@ silver {
 }
 
 .current-version {
+   
     text-align: left;
+    width: fit-content;
     position: relative;
     font-family: "Regular", sans-serif;
     font-size: 14px;
-    top: -15%;
-    left: 50%;
-    transform: translate(-50%, -30%);
+    top: -35%;
+    /* left: 1%; */
     color: whitesmoke;
     opacity: 2;
 }
@@ -1641,4 +1724,25 @@ silver {
     background-color: black;
     display: none;
     overflow: hidden;
+}
+
+span.number-highlight {
+    color: #f3d451;
+    /* Example: gold color */
+}
+
+/* Basic spoiler style */
+.spoiler {
+  background-color: #2a2551;     /* hidden background */
+  color: transparent;         /* text hidden */
+  border-radius: 4px;
+  padding: 2px 4px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+/* When revealed */
+.spoiler.revealed {
+  color: inherit;             /* normal text color */
+  background-color: transparent;
 }
