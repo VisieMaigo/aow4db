@@ -13503,47 +13503,6 @@
   ]
  },
  {
-  "abilities": [
-   {
-    "slug": "0000048b00000562"
-   }
-  ],
-  "resid": -931243738355721719,
-  "id": "ahc_knockback_retaliations_hero_skill",
-  "group_name": "AHC - Assassin - Hero Skill Group",
-  "icon": "0000048B00000561",
-  "type": "normal",
-  "name": "Knockback Retaliations",
-  "required_skills": [
-   {
-    "resid": -931243738355721737
-   },
-   {
-    "resid": -931243738355721423
-   }
-  ]
- },
- {
-  "resid": -931243738355721720,
-  "id": "ahc_exploit_weakness_hero_skill",
-  "group_name": "AHC - Assassin - Hero Skill Group",
-  "icon": "0000048B0000055C",
-  "type": "normal",
-  "name": "Exploit Weakness",
-  "description": "The hero now does +20% damage to units with a <hyperlink>Negative Status Effect</hyperlink>.",
-  "required_skills": [
-   {
-    "resid": -931243738355721740
-   },
-   {
-    "resid": -931243738355721721
-   },
-   {
-    "resid": -931243738355721734
-   }
-  ]
- },
- {
   "group_name": "AHC - Assassin - Hero Skill Group",
   "icon": "0000048B00000558",
   "type": "normal",

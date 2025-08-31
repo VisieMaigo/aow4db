@@ -3370,5 +3370,39 @@
   "icon": "000003DF00001363",
   "type": "destiny",
   "display_order": -1
+ },
+ {
+  "starting_bonuses": [
+   {
+    "structure_upgrade_slug": "vendor"
+   }
+  ],
+  "affinities": [
+   {
+    "name": "1<matter></matter> Materium Affinity"
+   }
+  ],
+  "biography_description": "They are cunning merchants that thrive on commerce and the profits they make.",
+  "lore_description": "They are cunning merchants with a keen eye for opportunity and profit.",
+  "point_cost": 1,
+  "id": "clever_peddlers",
+  "name": "Clever Peddlers",
+  "screen_description": "",
+  "effect_descriptions": [
+   {
+    "name": "Gold income buildings yield +5 <gold></gold> <hyperlink>Gold</hyperlink>."
+   },
+   {
+    "name": "Produce Merchandise produces extra gold, converting 40% of <structureprod></structureprod> <hyperlink>Production</hyperlink> to <gold></gold> <hyperlink>Gold</hyperlink>."
+   },
+   {
+    "name": "Start at Trustworthy <relationLvl1></relationLvl1> reputation with the <hyperlink>Merchants of the Astral Sea</hyperlink>."
+   }
+  ],
+  "enabled": false,
+  "front_end": true,
+  "type": "society",
+  "display_order": 2,
+  "icon": "F3138EC100000139"
  }
 ]

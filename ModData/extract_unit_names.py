@@ -6,7 +6,7 @@ output_file = "ModData/Expanded Wildlife Pack - Unit Names.json"
 units_json_file = "Data/Units.json"
 modded_units_output = "ModData/ModdedUnits.json"
 
-disabled_units = {"Young Panther", "Pegasus"}  # Add more unit names to this set as needed
+disabled_units = {"Young Panther", "Pegasus", "Cavernbear"}  # Add more unit names to this set as needed
 
 unit_names = {}
 

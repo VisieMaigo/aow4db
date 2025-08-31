@@ -3549,5 +3549,74 @@
   "name": "Town Hall II: Castle",
   "is_sector_upgrade": false,
   "boost_requirements": "Have 4 <population></population> <hyperlink>Population</hyperlink>"
+ },
+ {
+  "requirement_description": "Must be built on an acquired <hyperlink>Province</hyperlink>.",
+  "cost": "280<gold></gold> 750<structureprod></structureprod> ",
+  "prediction_description": "+10 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink> income",
+  "resid": -931243738355723131,
+  "id": "_researchpost___ice_palace",
+  "description": "<bulletlist><bullet>When placed, alter terrain to Arctic.</bullet><bullet>+10 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink>.</bullet><bullet>+3 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink> per adjacent Snow or Ice <hyperlink>Province</hyperlink>.</bullet><bullet>When a Frozen enemy dies in battle, gain 10 <mana></mana> Mana per unit Tier. This does not stack.</bullet><bullet>Counts as a <researchpost></researchpost> <hyperlink>Research Post</hyperlink>.</bullet></bulletlist>",
+  "name": "<researchpost></researchpost> Ice Palace",
+  "icon": "F3138EC100001486",
+  "is_sector_upgrade": true
+ },
+ {
+  "requirement_description": "Can only be built in the <hyperlink>Throne City</hyperlink>.",
+  "cost": "280<gold></gold> 750<structureprod></structureprod> ",
+  "prediction_description": "<bulletlist><bullet>+15 <bindingessence></bindingessence> <hyperlink>Binding Essence</hyperlink> income</bullet><bullet>+10 <bindingfragments></bindingfragments> <hyperlink>Binding Fragments</hyperlink> income</bullet></bulletlist>",
+  "resid": -931243738355727830,
+  "id": "artifact_refinery_iii_master_artisans",
+  "description": "",
+  "name": "Artifact Refinery III: Master Artisans",
+  "icon": "F3138EC10000022B",
+  "is_sector_upgrade": false,
+  "boost_requirements": "<bulletlist><bullet>Build 2 <hyperlink><quarry></quarry> Quarry</hyperlink></bullet><bullet>Build 2 <hyperlink><mine></mine> Mine</hyperlink></bullet></bulletlist>"
+ },
+ {
+  "requirement_description": "Can only be built in the <hyperlink>Throne City</hyperlink>.",
+  "cost": "170<gold></gold> 450<structureprod></structureprod> ",
+  "prediction_description": "<bulletlist><bullet>+10 <bindingessence></bindingessence> <hyperlink>Binding Essence</hyperlink> income</bullet><bullet>+5 <bindingfragments></bindingfragments> <hyperlink>Binding Fragments</hyperlink> income</bullet></bulletlist>",
+  "resid": -931243738355727836,
+  "id": "artifact_refinery_ii_adept_crafters",
+  "description": "",
+  "name": "Artifact Refinery II: Adept Crafters",
+  "icon": "F3138EC100000225",
+  "is_sector_upgrade": false,
+  "boost_requirements": "<bulletlist><bullet>Build 2 <hyperlink><quarry></quarry> Quarry</hyperlink></bullet><bullet>Build 1 <hyperlink><mine></mine> Mine</hyperlink></bullet></bulletlist>"
+ },
+ {
+  "requirement_description": "Can only be built in the <hyperlink>Throne City</hyperlink>.",
+  "cost": "100<gold></gold> 250<structureprod></structureprod> ",
+  "prediction_description": "+5 <bindingessence></bindingessence> <hyperlink>Binding Essence</hyperlink> income",
+  "resid": -931243738355728371,
+  "id": "artifact_refinery_i_novice_crafters",
+  "description": "",
+  "name": "Artifact Refinery I: Novice Crafters",
+  "icon": "F3138EC10000000E",
+  "is_sector_upgrade": false,
+  "boost_requirements": "<bulletlist><bullet>Build 1 <hyperlink><quarry></quarry> Quarry</hyperlink></bullet><bullet>Build 1 <hyperlink><mine></mine> Mine</hyperlink></bullet></bulletlist>"
+ },
+ {
+  "requirement_description": "Must be built on an acquired <hyperlink>Province</hyperlink>.",
+  "cost": "60<gold></gold> 130<structureprod></structureprod> ",
+  "prediction_description": "",
+  "resid": -8929519174850438625,
+  "id": "_mine___black_market",
+  "description": "<bulletlist><bullet>+5 <gold></gold> <hyperlink>Gold</hyperlink>.</bullet><bullet>+3 <gold></gold> <hyperlink>Gold</hyperlink> and -1 <happiness></happiness> <hyperlink>City Stability</hyperlink> per adjacent unique <hyperlink>Province Improvement</hyperlink>.</bullet><bullet>Allows the drafting of <hyperlink>Cutthroat</hyperlink>, <hyperlink>Charlatan</hyperlink> and <hyperlink>Scoundrel</hyperlink>.</bullet><bullet>Counts as a <mine></mine> <hyperlink>Mine</hyperlink>.</bullet></bulletlist>",
+  "name": "<mine></mine> Black Market",
+  "icon": "8413F99F00001A20",
+  "is_sector_upgrade": true
+ },
+ {
+  "requirement_description": "Must be built on an acquired <hyperlink>Province</hyperlink>.",
+  "cost": "100<gold></gold> 250<structureprod></structureprod> ",
+  "prediction_description": "+1<medalGold></medalGold> Starting Rank to every <hyperlink>Skirmisher Unit</hyperlink>.",
+  "resid": -8929519174850442405,
+  "id": "_conduit___shrouded_altar",
+  "description": "<bulletlist><bullet>+5 <mana></mana> <hyperlink>Mana</hyperlink>.</bullet><bullet>+5 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink>.</bullet><bullet>+4 <mana></mana> <hyperlink>Mana</hyperlink> per adjacent <researchpost></researchpost> <hyperlink>Research Post</hyperlink>.</bullet><bullet><hyperlink>Skirmisher Units</hyperlink> produced in the owner city gain +1 <medalGold></medalGold> Rank.</bullet><bullet>Counts as a <conduit></conduit> <hyperlink>Conduit</hyperlink>.</bullet>",
+  "name": "<conduit></conduit> Shrouded Altar",
+  "icon": "8413F99F00000B5A",
+  "is_sector_upgrade": true
  }
 ]

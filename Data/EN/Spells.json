@@ -2020,7 +2020,7 @@
   "id": "ritual_of_calamity",
   "DLC": "WAYSOFWAR ",
   "tactical": false,
-  "description": "<bulletlist><bullet>At the start of every <turn></turn> <hyperlink>Turn</hyperlink> during the siege, a random <hyperlink>Province Improvement</hyperlink> of the besieged city is <hyperlink>pillaged</hyperlink>, granting you rewards.</bullet><bullet>At the start of combat:<bulletlist></bullet><bullet>All defenders gain a stack of Ghostfire for {duration} <turn></turn> Turns.</bullet><bullet>{amountUnits} <hyperlink>Accursed Ogres</hyperlink> appear on the attacker's side.</bullet></bulletlist></bulletlist>",
+  "description": "<bulletlist><bullet>At the start of every <turn></turn> <hyperlink>Turn</hyperlink> during the siege, a random <hyperlink>Province Improvement</hyperlink> of the besieged city is <hyperlink>pillaged</hyperlink>, granting you rewards.</bullet><bullet>At the start of combat:<bulletlist></bullet><bullet>All defenders gain a stack of Ghostfire for <turn></turn> Turns.</bullet><bullet> <hyperlink>Accursed Ogres</hyperlink> appear on the attacker's side.</bullet></bulletlist></bulletlist>",
   "name": "Ritual of Calamity",
   "operation_point_cost": 0,
   "icon": "00000497000013B6"
@@ -2593,10 +2593,10 @@
   "casting_cost": "60<mana></mana> ",
   "resid": 5003636899875,
   "spellType": "<caststrategic></caststrategic> <hyperlink>Summon Spell</hyperlink>",
-  "id": "invalid",
+  "id": "call_wild_animal",
   "tactical": false,
-  "description": "Invalid",
-  "name": "Invalid",
+  "description": "<bulletlist><bullet>Choose a Tier I or Tier II Animal unit to add to your army.</bullet><bullet>The available Animals depend on the type of terrain the spell is cast on.</bullet></bulletlist>",
+  "name": "Call Wild Animal",
   "operation_point_cost": 60,
   "icon": "0000041B000002E7",
   "summoned_units": [
@@ -2611,6 +2611,18 @@
    },
    {
     "slug": "polar_bear"
+   },
+   {
+    "slug": "young_eagle"
+   },
+   {
+    "slug": "white_stag"
+   },
+   {
+    "slug": "brown_wolf"
+   },
+   {
+    "slug": "albino_warg"
    },
    {
     "slug": "razorback"
@@ -2631,6 +2643,57 @@
     "slug": "brown_bear"
    },
    {
+    "slug": "crocodile"
+   },
+   {
+    "slug": "young_thunderbird"
+   },
+   {
+    "slug": "young_lion"
+   },
+   {
+    "slug": "young_tiger"
+   },
+   {
+    "slug": "young_white_tiger"
+   },
+   {
+    "slug": "panther"
+   },
+   {
+    "slug": "red_stag"
+   },
+   {
+    "slug": "wild_horse"
+   },
+   {
+    "slug": "zebra"
+   },
+   {
+    "slug": "lioness"
+   },
+   {
+    "slug": "raptor_hatchling"
+   },
+   {
+    "slug": "swiftfoot_raptor_hatchling"
+   },
+   {
+    "slug": "raptor"
+   },
+   {
+    "slug": "swiftfoot_raptor"
+   },
+   {
+    "slug": "spirit_boar"
+   },
+   {
+    "slug": "young_celestial_lion"
+   },
+   {
+    "slug": "young_phase_beast"
+   },
+   {
     "slug": "inferno_hound"
    },
    {
@@ -2638,6 +2701,15 @@
    },
    {
     "slug": "inferno_puppy"
+   },
+   {
+    "slug": "young_phoenix"
+   },
+   {
+    "slug": "magma_raptor_hatchling"
+   },
+   {
+    "slug": "magma_serpent_hatchling"
    },
    {
     "slug": "nimu"
@@ -2669,10 +2741,10 @@
   "casting_cost": "150<mana></mana> ",
   "resid": 5003636899859,
   "spellType": "<caststrategic></caststrategic> <hyperlink>Summon Spell</hyperlink>",
-  "id": "invalid",
+  "id": "call_greater_animal",
   "tactical": false,
-  "description": "Invalid",
-  "name": "Invalid",
+  "description": "<bulletlist><bullet>Choose a Tier III or Tier IV Animal unit to add to your army.</bullet><bullet>The available Animals depend on the type of terrain the spell is cast on.</bullet></bulletlist>",
+  "name": "Call Greater Animal",
   "operation_point_cost": 150,
   "icon": "000003E300004AF7",
   "summoned_units": [
@@ -2695,6 +2767,12 @@
     "slug": "dire_bear"
    },
    {
+    "slug": "bald_eagle"
+   },
+   {
+    "slug": "brown_wolf_alpha"
+   },
+   {
     "slug": "hunter_spider_matriarch"
    },
    {
@@ -2707,10 +2785,55 @@
     "slug": "unicorn"
    },
    {
+    "slug": "tiger"
+   },
+   {
+    "slug": "great_eagle"
+   },
+   {
+    "slug": "lion"
+   },
+   {
+    "slug": "raptor_alpha"
+   },
+   {
+    "slug": "swiftfoot_raptor_alpha"
+   },
+   {
+    "slug": "spirit_stag"
+   },
+   {
+    "slug": "spirit_bear"
+   },
+   {
+    "slug": "spirit_panther"
+   },
+   {
+    "slug": "pestilence_raptor"
+   },
+   {
+    "slug": "celestial_lion"
+   },
+   {
+    "slug": "forest_wyvern"
+   },
+   {
+    "slug": "horned_bear"
+   },
+   {
+    "slug": "spirit_razorback"
+   },
+   {
+    "slug": "jade_tiger"
+   },
+   {
     "slug": "caustic_worm"
    },
    {
     "slug": "vampire_spider_matriarch"
+   },
+   {
+    "slug": "earth_wyvern"
    },
    {
     "slug": "nightmare"
@@ -2722,10 +2845,22 @@
     "slug": "fire_wyvern"
    },
    {
+    "slug": "magma_raptor"
+   },
+   {
+    "slug": "magma_serpent"
+   },
+   {
+    "slug": "magma_crocodile"
+   },
+   {
     "slug": "deep-sea_nimu"
    },
    {
     "slug": "kraken"
+   },
+   {
+    "slug": "storm_crocodile"
    },
    {
     "slug": "mammoth"
@@ -4408,10 +4543,19 @@
     "slug": "warg"
    },
    {
+    "slug": "brown_wolf"
+   },
+   {
     "slug": "goretusk_matriarch"
    },
    {
     "slug": "entwined_scourge"
+   },
+   {
+    "slug": "great_eagle"
+   },
+   {
+    "slug": "brown_wolf_alpha"
    }
   ]
  },
@@ -4884,84 +5028,7 @@
   "description": "<bulletlist><bullet>Choose a Tier III or Tier IV Animal unit to add to your army.</bullet><bullet>The available Animals depend on the type of terrain the spell is cast on.</bullet></bulletlist>",
   "name": "Call Greater Animal",
   "operation_point_cost": 150,
-  "icon": "000003E300004AF7",
-  "summoned_units": [
-   {
-    "slug": "ice_spider_matriarch"
-   },
-   {
-    "slug": "white_wolf"
-   },
-   {
-    "slug": "thunderbird"
-   },
-   {
-    "slug": "goretusk_matriarch"
-   },
-   {
-    "slug": "frost_wyvern"
-   },
-   {
-    "slug": "dire_bear"
-   },
-   {
-    "slug": "mammoth"
-   },
-   {
-    "slug": "sabertooth"
-   },
-   {
-    "slug": "slither"
-   },
-   {
-    "slug": "gold_wyvern"
-   },
-   {
-    "slug": "hunter_spider_matriarch"
-   },
-   {
-    "slug": "dread_spider_matriarch"
-   },
-   {
-    "slug": "spirit_wolf"
-   },
-   {
-    "slug": "unicorn"
-   },
-   {
-    "slug": "pestilence_crocodile"
-   },
-   {
-    "slug": "caustic_worm"
-   },
-   {
-    "slug": "nightmare"
-   },
-   {
-    "slug": "fire_wyvern"
-   },
-   {
-    "slug": "infernal_juggernaut"
-   },
-   {
-    "slug": "inferno_hound"
-   },
-   {
-    "slug": "obsidian_wyvern"
-   },
-   {
-    "slug": "vampire_spider_matriarch"
-   },
-   {
-    "slug": "phoenix"
-   },
-   {
-    "slug": "deep-sea_nimu"
-   },
-   {
-    "slug": "kraken"
-   }
-  ]
+  "icon": "000003E300004AF7"
  },
  {
   "casting_cost": "15<mana></mana> ",
@@ -5009,84 +5076,7 @@
   "description": "<bulletlist><bullet>Choose a Tier I or Tier II Animal unit to add to your army.</bullet><bullet>The available Animals depend on the type of terrain the spell is cast on.</bullet></bulletlist>",
   "name": "Call Wild Animal",
   "operation_point_cost": 60,
-  "icon": "0000041B000002E7",
-  "summoned_units": [
-   {
-    "slug": "ice_spider"
-   },
-   {
-    "slug": "goretusk_piglet"
-   },
-   {
-    "slug": "grimbeak_crow"
-   },
-   {
-    "slug": "polar_bear"
-   },
-   {
-    "slug": "dire_penguin"
-   },
-   {
-    "slug": "carrion_bird"
-   },
-   {
-    "slug": "inferno_puppy"
-   },
-   {
-    "slug": "scrap_hermit"
-   },
-   {
-    "slug": "elephant"
-   },
-   {
-    "slug": "pyremoth"
-   },
-   {
-    "slug": "warg"
-   },
-   {
-    "slug": "hunter_spider"
-   },
-   {
-    "slug": "dread_spider_hatchling"
-   },
-   {
-    "slug": "young_caustic_worm"
-   },
-   {
-    "slug": "brown_bear"
-   },
-   {
-    "slug": "giant_beetle"
-   },
-   {
-    "slug": "death_beetle"
-   },
-   {
-    "slug": "slither_hatchling"
-   },
-   {
-    "slug": "wyvern_fledgling"
-   },
-   {
-    "slug": "razorback"
-   },
-   {
-    "slug": "vampire_spider_hatchling"
-   },
-   {
-    "slug": "crocodile"
-   },
-   {
-    "slug": "ape"
-   },
-   {
-    "slug": "nimu"
-   },
-   {
-    "slug": "kraken_spawn"
-   }
-  ]
+  "icon": "0000041B000002E7"
  },
  {
   "casting_cost": "10<mana></mana> ",
@@ -7260,5 +7250,414 @@
   "name": "Ilandra's Chosen",
   "operation_point_cost": 300,
   "icon": "000003DF000016E0"
+ },
+ {
+  "casting_cost": "45<mana></mana> ",
+  "resid": -931243738355722676,
+  "spellType": "<casttactical></casttactical> <hyperlink>Combat Enchantment</hyperlink>",
+  "id": "shivering_storm",
+  "tactical": true,
+  "description": "All enemies without Frozen immunity have a base 60% chance to be inflicted with Status Vulnerability for 3 <turn></turn> Turns.<br></br>This spell repeats at the start of each turn for the next 3 <turn></turn> Turns.",
+  "name": "Shivering Storm",
+  "operation_point_cost": 30,
+  "icon": "F3138EC10000127F"
+ },
+ {
+  "casting_cost": "150<mana></mana> ",
+  "resid": -931243738355722910,
+  "spellType": "<caststrategic></caststrategic> <hyperlink>World Spell</hyperlink>",
+  "id": "summon_scourge_of_ice_mount",
+  "tactical": false,
+  "description": "Summon a <hyperlink>Scourge of Ice Mount</hyperlink>, a powerful steed for your <hyperlink>Heroes</hyperlink>.",
+  "name": "Summon Scourge of Ice Mount",
+  "operation_point_cost": 150,
+  "icon": "F3138EC100001579"
+ },
+ {
+  "casting_cost": "200<mana></mana> ",
+  "resid": -931243738355723173,
+  "upkeep": "20<mana></mana> ",
+  "spellType": "<caststrategic></caststrategic> <hyperlink>Sustained City Spell</hyperlink>",
+  "id": "domain_of_endless_winter",
+  "tactical": false,
+  "description": "In the domain's Arctic <hyperlink>Provinces</hyperlink>:<bulletlist><bullet>Enemy units take attrition damage from Domain of Endless Winter at the end of each turn on the <hyperlink>World Map</hyperlink>.</bullet><bullet>A Snow Spirit is spawned on the owner's side during <hyperlink>Combat</hyperlink>.</bullet></bulletlist>",
+  "name": "Domain of Endless Winter",
+  "operation_point_cost": 200,
+  "icon": "F3138EC100001399"
+ },
+ {
+  "casting_cost": "120<mana></mana> ",
+  "resid": -931243738355723259,
+  "spellType": "<caststrategic></caststrategic> <hyperlink>Unit Enchantment</hyperlink>",
+  "id": "icy_focus",
+  "tactical": false,
+  "description": "Enchanted units gain:<bulletlist><bullet>Base <hyperlink>Magic</hyperlink> attacks deal +2 <damageFrost></damageFrost> <hyperlink>Frost Damage</hyperlink>.</bullet><bullet>Frozen Fury, increasing the damage of base attacks against Frozen and Slowed units.</bullet><bullet>The Ice Comet ability.</bullet></bulletlist>",
+  "enchantment_requisites": [
+   {
+    "requisite": "<unitBattleMage></unitBattleMage> Battle Mage Unit"
+   }
+  ],
+  "name": "Icy Focus",
+  "operation_point_cost": 120,
+  "icon": "F3138EC100001395"
+ },
+ {
+  "casting_cost": "200<mana></mana> ",
+  "resid": -931243738355723346,
+  "spellType": "<caststrategic></caststrategic> <hyperlink>Terraforming Spell</hyperlink>",
+  "id": "sweeping_winter",
+  "tactical": false,
+  "description": "Target <hyperlink>Province</hyperlink> and adjacent Provinces:<bulletlist><bullet>Enemy <hyperlink>Units</hyperlink> suffer 20 <damageFrost></damageFrost> <hyperlink>Frost Damage</hyperlink>.</bullet><bullet>The provinces gain <hyperlink>Snow</hyperlink> and <hyperlink>Ice</hyperlink>.</bullet><bullet>The provinces lose <hyperlink>River</hyperlink>, <hyperlink>Grassland</hyperlink>, <hyperlink>Swamp</hyperlink>, <hyperlink>Snow</hyperlink>, <hyperlink>Ice</hyperlink>, <hyperlink>Sand</hyperlink>, <hyperlink>Cavern Floor</hyperlink>, <hyperlink>Fungus Fields</hyperlink>, and <hyperlink>Gloom</hyperlink>.</bullet></bulletlist>",
+  "name": "Sweeping Winter",
+  "operation_point_cost": 200,
+  "icon": "F3138EC1000013A1"
+ },
+ {
+  "casting_cost": "300<mana></mana> ",
+  "resid": -931243738355723402,
+  "spellType": "<caststrategic></caststrategic> <hyperlink>Summon Spell</hyperlink>",
+  "id": "summon_ice_queen",
+  "tactical": false,
+  "description": "Summon an Ice Queen, a Mythic Unit that freezes foes.",
+  "name": "Summon Ice Queen",
+  "operation_point_cost": 300,
+  "summoned_units": [
+   {
+    "slug": "ice_queen"
+   }
+  ]
+ },
+ {
+  "casting_cost": "150<mana></mana> ",
+  "resid": -931243738355723405,
+  "spellType": "<casttactical></casttactical> <hyperlink>Combat Enchantment</hyperlink>",
+  "id": "hailstorm",
+  "tactical": true,
+  "description": "Up to 2 random enemy units and enemies adjacent to those:<bulletlist><bullet>Sustain 20 <damageFrost></damageFrost> <hyperlink>Frost Damage</hyperlink>.</bullet><bullet>Are inflicted with Slowed for 1 <turn></turn> Turn.</bullet></bulletlist><br></br>This spell repeats at the start of each turn for the next 5 <turn></turn> Turns.",
+  "name": "Hailstorm",
+  "operation_point_cost": 50,
+  "icon": "F3138EC1000013A5"
+ },
+ {
+  "casting_cost": "30<mana></mana> ",
+  "resid": -931243738355723550,
+  "spellType": "<casttactical></casttactical> <hyperlink>Damage/Debuff Spell</hyperlink>",
+  "id": "frozen_burst",
+  "tactical": true,
+  "description": "Enemy units in a 1-hex radius:<bulletlist><bullet>Sustain 16 <damageFrost></damageFrost> <hyperlink>Frost Damage</hyperlink>.</bullet><bullet>Have a base 90% chance to be inflicted with Slowed for 2 <turn></turn> Turns.</bullet><bullet>Have a base 50% chance to be inflicted with Frozen if already Slowed or Wet.</bullet></bulletlist>",
+  "name": "Frozen Burst",
+  "operation_point_cost": 25,
+  "icon": "F3138EC1000012DF"
+ },
+ {
+  "casting_cost": "80<mana></mana> ",
+  "resid": -931243738355723627,
+  "spellType": "<caststrategic></caststrategic> <hyperlink>Unit Enchantment</hyperlink>",
+  "id": "chilling_presence",
+  "tactical": false,
+  "description": "Grants enchanted units:<bulletlist><bullet>Chilling Presence, which reduces the <resistance></resistance> <hyperlink>Resistance</hyperlink> and <statuseffectresistance></statuseffectresistance> <hyperlink>Status Resistance</hyperlink> of nearby adjacent enemy units.</bullet></bulletlist>",
+  "enchantment_requisites": [
+   {
+    "requisite": "<unitShield></unitShield> Shield Unit"
+   },
+   {
+    "requisite": "<unitPolearm></unitPolearm> Polearm Unit"
+   }
+  ],
+  "name": "Chilling Presence",
+  "operation_point_cost": 80,
+  "icon": "F3138EC100001276"
+ },
+ {
+  "casting_cost": "80<mana></mana> ",
+  "resid": -931243738355723646,
+  "spellType": "<caststrategic></caststrategic> <hyperlink>Unit Enchantment</hyperlink>",
+  "id": "frigid_focus",
+  "tactical": false,
+  "description": "Makes <hyperlink>Magic</hyperlink> attacks of enchanted units:<bulletlist><bullet>Deal +2 <damageFrost></damageFrost> <hyperlink>Frost Damage</hyperlink>.</bullet><bullet>Have a base 60% chance to inflict Status Vulnerability for 3 <turn></turn> Turns.</bullet></bulletlist><br></br>Effects <hyperlink>are increased</hyperlink> for Single Shot attacks.",
+  "enchantment_requisites": [
+   {
+    "requisite": "<unitSupport></unitSupport> Support Unit"
+   },
+   {
+    "requisite": "<unitBattleMage></unitBattleMage> Battle Mage Unit"
+   }
+  ],
+  "name": "Frigid Focus",
+  "operation_point_cost": 80,
+  "icon": "F3138EC100001272"
+ },
+ {
+  "casting_cost": "100<mana></mana> ",
+  "resid": -931243738355723771,
+  "spellType": "<caststrategic></caststrategic> <hyperlink>Sustained World Spell</hyperlink>",
+  "id": "arcfire_typhoon",
+  "tactical": false,
+  "description": "Target non-friendly <hyperlink>Province</hyperlink> that doesn't contain an <hyperlink>Ancient Wonder</hyperlink>:<bulletlist><bullet>Has its <hyperlink>Province Improvement</hyperlink> razed.</bullet><bullet>Enemy units in the province sustain 10 <damageLightning></damageLightning> <hyperlink>Lightning Damage</hyperlink> and 10 <damageFire></damageFire> <hyperlink>Fire Damage</hyperlink>.</bullet><bullet>For 3 <turn></turn> Turns, random hexes are covered in <hyperlink>Arcfire</hyperlink> during combat.</bullet></bulletlist>",
+  "name": "Arcfire Typhoon",
+  "operation_point_cost": 100,
+  "icon": "F3138EC100001156"
+ },
+ {
+  "casting_cost": "80<mana></mana> ",
+  "resid": -931243738355723882,
+  "spellType": "<caststrategic></caststrategic> <hyperlink>Unit Enchantment</hyperlink>",
+  "id": "arcfire_blades",
+  "tactical": false,
+  "description": "Makes base <hyperlink>Melee</hyperlink> attacks of enchanted units:<bulletlist><bullet>Deal +2 <damageLightning></damageLightning> <hyperlink>Lightning Damage</hyperlink>.</bullet><bullet>Deal +2 <damageFire></damageFire> <hyperlink>Fire Damage</hyperlink>.</bullet><bullet>Deal -3 <damagePhysical></damagePhysical> <hyperlink>Physical Damage</hyperlink>.</bullet><bullet>Have a base 30% chance to inflict Electrified and Burning each.</bullet></bulletlist><br></br>Effects <hyperlink>are increased</hyperlink> for Single Shot attacks.",
+  "enchantment_requisites": [
+   {
+    "requisite": "<unitShield></unitShield> Shield Unit"
+   },
+   {
+    "requisite": "<unitPolearm></unitPolearm> Polearm Unit"
+   },
+   {
+    "requisite": "<unitShock></unitShock> Shock Unit"
+   },
+   {
+    "requisite": "<unitFighter></unitFighter> Fighter Unit"
+   },
+   {
+    "requisite": "<unitSkirmisher></unitSkirmisher> Skirmisher Unit"
+   }
+  ],
+  "name": "Arcfire Blades",
+  "operation_point_cost": 80,
+  "icon": "F3138EC10000114E"
+ },
+ {
+  "casting_cost": "80<mana></mana> ",
+  "resid": -931243738355723895,
+  "spellType": "<caststrategic></caststrategic> <hyperlink>Unit Enchantment</hyperlink>",
+  "id": "flamesurge_focus",
+  "tactical": false,
+  "description": "Makes base <hyperlink>Magic</hyperlink> attacks of enchanted units:<bulletlist><bullet>Deal +1 <damageLightning></damageLightning> <hyperlink>Lightning Damage</hyperlink>.</bullet><bullet>Deal +1 <damageFire></damageFire> <hyperlink>Fire Damage</hyperlink>.</bullet><bullet>Have a 30% chance to deal 7<damageLightning></damageLightning> 7<damageFire></damageFire> against targets that are both Electrified and Burning.</bullet></bulletlist><br></br>Effects <hyperlink>are increased</hyperlink> for Single Shot attacks.",
+  "enchantment_requisites": [
+   {
+    "requisite": "<unitSupport></unitSupport> Support Unit"
+   },
+   {
+    "requisite": "<unitBattleMage></unitBattleMage> Battle Mage Unit"
+   }
+  ],
+  "name": "Flamesurge Focus",
+  "operation_point_cost": 80,
+  "icon": "F3138EC100001149"
+ },
+ {
+  "casting_cost": "30<mana></mana> ",
+  "resid": -931243738355723898,
+  "spellType": "<casttactical></casttactical> <hyperlink>Damage/Debuff Spell</hyperlink>",
+  "id": "blazing_chain_lightning",
+  "tactical": true,
+  "description": "Target enemy unit and up to 2 other enemy units within 3 hexes:<bulletlist><bullet>Sustain 7 <damageLightning></damageLightning> <hyperlink>Lightning Damage</hyperlink> and 7 <damageFire></damageFire> <hyperlink>Fire Damage</hyperlink>.</bullet><bullet>Gain 2 Electrified for 3 <turn></turn> Turns.</bullet><bullet>Gain 2 Burning for 3 <turn></turn> Turns.</bullet></bulletlist>",
+  "name": "Blazing Chain Lightning",
+  "operation_point_cost": 25,
+  "icon": "F3138EC10000115C"
+ },
+ {
+  "casting_cost": "100<mana></mana> ",
+  "resid": -8929519174850438378,
+  "spellType": "<casttactical></casttactical> <hyperlink>Combat Enchantment</hyperlink>",
+  "id": "nightfall",
+  "tactical": true,
+  "description": "All enemy units that are not adjacent to another enemy unit:<bulletlist><bullet>Have base 90% chance of becoming Distracted.</bullet><bullet>Sustain 10 <damageFrost></damageFrost> <hyperlink>Frost Damage</hyperlink>.</bullet></bulletlist>\nThis spell repeats at the start of each turn for the next 3 <turn></turn> <hyperlink>Turns</hyperlink>.",
+  "name": "Nightfall",
+  "operation_point_cost": 40,
+  "icon": "8413F99F0000094F"
+ },
+ {
+  "casting_cost": "45<mana></mana> ",
+  "resid": -8929519174850438513,
+  "spellType": "<casttactical></casttactical> <hyperlink>Debuff Spell</hyperlink>",
+  "id": "torment_of_shadows",
+  "tactical": true,
+  "description": "Enemy units in a 1-hex radius:<bulletlist><bullet>Are displaced up to 2 hexes.</bullet><bullet>Have chance to be inflicted with Insanity for 1 <turn></turn> <hyperlink>Turn</hyperlink>. This chance increases the lower the unit's <happiness></happiness> <hyperlink>Morale</hyperlink> is. If resisted, inflicts Remorse for 3 <turn></turn> <hyperlink>Turns</hyperlink>.</bullet>",
+  "name": "Torment of Shadows",
+  "operation_point_cost": 30,
+  "icon": "8413F99F00000945"
+ },
+ {
+  "casting_cost": "60<mana></mana> ",
+  "resid": -8929519174850438526,
+  "spellType": "<caststrategic></caststrategic> <hyperlink>Friendly Army Spell</hyperlink>",
+  "id": "veil_of_darkness",
+  "tactical": false,
+  "description": "Target that is leading an army gains Universal Camouflage for its entire army for 3 <turn></turn> <hyperlink>Turns</hyperlink>.",
+  "name": "Veil of Darkness",
+  "operation_point_cost": 60,
+  "icon": "8413F99F0000094D"
+ },
+ {
+  "casting_cost": "80<mana></mana> ",
+  "resid": -8929519174850438608,
+  "spellType": "<caststrategic></caststrategic> <hyperlink>Unit Enchantment</hyperlink>",
+  "id": "wicked_weapons",
+  "tactical": false,
+  "description": "Makes base <hyperlink>Melee</hyperlink> and <hyperlink>Physical Ranged</hyperlink> attacks of enchanted units gain:<bulletlist><bullet>+1 <damagePhysical></damagePhysical> <hyperlink>Physical Damage</hyperlink>.</bullet><bullet>+10% damage with <hyperlink><flank></flank> Flanking</hyperlink> attacks.</bullet></bulletlist>\nEffects <hyperlink>are increased</hyperlink> for Single Shot attacks.",
+  "enchantment_requisites": [
+   {
+    "requisite": "<unitShield></unitShield> Shield Unit"
+   },
+   {
+    "requisite": "<unitPolearm></unitPolearm> Polearm Unit"
+   },
+   {
+    "requisite": "<unitShock></unitShock> Shock Unit"
+   },
+   {
+    "requisite": "<unitFighter></unitFighter> Fighter Unit"
+   },
+   {
+    "requisite": "<unitSkirmisher></unitSkirmisher> Skirmisher Unit"
+   }
+  ],
+  "name": "Wicked Weapons",
+  "operation_point_cost": 80,
+  "icon": "8413F99F00000B11"
+ },
+ {
+  "casting_cost": "30<mana></mana> ",
+  "resid": -8929519174850438673,
+  "spellType": "<casttactical></casttactical> <hyperlink>Combat Summon Spell</hyperlink>",
+  "id": "reveal_infiltrator",
+  "tactical": true,
+  "description": "Reveal a hidden <hyperlink>Cutthroat</hyperlink> unit under your control in an unoccupied hex adjacent to an enemy unit.\nThis summon lasts for 3 <turn></turn> <hyperlink>Turns</hyperlink>.\nCannot be used on a unit more than once per battle.\nCannot be used in water battles.",
+  "name": "Reveal Infiltrator",
+  "operation_point_cost": 25,
+  "icon": "8413F99F000003E5",
+  "summoned_units": [
+   {
+    "slug": "cutthroat"
+   }
+  ]
+ },
+ {
+  "casting_cost": "15<mana></mana> ",
+  "resid": -8929519174850438677,
+  "spellType": "<casttactical></casttactical> <hyperlink>Debuff Spell</hyperlink>",
+  "id": "wave_of_panic",
+  "tactical": true,
+  "description": "Target enemy unit and one other unit within 2 hexes:<bulletlist><bullet>Turn 180 degrees.</bullet><bullet>Have their <hyperlink>Defense Mode</hyperlink> cancelled.</bullet><bullet>Have their <hyperlink>Retaliation Attack</hyperlink> removed.</bullet>",
+  "name": "Wave of Panic",
+  "operation_point_cost": 20,
+  "icon": "8413F99F00000AF7"
+ },
+ {
+  "casting_cost": "60<mana></mana> ",
+  "resid": -8929519174850438681,
+  "spellType": "<caststrategic></caststrategic> <hyperlink>Summon Spell</hyperlink>",
+  "id": "summon_lesser_shadow_stalker",
+  "tactical": false,
+  "description": "Summons a <hyperlink>Lesser Shadow Stalker</hyperlink>, a Shock Unit adept at evading damage and preying on isolated units.",
+  "name": "Summon Lesser Shadow Stalker",
+  "operation_point_cost": 60,
+  "summoned_units": [
+   {
+    "slug": "lesser_shadow_stalker"
+   }
+  ]
+ },
+ {
+  "casting_cost": "20<mana></mana> ",
+  "resid": -8929519174850438684,
+  "spellType": "<casttactical></casttactical> <hyperlink>Debuff Spell</hyperlink>",
+  "id": "probe_weakness",
+  "tactical": true,
+  "description": "All enemy units of the same kind as target unit suffer:<bulletlist><bullet>2 Sundered Defense.</bullet><bullet>2 Sundered Resistance.</bullet><bullet>2 Weakened.</bullet>",
+  "name": "Probe Weakness",
+  "operation_point_cost": 25,
+  "icon": "8413F99F000003FB"
+ },
+ {
+  "casting_cost": "150<mana></mana> ",
+  "resid": -8929519174850438688,
+  "spellType": "<caststrategic></caststrategic> <hyperlink>Summon Spell</hyperlink>",
+  "id": "summon_succubus",
+  "tactical": false,
+  "description": "Summons a <hyperlink>Succubus</hyperlink>, a Support Unit that can seduce other units and siphon their strength. ",
+  "name": "Summon Succubus",
+  "operation_point_cost": 150,
+  "summoned_units": [
+   {
+    "slug": "succubus"
+   }
+  ]
+ },
+ {
+  "casting_cost": "80<mana></mana> ",
+  "resid": -8929519174850439693,
+  "upkeep": "8<mana></mana> ",
+  "spellType": "<caststrategic></caststrategic> <hyperlink>Sustained City Spell</hyperlink>",
+  "id": "crime_ring",
+  "tactical": false,
+  "description": "Target owned city gains:<bulletlist><bullet>-15 <happiness></happiness> <hyperlink>City Stability</hyperlink>.</bullet><bullet>+7 <gold></gold> <hyperlink>Gold</hyperlink> for each <hyperlink>Alignment</hyperlink> level below Neutral.</bullet></bulletlist>",
+  "name": "Crime Ring",
+  "operation_point_cost": 80,
+  "icon": "8413F99F000003F9"
+ },
+ {
+  "casting_cost": "30<mana></mana> ",
+  "resid": -8929519174850439849,
+  "spellType": "<caststrategic></caststrategic> <hyperlink>Enemy Army Spell</hyperlink>",
+  "id": "infiltrate_army",
+  "tactical": false,
+  "description": "All units in target enemy army become Infiltrated, providing you with vision for 5 <turn></turn> <hyperlink>Turns</hyperlink>.",
+  "name": "Infiltrate Army",
+  "operation_point_cost": 30,
+  "icon": "8413F99F00000B03"
+ },
+ {
+  "casting_cost": "120<mana></mana> ",
+  "resid": -8929519174850442208,
+  "spellType": "<caststrategic></caststrategic> <hyperlink>Unit Enchantment</hyperlink>",
+  "id": "stygian_magic",
+  "tactical": false,
+  "description": "Makes <hyperlink>Physical Ranged</hyperlink> and <hyperlink>Magic</hyperlink> attacks of enchanted units gain:<bulletlist><bullet>Deal +3 <damageFrost></damageFrost> <hyperlink>Frost Damage</hyperlink>, -1 <damageFrost></damageFrost> <hyperlink>Frost Damage</hyperlink> for each enemy adjacent to the target.</bullet><bullet>Gain base 60% chance of inflicting Blind, reducing enemy <hyperlink><accuracy></accuracy> Accuracy</hyperlink> and disabling <hyperlink>Retaliation Attacks</hyperlink>.</bullet></bulletlist>\nEffects <hyperlink>are increased</hyperlink> for Single Shot attacks.",
+  "enchantment_requisites": [
+   {
+    "requisite": "<unitRanged></unitRanged> Ranged Unit"
+   },
+   {
+    "requisite": "<unitSupport></unitSupport> Support Unit"
+   },
+   {
+    "requisite": "<unitBattleMage></unitBattleMage> Battle Mage Unit"
+   },
+   {
+    "requisite": "<unitSkirmisher></unitSkirmisher> Skirmisher Unit"
+   }
+  ],
+  "name": "Stygian Magic",
+  "operation_point_cost": 120,
+  "icon": "8413F99F00000950"
+ },
+ {
+  "casting_cost": "150<mana></mana> ",
+  "resid": -8929519174850442476,
+  "spellType": "<caststrategic></caststrategic> <hyperlink>Summon Spell</hyperlink>",
+  "id": "summon_shadow_stalker",
+  "tactical": false,
+  "description": "Summons a <hyperlink>Shadow Stalker</hyperlink>, a Shock Unit adept at evading damage and preying on isolated units.",
+  "name": "Summon Shadow Stalker",
+  "operation_point_cost": 150,
+  "icon": "8413F99F0000094E",
+  "summoned_units": [
+   {
+    "slug": "shadow_stalker"
+   }
+  ]
+ },
+ {
+  "casting_cost": "250<mana></mana> ",
+  "resid": -8929519174850443743,
+  "spellType": "<caststrategic></caststrategic> <hyperlink>Minor Race Transformation</hyperlink>",
+  "id": "avarice",
+  "tactical": false,
+  "description": "Corrupts the target race with compulsive greed, granting them:<bulletlist><bullet>+15% <hyperlink><crit></crit>Critical Hit Chance</hyperlink>.</bullet><bullet>The Loot Corpse ability, which destroys corpses to gain Fortune in battle.</bullet>",
+  "name": "Avarice",
+  "operation_point_cost": 250,
+  "icon": "8413F99F000003F8"
  }
 ]

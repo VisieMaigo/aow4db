@@ -557,7 +557,7 @@ function SetSkillData(nodeElement, skill, rulerSubType, choice) {
         } else {
             img.setAttribute("height", "100px");
         }
-    } else if ("abilities" in skill) {
+    } else if ("abilities" in skill && skillLoc.abilities !== undefined) {
         var skill3 = ReturnSkillItself(skillLoc.abilities[0].slug, rulerSubType);
 
         if ("range" in skill3) {

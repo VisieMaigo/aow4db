@@ -5140,5 +5140,307 @@
     "upgrade_slug": "_mine___great_foundry"
    }
   ]
+ },
+ {
+  "affinities": "2 <empireshadow></empireshadow> Empire Shadow Affinity",
+  "lore_description": "\\\"The time has come to welcome the endless winter. Spread its cold embrace across the realm and claim all in its path. No fire shall burn, no warmth shall rise; only frost shall endure. The frozen shall stand as silent, lifeless monuments to winter's eternal dominion.\\\"",
+  "gameplay_description": "Bring forth the endless winter and bind your enemies to a Frozen demise.",
+  "resid": -931243738355723398,
+  "id": "tome_of_endless_winter",
+  "lore_author": "Artica the Cold, Queen of the Frostlings",
+  "name": "Tome of Endless Winter",
+  "tier": 4,
+  "icon": "F3138EC10000137C",
+  "skills": [
+   {
+    "description": "Up to random enemy units and enemies adjacent to those:<bulletlist><bullet>Sustain <damageFrost></damageFrost> <hyperlink>Frost Damage</hyperlink>.</bullet><bullet>Are inflicted with Slowed for <turn></turn> Turns.</bullet></bulletlist><br></br>This spell repeats at the start of each turn for the next <turn></turn> Turns.",
+    "name": "Hailstorm",
+    "spell_slug": "hailstorm",
+    "tier": 8,
+    "type": "<casttactical></casttactical> <hyperlink>Combat Enchantment</hyperlink>"
+   },
+   {
+    "description": "Target <hyperlink>Province</hyperlink> and adjacent Provinces:<bulletlist><bullet>Enemy <hyperlink>Units</hyperlink> suffer 20 <damageFrost></damageFrost> <hyperlink>Frost Damage</hyperlink>.</bullet><bullet>The provinces gain <hyperlink>Snow</hyperlink> and <hyperlink>Ice</hyperlink>.</bullet><bullet>The provinces lose <hyperlink>River</hyperlink>, <hyperlink>Grassland</hyperlink>, <hyperlink>Swamp</hyperlink>, <hyperlink>Snow</hyperlink>, <hyperlink>Ice</hyperlink>, <hyperlink>Sand</hyperlink>, <hyperlink>Cavern Floor</hyperlink>, <hyperlink>Fungus Fields</hyperlink>, and <hyperlink>Gloom</hyperlink>.</bullet></bulletlist>",
+    "name": "Sweeping Winter",
+    "spell_slug": "sweeping_winter",
+    "tier": 8,
+    "type": "<caststrategic></caststrategic> <hyperlink>Terraforming Spell</hyperlink>"
+   },
+   {
+    "description": "Summon an Ice Queen, a Mythic Unit that freezes foes.",
+    "name": "Summon Ice Queen",
+    "spell_slug": "summon_ice_queen",
+    "tier": 8,
+    "type": "<caststrategic></caststrategic> <hyperlink>Summon Spell</hyperlink>"
+   },
+   {
+    "description": "In the domain's Arctic <hyperlink>Provinces</hyperlink>:<bulletlist><bullet>Enemy units take attrition damage from Domain of Endless Winter at the end of each turn on the <hyperlink>World Map</hyperlink>.</bullet><bullet>A Snow Spirit is spawned on the owner's side during <hyperlink>Combat</hyperlink>.</bullet></bulletlist>",
+    "name": "Domain of Endless Winter",
+    "spell_slug": "domain_of_endless_winter",
+    "tier": 8,
+    "type": "<caststrategic></caststrategic> <hyperlink>Sustained City Spell</hyperlink>"
+   },
+   {
+    "description": "Enchanted units gain:<bulletlist><bullet>Base <hyperlink>Magic</hyperlink> attacks deal + <damageFrost></damageFrost> <hyperlink>Frost Damage</hyperlink>.</bullet><bullet>Frozen Fury, increasing the damage of base attacks against Frozen and Slowed units.</bullet><bullet>The Ice Comet ability.</bullet></bulletlist>",
+    "name": "Icy Focus",
+    "spell_slug": "icy_focus",
+    "tier": 7,
+    "type": "<caststrategic></caststrategic> <hyperlink>Unit Enchantment</hyperlink>"
+   }
+  ],
+  "initial_upgrades": [
+   {
+    "upgrade_slug": "_researchpost___ice_palace"
+   }
+  ]
+ },
+ {
+  "affinities": "2 <empireshadow></empireshadow> Empire Shadow Affinity",
+  "lore_description": "\\\"It is not the sudden chill that ends life, but the slow demise from a creeping cold. Each moment draws the frost deeper, claiming breath and movement until resistance fades. The cold is patient, waiting until resolve shatters like ice.\\\"",
+  "gameplay_description": "Overwhelm your enemies with Status Vulnerability and succumb them to the creeping cold.",
+  "resid": -931243738355723672,
+  "id": "tome_of_the_looming_frost",
+  "lore_author": "Arvik the Dark",
+  "name": "Tome of the Looming Frost",
+  "tier": 2,
+  "icon": "F3138EC10000126A",
+  "skills": [
+   {
+    "description": "Enemy units in a -hex radius:<bulletlist><bullet>Sustain <damageFrost></damageFrost> <hyperlink>Frost Damage</hyperlink>.</bullet><bullet>Have a base % chance to be inflicted with Slowed for <turn></turn> Turns.</bullet><bullet>Have a base % chance to be inflicted with Frozen if already Slowed or Wet.</bullet></bulletlist>",
+    "name": "Frozen Burst",
+    "spell_slug": "frozen_burst",
+    "tier": 5,
+    "type": "<casttactical></casttactical> <hyperlink>Damage/Debuff Spell</hyperlink>"
+   },
+   {
+    "description": "All enemies without Frozen immunity have a base % chance to be inflicted with Status Vulnerability for <turn></turn> Turns.<br></br>This spell repeats at the start of each turn for the next <turn></turn> Turns.",
+    "name": "Shivering Storm",
+    "spell_slug": "shivering_storm",
+    "tier": 4,
+    "type": "<casttactical></casttactical> <hyperlink>Combat Enchantment</hyperlink>"
+   },
+   {
+    "description": "A Shield Unit that wears down enemies with cold attrition.",
+    "name": "Frost Guardian",
+    "tier": 3,
+    "unit_slug": "frost_guardian",
+    "type": "<hyperlink>Unit</hyperlink>"
+   },
+   {
+    "description": "Grants enchanted units:<bulletlist><bullet>Chilling Presence, which reduces the <resistance></resistance> <hyperlink>Resistance</hyperlink> and <statuseffectresistance></statuseffectresistance> <hyperlink>Status Resistance</hyperlink> of nearby adjacent enemy units.</bullet></bulletlist>",
+    "name": "Chilling Presence",
+    "spell_slug": "chilling_presence",
+    "tier": 4,
+    "type": "<caststrategic></caststrategic> <hyperlink>Unit Enchantment</hyperlink>"
+   },
+   {
+    "description": "Makes <hyperlink>Magic</hyperlink> attacks of enchanted units:<bulletlist><bullet>Deal + <damageFrost></damageFrost> <hyperlink>Frost Damage</hyperlink>.</bullet><bullet>Have a base 60% chance to inflict Status Vulnerability for <turn></turn> Turns.</bullet></bulletlist><br></br>Effects <hyperlink>are increased</hyperlink> for Single Shot attacks.",
+    "name": "Frigid Focus",
+    "spell_slug": "frigid_focus",
+    "tier": 4,
+    "type": "<caststrategic></caststrategic> <hyperlink>Unit Enchantment</hyperlink>"
+   }
+  ]
+ },
+ {
+  "affinities": "1 <empirechaos></empirechaos> Empire Chaos Affinity, 1 <empirearcana></empirearcana> Empire Astral Affinity",
+  "lore_description": "“Command the flames of destruction and the thunderous fury of the storm. Let your enemies burn and crackle in agony, as the power of heat and shock tear through their feeble defenses. Unleash elemental wrath, and witness the devastation of arcfire.”",
+  "gameplay_description": "Specialize in <damageLightning></damageLightning> <hyperlink>Lightning Damage</hyperlink> and <damageFire></damageFire> <hyperlink>Fire Damage</hyperlink>. Combine the elements to inflict Electrified and Burning on your foes.",
+  "resid": -931243738355723963,
+  "id": "tome_of_arcfire",
+  "lore_author": "Ambir, Brood Queen of the Draconians",
+  "name": "Tome of Arcfire",
+  "tier": 2,
+  "icon": "F3138EC100001147",
+  "skills": [
+   {
+    "description": "Target enemy unit and up to other enemy units within hexes:<bulletlist><bullet>Sustain <damageLightning></damageLightning> <hyperlink>Lightning Damage</hyperlink> and <damageFire></damageFire> <hyperlink>Fire Damage</hyperlink>.</bullet><bullet>Gain 2 Electrified for <turn></turn> Turns.</bullet><bullet>Gain 2 Burning for <turn></turn> Turns.</bullet></bulletlist>",
+    "name": "Blazing Chain Lightning",
+    "spell_slug": "blazing_chain_lightning",
+    "tier": 3,
+    "type": "<casttactical></casttactical> <hyperlink>Damage/Debuff Spell</hyperlink>"
+   },
+   {
+    "description": "Target non-friendly <hyperlink>Province</hyperlink> that doesn't contain an <hyperlink>Ancient Wonder</hyperlink>:<bulletlist><bullet>Has its <hyperlink>Province Improvement</hyperlink> razed.</bullet><bullet>Enemy units in the province sustain 10 <damageLightning></damageLightning> <hyperlink>Lightning Damage</hyperlink> and 10 <damageFire></damageFire> <hyperlink>Fire Damage</hyperlink>.</bullet><bullet>For <turn></turn> Turns, random hexes are covered in <hyperlink>Arcfire</hyperlink> during combat.</bullet></bulletlist>",
+    "name": "Arcfire Typhoon",
+    "spell_slug": "arcfire_typhoon",
+    "tier": 3,
+    "type": "<casttactical></casttactical> <hyperlink>Damage Spell</hyperlink>"
+   },
+   {
+    "description": "A Battle Mage Unit that spreads Electrified and Burning.",
+    "name": "Arcfire Sorceress",
+    "tier": 3,
+    "unit_slug": "arcfire_sorceress",
+    "type": "<hyperlink>Unit</hyperlink>"
+   },
+   {
+    "description": "Makes base <hyperlink>Melee</hyperlink> attacks of enchanted units:<bulletlist><bullet>Deal + <damageLightning></damageLightning> <hyperlink>Lightning Damage</hyperlink>.</bullet><bullet>Deal + <damageFire></damageFire> <hyperlink>Fire Damage</hyperlink>.</bullet><bullet>Deal <damagePhysical></damagePhysical> <hyperlink>Physical Damage</hyperlink>.</bullet><bullet>Have a base 30% chance to inflict Electrified and Burning each.</bullet></bulletlist><br></br>Effects <hyperlink>are increased</hyperlink> for Single Shot attacks.",
+    "name": "Arcfire Blades",
+    "spell_slug": "arcfire_blades",
+    "tier": 4,
+    "type": "<caststrategic></caststrategic> <hyperlink>Unit Enchantment</hyperlink>"
+   },
+   {
+    "description": "Makes base <hyperlink>Magic</hyperlink> attacks of enchanted units:<bulletlist><bullet>Deal + <damageLightning></damageLightning> <hyperlink>Lightning Damage</hyperlink>.</bullet><bullet>Deal + <damageFire></damageFire> <hyperlink>Fire Damage</hyperlink>.</bullet><bullet>Have a % chance to deal <damageLightning></damageLightning> <damageFire></damageFire> against targets that are both Electrified and Burning.</bullet></bulletlist><br></br>Effects <hyperlink>are increased</hyperlink> for Single Shot attacks.",
+    "name": "Flamesurge Focus",
+    "spell_slug": "flamesurge_focus",
+    "tier": 4,
+    "type": "<caststrategic></caststrategic> <hyperlink>Unit Enchantment</hyperlink>"
+   }
+  ]
+ },
+ {
+  "affinities": "1 <empireshadow></empireshadow> Empire Shadow Affinity, 1 <empirechaos></empirechaos> Empire Chaos Affinity",
+  "lore_description": "\\\"Spycraft is the shadowed art of power, the quiet hand that tips the balance before anyone even realizes the scale has shifted. Information is more than a weapon; it is the very fabric of control. And like any fabric, it can unravel at the slightest tug.  There are times when a mere whisper in the dark can shape the fortunes of empires.”",
+  "gameplay_description": "Employ infiltrators to sabotage and spy on your enemies. Specialize in underhanded <hyperlink><flank></flank> Flanking</hyperlink> attacks.",
+  "resid": -8929519174850442600,
+  "id": "tome_of_whispers",
+  "lore_author": "Sundren of House Inioch",
+  "name": "Tome of Whispers",
+  "tier": 1,
+  "icon": "8413F99F00000A9A",
+  "skills": [
+   {
+    "description": "Makes base <hyperlink>Melee</hyperlink> and <hyperlink>Physical Ranged</hyperlink> attacks of enchanted units gain:<bulletlist><bullet>+ <damagePhysical></damagePhysical> <hyperlink>Physical Damage</hyperlink>.</bullet><bullet>+% damage with <hyperlink><flank></flank> Flanking</hyperlink> attacks.</bullet></bulletlist>\nEffects <hyperlink>are increased</hyperlink> for Single Shot attacks.",
+    "name": "Wicked Weapons",
+    "spell_slug": "wicked_weapons",
+    "tier": 2,
+    "type": "<caststrategic></caststrategic> <hyperlink>Unit Enchantment</hyperlink>"
+   },
+   {
+    "description": "All units in target enemy army become Infiltrated, providing you with vision for 5 <turn></turn> <hyperlink>Turns</hyperlink>.",
+    "name": "Infiltrate Army",
+    "spell_slug": "infiltrate_army",
+    "tier": 1,
+    "type": "<caststrategic></caststrategic> <hyperlink>Enemy Army Spell</hyperlink>"
+   },
+   {
+    "description": "After 2 <turn></turn> <hyperlink>Turns</hyperlink> of combat:<bulletlist><bullet>Enemy units suffer 2 random Negative Status Effects.</bullet><bullet>2 hidden <hyperlink>Cutthroat</hyperlink> units will be revealed next to a random enemy unit.</bullet>",
+    "name": "Infiltrate Defenders",
+    "tier": 2,
+    "type": "<hyperlink>Siege Project</hyperlink>"
+   },
+   {
+    "description": "Target enemy unit and one other unit within 2 hexes:<bulletlist><bullet>Turn 180 degrees.</bullet><bullet>Have their <hyperlink>Defense Mode</hyperlink> cancelled.</bullet><bullet>Have their <hyperlink>Retaliation Attack</hyperlink> removed.</bullet>",
+    "name": "Wave of Panic",
+    "spell_slug": "wave_of_panic",
+    "tier": 1,
+    "type": "<casttactical></casttactical> <hyperlink>Debuff Spell</hyperlink>"
+   },
+   {
+    "description": "Summons a <hyperlink>Lesser Shadow Stalker</hyperlink>, a Shock Unit adept at evading damage and preying on isolated units.",
+    "name": "Summon Lesser Shadow Stalker",
+    "spell_slug": "summon_lesser_shadow_stalker",
+    "tier": 2,
+    "type": "<caststrategic></caststrategic> <hyperlink>Summon Spell</hyperlink>"
+   }
+  ],
+  "initial_upgrades": [
+   {
+    "upgrade_slug": "_mine___black_market"
+   }
+  ]
+ },
+ {
+  "affinities": "2 <empireshadow></empireshadow> Empire Shadow Affinity",
+  "lore_description": "“Fear takes root in the depths of darkness, where shadows conceal the unknown. Our most primal dread awaits lurking just beyond the veil of perception. Out of all the inscrutable horrors that haunt the astral void, the greatest monsters are the ones we create in our own minds.”",
+  "gameplay_description": "Wield darkness to conceal your forces and torment your foes. Specialize in preying on isolated enemies.",
+  "resid": -8929519174850442973,
+  "id": "tome_of_darkness",
+  "lore_author": "Meandor, Shadow Lord of the Dark Elves",
+  "name": "Tome of Darkness",
+  "tier": 3,
+  "icon": "8413F99F00000925",
+  "skills": [
+   {
+    "description": "Enemy units in a 1-hex radius:<bulletlist><bullet>Are displaced up to hexes.</bullet><bullet>Have chance to be inflicted with Insanity for 1 <turn></turn> <hyperlink>Turn</hyperlink>. This chance increases the lower the unit's <happiness></happiness> <hyperlink>Morale</hyperlink> is. If resisted, inflicts Remorse for 3 <turn></turn> <hyperlink>Turns</hyperlink>.</bullet>",
+    "name": "Torment of Shadows",
+    "spell_slug": "torment_of_shadows",
+    "tier": 5,
+    "type": "<casttactical></casttactical> <hyperlink>Debuff Spell</hyperlink>"
+   },
+   {
+    "description": "Makes <hyperlink>Physical Ranged</hyperlink> and <hyperlink>Magic</hyperlink> attacks of enchanted units gain:<bulletlist><bullet>Deal + <damageFrost></damageFrost> <hyperlink>Frost Damage</hyperlink>, <damageFrost></damageFrost> <hyperlink>Frost Damage</hyperlink> for each enemy adjacent to the target.</bullet><bullet>Gain base % chance of inflicting Blind, reducing enemy <hyperlink><accuracy></accuracy> Accuracy</hyperlink> and disabling <hyperlink>Retaliation Attacks</hyperlink>.</bullet></bulletlist>\nEffects <hyperlink>are increased</hyperlink> for Single Shot attacks.",
+    "name": "Stygian Magic",
+    "spell_slug": "stygian_magic",
+    "tier": 6,
+    "type": "<caststrategic></caststrategic> <hyperlink>Unit Enchantment</hyperlink>"
+   },
+   {
+    "description": "All enemy units that are not adjacent to another enemy unit:<bulletlist><bullet>Have base % chance of becoming Distracted.</bullet><bullet>Sustain <damageFrost></damageFrost> <hyperlink>Frost Damage</hyperlink>.</bullet></bulletlist>\nThis spell repeats at the start of each turn for the next 3 <turn></turn> <hyperlink>Turns</hyperlink>.",
+    "name": "Nightfall",
+    "spell_slug": "nightfall",
+    "tier": 6,
+    "type": "<casttactical></casttactical> <hyperlink>Combat Enchantment</hyperlink>"
+   },
+   {
+    "description": "Summons a <hyperlink>Shadow Stalker</hyperlink>, a Shock Unit adept at evading damage and preying on isolated units.",
+    "name": "Summon Shadow Stalker",
+    "spell_slug": "summon_shadow_stalker",
+    "tier": 5,
+    "type": "<caststrategic></caststrategic> <hyperlink>Summon Spell</hyperlink>"
+   },
+   {
+    "description": "Target that is leading an army gains Universal Camouflage for its entire army for 3 <turn></turn> <hyperlink>Turns</hyperlink>.",
+    "name": "Veil of Darkness",
+    "spell_slug": "veil_of_darkness",
+    "tier": 5,
+    "type": "<caststrategic></caststrategic> <hyperlink>Friendly Army Spell</hyperlink>"
+   }
+  ],
+  "initial_upgrades": [
+   {
+    "upgrade_slug": "_conduit___shrouded_altar"
+   }
+  ]
+ },
+ {
+  "affinities": "1 <empireshadow></empireshadow> Empire Shadow Affinity, 1 <empirechaos></empirechaos> Empire Chaos Affinity",
+  "lore_description": "\\\"Desire is the one true universal. Be it a base villain or a paragon of virtue all people want something. Peace. Power. Hope. Renown. The true master doesn’t force people to act, they invite them to fulfill their deepest wants. If you know their innermost desires their very souls are yours for the taking.\\\"",
+  "gameplay_description": "Embrace crime and depravity to exploit your people and subvert your enemies with sinful temptation.",
+  "resid": -8929519174850444324,
+  "id": "tome_of_vice",
+  "lore_author": "Cinren Toliath, Sublime Seducer of the Ashborn Hedonists",
+  "name": "Tome of Vice",
+  "tier": 2,
+  "icon": "8413F99F000003DE",
+  "skills": [
+   {
+    "description": "All enemy units of the same kind as target unit suffer:<bulletlist><bullet>2 Sundered Defense.</bullet><bullet>2 Sundered Resistance.</bullet><bullet>2 Weakened.</bullet>",
+    "name": "Probe Weakness",
+    "spell_slug": "probe_weakness",
+    "tier": 3,
+    "type": "<casttactical></casttactical> <hyperlink>Debuff Spell</hyperlink>"
+   },
+   {
+    "description": "Target owned city gains:<bulletlist><bullet>-15 <happiness></happiness> <hyperlink>City Stability</hyperlink>.</bullet><bullet>+7 <gold></gold> <hyperlink>Gold</hyperlink> for each <hyperlink>Alignment</hyperlink> level below Neutral.</bullet></bulletlist>",
+    "name": "Crime Ring",
+    "spell_slug": "crime_ring",
+    "tier": 3,
+    "type": "<caststrategic></caststrategic> <hyperlink>Sustained City Spell</hyperlink>"
+   },
+   {
+    "description": "Corrupts the target race with compulsive greed, granting them:<bulletlist><bullet>+% <hyperlink><crit></crit>Critical Hit Chance</hyperlink>.</bullet><bullet>The Loot Corpse ability, which destroys corpses to gain Fortune in battle.</bullet>",
+    "name": "Avarice",
+    "spell_slug": "avarice",
+    "tier": 4,
+    "type": "<caststrategic></caststrategic> <hyperlink>Minor Race Transformation</hyperlink>"
+   },
+   {
+    "description": "Reveal a hidden <hyperlink>Cutthroat</hyperlink> unit under your control in an unoccupied hex adjacent to an enemy unit.\nThis summon lasts for 3 <turn></turn> <hyperlink>Turns</hyperlink>.\nCannot be used on a unit more than once per battle.\nCannot be used in water battles.",
+    "name": "Reveal Infiltrator",
+    "spell_slug": "reveal_infiltrator",
+    "tier": 3,
+    "type": "<casttactical></casttactical> <hyperlink>Combat Summon Spell</hyperlink>"
+   },
+   {
+    "description": "Summons a <hyperlink>Succubus</hyperlink>, a Support Unit that can seduce other units and siphon their strength. ",
+    "name": "Summon Succubus",
+    "spell_slug": "summon_succubus",
+    "tier": 4,
+    "type": "<caststrategic></caststrategic> <hyperlink>Summon Spell</hyperlink>"
+   }
+  ]
  }
 ]

@@ -19,9 +19,9 @@
         <script src="/aow4db/Data/Hero.js"></script>
 
         <script>
-            var dragonDisableList = ["Ranger"];
-            var giantDisableList = ["Ranger"];
-            var eldritchDisableList = ["Warrior", "Defender", "Spellblade", "DeathKnight", "Ranger"];
+            var dragonDisableList = ["Ranger", "Assassin"];
+            var giantDisableList = ["Ranger", "Assassin"];
+            var eldritchDisableList = ["Warrior", "Defender", "Spellblade", "DeathKnight", "Ranger", "Assassin"];
             $("#body").ready(function () {
                 $("#header").load("/aow4db/HTML/header.html", function () {
                     CheckData();
@@ -164,6 +164,7 @@
                   //  shareSection
                     classesList = [
                         "Warrior",
+                        "Assassin",
                         "Defender",
                         "Ranger",
                         "Elementalist",

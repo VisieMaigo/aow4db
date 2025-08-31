@@ -309,5 +309,15 @@
   "siege_health_damage": 3,
   "needs_research_to_unlock": true,
   "icon": "000003DF000017AE"
+ },
+ {
+  "resid": -8929519174850439772,
+  "cost": "30<gold></gold> 30<mana></mana> ",
+  "id": "infiltrate_defenders",
+  "description": "After 2 <turn></turn> <hyperlink>Turns</hyperlink> of combat:<bulletlist><bullet>Enemy units suffer 2 random Negative Status Effects.</bullet><bullet>2 hidden <hyperlink>Cutthroat</hyperlink> units will be revealed next to a random enemy unit.</bullet>",
+  "name": "Infiltrate Defenders",
+  "siege_health_damage": 0,
+  "needs_research_to_unlock": true,
+  "icon": "8413F99F00000AFF"
  }
 ]

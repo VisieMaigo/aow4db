@@ -42623,5 +42623,6733 @@
     "slug": "0000048b00000c7d"
    }
   ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "f3138ec10000172a"
+   },
+   {
+    "slug": "0000045e00000664"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_charge_strike_(base)_ability_F3138EC10000171F"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006287"
+   }
+  ],
+  "description": "",
+  "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+  "resid": -931243738355722465,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Shock_resistance_2"
+   },
+   {
+    "slug": "Fire_resistance_2"
+   },
+   {
+    "slug": "Blight_weakness_4"
+   }
+  ],
+  "status_resistance": 0,
+  "upkeep": "12<gold></gold> ",
+  "id": "crystalrunner",
+  "name": "Crystalrunner",
+  "hp": 70,
+  "armor": 2,
+  "resistance": 2,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 2,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300004968"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003e500001adb"
+   },
+   {
+    "slug": "000003bd000028b7"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000042b0000022e"
+   },
+   {
+    "slug": "0000045e00000664"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC10000171D"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006294"
+   }
+  ],
+  "description": "",
+  "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+  "resid": -931243738355722467,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 0,
+  "upkeep": "12<gold></gold> ",
+  "id": "cavernbear",
+  "name": "Cavernbear",
+  "hp": 70,
+  "armor": 2,
+  "resistance": 1,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 2,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e100001f7c"
+   },
+   {
+    "slug": "000003e300004ea6"
+   },
+   {
+    "slug": "0000049300000402"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "000003870000001b"
+   },
+   {
+    "slug": "0000040d0000001d"
+   },
+   {
+    "slug": "f3138ec1000016a3"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "0000041b00000cbc"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC10000168A"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006294"
+   }
+  ],
+  "description": "",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "resid": -931243738355722614,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Fire_resistance_6"
+   },
+   {
+    "slug": "Frost_weakness_4"
+   }
+  ],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "magma_crocodile",
+  "name": "Magma Crocodile",
+  "hp": 90,
+  "armor": 3,
+  "resistance": 3,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003eb0000071f"
+   },
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300004ea6"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003450000052c"
+   },
+   {
+    "slug": "000004970000191a"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000003e300004814"
+   },
+   {
+    "slug": "f3138ec10000169d"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "ewp_quillshot_unit_property_ability_F3138EC100001688"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "f3138ec1000016af"
+   },
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006289"
+   }
+  ],
+  "description": "",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "resid": -931243738355722616,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Spirit_weakness_4"
+   }
+  ],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "spirit_razorback",
+  "name": "Spirit Razorback",
+  "hp": 80,
+  "armor": 5,
+  "resistance": 3,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300004802"
+   },
+   {
+    "slug": "0000049300000407"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003e500001adb"
+   },
+   {
+    "slug": "0000039f000016f1"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "000003870000001b"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "f3138ec10000167b"
+   },
+   {
+    "slug": "000003e30000665c"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100001618"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006294"
+   }
+  ],
+  "description": "",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "resid": -931243738355722728,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Shock_resistance_4"
+   },
+   {
+    "slug": "Frost_weakness_2"
+   }
+  ],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "storm_crocodile",
+  "name": "Storm Crocodile",
+  "hp": 90,
+  "armor": 3,
+  "resistance": 3,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003eb0000071f"
+   },
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300004ea6"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003450000052c"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000045e00000580"
+   },
+   {
+    "slug": "000003870000001b"
+   },
+   {
+    "slug": "000003e300004e71"
+   },
+   {
+    "slug": "f3138ec10000167b"
+   },
+   {
+    "slug": "000003e3000045a3"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "magic_spike_ability_F3138EC1000015EF"
+   },
+   {
+    "slug": "ewp_thundering_storm_ability_F3138EC1000015EF"
+   },
+   {
+    "slug": "magic_rebuke_ability_F3138EC1000015EF"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006288"
+   }
+  ],
+  "description": "",
+  "cost": "400<unitprod></unitprod> 400<gold></gold> ",
+  "resid": -931243738355722769,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Shock_resistance_10"
+   },
+   {
+    "slug": "Frost_weakness_4"
+   }
+  ],
+  "status_resistance": 11,
+  "upkeep": "60<gold></gold> 7<influence></influence> ",
+  "id": "tempest_dragon",
+  "name": "Tempest Dragon",
+  "hp": 150,
+  "armor": 6,
+  "resistance": 7,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 5,
+  "secondary_passives": [
+   {
+    "slug": "000004a600000b7a"
+   },
+   {
+    "slug": "000003e30000426c"
+   },
+   {
+    "slug": "000003eb0000071b"
+   },
+   {
+    "slug": "000003450000052c"
+   },
+   {
+    "slug": "000003e500001adb"
+   },
+   {
+    "slug": "000003e300004e9f"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000045e00000580"
+   },
+   {
+    "slug": "000003eb000004c4"
+   },
+   {
+    "slug": "0000045e00000664"
+   }
+  ],
+  "mp": 48,
+  "abilities": [
+   {
+    "slug": "melee_charge_strike_(base)_ability_F3138EC1000015C1"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006287"
+   }
+  ],
+  "description": "",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "resid": -931243738355722815,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Spirit_resistance_2"
+   },
+   {
+    "slug": "Blight_weakness_4"
+   },
+   {
+    "slug": "Frost_weakness_4"
+   }
+  ],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "pegasus",
+  "name": "Pegasus",
+  "hp": 90,
+  "armor": 3,
+  "resistance": 3,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e3000059af"
+   },
+   {
+    "slug": "000003eb0000071b"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003bd000028b7"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "000003870000001b"
+   },
+   {
+    "slug": "0000048b00000258"
+   },
+   {
+    "slug": "0000045e00000664"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC1000015BF"
+   },
+   {
+    "slug": "ewp_swipe_ability_F3138EC1000015BF"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006294"
+   }
+  ],
+  "description": "",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "resid": -931243738355722817,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "horned_bear",
+  "name": "Horned Bear",
+  "hp": 100,
+  "armor": 3,
+  "resistance": 3,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300004ea6"
+   },
+   {
+    "slug": "0000049300000407"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003450000052c"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000004970000067c"
+   }
+  ],
+  "mp": 48,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC1000015BD"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006294"
+   }
+  ],
+  "description": "",
+  "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+  "resid": -931243738355722819,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 0,
+  "upkeep": "12<gold></gold> ",
+  "id": "albino_warg",
+  "name": "Albino Warg",
+  "hp": 70,
+  "armor": 2,
+  "resistance": 2,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 2,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300004ea6"
+   },
+   {
+    "slug": "0000049300000407"
+   },
+   {
+    "slug": "0000049300000402"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000045e00000664"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC1000015BB"
+   },
+   {
+    "slug": "f3138ec1000018c3"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "f3138ec1000019a6"
+   },
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006294"
+   }
+  ],
+  "description": "",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "resid": -931243738355722821,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Blight_resistance_4"
+   },
+   {
+    "slug": "Spirit_weakness_2"
+   }
+  ],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "jade_tiger",
+  "name": "Jade Tiger",
+  "hp": 100,
+  "armor": 5,
+  "resistance": 3,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300004968"
+   },
+   {
+    "slug": "000003e300004ea6"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003e500001adb"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000045e00000580"
+   },
+   {
+    "slug": "000003870000001b"
+   },
+   {
+    "slug": "0000049700000533"
+   },
+   {
+    "slug": "f3138ec1000013e0"
+   },
+   {
+    "slug": "000003e3000072a5"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "magic_hero_blast_(empty)_ability_F3138EC10000131E"
+   },
+   {
+    "slug": "tew_shatter_ice_ability_F3138EC10000131E"
+   },
+   {
+    "slug": "tew_curse_of_winter_ability_F3138EC10000131E"
+   },
+   {
+    "slug": "tew_shardstorm_ability_F3138EC10000131E"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006288"
+   }
+  ],
+  "description": "",
+  "cost": "400<unitprod></unitprod> 300<gold></gold> ",
+  "resid": -931243738355723490,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Spirit_resistance_4"
+   },
+   {
+    "slug": "Frost_resistance_10"
+   },
+   {
+    "slug": "Blight_weakness_4"
+   },
+   {
+    "slug": "Fire_weakness_4"
+   }
+  ],
+  "status_resistance": 11,
+  "upkeep": "60<gold></gold> 7<influence></influence> ",
+  "id": "ice_queen",
+  "name": "Ice Queen",
+  "hp": 150,
+  "armor": 6,
+  "resistance": 7,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 5,
+  "secondary_passives": [
+   {
+    "slug": "000003e3000061e6"
+   },
+   {
+    "slug": "0000038400000371"
+   },
+   {
+    "slug": "000003fe0000001c"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003450000052c"
+   },
+   {
+    "slug": "000003e500001adb"
+   },
+   {
+    "slug": "000003e300004e9f"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "f3138ec100001308"
+   },
+   {
+    "slug": "000003e300004c8a"
+   }
+  ],
+  "mp": 32,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC1000012BF"
+   },
+   {
+    "slug": "tlf_frost_nova_ability_F3138EC1000012BF"
+   },
+   {
+    "slug": "000003e300004c8f"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006280"
+   }
+  ],
+  "description": "",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "resid": -931243738355723585,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Frost_resistance_4"
+   }
+  ],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "frost_guardian",
+  "name": "Frost Guardian",
+  "hp": 100,
+  "armor": 7,
+  "resistance": 2,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003eb0000073f"
+   },
+   {
+    "slug": "0000039f000016f0"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [],
+  "mp": 32,
+  "abilities": [
+   {
+    "slug": "magic_bolts_ability_F3138EC100001169"
+   },
+   {
+    "slug": "toa_arcfire_strike_ability_F3138EC100001169"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "f3138ec100001653"
+   },
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "description": "",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "resid": -931243738355723927,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Shock_resistance_2"
+   },
+   {
+    "slug": "Fire_resistance_2"
+   }
+  ],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "arcfire_sorceress",
+  "name": "Arcfire Sorceress",
+  "hp": 75,
+  "armor": 2,
+  "resistance": 2,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003e300004c86"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003eb0000073f"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000040d0000001d"
+   },
+   {
+    "slug": "f3138ec1000016a3"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000003eb00000425"
+   },
+   {
+    "slug": "0000041b00000cbc"
+   },
+   {
+    "slug": "000003fe0000007f"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100001088"
+   },
+   {
+    "slug": "ewp_lava_spit_ability_F3138EC100001088"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006284"
+   }
+  ],
+  "description": "",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "resid": -931243738355724152,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Fire_resistance_6"
+   },
+   {
+    "slug": "Frost_weakness_4"
+   }
+  ],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "magma_serpent",
+  "name": "Magma Serpent",
+  "hp": 90,
+  "armor": 3,
+  "resistance": 3,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000004970000191a"
+   },
+   {
+    "slug": "000003e600000492"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000040d0000001d"
+   },
+   {
+    "slug": "f3138ec1000016a3"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000003eb00000425"
+   },
+   {
+    "slug": "0000041b00000cbc"
+   },
+   {
+    "slug": "000003fe0000007f"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100001081"
+   },
+   {
+    "slug": "ewp_lava_spit_ability_F3138EC100001081"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006284"
+   }
+  ],
+  "description": "",
+  "cost": "80<unitprod></unitprod> 60<gold></gold> ",
+  "resid": -931243738355724159,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Fire_resistance_6"
+   },
+   {
+    "slug": "Frost_weakness_4"
+   }
+  ],
+  "status_resistance": 0,
+  "upkeep": "8<gold></gold> ",
+  "id": "magma_serpent_hatchling",
+  "name": "Magma Serpent Hatchling",
+  "hp": 60,
+  "armor": 0,
+  "resistance": 1,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 1,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300006e4a"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000004970000191a"
+   },
+   {
+    "slug": "000003e600000492"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "evolve_target": "magma_serpent"
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000041b00001493"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000003e300004814"
+   }
+  ],
+  "mp": 48,
+  "abilities": [
+   {
+    "slug": "melee_charge_strike_(base)_ability_F3138EC100001076"
+   },
+   {
+    "slug": "phase_ability_F3138EC100001076"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006287"
+   }
+  ],
+  "description": "",
+  "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+  "resid": -931243738355724170,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Spirit_weakness_4"
+   }
+  ],
+  "status_resistance": 0,
+  "upkeep": "12<gold></gold> ",
+  "id": "young_phase_beast",
+  "name": "Young Phase Beast",
+  "hp": 60,
+  "armor": 3,
+  "resistance": 2,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 2,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300004802"
+   },
+   {
+    "slug": "000003e300006e4a"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003e500001adb"
+   },
+   {
+    "slug": "000003bd000028b7"
+   },
+   {
+    "slug": "000003e300004864"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "evolve_target": "phase_beast"
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "f3138ec10000109b"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000004970000067c"
+   },
+   {
+    "slug": "000003e300004814"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100001070"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "f3138ec10000190a"
+   },
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006294"
+   }
+  ],
+  "description": "",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "resid": -931243738355724176,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Spirit_weakness_4"
+   }
+  ],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "spirit_raptor",
+  "name": "Spirit Raptor",
+  "hp": 80,
+  "armor": 5,
+  "resistance": 3,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300004802"
+   },
+   {
+    "slug": "000003e300004ea6"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003e500001adb"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000045e00000664"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_charge_strike_(base)_ability_F3138EC10000106E"
+   },
+   {
+    "slug": "consume_flora_ability_F3138EC10000106E"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006287"
+   }
+  ],
+  "description": "",
+  "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+  "resid": -931243738355724178,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 0,
+  "upkeep": "12<gold></gold> ",
+  "id": "red_stag",
+  "name": "Red Stag",
+  "hp": 70,
+  "armor": 2,
+  "resistance": 1,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 2,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "0000049300000407"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003bd000028b7"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "000003870000001b"
+   },
+   {
+    "slug": "000003e300004e71"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000003eb00000425"
+   },
+   {
+    "slug": "000003fe0000007f"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000FF0"
+   },
+   {
+    "slug": "wyvern_burst_ability_F3138EC100000FF0"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006284"
+   }
+  ],
+  "description": "",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "resid": -931243738355724304,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Blight_resistance_4"
+   },
+   {
+    "slug": "Spirit_weakness_2"
+   }
+  ],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "earth_wyvern",
+  "name": "Earth Wyvern",
+  "hp": 90,
+  "armor": 3,
+  "resistance": 3,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e30000426c"
+   },
+   {
+    "slug": "000003eb0000071b"
+   },
+   {
+    "slug": "000003450000052c"
+   },
+   {
+    "slug": "000003e600000492"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "000003e300004e71"
+   },
+   {
+    "slug": "0000045e0000063d"
+   },
+   {
+    "slug": "000003e3000060d6"
+   },
+   {
+    "slug": "000003e300005e31"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000FC4"
+   },
+   {
+    "slug": "tail_swipe_ability_F3138EC100000FC4"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006294"
+   }
+  ],
+  "description": "",
+  "cost": "240<unitprod></unitprod> 160<gold></gold> ",
+  "resid": -931243738355724348,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Blight_resistance_4"
+   },
+   {
+    "slug": "Spirit_weakness_2"
+   }
+  ],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "young_earth_dragon",
+  "name": "Young Earth Dragon",
+  "hp": 100,
+  "armor": 3,
+  "resistance": 3,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003e30000426c"
+   },
+   {
+    "slug": "000003e300006e4a"
+   },
+   {
+    "slug": "000003e300004ea6"
+   },
+   {
+    "slug": "000003eb0000071b"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "evolve_target": "earth_dragon"
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000045e00000580"
+   },
+   {
+    "slug": "000003870000001b"
+   },
+   {
+    "slug": "000003e300004e71"
+   },
+   {
+    "slug": "f3138ec100000fda"
+   },
+   {
+    "slug": "000003e3000065d9"
+   },
+   {
+    "slug": "0000045e0000063d"
+   },
+   {
+    "slug": "0000038700001864"
+   },
+   {
+    "slug": "000003fe000008c4"
+   },
+   {
+    "slug": "000003e3000060d4"
+   },
+   {
+    "slug": "000003e300005e31"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000FC2"
+   },
+   {
+    "slug": "ewp_gilding_breath_dragon_ability_F3138EC100000FC2"
+   },
+   {
+    "slug": "tail_swipe_ability_F3138EC100000FC2"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006288"
+   }
+  ],
+  "description": "",
+  "cost": "400<unitprod></unitprod> 400<gold></gold> ",
+  "resid": -931243738355724350,
+  "medal_rewards_3": [
+   {
+    "slug": "f3138ec100000fdf"
+   },
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Blight_resistance_10"
+   },
+   {
+    "slug": "Spirit_weakness_4"
+   }
+  ],
+  "status_resistance": 11,
+  "upkeep": "60<gold></gold> 7<influence></influence> ",
+  "id": "earth_dragon",
+  "name": "Earth Dragon",
+  "hp": 160,
+  "armor": 8,
+  "resistance": 7,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 5,
+  "secondary_passives": [
+   {
+    "slug": "000004a600000b7a"
+   },
+   {
+    "slug": "000003e30000426c"
+   },
+   {
+    "slug": "000003eb0000071b"
+   },
+   {
+    "slug": "000003450000052c"
+   },
+   {
+    "slug": "000003e300004e9f"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "000003e300004e71"
+   },
+   {
+    "slug": "0000045e0000063d"
+   },
+   {
+    "slug": "000003e3000060d6"
+   },
+   {
+    "slug": "000003e300005e31"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000F6A"
+   },
+   {
+    "slug": "tail_swipe_ability_F3138EC100000F6A"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006294"
+   }
+  ],
+  "description": "",
+  "cost": "240<unitprod></unitprod> 160<gold></gold> ",
+  "resid": -931243738355724438,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Blight_resistance_4"
+   },
+   {
+    "slug": "Fire_weakness_1"
+   },
+   {
+    "slug": "Frost_weakness_1"
+   }
+  ],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "young_forest_dragon",
+  "name": "Young Forest Dragon",
+  "hp": 100,
+  "armor": 3,
+  "resistance": 3,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003e30000426c"
+   },
+   {
+    "slug": "000003e300006e4a"
+   },
+   {
+    "slug": "000003e300004ea6"
+   },
+   {
+    "slug": "000003eb0000071b"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "evolve_target": "forest_dragon"
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000045e00000580"
+   },
+   {
+    "slug": "000003870000001b"
+   },
+   {
+    "slug": "000003e300004e71"
+   },
+   {
+    "slug": "f3138ec100000fa4"
+   },
+   {
+    "slug": "000003e3000065d9"
+   },
+   {
+    "slug": "0000045e0000063d"
+   },
+   {
+    "slug": "0000038700001864"
+   },
+   {
+    "slug": "000003fe000008c4"
+   },
+   {
+    "slug": "000003e3000060d4"
+   },
+   {
+    "slug": "000003e300005e31"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000F68"
+   },
+   {
+    "slug": "ewp_drowsing_breath_dragon_ability_F3138EC100000F68"
+   },
+   {
+    "slug": "tail_swipe_ability_F3138EC100000F68"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006288"
+   }
+  ],
+  "description": "",
+  "cost": "400<unitprod></unitprod> 400<gold></gold> ",
+  "resid": -931243738355724440,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Blight_resistance_10"
+   },
+   {
+    "slug": "Fire_weakness_2"
+   },
+   {
+    "slug": "Frost_weakness_2"
+   }
+  ],
+  "status_resistance": 11,
+  "upkeep": "60<gold></gold> 7<influence></influence> ",
+  "id": "forest_dragon",
+  "name": "Forest Dragon",
+  "hp": 160,
+  "armor": 8,
+  "resistance": 7,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 5,
+  "secondary_passives": [
+   {
+    "slug": "000004a600000b7a"
+   },
+   {
+    "slug": "000003e30000426c"
+   },
+   {
+    "slug": "000003eb0000071b"
+   },
+   {
+    "slug": "000003450000052c"
+   },
+   {
+    "slug": "000003e300004e9f"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "000003870000001b"
+   },
+   {
+    "slug": "000003e300004e71"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000003eb00000425"
+   },
+   {
+    "slug": "000003fe0000007f"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000F60"
+   },
+   {
+    "slug": "wyvern_burst_ability_F3138EC100000F60"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006284"
+   }
+  ],
+  "description": "",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "resid": -931243738355724448,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Blight_resistance_4"
+   },
+   {
+    "slug": "Fire_weakness_1"
+   },
+   {
+    "slug": "Frost_weakness_1"
+   }
+  ],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "forest_wyvern",
+  "name": "Forest Wyvern",
+  "hp": 90,
+  "armor": 3,
+  "resistance": 3,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e30000426c"
+   },
+   {
+    "slug": "000003eb0000071b"
+   },
+   {
+    "slug": "000003450000052c"
+   },
+   {
+    "slug": "000003e600000492"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000045e00000580"
+   },
+   {
+    "slug": "000003eb000004c4"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000004970000067c"
+   },
+   {
+    "slug": "000003eb00000425"
+   },
+   {
+    "slug": "000003fe0000007f"
+   },
+   {
+    "slug": "0000041b000019e0"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000EEA"
+   },
+   {
+    "slug": "ewp_tiny_pounce_(spirit)_ability_F3138EC100000EEA"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006284"
+   }
+  ],
+  "description": "",
+  "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+  "resid": -931243738355724566,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Spirit_resistance_2"
+   },
+   {
+    "slug": "Blight_weakness_4"
+   },
+   {
+    "slug": "Frost_weakness_4"
+   }
+  ],
+  "status_resistance": 0,
+  "upkeep": "12<gold></gold> ",
+  "id": "young_celestial_lion",
+  "name": "Young Celestial Lion",
+  "hp": 70,
+  "armor": 2,
+  "resistance": 2,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 2,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e3000059af"
+   },
+   {
+    "slug": "000003e300006e4a"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003e600000492"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "evolve_target": "celestial_lion"
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000045e00000580"
+   },
+   {
+    "slug": "000003870000001b"
+   },
+   {
+    "slug": "000003eb000004c4"
+   },
+   {
+    "slug": "aabca5e000001f39"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000003e300004c8a"
+   },
+   {
+    "slug": "0000041b000019e0"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000EE7"
+   },
+   {
+    "slug": "ewp_celestial_roar_ability_F3138EC100000EE7"
+   },
+   {
+    "slug": "000003e300004c8f"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "f3138ec10000191a"
+   },
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006280"
+   }
+  ],
+  "description": "",
+  "cost": "300<unitprod></unitprod> 200<gold></gold> ",
+  "resid": -931243738355724569,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Spirit_resistance_2"
+   },
+   {
+    "slug": "Blight_weakness_4"
+   },
+   {
+    "slug": "Frost_weakness_4"
+   }
+  ],
+  "status_resistance": 7,
+  "upkeep": "30<gold></gold> 3<influence></influence> ",
+  "id": "celestial_lion",
+  "name": "Celestial Lion",
+  "hp": 110,
+  "armor": 7,
+  "resistance": 4,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 4,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e3000059af"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003450000052c"
+   },
+   {
+    "slug": "0000039f000016f0"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000048b00000b35"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000004970000067c"
+   }
+  ],
+  "mp": 48,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000E81"
+   },
+   {
+    "slug": "ewp_despairing_howl_ability_F3138EC100000E81"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006294"
+   }
+  ],
+  "description": "",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "resid": -931243738355724671,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "brown_wolf_alpha",
+  "name": "Brown Wolf Alpha",
+  "hp": 90,
+  "armor": 3,
+  "resistance": 3,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300004ea6"
+   },
+   {
+    "slug": "0000049300000407"
+   },
+   {
+    "slug": "0000049300000402"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "000003870000001b"
+   },
+   {
+    "slug": "f3138ec10000109b"
+   },
+   {
+    "slug": "0000048b00000b35"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000004970000067c"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000E27"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "f3138ec100001911"
+   },
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006294"
+   }
+  ],
+  "description": "",
+  "cost": "300<unitprod></unitprod> 200<mana></mana> ",
+  "resid": -931243738355724761,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "raptor_alpha",
+  "name": "Raptor Alpha",
+  "hp": 90,
+  "armor": 3,
+  "resistance": 3,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300004ea6"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003450000052c"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "000003870000001b"
+   },
+   {
+    "slug": "f3138ec10000109b"
+   },
+   {
+    "slug": "0000048b00000b35"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000004970000067c"
+   },
+   {
+    "slug": "000003eb00000425"
+   }
+  ],
+  "mp": 48,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000E23"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "f3138ec100001911"
+   },
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006294"
+   }
+  ],
+  "description": "",
+  "cost": "300<unitprod></unitprod> 200<mana></mana> ",
+  "resid": -931243738355724765,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "swiftfoot_raptor_alpha",
+  "name": "Swiftfoot Raptor Alpha",
+  "hp": 85,
+  "armor": 3,
+  "resistance": 3,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300004ea6"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003450000052c"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "000003870000001b"
+   },
+   {
+    "slug": "f3138ec10000109b"
+   },
+   {
+    "slug": "0000040d0000001d"
+   },
+   {
+    "slug": "f3138ec1000016a3"
+   },
+   {
+    "slug": "0000048b00000b35"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000004970000067c"
+   },
+   {
+    "slug": "0000041b00000cbc"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000E20"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "f3138ec100001908"
+   },
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006294"
+   }
+  ],
+  "description": "",
+  "cost": "300<unitprod></unitprod> 200<mana></mana> ",
+  "resid": -931243738355724768,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Fire_resistance_6"
+   },
+   {
+    "slug": "Frost_weakness_4"
+   }
+  ],
+  "status_resistance": 7,
+  "upkeep": "30<gold></gold> 3<influence></influence> ",
+  "id": "magma_raptor_alpha",
+  "name": "Magma Raptor Alpha",
+  "hp": 110,
+  "armor": 4,
+  "resistance": 4,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 4,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300004ea6"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003450000052c"
+   },
+   {
+    "slug": "000004970000191a"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "f3138ec10000109b"
+   },
+   {
+    "slug": "0000040d0000001d"
+   },
+   {
+    "slug": "f3138ec1000016a3"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000004970000067c"
+   },
+   {
+    "slug": "0000041b00000cbc"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000DF0"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "f3138ec100001907"
+   },
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006294"
+   }
+  ],
+  "description": "",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "resid": -931243738355724816,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Fire_resistance_6"
+   },
+   {
+    "slug": "Frost_weakness_4"
+   }
+  ],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "magma_raptor",
+  "name": "Magma Raptor",
+  "hp": 90,
+  "armor": 3,
+  "resistance": 3,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300004ea6"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000004970000191a"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "f3138ec10000109b"
+   },
+   {
+    "slug": "0000040d0000001d"
+   },
+   {
+    "slug": "f3138ec1000016a3"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000004970000067c"
+   },
+   {
+    "slug": "0000041b00000cbc"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000DEE"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006294"
+   }
+  ],
+  "description": "",
+  "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+  "resid": -931243738355724818,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Fire_resistance_6"
+   },
+   {
+    "slug": "Frost_weakness_4"
+   }
+  ],
+  "status_resistance": 0,
+  "upkeep": "12<gold></gold> ",
+  "id": "magma_raptor_hatchling",
+  "name": "Magma Raptor Hatchling",
+  "hp": 70,
+  "armor": 1,
+  "resistance": 2,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 2,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300006e4a"
+   },
+   {
+    "slug": "000003e300004ea6"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000004970000191a"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "evolve_target": "magma_raptor_alpha"
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000049700000252"
+   },
+   {
+    "slug": "000003870000001b"
+   },
+   {
+    "slug": "f3138ec10000109b"
+   },
+   {
+    "slug": "0000049700000f8f"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000004970000067c"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000DC8"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "f3138ec100001909"
+   },
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006294"
+   }
+  ],
+  "description": "",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "resid": -931243738355724856,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Blight_resistance_2"
+   },
+   {
+    "slug": "Frost_resistance_2"
+   },
+   {
+    "slug": "Fire_weakness_4"
+   },
+   {
+    "slug": "Spirit_weakness_4"
+   }
+  ],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "pestilence_raptor",
+  "name": "Pestilence Raptor",
+  "hp": 90,
+  "armor": 3,
+  "resistance": 3,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300004ea6"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003450000052c"
+   },
+   {
+    "slug": "000003e500001a37"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "f3138ec10000109b"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000004970000067c"
+   },
+   {
+    "slug": "000003eb00000425"
+   }
+  ],
+  "mp": 48,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000DC6"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "f3138ec1000018cc"
+   },
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006294"
+   }
+  ],
+  "description": "",
+  "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+  "resid": -931243738355724858,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 0,
+  "upkeep": "12<gold></gold> ",
+  "id": "swiftfoot_raptor",
+  "name": "Swiftfoot Raptor",
+  "hp": 65,
+  "armor": 2,
+  "resistance": 1,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 2,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300004ea6"
+   },
+   {
+    "slug": "0000049300000402"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "f3138ec10000109b"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000004970000067c"
+   },
+   {
+    "slug": "000003eb00000425"
+   }
+  ],
+  "mp": 48,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000DC4"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006294"
+   }
+  ],
+  "description": "",
+  "cost": "80<unitprod></unitprod> 60<gold></gold> ",
+  "resid": -931243738355724860,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 0,
+  "upkeep": "8<gold></gold> ",
+  "id": "swiftfoot_raptor_hatchling",
+  "name": "Swiftfoot Raptor Hatchling",
+  "hp": 55,
+  "armor": 1,
+  "resistance": 0,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 1,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300006e4a"
+   },
+   {
+    "slug": "000003e300004ea6"
+   },
+   {
+    "slug": "0000049300000402"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "evolve_target": "swiftfoot_raptor_alpha"
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "f3138ec10000109b"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000004970000067c"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000DC2"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "f3138ec1000018cc"
+   },
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006294"
+   }
+  ],
+  "description": "",
+  "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+  "resid": -931243738355724862,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 0,
+  "upkeep": "12<gold></gold> ",
+  "id": "raptor",
+  "name": "Raptor",
+  "hp": 70,
+  "armor": 2,
+  "resistance": 1,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 2,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300004ea6"
+   },
+   {
+    "slug": "0000049300000402"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "f3138ec10000109b"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000004970000067c"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000DC0"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006294"
+   }
+  ],
+  "description": "",
+  "cost": "80<unitprod></unitprod> 60<gold></gold> ",
+  "resid": -931243738355724864,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 0,
+  "upkeep": "8<gold></gold> ",
+  "id": "raptor_hatchling",
+  "name": "Raptor Hatchling",
+  "hp": 60,
+  "armor": 1,
+  "resistance": 0,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 1,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300006e4a"
+   },
+   {
+    "slug": "000003e300004ea6"
+   },
+   {
+    "slug": "0000049300000402"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "evolve_target": "raptor_alpha"
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000003e300004814"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_charge_strike_(base)_ability_F3138EC100000DAC"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006287"
+   }
+  ],
+  "description": "",
+  "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+  "resid": -931243738355724884,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Spirit_weakness_4"
+   }
+  ],
+  "status_resistance": 0,
+  "upkeep": "12<gold></gold> ",
+  "id": "spirit_boar",
+  "name": "Spirit Boar",
+  "hp": 60,
+  "armor": 4,
+  "resistance": 2,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 2,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300004802"
+   },
+   {
+    "slug": "0000049300000407"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003e500001adb"
+   },
+   {
+    "slug": "000003bd000028b7"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "000003fe0000007e"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000003e300004814"
+   },
+   {
+    "slug": "000003eb00000425"
+   },
+   {
+    "slug": "000003fe0000007f"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000AF1"
+   },
+   {
+    "slug": "ewp_pounce_(spirit)_ability_F3138EC100000AF1"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "f3138ec1000018c6"
+   },
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006284"
+   }
+  ],
+  "description": "",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "resid": -931243738355725583,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Spirit_weakness_4"
+   }
+  ],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "spirit_panther",
+  "name": "Spirit Panther",
+  "hp": 80,
+  "armor": 5,
+  "resistance": 3,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300004802"
+   },
+   {
+    "slug": "000003e500001988"
+   },
+   {
+    "slug": "0000049300000407"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003e500001adb"
+   },
+   {
+    "slug": "000003e600000492"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000003e300004814"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_charge_strike_(base)_ability_F3138EC100000AEF"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006287"
+   }
+  ],
+  "description": "",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "resid": -931243738355725585,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Spirit_weakness_4"
+   }
+  ],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "spirit_stag",
+  "name": "Spirit Stag",
+  "hp": 80,
+  "armor": 5,
+  "resistance": 3,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300004802"
+   },
+   {
+    "slug": "0000049300000407"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003e500001adb"
+   },
+   {
+    "slug": "000003bd000028b7"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "000003870000001b"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000003e300004814"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000ACC"
+   },
+   {
+    "slug": "ewp_swipe_ability_F3138EC100000ACC"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006294"
+   }
+  ],
+  "description": "",
+  "cost": "330<unitprod></unitprod> 250<gold></gold> ",
+  "resid": -931243738355725620,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Spirit_weakness_4"
+   }
+  ],
+  "status_resistance": 7,
+  "upkeep": "30<gold></gold> 3<influence></influence> ",
+  "id": "spirit_bear",
+  "name": "Spirit Bear",
+  "hp": 110,
+  "armor": 6,
+  "resistance": 4,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 4,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300004802"
+   },
+   {
+    "slug": "000003e300004ea6"
+   },
+   {
+    "slug": "0000049300000407"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003450000052c"
+   },
+   {
+    "slug": "000003e500001adb"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000003eb00000425"
+   },
+   {
+    "slug": "000003fe0000007f"
+   },
+   {
+    "slug": "000003e3000049bf"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000AC1"
+   },
+   {
+    "slug": "ewp_tiny_pounce_ability_F3138EC100000AC1"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006284"
+   }
+  ],
+  "description": "",
+  "cost": "60<unitprod></unitprod> 50<gold></gold> ",
+  "resid": -931243738355725631,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 0,
+  "upkeep": "8<gold></gold> ",
+  "id": "young_white_tiger",
+  "name": "Young White Tiger",
+  "hp": 65,
+  "armor": 1,
+  "resistance": 1,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 1,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300006e4a"
+   },
+   {
+    "slug": "0000049300000407"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003e600000492"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "evolve_target": "white_tiger"
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000003eb00000425"
+   },
+   {
+    "slug": "000003fe0000007f"
+   },
+   {
+    "slug": "000003e3000049bf"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000ABF"
+   },
+   {
+    "slug": "ewp_pounce_ability_F3138EC100000ABF"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "f3138ec1000018c6"
+   },
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006284"
+   }
+  ],
+  "description": "",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "resid": -931243738355725633,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "white_tiger",
+  "name": "White Tiger",
+  "hp": 95,
+  "armor": 3,
+  "resistance": 3,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "0000049300000407"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003e600000492"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000045e00000664"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "magic_bolts_ability_F3138EC100000A9E"
+   },
+   {
+    "slug": "ewp_lesser_thunderclap_ability_F3138EC100000A9E"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "description": "",
+  "cost": "60<unitprod></unitprod> 50<gold></gold> ",
+  "resid": -931243738355725666,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Shock_resistance_6"
+   },
+   {
+    "slug": "Blight_weakness_4"
+   }
+  ],
+  "status_resistance": 0,
+  "upkeep": "8<gold></gold> ",
+  "id": "young_thunderbird",
+  "name": "Young Thunderbird",
+  "hp": 55,
+  "armor": 0,
+  "resistance": 1,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 1,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300004c86"
+   },
+   {
+    "slug": "000003e300006e4a"
+   },
+   {
+    "slug": "000003eb0000071b"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "evolve_target": "thunderbird"
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "aabca5e00000213f"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "0000041b00000cbc"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_charge_strike_(base)_ability_F3138EC100000A94"
+   },
+   {
+    "slug": "ewp_lesser_overheat_ability_F3138EC100000A94"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006287"
+   }
+  ],
+  "description": "",
+  "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+  "resid": -931243738355725676,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Blight_resistance_4"
+   },
+   {
+    "slug": "Fire_resistance_6"
+   },
+   {
+    "slug": "Frost_weakness_6"
+   }
+  ],
+  "status_resistance": 0,
+  "upkeep": "12<gold></gold> ",
+  "id": "young_phoenix",
+  "name": "Young Phoenix",
+  "hp": 70,
+  "armor": 3,
+  "resistance": 3,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 2,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300006e4a"
+   },
+   {
+    "slug": "000003eb0000071b"
+   },
+   {
+    "slug": "000003bd000028b7"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "evolve_target": "phoenix"
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "00000385000000f6"
+   },
+   {
+    "slug": "0000045e00000664"
+   }
+  ],
+  "mp": 48,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000A92"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006294"
+   }
+  ],
+  "description": "",
+  "cost": "60<unitprod></unitprod> 50<gold></gold> ",
+  "resid": -931243738355725678,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 0,
+  "upkeep": "8<gold></gold> ",
+  "id": "young_eagle",
+  "name": "Young Eagle",
+  "hp": 60,
+  "armor": 1,
+  "resistance": 0,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 1,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300006e4a"
+   },
+   {
+    "slug": "000003e300004ea6"
+   },
+   {
+    "slug": "000003eb0000071b"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "evolve_target": "bald_eagle"
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000003eb00000425"
+   },
+   {
+    "slug": "000003fe0000007f"
+   },
+   {
+    "slug": "000003e3000049bf"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000A7B"
+   },
+   {
+    "slug": "ewp_tiny_pounce_ability_F3138EC100000A7B"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006284"
+   }
+  ],
+  "description": "",
+  "cost": "60<unitprod></unitprod> 50<gold></gold> ",
+  "resid": -931243738355725701,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 0,
+  "upkeep": "8<gold></gold> ",
+  "id": "young_tiger",
+  "name": "Young Tiger",
+  "hp": 60,
+  "armor": 1,
+  "resistance": 1,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 1,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300006e4a"
+   },
+   {
+    "slug": "000003e500001988"
+   },
+   {
+    "slug": "0000049300000407"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003e600000492"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "evolve_target": "tiger"
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "000003fe0000007e"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000003eb00000425"
+   },
+   {
+    "slug": "000003fe0000007f"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000A77"
+   },
+   {
+    "slug": "ewp_tiny_pounce_ability_F3138EC100000A77"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006284"
+   }
+  ],
+  "description": "",
+  "cost": "80<unitprod></unitprod> 60<gold></gold> ",
+  "resid": -931243738355725705,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 0,
+  "upkeep": "8<gold></gold> ",
+  "id": "young_panther",
+  "name": "Young Panther",
+  "hp": 60,
+  "armor": 1,
+  "resistance": 1,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 1,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300006e4a"
+   },
+   {
+    "slug": "000003e500001988"
+   },
+   {
+    "slug": "0000049300000407"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003e600000492"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "evolve_target": "panther"
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000004970000067c"
+   },
+   {
+    "slug": "000003eb00000425"
+   },
+   {
+    "slug": "000003fe0000007f"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000A65"
+   },
+   {
+    "slug": "ewp_tiny_pounce_ability_F3138EC100000A65"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006284"
+   }
+  ],
+  "description": "",
+  "cost": "60<unitprod></unitprod> 50<gold></gold> ",
+  "resid": -931243738355725723,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 0,
+  "upkeep": "8<gold></gold> ",
+  "id": "young_lion",
+  "name": "Young Lion",
+  "hp": 60,
+  "armor": 1,
+  "resistance": 1,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 1,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300006e4a"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003e600000492"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "evolve_target": "lion"
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000004970000067c"
+   }
+  ],
+  "mp": 48,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC10000097E"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "f3138ec100000ebf"
+   },
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006294"
+   }
+  ],
+  "description": "",
+  "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+  "resid": -931243738355725954,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 0,
+  "upkeep": "12<gold></gold> ",
+  "id": "brown_wolf",
+  "name": "Brown Wolf",
+  "hp": 70,
+  "armor": 2,
+  "resistance": 2,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 2,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300004ea6"
+   },
+   {
+    "slug": "0000049300000407"
+   },
+   {
+    "slug": "0000049300000402"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000004970000067c"
+   },
+   {
+    "slug": "000003eb00000425"
+   },
+   {
+    "slug": "000003fe0000007f"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC10000094E"
+   },
+   {
+    "slug": "ewp_pounce_ability_F3138EC10000094E"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "f3138ec1000018c6"
+   },
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006284"
+   }
+  ],
+  "description": "",
+  "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+  "resid": -931243738355726002,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 0,
+  "upkeep": "12<gold></gold> ",
+  "id": "lioness",
+  "name": "Lioness",
+  "hp": 70,
+  "armor": 2,
+  "resistance": 2,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 2,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003e600000492"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000045e00000664"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_charge_strike_(base)_ability_F3138EC100000948"
+   },
+   {
+    "slug": "consume_flora_ability_F3138EC100000948"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006287"
+   }
+  ],
+  "description": "",
+  "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+  "resid": -931243738355726008,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 0,
+  "upkeep": "12<gold></gold> ",
+  "id": "white_stag",
+  "name": "White Stag",
+  "hp": 70,
+  "armor": 2,
+  "resistance": 1,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 2,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "0000049300000407"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003bd000028b7"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "000003fe0000007e"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000003eb00000425"
+   },
+   {
+    "slug": "000003fe0000007f"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000943"
+   },
+   {
+    "slug": "ewp_pounce_ability_F3138EC100000943"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "f3138ec1000018c6"
+   },
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006284"
+   }
+  ],
+  "description": "",
+  "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+  "resid": -931243738355726013,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 0,
+  "upkeep": "12<gold></gold> ",
+  "id": "panther",
+  "name": "Panther",
+  "hp": 70,
+  "armor": 2,
+  "resistance": 2,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 2,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e500001988"
+   },
+   {
+    "slug": "0000049300000407"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003e600000492"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000003eb00000425"
+   },
+   {
+    "slug": "000003fe0000007f"
+   },
+   {
+    "slug": "000003e3000049bf"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC100000941"
+   },
+   {
+    "slug": "ewp_pounce_ability_F3138EC100000941"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "f3138ec1000018c6"
+   },
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006284"
+   }
+  ],
+  "description": "",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "resid": -931243738355726015,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "tiger",
+  "name": "Tiger",
+  "hp": 90,
+  "armor": 3,
+  "resistance": 3,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e500001988"
+   },
+   {
+    "slug": "0000049300000407"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003e600000492"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "aabca5e000001f39"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000003e300004c8a"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC10000093E"
+   },
+   {
+    "slug": "ewp_lions_roar_ability_F3138EC10000093E"
+   },
+   {
+    "slug": "000003e300004c8f"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "f3138ec100001917"
+   },
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006280"
+   }
+  ],
+  "description": "",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "resid": -931243738355726018,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "lion",
+  "name": "Lion",
+  "hp": 90,
+  "armor": 6,
+  "resistance": 3,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "0000039f000016f0"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000045e00000664"
+   }
+  ],
+  "mp": 48,
+  "abilities": [
+   {
+    "slug": "melee_charge_strike_(base)_ability_F3138EC100000930"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006287"
+   }
+  ],
+  "description": "",
+  "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+  "resid": -931243738355726032,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 0,
+  "upkeep": "12<gold></gold> ",
+  "id": "wild_horse",
+  "name": "Wild Horse",
+  "hp": 80,
+  "armor": 2,
+  "resistance": 1,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 2,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "00000497000002ce"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003bd000028b7"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "000003870000001b"
+   },
+   {
+    "slug": "00000385000000f6"
+   },
+   {
+    "slug": "0000041b00001ab9"
+   },
+   {
+    "slug": "0000045e00000664"
+   }
+  ],
+  "mp": 48,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC1000008D3"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006294"
+   }
+  ],
+  "description": "",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "resid": -931243738355726125,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "bald_eagle",
+  "name": "Bald Eagle",
+  "hp": 90,
+  "armor": 3,
+  "resistance": 2,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300004ea6"
+   },
+   {
+    "slug": "000003eb0000071b"
+   },
+   {
+    "slug": "000003450000052c"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000045e00000664"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_charge_strike_(base)_ability_F3138EC1000008CE"
+   },
+   {
+    "slug": "consume_flora_ability_F3138EC1000008CE"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006287"
+   }
+  ],
+  "description": "",
+  "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+  "resid": -931243738355726130,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 0,
+  "upkeep": "12<gold></gold> ",
+  "id": "zebra",
+  "name": "Zebra",
+  "hp": 70,
+  "armor": 2,
+  "resistance": 1,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 2,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "00000497000002ce"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003bd000028b7"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "000003870000001b"
+   },
+   {
+    "slug": "00000385000000f6"
+   },
+   {
+    "slug": "000003eb000004c4"
+   },
+   {
+    "slug": "0000045e00000664"
+   }
+  ],
+  "mp": 48,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_F3138EC1000008CA"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006294"
+   }
+  ],
+  "description": "",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "resid": -931243738355726134,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "great_eagle",
+  "name": "Great Eagle",
+  "hp": 90,
+  "armor": 3,
+  "resistance": 2,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e300004ea6"
+   },
+   {
+    "slug": "000003eb0000071b"
+   },
+   {
+    "slug": "000003450000052c"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "000003870000001b"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "0000041b00000cbc"
+   },
+   {
+    "slug": "0000039c0000061d"
+   },
+   {
+    "slug": "0000041b00000ab8"
+   },
+   {
+    "slug": "000003e3000049bf"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_charge_strike_(base)_ability_(infernal_elephant_only)_8E7598CE0000076F"
+   },
+   {
+    "slug": "stomp_ability_8E7598CE0000076F"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006287"
+   }
+  ],
+  "description": "",
+  "cost": "300<unitprod></unitprod> 200<gold></gold> ",
+  "resid": -8181465137517951121,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Fire_resistance_2"
+   },
+   {
+    "slug": "Spirit_weakness_4"
+   },
+   {
+    "slug": "Frost_weakness_4"
+   }
+  ],
+  "status_resistance": 7,
+  "upkeep": "30<gold></gold> 3<influence></influence> ",
+  "id": "infernal_juggernaut",
+  "name": "Infernal Juggernaut",
+  "hp": 120,
+  "armor": 4,
+  "resistance": 4,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 4,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e3000061e7"
+   },
+   {
+    "slug": "000003fe000000c2"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003450000052c"
+   },
+   {
+    "slug": "000004970000191a"
+   },
+   {
+    "slug": "000003e500001adb"
+   },
+   {
+    "slug": "000003bd000028b7"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "000003870000001b"
+   },
+   {
+    "slug": "0000038700001864"
+   },
+   {
+    "slug": "0000045e00000664"
+   },
+   {
+    "slug": "000003e3000072a5"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_charge_strike_(base)_ability_(elephant_mammoth_only)_8E7598CE0000076E"
+   },
+   {
+    "slug": "stomp_ability_8E7598CE0000076E"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006287"
+   }
+  ],
+  "description": "",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "resid": -8181465137517951122,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Frost_resistance_4"
+   }
+  ],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "mammoth",
+  "name": "Mammoth",
+  "hp": 100,
+  "armor": 3,
+  "resistance": 2,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003fe00000018"
+   },
+   {
+    "slug": "000003e3000061e6"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003450000052c"
+   },
+   {
+    "slug": "000003bd000028b7"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "000003fe0000007e"
+   },
+   {
+    "slug": "8413f99f00001679"
+   }
+  ],
+  "mp": 32,
+  "abilities": [
+   {
+    "slug": "shoot_crossbow_ability_8413F99F00001AF5"
+   },
+   {
+    "slug": "outlaw_escape_ability_8413F99F00001AF5"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006289"
+   }
+  ],
+  "description": "placeholder",
+  "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+  "resid": -8929519174850438411,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 0,
+  "upkeep": "12<gold></gold> ",
+  "id": "scoundrel",
+  "name": "Scoundrel",
+  "hp": 55,
+  "armor": 1,
+  "resistance": 1,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 2,
+  "secondary_passives": [
+   {
+    "slug": "000003e500001988"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "0000039f000016f1"
+   },
+   {
+    "slug": "000003e50000198a"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [],
+  "mp": 32,
+  "abilities": [
+   {
+    "slug": "magic_bolts_ability_8413F99F00001A67"
+   },
+   {
+    "slug": "charm_ability_8413F99F00001A67"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "8413f99f00001c49"
+   },
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "description": "placeholder",
+  "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+  "resid": -8929519174850438553,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 0,
+  "upkeep": "12<gold></gold> ",
+  "id": "charlatan",
+  "name": "Charlatan",
+  "hp": 55,
+  "armor": 1,
+  "resistance": 1,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 2,
+  "secondary_passives": [
+   {
+    "slug": "000003e300004c86"
+   },
+   {
+    "slug": "0000049300000402"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "000003eb00000425"
+   },
+   {
+    "slug": "8413f99f00001679"
+   },
+   {
+    "slug": "000003fe0000007f"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_8413F99F00000DB7"
+   },
+   {
+    "slug": "cutthroat_ranged_attack_ability_8413F99F00000DB7"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006284"
+   }
+  ],
+  "description": "placeholder",
+  "cost": "80<unitprod></unitprod> 60<gold></gold> ",
+  "resid": -8929519174850441801,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 0,
+  "upkeep": "8<gold></gold> ",
+  "id": "cutthroat",
+  "name": "Cutthroat",
+  "hp": 50,
+  "armor": 1,
+  "resistance": 1,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 1,
+  "secondary_passives": [
+   {
+    "slug": "000003e300006e4a"
+   },
+   {
+    "slug": "000003e500001988"
+   },
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003e600000492"
+   },
+   {
+    "slug": "000003e50000198a"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "evolve_target": "shade"
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "8413f99f00001b47"
+   }
+  ],
+  "mp": 32,
+  "abilities": [
+   {
+    "slug": "magic_blast_(single)_ability_8413F99F00000D6A"
+   },
+   {
+    "slug": "siphon_strength_ability_8413F99F00000D6A"
+   },
+   {
+    "slug": "seduce_ability_8413F99F00000D6A"
+   },
+   {
+    "slug": "000003e300004c97"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "8413f99f00001c7e"
+   },
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "description": "placeholder",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "resid": -8929519174850441878,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Fire_resistance_2"
+   },
+   {
+    "slug": "Spirit_weakness_4"
+   },
+   {
+    "slug": "Frost_weakness_4"
+   }
+  ],
+  "status_resistance": 5,
+  "upkeep": "20<gold></gold> ",
+  "id": "succubus",
+  "name": "Succubus",
+  "hp": 80,
+  "armor": 2,
+  "resistance": 4,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003e3000061e7"
+   },
+   {
+    "slug": "000003eb0000071b"
+   },
+   {
+    "slug": "000003fe000000c2"
+   },
+   {
+    "slug": "000004970000191a"
+   },
+   {
+    "slug": "000003bd000020c0"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "000003fe0000007e"
+   },
+   {
+    "slug": "000003eb00000425"
+   },
+   {
+    "slug": "8413f99f00001679"
+   },
+   {
+    "slug": "000003fe0000007f"
+   }
+  ],
+  "mp": 40,
+  "abilities": [
+   {
+    "slug": "melee_strike_(base)_ability_8413F99F00000C69"
+   },
+   {
+    "slug": "assassin_throw_ability_8413F99F00000C69"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006284"
+   }
+  ],
+  "description": "A stealthy {GLOBAL.PROPERTIES.SKIRMISHER.Hyperlink} with deadly {GLOBAL.FlankingConcept.Hyperlink} attacks.",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "resid": -8929519174850442135,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "assassin",
+  "name": "Assassin",
+  "hp": 80,
+  "armor": 2,
+  "resistance": 2,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "0000049300000402"
+   },
+   {
+    "slug": "000003e600000492"
+   },
+   {
+    "slug": "000003e300004864"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000041b00001493"
+   },
+   {
+    "slug": "000003e300004814"
+   },
+   {
+    "slug": "8413f99f00001a8d"
+   },
+   {
+    "slug": "000003eb00000425"
+   }
+  ],
+  "mp": 32,
+  "abilities": [
+   {
+    "slug": "melee_charge_strike_(base)_ability_8413F99F00000B18"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006287"
+   }
+  ],
+  "description": "placeholder",
+  "cost": "60<unitprod></unitprod> 50<gold></gold> ",
+  "resid": -8929519174850442472,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Spirit_weakness_4"
+   }
+  ],
+  "status_resistance": 0,
+  "upkeep": "8<gold></gold> ",
+  "id": "lesser_shadow_stalker",
+  "name": "Lesser Shadow Stalker",
+  "hp": 50,
+  "armor": 4,
+  "resistance": 0,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 1,
+  "secondary_passives": [
+   {
+    "slug": "000003e300004802"
+   },
+   {
+    "slug": "000003e300006e4a"
+   },
+   {
+    "slug": "000003eb00000724"
+   },
+   {
+    "slug": "000003e500001adb"
+   },
+   {
+    "slug": "000003bd000028b7"
+   },
+   {
+    "slug": "000003e300004864"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "evolve_target": "shadow_stalker"
+ },
+ {
+  "primary_passives": [
+   {
+    "slug": "0000041b00001493"
+   },
+   {
+    "slug": "000003e300004814"
+   },
+   {
+    "slug": "8413f99f00001a8d"
+   },
+   {
+    "slug": "000003eb00000425"
+   }
+  ],
+  "mp": 32,
+  "abilities": [
+   {
+    "slug": "melee_charge_strike_(base)_ability_8413F99F00000A97"
+   },
+   {
+    "slug": "shadow_phase_ability_8413F99F00000A97"
+   },
+   {
+    "slug": "0000034500000469"
+   }
+  ],
+  "medal_rewards_5": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "000003e300006287"
+   }
+  ],
+  "description": "placeholder",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "resid": -8929519174850442601,
+  "medal_rewards_3": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "resistances": [
+   {
+    "slug": "Spirit_weakness_4"
+   }
+  ],
+  "status_resistance": 3,
+  "upkeep": "20<gold></gold> ",
+  "id": "shadow_stalker",
+  "name": "Shadow Stalker",
+  "hp": 80,
+  "armor": 6,
+  "resistance": 2,
+  "medal_rewards_2": [
+   {
+    "slug": "0000048b00000c6e"
+   }
+  ],
+  "tier": 3,
+  "secondary_passives": [
+   {
+    "slug": "000003e300004802"
+   },
+   {
+    "slug": "000003eb00000724"
+   },
+   {
+    "slug": "000003e500001adb"
+   },
+   {
+    "slug": "000003bd000028b7"
+   },
+   {
+    "slug": "000003e300004864"
+   }
+  ],
+  "medal_rewards_4": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c7a"
+   },
+   {
+    "slug": "0000048b00000c79"
+   }
+  ],
+  "medal_rewards_6": [
+   {
+    "slug": "0000048b00000c6e"
+   },
+   {
+    "slug": "0000048b00000c74"
+   },
+   {
+    "slug": "0000048b00000c7b"
+   },
+   {
+    "slug": "0000048b00000c7d"
+   }
+  ]
  }
 ]
